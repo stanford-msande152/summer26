@@ -1,0 +1,15 @@
+// MS&E 152 color scheme — Stanford cardinal accent on the light theme
+@import "./color_schemes/light";
+
+$link-color: #8C1515;          // Stanford Cardinal Red
+$btn-primary-color: #8C1515;
+$sidebar-color: #FAF7F5;       // warm off-white sidebar
+$search-result-preview-color: #5F574F;
+
+.site-title {
+  color: #8C1515 !important;
+}
+
+.label-cardinal {
+  background-color: #8C1515 !important;
+}

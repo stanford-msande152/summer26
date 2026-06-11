@@ -1,0 +1,69 @@
+# MS&E 152 Course Website — built on Just the Class
+# Update url/baseurl after creating your GitHub repository.
+
+title: MS&E 152
+tagline: Introduction to Decision Analysis
+description: Course website for MS&E 152 Introduction to Decision Analysis at Stanford University, Summer 2026.
+author: MS&E 152 Course Staff
+baseurl: '/msne152_2026summer'
+url: 'https://ubtrglv.github.io'
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+
+# Theme settings
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+color_scheme: mse152
+search_enabled: true
+heading_anchors: true
+permalink: pretty
+aux_links:
+  Canvas:
+    - 'https://canvas.stanford.edu'
+  Ed Discussion:
+    - 'https://edstem.org'
+  Gradescope:
+    - 'https://gradescope.com'
+footer_content: 'MS&E 152, Stanford University. Site maintained by course staff.'
+
+# Collections for website data
+collections:
+  staffers:
+  modules:
+  schedules:
+  announcements:
+# Default layouts for each collection type
+defaults:
+  - scope:
+      path: ''
+      type: staffers
+    values:
+      layout: staffer
+      height: 300
+      subpath: '/assets/images/'
+      width: 300
+  - scope:
+      path: ''
+      type: modules
+    values:
+      layout: module
+  - scope:
+      path: ''
+      type: schedules
+    values:
+      layout: schedule
+  - scope:
+      path: ''
+      type: announcements
+    values:
+      layout: announcement
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+liquid:
+  error_mode: strict
+  strict_filters: true
