@@ -10,10 +10,11 @@ seo:
 
 # MS&E 152: Introduction to Decision Analysis
 {: .mb-2 }
-Stanford University · Summer 2026 · Mon/Wed, time and room TBD
+Stanford University · Summer 2026 · Mon/Wed (10:30 -12:30 and room 111, Y2E2)
 {: .mb-0 .fs-6 .text-grey-dk-000 }
 
-**Instructor:** John Mark Agosta
+**Instructor:** John Mark Agosta, jmagosta@stanford.edu
+**TA:** Uluk Batyrgaliev , ubtrglv@stanford.edu 
 
 How do you make a good decision when the outcome is uncertain? This course builds the full decision analysis toolkit: framing decisions and reaching clarity of action, decision trees and influence diagrams, probability as belief and elicitation, the value of information, risk preference, value tradeoffs, and real options — culminating in decision quality, rationality, and ethics.
 
@@ -26,7 +27,7 @@ How do you make a good decision when the outcome is uncertain? This course build
 | Midterm | Wed, Jul 22 |
 | Draft project submission | Wed, Jul 29 |
 | Last lecture | Wed, Aug 12 |
-| Final project | End of finals period |
+| Final project |Thu, Aug 13 |
 
 ## Course pages
 
@@ -34,4 +35,4 @@ How do you make a good decision when the outcome is uncertain? This course build
 - [Syllabus](syllabus.md) — policies, grading, accommodations
 - [Staff](staff.md) — instructor and CA office hours
 
-Homework is submitted via Gradescope; questions go to Ed Discussion (links in the top bar).
+Homework is submitted via Canvas; questions and communications go to Ed Discussion (links in the top bar).
