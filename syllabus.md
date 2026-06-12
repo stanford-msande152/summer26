@@ -9,7 +9,7 @@ nav_order: 3
 
 **MS&E 152: Introduction to Decision Analysis** · Stanford University · Summer 2026
 
-**Instructor:** John Mark Agosta · **Lectures:** Mon/Wed (time and room TBD)
+**Instructor:** John Mark Agosta **TA:** Uluk Batyrgaliev· **Lectures:** Mon/Wed (10:30 -12:30 and room 111, Y2E2)
 
 ## Description
 
@@ -22,10 +22,10 @@ Decision analysis is the discipline of making high-quality decisions under uncer
 
 ## Assignments and grading
 
-- **Homework:** 7 problem sets, released Wednesdays and due the following Monday in class (see schedule). Submit via Gradescope.
-- **Team project:** proposal due Jul 6, draft due Jul 29, final report due by the end of finals period.
+- **Homework:** 7 problem sets, released Wednesdays and due the following Monday in class (see schedule). Submit via Canvas.
+- **Team project:** proposal due Jul 6, draft due Jul 29, final report due by Aug 13, poster presentation TBD.
 - **Midterm:** in class, Jul 22.
-- **Pre-class work:** a short video and background survey before the first lecture, and an elicitation exercise due Jun 29.
+- **Pre-class work:** a short video and background survey before the first lecture.
 
 Grading weights will be confirmed by the instructor and posted on Canvas.
 
