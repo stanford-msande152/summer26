@@ -7,7 +7,7 @@ description: Course website for MS&E 152 Introduction to Decision Analysis at St
 author: MS&E 152 Course Staff
 baseurl: '/msne152_2026summer'
 url: 'https://ubtrglv.github.io'
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "syllabus/", "lit/"]
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.12.0
