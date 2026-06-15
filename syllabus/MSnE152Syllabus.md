@@ -1,4 +1,6 @@
 
+#S yllabus 
+
 ## Course Links
 [Canvas](https://canvas.stanford.edu/courses/228284)
 
@@ -38,7 +40,7 @@ _Lectures_: Mon, Wed 10:30 AM - 12:30 PM at [Y2E2 111](http://campus-map.stanfo
 *Office Hours:*  On days following lectures, after lunchtime. 
 Lectures and discussion sections will not be recorded. I will try to post the session's lecture notes after each lecture. 
 
-**Discussion and Office Hours** will be posted on the first day of class. The best way to communicate is in person, after lecture or during office hours. Real-time meetings are more efficient, more effective, and more fun. Discussion sections will offer of one-on-one help with the course material. Be sure to bring your laptop!  You will need to attend some discussion sessions where you will be asked to explain how you solved one of your previous homework problems. 
+**Discussion and Office Hours** The best way to communicate is in person, after lecture or during office hours. Real-time meetings are more efficient, more effective, and more fun. Discussion sections will offer of help with the course material. Be sure to bring your laptop!  You will need to attend some discussion sessions where you will be asked to explain how you solved one of your previous homework problems. 
 
 Duration of office hours will depend on attendance and demand.  You can assume that there will be sufficient opportunities to meet the needs of your schedule.  We will also make ourselves available to meet with students by appointment. 
 
@@ -75,9 +77,14 @@ As for background about the origins of the course, Decision Analysis has been ta
 
 **MS&E 152 is offered for 4 units.** For undergraduates the course fulfills the Ways of Thinking / Ways of Doing in either:
 - *Formal Reasoning* (understanding fundamental concepts and distinctions about probabilities, decisions, and values under uncertainty) or 
-- Applied Quantitative *Reasoning* (applying a structured approach to making important personal and professional decisions).
+- *Applied Quantitative Reasoning* (applying a structured approach to making important personal and professional decisions).
 
 We realize that there will a wide range of backgrounds and education levels in a summer quarter class. For those wishing enrichment and challenges matching their abilities we have included a detailed set of readings from the optional textbook, and from the primary literature. Office hours are a good opportunity to explore topics at greater depth. Group projects are another opportunity for exploration of advanced topics. Students wishing to pursue advanced projects including software development are encouraged to discuss them with us.  
+
+### Attendance
+
+Lectures will be in person only. Class participation is important. Since there are interactive class activities students are expected to attend class sessions to the greatest extent possible. Please **DO NOT** register for this course if you have a recurring conflict with the lecture times.  Attending in person is encouraged through our participation policy.
+
 
 ## Course grading scheme
 
@@ -92,15 +99,14 @@ the course content in a timely manner, and to participate in class sessions in p
 
 **Grading Exceptions** 
 
-*Re-assigning points* We recognize that students are balancing many priorities,  
-and so we make accommodations among assignments for missing homework and quizzes.  Students may assign points from missed homeworks or quiz assignments to other assignments. For example, students who are unable to attend a quiz or complete a homework may choose to increase the percentage assigned the midterm exam by 2 points. Please email us with your re-assignment choice no later than when the assignment is due. Midterm and project assignment points may not be re-assigned.
+*Re-assigning points* We recognize that students are balancing many priorities,  and so we make accommodations among assignments for missing homework and quizzes.  Students may assign points from missed homeworks or quiz assignments to other assignments. For example, students who are unable to attend a quiz or complete a homework may choose to increase the percentage assigned the midterm exam by 2 points. Please email us with your re-assignment choice no later than when the assignment is due. Midterm and project assignment points may not be re-assigned.
 
 *Slip days.* To accommodate late homework, students have three "slip days" that may be used through the quarter with no grade penalty. For example, you could submit one homework two days late and a third one day late with no penalty. 
 
 #### Accommodations
 
 If you have a letter from the _Office of Accessible Education_ that grants extra time or modified test-taking conditions, send your letter to us and we will accommodate your needs on the midterm exam.
-To get started, or to initiate services if you do not have such a letter, please visit [oae.stanford.edu](https://oae.stanford.edu/). Other extensions on assignments will be granted only with an academic accommodation letter from the Office of Accessible Education, generally for medical reasons, or in other such exceptional circumstances. Requests due to job interviews, other classes and assignments, and poor planning will not be considered.
+To get started, or to initiate services if you do not have such a letter, please visit [oae.stanford.edu](https://oae.stanford.edu/). Other extensions on assignments will be granted only with an academic accommodation letter from the Office of Accessible Education, generally for medical reasons, or in other such exceptional circumstances. Requests due to job interviews, athletic competitions, other classes and assignments, and poor planning will not be considered.
 
 **Honor Code**
 
@@ -135,23 +141,8 @@ Under no circumstance should you seek out or look at solutions to assignments gi
 
 Quizzes and exams will be written and turned in on paper. They will be closed book, without computer or other electronic devices. 
 
-- The **final group project** to formulate and analyze a decision analysis is mandatory.  Typical groups will consist of 2 to 4 students. Your group is free to explore a situation that can be modeled as a decision, possibly for a decision-maker of your choice. We will give detailed instruction and guidance for coming up with projects. Each group will give a short presentation of their projects in section meetings. Projects presentations will be submitted, e.g. as a slide deck for final grading. Projects will be graded by their adherence to the six principles of Decision Quality.
+- The **final group project** to formulate and analyze a decision analysis is mandatory.  You will propose your group, consisting of 2 to 4 students. Your group is free to explore a situation that can be modeled as a decision, possibly for a decision-maker of your choice. We will post detailed instruction and guidance for coming up with projects on the class website. Each group will give a short presentation of their projects in the last section meeting, which you are expected to attend. Projects presentations will be submitted, e.g. as a slide deck for final grading. Projects will be graded by their adherence to the six principles of Decision Quality.
 
 We will make available various software options for creating decision models, however use of software is not mandatory:  It is possible to complete a decision analysis entirely on pencil and paper. 
 
 - **In class participation** will be determined by a combination of attendance, voluntary participation in class and session discussions, and other contributions made to the course.
-
-
-## Course Schedule
-
-::include{./draft_schedule.md} 
-
-
-
-
-
-
-
-
-
-

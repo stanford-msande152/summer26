@@ -12,12 +12,11 @@ _Lecture notes will be posted and distributed after each class section_
 
 ## II. Optional recommended texts
 
-1. Ali Abbas "Foundations of Decision Analysis" 
-2. D Heckerman, "Heckerthoughts" https://arxiv.org/abs/2302.05449.  
-3. R. Howard, C. Korver "Ethics for the Real World" (2008) Harvard Business Press. 
-4. R. Howard & J. Matheson "Readings in Decision Analysis ("The Blue Book" - RODA)  (1983) SDG - Vol 1&2 
-5. Blickstein "Probability"
-
+1. J.K. Blitzstein, J. Hwang (2015)"Introduction to Probability" CRC Press.
+2. D. Heckerman, "Heckerthoughts" https://arxiv.org/abs/2302.05449.  
+3. R. Howard, Ali Abbas (2016) "Foundations of Decision Analysis" Pearson
+4. R. Howard, C. Korver (2008) "Ethics for the Real World"  Harvard Business Press. 
+5. R. Howard & J. Matheson (1983) "Readings in Decision Analysis ("The Blue Book" - RODA)  SDG - Vol 1&2 
 
 ### III. Videos
 
@@ -39,7 +38,7 @@ Consider these of equal value to the required readings.
 
 ## IV. Bibliography
 
-Primary sources
+Primary sources and fundamental literature for Decision Analysis
 ### A. Decision Theory
 
 1. A. Abbas (2018)"Foundations of Multiattribute Utility",  Cambridge University Press.
@@ -62,7 +61,7 @@ Primary sources
 
 ### D. Psychology of choice
 
-1. Thinking fast, thinking slow
+1. Kahneman, D. (2011). "Thinking, fast and slow." Farrar, Straus and Giroux.
 
 ### E. Decision Quality
 
@@ -89,6 +88,7 @@ THe Undoing Projectf
 A. Abbas, (2023) "Ethical Decision Quality: Building an Ethical Decision Culture" eBook, [Bradford, UK] : Ethics International Press. 
 
 ### Risk
+A. D. Spiegelhalter, "Quantifying uncertainty"  in Layla Skinns,et al. Eds. "Risk" (2011) Cambridge University Press. 
 
 Call number: HM1101 .R548 2011
 Stanford library request
