@@ -5,8 +5,8 @@ title: MS&E 152
 tagline: Introduction to Decision Analysis
 description: Course website for MS&E 152 Introduction to Decision Analysis at Stanford University, Summer 2026.
 author: MS&E 152 Course Staff
-baseurl: '/summer26'
-url: 'https://stanford-msande152.github.io'
+baseurl: '/msne152_2026summer'
+url: 'https://ubtrglv.github.io'
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
@@ -20,8 +20,6 @@ aux_links:
     - 'https://canvas.stanford.edu'
   Ed Discussion:
     - 'https://edstem.org'
-  Gradescope:
-    - 'https://gradescope.com'
 footer_content: 'MS&E 152, Stanford University. Site maintained by course staff.'
 
 # Collections for website data
