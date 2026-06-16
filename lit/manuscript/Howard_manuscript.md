@@ -1,3 +1,8 @@
+---
+layout: page
+title: Foundations of Decision Analysis
+nav_exclude: true
+---
 # Decision Analysis
 
 **Manuscript In Progress**
