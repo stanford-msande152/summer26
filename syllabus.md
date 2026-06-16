@@ -42,9 +42,9 @@ By virtue of taking this course you should:
 
 ## Class Hours
 
-The course runs for eight weeks, with two lecture sessions and one disscussion section per week.
+The course runs for eight weeks (Jun 22 – Aug 13, 2026), with two lecture sessions and one disscussion section per week.
 
-- **Lectures:** Mon/Wed, 10:30 AM–12:30 PM · [Y2E2 111](http://campus-map.stanford.edu/?srch=Y2E2+111) · Jun 22 – Aug 13, 2026
+- **Lectures:** Mon/Wed, 10:30 AM–12:30 PM · [Y2E2 111](http://campus-map.stanford.edu/?srch=Y2E2+111)
 - **Discussion Section:** Thu, 3:00–4:15 PM · [Y2E2 111](http://campus-map.stanford.edu/?srch=Y2E2+111)
 - **Office Hours:** On days following lectures, after lunchtime.
 
