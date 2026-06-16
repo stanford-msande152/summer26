@@ -62,7 +62,7 @@ All online forum discussions will take place using **Ed Discussion Platform**.  
 
 As with any college level course, you will be expected to read the required course material for each lecture before attending the class. The class schedule shows the assignments of videos, required and optional readings for each class. 
 
-- **Course Notes (primary):**The textbook for the course consists of excerpts, with revisions, from Professor Howard’s draft manuscript, *Foundations of Decision Analysis* — [view manuscript](https://github.com/stanford-msande152/summer26/blob/main/lit/manuscript/Howard_manuscript.md)
+- **Course Notes (primary):**The textbook for the course consists of excerpts, with revisions, from Professor Howard’s draft manuscript, [Foundations of Decision Analysis](/summer26/lit/manuscript/Howard_manuscript/)
 - **Optional Textbook:** Students desiring a comprehensive source on Decision Analysis can instead purchase the book of the same title:
 R. Howard  and A. Abbas, (2016) **Foundations of Decision Analysis**, Pearson.
 It can also be found among the books on reserve for the class in the Terman Engineering Library.
