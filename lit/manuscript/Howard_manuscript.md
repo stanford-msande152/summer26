@@ -27,7 +27,7 @@ search_exclude: true
 
 ---
 
-# 1 Possibilities and Probabilities
+## 1 Possibilities and Probabilities
 
 *Ronald A. Howard*
 
@@ -678,7 +678,7 @@ What we wish to compute is the probability that the coin was the two-headed coin
 
 ---
 
-# 2 The Rules of Actional Thought
+## 2 The Rules of Actional Thought
 
 *Ronald A. Howard*
 
@@ -786,7 +786,7 @@ Consider the story of the man who entered an ice cream parlor and asked what fla
 
 ---
 
-# 3 The Party Problem
+## 3 The Party Problem
 
 *Ronald A. Howard*
 
@@ -1131,7 +1131,7 @@ In the lower part of the tree, we compute Mary's value of free clairvoyance. Lik
 
 We have thus found that Kim, Jane, and Mary will each pay different amounts for clairvoyance: \$20, \$22, and \$17, respectively. These differences arise solely from differences in taste, not from differences in structure or information.
 
-# 4 Risk Attitude
+## 4 Risk Attitude
 
 *Ronald A. Howard*
 
@@ -1344,7 +1344,7 @@ We sometimes prefer to write the exponential in other forms than the one we have
 
 ---
 
-# 5 Sensitivity Analysis
+## 5 Sensitivity Analysis
 
 *Ronald A. Howard*
 
@@ -1432,7 +1432,7 @@ We see that Jane will be willing to pay more for clairvoyance for values of p be
 
 ---
 
-# 6 Basic Information Gathering
+## 6 Basic Information Gathering
 
 *Ronald A. Howard*
 
@@ -1603,3 +1603,11 @@ A more accurate decision diagram to represent the possibility of purchasing the 
 Here we have added a new node called "detector report" in place of the original detector indication and have shown the detector indication as an input to the detector report node. This detector report node has a double circular border to indicate that it is a deterministic node: that its outputs are known when its inputs are known. This means that the detector report that will be available at the time the location decision is made will depend on both the decision on using the detector and on the detector indication that would be obtained if it were used. One possible detector report is no indication as the result of a decision not to use. This decision diagram would lead directly to the decision tree of Figure 6-6 for the actual determination of whether Kim should use the rain detector for a cost of, for example, \$10.
 
 As we have seen, one or more relevance diagrams may form a major portion of decision diagrams. Everything that we have learned about the manipulation of relevance diagrams is directly relevant when they appear in decision diagrams.
+
+
+<a href="#decision-analysis" 
+   style="position:fixed;bottom:30px;right:30px;background:#8C1515;
+          color:white;padding:12px 16px;border-radius:50%;
+          text-decoration:none;font-size:20px;
+          box-shadow:0 2px 8px rgba(0,0,0,0.3);z-index:999;"
+   title="Back to top">↑</a>
