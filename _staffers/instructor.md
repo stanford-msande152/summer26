@@ -1,9 +1,9 @@
 ---
 name: John Mark Agosta
 role: Instructor
-email: INSTRUCTOR-EMAIL@stanford.edu
+email: jmagosta@stanford.edu
 website: https://profiles.stanford.edu/
-photo: kevin.jpg
+photo: JMA.jpg
 ---
 
-Office hours: TBD
+Office hours: per request
