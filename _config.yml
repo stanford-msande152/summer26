@@ -7,7 +7,7 @@ description: Course website for MS&E 152 Introduction to Decision Analysis at St
 author: MS&E 152 Course Staff
 baseurl: '/summer26'
 url: 'https://stanford-msande152.github.io'
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "syllabus/", "lit/"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "syllabus/"]
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.12.0
