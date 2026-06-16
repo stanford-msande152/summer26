@@ -114,7 +114,7 @@ the course content in a timely manner, and to participate in class sessions in p
 
 #### Accommodations
 
-If you have a letter from the _Office of Accessible Education_ that grants extra time or modified test-taking conditions, [fill out the form with your letter attached] (https://forms.gle/fbKkNysaeK2MrpED6) and we will accommodate your needs on the midterm exam.
+If you have a letter from the _Office of Accessible Education_ that grants extra time or modified test-taking conditions, [fill out the form with your letter attached](https://forms.gle/fbKkNysaeK2MrpED6).
 To get started, or to initiate services if you do not have such a letter, please visit [oae.stanford.edu](https://oae.stanford.edu/). Other extensions on assignments will be granted only with an academic accommodation letter from the Office of Accessible Education, generally for medical reasons, or in other such exceptional circumstances. Requests due to job interviews, athletic competitions, other classes and assignments, and poor planning will not be considered.
 
 **Honor Code**
