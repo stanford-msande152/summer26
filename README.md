@@ -13,7 +13,7 @@ seo:
 Stanford University · Summer 2026 · 4 units
 {: .mb-0 .fs-6 .text-grey-dk-000 }
 
-**Lectures:** Mon/Wed, 10:30 AM–12:30 PM · Y2E2 111 · Jun 22 – Aug 12, 2026
+**Lectures:** Mon/Wed, 10:30 AM–12:30 PM · Y2E2 111
 
 **Instructor:** [John Mark Agosta, Ph.D.](/summer26/staff/)
 
