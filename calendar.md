@@ -11,9 +11,8 @@ nav_order: 2
 
 **Discussion section**: Thu, 3:00–4:15 PM, Y2E2 111
 
-Readings refer to the [Howard manuscript](/summer26/lit/manuscript/Howard_manuscript/) 
+Readings refer to the [Primary Text](/summer26/lit/manuscript/Howard_manuscript/) 
 and the [References & Readings](/summer26/lit/bibliography/) page.
-
 
 
 **LECTURE**{: .label .label-green } **SECTION**{: .label .label-blue } **HW OUT**{: .label .label-yellow } **HW DUE**{: .label .label-red } **EXAM / PROJECT**{: .label .label-purple }
