@@ -35,7 +35,7 @@ By virtue of taking this course you should:
 
 ## Teaching Team
 
-| Role | Name | Email | Location |
+| Role | Name | Contacts | Location |
 |:-----|:-----|:------|:---------|
 | Instructor | John Mark Agosta, Ph.D. | [jmagosta@stanford.edu](mailto:jmagosta@stanford.edu) , 650 465-4707 | Huang 261 |
 | Teaching Assistant | Uluk Batyrgaliev | [ubtrglv@stanford.edu](mailto:ubtrglv@stanford.edu) | zoom |
