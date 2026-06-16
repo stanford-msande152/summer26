@@ -18,12 +18,12 @@ search_exclude: true
 
 ## Table of Contents
 
-1. [Possibilities and Probabilities](#11-possibilities-and-probabilities)
+1. [Possibilities and Probabilities](#1-possibilities-and-probabilities)
 2. [The Rules of Actional Thought](#2-the-rules-of-actional-thought)
-3. [The Party Problem: Basic Form](#31-the-party-problem-basic-form)
-4. [The Party Problem: Risk Attitude](#32-the-party-problem-risk-attitude)
-5. [The Party Problem: Sensitivity Analysis](#33-the-party-problem-sensitivity-analysis)
-6. [The Party Problem: Basic Information Gathering](#34-the-party-problem-basic-information-gathering)
+3. [The Party Problem: Basic Form](#3-the-party-problem)
+4. [The Party Problem: Risk Attitude](#4-risk-attitude)
+5. [The Party Problem: Sensitivity Analysis](#5-sensitivity-analysis)
+6. [The Party Problem: Basic Information Gathering](#6-basic-information-gathering)
 
 ---
 
