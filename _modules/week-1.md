@@ -4,7 +4,7 @@ title: "Week 1: Foundations — What Makes a Decision?"
 
 Jun 22
 : **LECTURE 1**{: .label .label-green } **Why Decision Analysis: course intro, what is a decision, the "Thumbtack" deal** · [[Notes]](#)
-: *Due: pre-class [TED talk](https://www.youtube.com/watch?v=-gqNOmdvwiI) · in-class background survey*
+: *Due: pre-class [TED talk](https://www.youtube.com/watch?v=-gqNOmdvwiI) · and peobability refresher*
 
   **Reading Materials**
 
