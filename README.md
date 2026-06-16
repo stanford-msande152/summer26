@@ -10,29 +10,40 @@ seo:
 
 # MS&E 152: Introduction to Decision Analysis
 {: .mb-2 }
-Stanford University · Summer 2026 · Mon/Wed (10:30 -12:30 and room 111, Y2E2)
+Stanford University · Summer 2026 · 4 units
 {: .mb-0 .fs-6 .text-grey-dk-000 }
 
-**Instructor:** John Mark Agosta, jmagosta@stanford.edu
-**TA:** Uluk Batyrgaliev , ubtrglv@stanford.edu 
+**Lectures:** Mon/Wed, 10:30 AM–12:30 PM · Y2E2 111 · Jun 22 – Aug 12, 2026
 
-How do you make a good decision when the outcome is uncertain? This course builds the full decision analysis toolkit: framing decisions and reaching clarity of action, decision trees and influence diagrams, probability as belief and elicitation, the value of information, risk preference, value tradeoffs, and real options — culminating in decision quality, rationality, and ethics.
+**Instructor:** [John Mark Agosta, Ph.D.](/summer26/staff/)
 
-## Key dates
+**Teaching Assistant:** [Uluk Batyrgaliev](/summer26/staff/)
+
+WELCOME TO THE COURSE! PLEASE MAKE SURE TO READ SYLLABUS
+
+## Key Dates
 
 | Milestone | Date |
 |:----------|:-----|
-| First lecture (pre-class video + survey due) | Mon, Jun 22 |
-| Team project proposal | Mon, Jul 6 |
-| Midterm | Wed, Jul 22 |
+| First lecture · pre-class TED talk + probability refresher | Mon, Jun 22 |
+| Elicitation exercise due | Mon, Jun 29 |
+| Team project proposal due | Mon, Jul 6 |
+| Midterm (in class) | Wed, Jul 22 |
 | Draft project submission | Wed, Jul 29 |
 | Last lecture | Wed, Aug 12 |
-| Final project |Thu, Aug 13 |
+| Final project presentation| Thu, Aug 13 |
 
-## Course pages
+## Course Pages
 
-- [Lecture Schedule](calendar.md) — topics, readings (FODA chapters), and homework dates for all 8 weeks
-- [Syllabus](syllabus.md) — policies, grading, accommodations
-- [Staff](staff.md) — instructor and CA office hours
+- [Lecture Schedule](/summer26/calendar/) — topics, readings, and homework dates for all 8 weeks
+- [Syllabus](/summer26/syllabus/) — grading, policies, and accommodations
+- [Staff](/summer26/staff/) — instructor and TA office hours
+- [References & Readings](/summer26/lit/bibliography/) — required readings, videos, and bibliography
 
-Homework is submitted via Canvas; questions and communications go to Ed Discussion (links in the top bar).
+## Before the First Class
+
+Complete these before Jun 22:
+- Watch the [pre-class TED talk](https://www.youtube.com/watch?v=-gqNOmdvwiI) on improving personal decision making
+- Review the [probability refresher](/summer26/probability_refresher_MSE152/)
+
+Questions go to Ed Discussion · Homework submitted via Canvas (links in the top bar).
