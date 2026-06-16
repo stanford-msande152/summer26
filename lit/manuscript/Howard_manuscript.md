@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Foundations of Decision Analysis
+title: "Primary Text: Foundations of Decision Analysis"
 nav_exclude: true
+search_exclude: true
 ---
+
 # Decision Analysis
 
 **Manuscript In Progress**
