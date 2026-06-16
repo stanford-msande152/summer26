@@ -27,4 +27,4 @@ Aug 12
   - Ch. 1.8, 40
 
 Aug 14
-: **SECTION**{: .label .label-blue } Final project presentations · 3:00–4:15 PM · Y2E2 111
+: **SECTION**{: .label .label-blue } Final project presentations · 3:00–5:00 PM · Y2E2 111
