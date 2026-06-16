@@ -1,14 +1,19 @@
+---
+layout: page
+title: References, readings, and other resources
+nav_exclude: true
+description: Required readings, recommended texts, videos, and bibliography.
+---
+
 # References, readings, and other resources
 
 ## I. Required Readings
 
- See the class [website:](https://stanford-msande152.github.io/summer26/)
 
 1. Ron Howard, "Decision Analysis Manuscript in Progress",   revisions for MZS&E 152. 
 2. Ross Shachter "Evaluating Influence Diagrams", _Operations Research_, Vol. 34, No. 6. (Nov. - Dec., 1986), pp. 871-882.
 3. Ronald A. Howard "On Fates Comparable to Death",  **Management Science** , Apr., 1984, Vol. 30, No. 4, Risk Analysis (Apr., 1984), pp. 407-422 Published by: INFORMS Stable URL: https://www.jstor.org/stable/2631429.  Also in RODA. 
 
-_Lecture notes will be posted and distributed after each class section_
 
 ## II. Optional recommended texts
 
