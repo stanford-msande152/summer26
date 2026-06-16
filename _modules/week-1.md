@@ -4,7 +4,7 @@ title: "Week 1: Foundations — What Makes a Decision?"
 
 Jun 22
 : **LECTURE 1**{: .label .label-green } **Why Decision Analysis: what is a decision, the "Thumbtack" deal**
-: *Pre-class: [TED talk](url) · In-class: background survey*
+: *Pre-class: [TED talk](url) and probability refresher*
 : *Reading:* Course Notes §1 · FODA Ch. 1, 2.1–2.2 *(optional)*
 : *Videos:* [Intro to Decision Making](url) · [Origins of the name DA](url)
 
