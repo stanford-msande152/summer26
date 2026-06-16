@@ -25,7 +25,6 @@ WELCOME TO THE COURSE! PLEASE MAKE SURE TO READ SYLLABUS
 
 | Milestone | Date |
 |:----------|:-----|
-| First lecture · pre-class TED talk + probability refresher | Mon, Jun 22 |
 | Elicitation exercise due | Mon, Jun 29 |
 | Team project proposal due | Mon, Jul 6 |
 | Midterm (in class) | Wed, Jul 22 |
