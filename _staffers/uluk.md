@@ -2,7 +2,7 @@
 name: Uluk Batyrgaliev
 role: Teaching Assistant
 email: ubtrglv@stanford.edu
-photo: UB.jpeg
+photo: UB.jpg
 ---
 
 **Office hours:** by request on zoom
