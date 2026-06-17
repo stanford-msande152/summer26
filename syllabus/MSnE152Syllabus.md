@@ -1,5 +1,5 @@
 
-#S yllabus 
+#Syllabus 
 
 ## Course Links
 [Canvas](https://canvas.stanford.edu/courses/228284)
