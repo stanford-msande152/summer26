@@ -1,15 +1,5 @@
----
-layout: page
-title: Syllabus
-description: Course policies, grading, and logistics.
-nav_order: 3
----
 
-# Syllabus
-
-**MS&E 152: Introduction to Decision Analysis** · Stanford University · Summer 2026
-
-#S yllabus 
+#Syllabus 
 
 ## Course Links
 [Canvas](https://canvas.stanford.edu/courses/228284)

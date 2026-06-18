@@ -5,13 +5,15 @@ description: Course policies, grading, and logistics.
 nav_order: 3
 ---
 
-# Syllabus
+# Syllabus MS&E 152 Summer 2026
 
-**MS&E 152: Introduction to Decision Analysis** · Stanford University · Summer 2026 · 4 units
+** Introduction to Decision Analysis** · Stanford University · 4 units
 
 ## Course Links
 
-[Canvas](https://canvas.stanford.edu/courses/228284) · [Ed Discussion](https://edstem.org) · [Course Website](https://stanford-msande152.github.io/summer26/)
+* [Canvas](https://canvas.stanford.edu/courses/228284) 
+* [Ed Discussion](https://edstem.org) 
+* [Course Website](https://stanford-msande152.github.io/summer26/)
 
 ## Course Description
 Decision Analysis is an application of Decision Theory to making good decisions when outcomes are uncertain.  It applies to practical problems in engineering, organizations, and even one's personal life.  It is a principled, quantitative approach that draws upon theory in Economics, Applied Probability, and Psychology.  These principles of rational choice extend to  applications that combine individual judgment with quantitative, data-driven modeling techniques.
@@ -114,7 +116,7 @@ the course content in a timely manner, and to participate in class sessions in p
 
 #### Accommodations
 
-If you have a letter from the _Office of Accessible Education_ that grants extra time or modified test-taking conditions, [fill out the form with your letter attached] (https://forms.gle/fbKkNysaeK2MrpED6) and we will accommodate your needs on the midterm exam.
+If you have a letter from the _Office of Accessible Education_ that grants extra time or modified test-taking conditions, [fill out the form with your letter attached](https://forms.gle/fbKkNysaeK2MrpED6).
 To get started, or to initiate services if you do not have such a letter, please visit [oae.stanford.edu](https://oae.stanford.edu/). Other extensions on assignments will be granted only with an academic accommodation letter from the Office of Accessible Education, generally for medical reasons, or in other such exceptional circumstances. Requests due to job interviews, athletic competitions, other classes and assignments, and poor planning will not be considered.
 
 **Honor Code**
