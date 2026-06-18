@@ -155,7 +155,7 @@ The possibility tree for these three distinctions appears as Figure 1-6.
 
 There are now eight elemental possibilities represented by the tree: BGM, BGF, BG'M, etc. For example, the elemental possibility B'G'F represents the situation where the next person entering the room is a female who is not a Beer Drinker and not a College Graduate. In this possibility tree the compound possibility Male Beer Drinker could be represented by a collection of two elemental possibilities and denoted by BGM+BG'M. Thus, adding a kind of distinction does not prevent us from representing any compound possibility that could have been represented without it.
 
-With three kinds of distinctions there are six possible orders for drawing the possibility tree, for any of the three kinds of distinction could be placed first and then any of the two others placed second. All orders are equally valid and produce the same endpoint elemental possibilities. If there are $N$ kinds of distinctions, then there will be $Nx(N-1)x(N-2)\cdots$ or $N!$ different orders for drawing the possibility tree.
+With three kinds of distinctions there are six possible orders for drawing the possibility tree, for any of the three kinds of distinction could be placed first and then any of the two others placed second. All orders are equally valid and produce the same endpoint elemental possibilities. If there are $N$ kinds of distinctions, then there will be $N\cdot(N-1)\cdot(N-2)\cdots$ or $N!$ different orders for drawing the possibility tree.
 
 ### 1.1.13 Several Degrees of Distinction
 
@@ -235,13 +235,13 @@ The number 0.2 has been written adjacent to the upper branch and the number 0.8 
 
 ##### 1.2.1.2.1 Notation
 
-Our notation for this statement is {B|&} = 0.2. The braces mean that you are making a probability assignment. The possibility on which you are making this assignment appears to the left of the vertical bar; in this case it is the event Beer Drinker, with symbol B. The state of knowledge on which the probability assignment is made appears to the right of the vertical bar. In this case it is simply your total experience which we denote by &. Your probability that the next person entering the room will not be a beer drinker is then {B'|&} = 0.8.
+Our notation for this statement is $\textsf{P}(B \, |\, \mathcal{E}) = 0.2$. The braces mean that you are making a probability assignment. The possibility on which you are making this assignment appears to the left of the vertical bar; in this case it is the event Beer Drinker, with symbol B. The state of knowledge on which the probability assignment is made appears to the right of the vertical bar. In this case it is simply your total experience which we denote by &. Your probability that the next person entering the room will not be a beer drinker is then $\textsf{P}(B^c \, |\, \mathcal{E}) = 0.8$.
 
 You might also wish to describe what you know about whether the next person entering the room will be a College Graduate by dividing your certainty between the two possibilities G and G' as shown in Figure 1-13.
 
 *Figure 1-13. Division of Certainty on the Distinction College Graduate, G*
 
-Here you have assigned a probability 0.6 to the event College Graduate; {G|&} = 0.6; therefore, you have assigned {G'|&} = 0.4. Thus you have divided your certainty between the two possibilities G and G' in the ratio of 3 to 2.
+Here you have assigned a probability $0.6$ to the event College Graduate; $\textsf{P}(G \, |\, \mathcal{E}) = 0.6$; therefore, you have assigned $\textsf{P}(G^c \, |\, \mathcal{E}) = 0.4$. Thus you have divided your certainty between the two possibilities $G$ and $G^c$ in the ratio of 3 to 2.
 
 #### 1.2.1.3 Dividing Certainty Among Several Degrees of Distinction
 
@@ -249,13 +249,13 @@ The main rule of the probability game is that there is one unit of certainty to 
 
 *Figure 1-14. Division of Certainty Over Three Degrees of Distinction for Drinking Beer*
 
-A probability 0.7 is assigned to B1, 0.2 to B2, and 0.1 to B3. This assignment says that since {B1|&} = 0.7 and {B3|&} = 0.1, then the next person entering the room is, in your opinion, seven times as likely to be someone who drinks less than 50 quarts of beer per year as to be a person who drinks more than 150 quarts of beer per year.
+A probability 0.7 is assigned to B1, 0.2 to B2, and 0.1 to B3. This assignment says that since $\textsf{P}(B1 \, |\, \mathcal{E})$ = 0.7 and $\textsf{P}(B3 \, |\, \mathcal{E})$ = 0.1, then the next person entering the room is, in your opinion, seven times as likely to be someone who drinks less than 50 quarts of beer per year as to be a person who drinks more than 150 quarts of beer per year.
 
 If you wished to use the more refined levels of education we have previously defined, then you might divide your certainty as shown in Figure 1-15.
 
 *Figure 1-15. Division of Certainty Over Four Degrees of Distinction for Level of Education*
 
-Since the event G = G3+G4, the two branches corresponding to G3 and G4 in the figure must receive a total of 60 percent of your certainty. The probability assignment 0.1, 0.3, 0.5, 0.1, to G1, G2, G3, G4 is consistent with your beliefs as expressed in Figure 1-13. Since {G3|&} = 0.5, you see it as likely as not that the person has an undergraduate degree, but no higher degree.
+Since the event $G = G3 \cup G4$, the two branches corresponding to G3 and G4 in the figure must receive a total of 60 percent of your certainty. The probability assignment 0.1, 0.3, 0.5, 0.1, to G1, G2, G3, G4 is consistent with your beliefs as expressed in Figure 1-13. Since $\textsf{P}(G3 \, |\, \mathcal{E}) = 0.5$, you see it as likely as not that the person has an undergraduate degree, but no higher degree.
 
 ### 1.2.2 The Probability Tree
 
@@ -263,17 +263,17 @@ The purpose of the Beer Drinker and College Graduate distinctions was to discuss
 
 *Figure 1-16. Probability Tree: Division of Certainty by Two Successive Distinctions*
 
-The beginning of the tree shows your division of certainty according to the probabilities of 0.2 and 0.8 on the events B and B', as in Figure 1-12. But now we must consider further division of your certainty. The B branch of the tree represents the possibility that you know that the person is a Beer Drinker. If you knew this were true, how would you then split your certainty between the events College Graduate and not a College Graduate, G and G'? Figure 1-16 indicates that in this case you would split your certainty in the ratio 1 to 4 and hence assign a probability 0.2 to the person's being a College Graduate and 0.8 to the person's not being a College Graduate. Similarly, the split following the branch B' shows that you would assign a probability of 0.7 to the person's being a College Graduate and 0.3 to the person's not being a College Graduate if you knew that the person was not a Beer Drinker.
+The beginning of the tree shows your division of certainty according to the probabilities of 0.2 and 0.8 on the events $B$ and $B^c$, as in Figure 1-12. But now we must consider further division of your certainty. The B branch of the tree represents the possibility that you know that the person is a Beer Drinker. If you knew this were true, how would you then split your certainty between the events College Graduate and not a College Graduate, G and G'? Figure 1-16 indicates that in this case you would split your certainty in the ratio 1 to 4 and hence assign a probability 0.2 to the person's being a College Graduate and 0.8 to the person's not being a College Graduate. Similarly, the split following the branch $B^c$ shows that you would assign a probability of 0.7 to the person's being a College Graduate and 0.3 to the person's not being a College Graduate if you knew that the person was not a Beer Drinker.
 
 #### 1.2.2.1 Conditional Probabilities
 
-We call the probabilities that we assigned to G and G' given that we know that either B or B' occurred "conditional probabilities", for they are conditional on the occurrence of the first distinction. Any conditional probability is conditioned on all events that preceded it in the possibility tree. The notation for conditional probabilities follows the same rule for notation that we defined previously; the conditioning event is included to the right of the vertical bar. Thus, the probability that the person will be a College Graduate given that the person is a Beer Drinker is written as {G|B&}, and have the value 0.2. The probability of College Graduate given not a Beer Drinker is written {G|B'&}, and has the value 0.7.
+We call the probabilities that we assigned to G and G' given that we know that either B or B' occurred "conditional probabilities", for they are conditional on the occurrence of the first distinction. Any conditional probability is conditioned on all events that preceded it in the possibility tree. The notation for conditional probabilities follows the same rule for notation that we defined previously; the conditioning event is included to the right of the vertical bar. Thus, the probability that the person will be a College Graduate given that the person is a Beer Drinker is written as $\textsf{P}(G \, |\, B, \mathcal{E})$, and have the value 0.2. The probability of College Graduate given not a Beer Drinker is written $\textsf{P}(G \, |\, B^c, \mathcal{E})$, and has the value 0.7.
 
 #### 1.2.2.2 Elemental Probabilities
 
-Figure 1-16 now shows that your certainty has been split twice. Once by the distinction Beer Drinker and once by the distinction College Graduate. If 20 percent of your certainty flows through the branch B and 20 percent of that flows through the branch G, then the fraction of the original certainty represented by the elemental possibility BG is 0.04. This is the probability that the person is both a Beer Drinker and a College Graduate, written {BG|&}. For brevity, we call the probability of an elemental possibility an elemental probability. The four elemental probabilities are shown at the endpoints of the tree. They are in each case obtained by multiplying the branch probabilities on all branches leading to the endpoint. Since we started with one unit of certainty, the sum of all elemental probabilities must be 1.
+Figure 1-16 now shows that your certainty has been split twice. Once by the distinction Beer Drinker and once by the distinction College Graduate. If 20 percent of your certainty flows through the branch B and 20 percent of that flows through the branch G, then the fraction of the original certainty represented by the elemental possibility BG is 0.04. This is the probability that the person is both a Beer Drinker and a College Graduate, written $\textsf{P}(BG \, |\, \mathcal{E})$. For brevity, we call the probability of an elemental possibility an elemental probability. The four elemental probabilities are shown at the endpoints of the tree. They are in each case obtained by multiplying the branch probabilities on all branches leading to the endpoint. Since we started with one unit of certainty, the sum of all elemental probabilities must be 1.
 
-Since {B'G|&} = 0.56 is the largest of the four elemental probabilities, we see that the most probable elemental possibility in this case is that the next person entering the room will not be a Beer Drinker but will be a College Graduate. Furthermore, since the probability of B'G is larger than 0.5, B'G is more likely than the three other elemental possibilities combined. Note that the event College Graduate is composed of the elemental possibilities BG and B'G. When {B'G|&} is added to the elemental probability of BG, which is 0.04, the total is 0.6. This is precisely the probability you assigned to the event that the person be a College Graduate as recorded in Figure 1-13. Thus, you have been consistent in your probability assignments.
+Since $\textsf{P}(B^cG \, |\, \mathcal{E})$ = 0.56 is the largest of the four elemental probabilities, we see that the most probable elemental possibility in this case is that the next person entering the room will not be a Beer Drinker but will be a College Graduate. Furthermore, since the probability of B'G is larger than 0.5, B'G is more likely than the three other elemental possibilities combined. Note that the event College Graduate is composed of the elemental possibilities BG and B'G. When $\textsf{P}(B^cG \, |\, \mathcal{E})$ is added to the elemental probability of BG, which is 0.04, the total is 0.6. This is precisely the probability you assigned to the event that the person be a College Graduate as recorded in Figure 1-13. Thus, you have been consistent in your probability assignments.
 
 ### 1.2.3 Probability Tree Reversal
 
@@ -295,9 +295,9 @@ Once we know how much of your certainty has arrived at each endpoint of the tree
 
 ##### 1.2.3.1.3 Finding the Conditional Probabilities
 
-Let us begin with the conditional probabilities following the branch G. Here we know that your certainty was split in such a way that the upper endpoint received a probability 0.04 and the lower one 0.56. This means that it must have been split in the ratio 1-14. Since the sum of the conditional probabilities must be 1, this means you must assign a conditional probability 1/15 or 0.067 to the person's being a Beer Drinker given that the person is a College Graduate. In our notation, we write {B|G&} = 1/15 = 0.067. Of course, this means that the conditional probability that the person will not be a Beer Drinker given that the person is a College Graduate, {B'|G&}, is 14/15 = 0.933.
+Let us begin with the conditional probabilities following the branch G. Here we know that your certainty was split in such a way that the upper endpoint received a probability 0.04 and the lower one 0.56. This means that it must have been split in the ratio 1-14. Since the sum of the conditional probabilities must be 1, this means you must assign a conditional probability 1/15 or 0.067 to the person's being a Beer Drinker given that the person is a College Graduate. In our notation, we write $\textsf{P}(B \, |\, G, \mathcal{E}) = 1/15 = 0.067$. Of course, this means that the conditional probability that the person will not be a Beer Drinker given that the person is a College Graduate, $\textsf{P}(B^c \, |\, G, \mathcal{E})$, is $14/15 = 0.933$.
 
-Continuing the conditional probability assignment to the branches that follow G', we see that the conditional probabilities on the two branches must be in the ratio 0.16 to 0.24, which means that they must be 0.4 and 0.6. Thus, the probability that the person will not be a Beer Drinker if the person is not a College Graduate, {B'|G'&}, is 0.6.
+Continuing the conditional probability assignment to the branches that follow G', we see that the conditional probabilities on the two branches must be in the ratio 0.16 to 0.24, which means that they must be 0.4 and 0.6. Thus, the probability that the person will not be a Beer Drinker if the person is not a College Graduate, $\textsf{P}(B^c \, |\, G^c, \mathcal{E})$, is 0.6.
 
 #### 1.2.3.2 Interpreting the Results
 
@@ -305,7 +305,7 @@ This reversed probability tree shows the probabilities that you must assign to t
 
 ### 1.2.4 Relevance
 
-We say that the simple distinction E–E' is relevant to the simple distinction F–F' if the probability of F given that E occurs is not equal to the probability of F given that E does not occur. Or in our notation {F|E&} ≠ {F|E'&}. Relevance is thus defined by the requirement that given your information & knowing of the occurrence of one distinction will change the probabilities you assign to the other distinction. On reflection you will see that this definition corresponds to our commonsense understanding of relevance. We say that education is relevant to income because we assign higher probabilities to higher incomes if we know the person is well educated than if we don't. We say that flipping a coin is not relevant to the weather because we would assign the same probabilities to different weather states regardless of whether Heads or Tails appeared.
+We say that the simple distinction E–E' is relevant to the simple distinction F–F' if the probability of F given that E occurs is not equal to the probability of F given that E does not occur. Or in our notation $\textsf{P}(F \, |\, E, \mathcal{E})$ ≠ $\textsf{P}(F \, |\, E^c, \mathcal{E})$. Relevance is thus defined by the requirement that given your information & knowing of the occurrence of one distinction will change the probabilities you assign to the other distinction. On reflection you will see that this definition corresponds to our commonsense understanding of relevance. We say that education is relevant to income because we assign higher probabilities to higher incomes if we know the person is well educated than if we don't. We say that flipping a coin is not relevant to the weather because we would assign the same probabilities to different weather states regardless of whether Heads or Tails appeared.
 
 #### 1.2.4.1 Causality
 
@@ -355,7 +355,7 @@ as we wished to show.
 
 Therefore, we have proved that if one simple distinction is relevant to another, then the second is relevant to the first. Relevance is a mutual property.
 
-Another way of expressing relevance is to say that if E is relevant to F, then {F|E&} ≠ {F|&}. The probability you assign to F given that E occurs is different from the probability you would assign to F if you had no knowledge of E. In our tree this would require,
+Another way of expressing relevance is to say that if E is relevant to F, then $\textsf{P}(F \, |\, E, \mathcal{E})$ ≠ $\textsf{P}(F \, |\, \mathcal{E})$. The probability you assign to F given that E occurs is different from the probability you would assign to F if you had no knowledge of E. In our tree this would require,
 
 ```
 a/(a+b) ≠ (a+c)/(a+b+c+d)
@@ -405,11 +405,11 @@ The probability assignments shown are those typical of a group in which this sit
 
 ##### 1.2.5.2.1 Reversing the Tree
 
-Now let us reverse the probability tree as shown on the right side of Figure 21. With elemental probabilities recorded in their appropriate position, we can compute the probability assignments in this tree that will make it consistent with the original one. The probability of the event H is the sum of the probabilities of the elemental possibilities HM and HM' or .0019; the event H' has probability .9981. The conditional probabilities are obtained from the ratio of the elemental probabilities and the requirement that they add to 1. Thus, the probability of M given H, {M|H&} = 0.0010/(0.0010 + 0.0009) or 0.526; the conditional probability {M'|H&} = 0.474. Similarly we find {M|H'&} = 0.099 and {M'|H'&} = 0.901.
+Now let us reverse the probability tree as shown on the right side of Figure 21. With elemental probabilities recorded in their appropriate position, we can compute the probability assignments in this tree that will make it consistent with the original one. The probability of the event H is the sum of the probabilities of the elemental possibilities HM and HM' or .0019; the event H' has probability .9981. The conditional probabilities are obtained from the ratio of the elemental probabilities and the requirement that they add to 1. Thus, the probability of M given H, $\textsf{P}(M \, |\, H, \mathcal{E}) = 0.0010/(0.0010 + 0.0009)$ or 0.526; the conditional probability $\textsf{P}(M^c \, |\, H, \mathcal{E}) = 0.474$. Similarly we find $\textsf{P}(M \, |\, H^c, \mathcal{E}) = 0.099$ and $\textsf{P}(M^c \, |\, H^c, \mathcal{E}) = 0.901$.
 
 ##### 1.2.5.2.2 Interpretation
 
-Then we can interpret what we have computed. We see first that the probability that an adult American will be a Serious Heroin User by our definition is 0.0019 or about two thousandths. Given that the person is a Serious Heroin User, the probability of being a Serious Marijuana User is 0.526. This is consistent with the judge's observation that when he interviewed heroin addicts, he found that many of them were or had been heavy users of marijuana. The probability of marijuana use given heroin use is sizeable. However, from this observation the judge had concluded that marijuana use leads to heroin use. This clearly is not the case in our example, since the probability {H|M&} shows that only a 1 in 100 chance of a Serious Marijuana User becoming a Serious Heroin User. The fact that the probability of M given H is large does not imply that the probability of H given M is large. The judge incorrectly concluded that marijuana use is likely to lead on to heroin use from the correct observation that a majority of heroin users were or had been also marijuana users.
+Then we can interpret what we have computed. We see first that the probability that an adult American will be a Serious Heroin User by our definition is 0.0019 or about two thousandths. Given that the person is a Serious Heroin User, the probability of being a Serious Marijuana User is 0.526. This is consistent with the judge's observation that when he interviewed heroin addicts, he found that many of them were or had been heavy users of marijuana. The probability of marijuana use given heroin use is sizeable. However, from this observation the judge had concluded that marijuana use leads to heroin use. This clearly is not the case in our example, since the probability $\textsf{P}(H \, |\, M, \mathcal{E})$ shows that only a 1 in 100 chance of a Serious Marijuana User becoming a Serious Heroin User. The fact that the probability of M given H is large does not imply that the probability of H given M is large. The judge incorrectly concluded that marijuana use is likely to lead on to heroin use from the correct observation that a majority of heroin users were or had been also marijuana users.
 
 #### 1.2.5.3 Distinctive versus Associative Logic
 
@@ -445,21 +445,21 @@ We can construct probability trees for as many kinds of distinctions as we like.
 
 *Figure 1-23. Probability Tree for Three Distinctions*
 
-The probability assignments for the first two distinctions Beer Drinker and College Graduate are exactly those shown in Figure 1-16. All that you must add are the conditional probability assignments on the sex of the person entering the room conditional on the path through the distinctions Beer Drinker and College Graduate. The tree shows that you have assigned the probability that the person entering the room will be Male given that he is a both Beer Drinker and a College Graduate as {M|BG&} = 0.8, and therefore that {F|BG&} = 0.2 and have also assigned {M|BG'&} = 0.7, {M|B'G&} = 0.6 and {M|B'G'&} = 0.3. These assignments reflect your belief that in this situation as contained in &, being a Beer Drinker or being a College Graduate or both are positively relevant to the event of being a male.
+The probability assignments for the first two distinctions Beer Drinker and College Graduate are exactly those shown in Figure 1-16. All that you must add are the conditional probability assignments on the sex of the person entering the room conditional on the path through the distinctions Beer Drinker and College Graduate. The tree shows that you have assigned the probability that the person entering the room will be Male given that he is a both Beer Drinker and a College Graduate as $\textsf{P}(M \, |\, BG, \mathcal{E}) = 0.8$, and therefore that $\textsf{P}(F \, |\, BG, \mathcal{E}) = 0.2$ and have also assigned $\textsf{P}(M \, |\, BG^c, \mathcal{E}) = 0.7$, $\textsf{P}(M \, |\, B^cG, \mathcal{E}) = 0.6$ and $\textsf{P}(M \, |\, B^cG^c, \mathcal{E}) = 0.3$. These assignments reflect your belief that in this situation as contained in $\mathcal{E}$, being a Beer Drinker or being a College Graduate or both are positively relevant to the event of being a male.
 
 #### 1.2.8.1 Generating Elemental Probabilities
 
-The eight elemental possibilities represented by the endpoints of this tree have probabilities obtained by multiplying the branch probabilities along the path that leads to each endpoint. For example, the elemental possibility BG'M referring to a Beer Drinker –non-College Graduate–Male has probability {BG'M|&} = 0.112 = {B|&}{G'|B&}{M|BG'&}. Notice the pattern in generating this elemental probability. It is composed of the probability of the first distinction times the probability of the second distinction given the first times the probability of the third distinction given the first and second. We shall find it useful to place this result in general form.
+The eight elemental possibilities represented by the endpoints of this tree have probabilities obtained by multiplying the branch probabilities along the path that leads to each endpoint. For example, the elemental possibility BG'M referring to a Beer Drinker –non-College Graduate–Male has probability $\textsf{P}(BG^cM \, |\, \mathcal{E})$ = 0.112 = $\textsf{P}(B \, |\, \mathcal{E})$$\textsf{P}(G^c \, |\, B, \mathcal{E})$$\textsf{P}(M \, |\, BG^c, \mathcal{E})$. Notice the pattern in generating this elemental probability. It is composed of the probability of the first distinction times the probability of the second distinction given the first times the probability of the third distinction given the first and second. We shall find it useful to place this result in general form.
 
 #### 1.2.8.2 The Chain Rule for Distinctions
 
 Suppose that we have many distinctions A, B, C and several degrees of distinction any one of which we designate by Aᵢ, Bⱼ, and Cₖ. Then in accordance with our visualization of the probability tree, we can write for the probability of the elemental possibility Aᵢ,BⱼCₖ,
 
-{Aᵢ Bⱼ Cₖ |&} = {Aᵢ|&}{Bⱼ|Aᵢ&}{Cₖ|Aᵢ Bⱼ&}.
+$$\textsf{P}(Aᵢ Bⱼ Cₖ \, |\, \mathcal{E}) = \textsf{P}(Aᵢ \, |\, \mathcal{E})\textsf{P}(Bⱼ \, |\, Aᵢ, \mathcal{E})\textsf{P}(Cₖ \, |\, Aᵢ Bⱼ, \mathcal{E})$$.
 
 We call this the chain rule for distinctions. The chain rule shows how to compute the probability of any elemental possibility as the product of conditional probabilities. Since the tree that generates the elemental possibility AᵢBⱼCₖ could be drawn in any of the six possible orders we discussed, the chain rule for three events can be written in six possible ways. For example, this elemental probability is also given by,
 
-{AᵢBⱼCₖ|&} = {Cₖ|&}{Aᵢ|Cₖ&}{Bⱼ|AᵢCₖ&}.
+$$\textsf{P}(AᵢBⱼCₖ \, |\, \mathcal{E}) = \textsf{P}(Cₖ \, |\, \mathcal{E})\textsf{P}(Aᵢ \, |\, Cₖ, \mathcal{E})\textsf{P}(Bⱼ \, |\, AᵢCₖ, \mathcal{E})$$.
 
 We shall soon have more to say about probability tree reordering.
 
@@ -467,9 +467,9 @@ We shall soon have more to say about probability tree reordering.
 
 The probability of any compound event can be obtained by adding the probabilities of the elemental possibilities of which it is composed. Thus, if we wish to find the probability that the next person entering the room will be a Male using the probability tree in Figure 1-23, we note that the event Male is composed of four elemental possibilities, M = BGM+BGM+B'GM+B'G'M; therefore,
 
-{M|&} = {BGM|&}+{BG'M|&}+{B'GM|&}+{B'G'M|&}
-= 0.032+0.112+0.336+0.072
-= 0.552.
+$$\textsf{P}(M \, |\, \mathcal{E}) = \textsf{P}(BGM \, |\, \mathcal{E})+\textsf{P}(BG^cM \, |\, \mathcal{E})+\textsf{P}(B^cGM \, |\, \mathcal{E})+\textsf{P}(B^cG^cM \, |\, \mathcal{E})\\
+= 0.032+0.112+0.36+0.072
+= 0.552.$$
 
 Thus implicit in your probability assignments of Figure 1-23 is the assignment of probability 0.552 to the event that the next person entering the room in this situation will be a Male.
 
@@ -477,16 +477,16 @@ Suppose that your real purpose all along had been to assign this probability. Su
 
 #### 1.2.8.4 Expanding the Conversation
 
-Suppose we have the distinction A discussed above, with typical level Aᵢ, and that we wish to assign the probability {Aᵢ|&}. If we find it easier to think about Aᵢ by introducing another distinction B with typical level Bⱼ, then we could draw a probability tree in the order B-A and obtain the probability of Aᵢ by adding the probabilities of the elemental possibilities that constitute the compound event Aᵢ in this tree,
+Suppose we have the distinction A discussed above, with typical level Aᵢ, and that we wish to assign the probability $\textsf{P}(Aᵢ \, |\, \mathcal{E})$. If we find it easier to think about Aᵢ by introducing another distinction B with typical level Bⱼ, then we could draw a probability tree in the order B-A and obtain the probability of Aᵢ by adding the probabilities of the elemental possibilities that constitute the compound event Aᵢ in this tree,
 
-{Aᵢ|&} = Σⱼ{AᵢBⱼ|&} = Σⱼ{Bⱼ|&}{Aᵢ|Bⱼ&}.
+$$\textsf{P}(Aᵢ \, |\, \mathcal{E}) = \Sigma_i\textsf{P}(AᵢBⱼ \, |\, \mathcal{E}) = \Sigma_j\textsf{P}(Bⱼ \, |\, \mathcal{E})$$\textsf{P}(Aᵢ \, |\, Bⱼ, \mathcal{E})$$.
 
 This result is equivalent to applying the chain rule to compute each of the elemental probabilities and then summing them over the possible levels of B.
 
 If we wish to introduce the further distinction C with typical level Cₖ, then we would write,
 
-{Aᵢ|&} = ΣⱼΣₖ{AᵢBⱼCₖ|&})
-= ΣⱼΣₖ{Cₖ|&}{Bⱼ|Cₖ&}{Aᵢ|BⱼCₖ&}.
+$$\textsf{P}(Aᵢ \, |\, \mathcal{E}) = \Sigma_j\Sigma_k\textsf{P}(AᵢBⱼCₖ \, |\, \mathcal{E}))
+= \Sigma_j\Sigma_k\textsf{P}(Cₖ \, |\, \mathcal{E})\textsf{P}(Bⱼ \, |\, Cₖ, \mathcal{E})\textsf{P}(Aᵢ \, |\, BⱼCₖ, \mathcal{E})$$.
 
 Here we have introduced two distinctions B and C into the discussion, computed the elemental probabilities using the chain rule, and then summed over all elemental possibilities contained in the compound possibility Aᵢ to obtain the probability we desire. We use this general method of introducing new distinctions into the conversation in virtually every application of decision analysis.
 
@@ -512,37 +512,37 @@ We shall now show how to compute the probability tree corresponding to this rele
 
 *Figure 1-26. Reordered Probability Tree for Three Distinctions*
 
-Our first step in creating the probability assignments is to record at the appropriate endpoints the elemental probabilities from the probability tree of Figure 1-23. Thus, the path MB'G in Figure 1-26 has a probability 0.336 since it is the probability of the endpoint B'GM in Figure 1-23. With all elemental probabilities properly recorded, we can begin to compute the conditional probabilities in the tree. For example, look at the node MB where the division into the two distinctions G and G' occurs. The probability of arriving at this point must be the sum of the probabilities of the the two elemental possibilities MBG and MBG' or 0.032+0.112 = 0.144. Thus the amount of certainty at the point MB to be divided between the distinctions G and G' is 0.144. In other words, the probability of MB = {MB|&} = 0.144. We record this in an oval adjacent to the node to show that this is the probability of arriving at that point in the tree.
+Our first step in creating the probability assignments is to record at the appropriate endpoints the elemental probabilities from the probability tree of Figure 1-23. Thus, the path $MB^cG$ in Figure 1-26 has a probability 0.336 since it is the probability of the endpoint $B^cGM$ in Figure 1-23. With all elemental probabilities properly recorded, we can begin to compute the conditional probabilities in the tree. For example, look at the node MB where the division into the two distinctions $G$and $G^c$ occurs. The probability of arriving at this point must be the sum of the probabilities of the the two elemental possibilities $MBG$ and $MBG^c$ or $0.032+0.112 = 0.144$. Thus the amount of certainty at the point $MB$ to be divided between the distinctions $G$ and $G^c$ is 0.144. In other words, the probability of $MB = \textsf{P}(MB \, |\, \mathcal{E}) = 0.144$. We record this in an oval adjacent to the node to show that this is the probability of arriving at that point in the tree.
 
 ##### 1.2.9.2.1 Node Probabilities
 
-We call such a probability a node probability; it is the probability that would be recorded as an elemental probability if the tree did not continue to further distinctions. The node probability {MB|&} = 0.144 would be an elemental probability for the tree of Figure 1-26 if it did not have College Graduate as a third distinction. Similarly we compute the node probabilities {MB'|&} = 0.408, {FB|&} = 0.056, and {FB'|&} = 0.392, as shown in Figure 1-26. We repeat the process one stage to the left by computing the probability of the node M as 0.552, the sum of the node probabilities for node MB and node MB' or 0.144+0.408. A similar computation produces 0.448 for the node probability of the node F. All the node probabilities are shown in ovals adjacent to the nodes.
+We call such a probability a node probability; it is the probability that would be recorded as an elemental probability if the tree did not continue to further distinctions. The node probability $\textsf{P}(MB \, |\, \mathcal{E}) = 0.144$ would be an elemental probability for the tree of Figure 1-26 if it did not have College Graduate as a third distinction. Similarly we compute the node probabilities $\textsf{P}(MB^c \, |\, \mathcal{E}) = 0.408$, $\textsf{P}(FB \, |\, \mathcal{E}) = 0.056$, and $\textsf{P}(FB^c \, |\, \mathcal{E}) = 0.392$, as shown in Figure 1-26. We repeat the process one stage to the left by computing the probability of the node M as 0.552, the sum of the node probabilities for node $MB$ and node $MB^c$ or $0.144+0.408$. A similar computation produces 0.448 for the node probability of the node F. All the node probabilities are shown in ovals adjacent to the nodes.
 
 ##### 1.2.9.2.2 Computing Conditional Probabilities from Node Probabilities
 
-Once we have the node probabilities at all nodes, the conditional probability at any branch is computed by dividing the node probability at the end of the branch by the sum of the node probabilities following all branches of this distinction. We can begin in any part of the tree that we like. For example, to find the conditional probability of B given M, we write {B|M&} = 0.144÷0.552 = 0.261, as shown in the tree. To compute the probability of G given F and B', we write {G|FB'&} = 0.224÷0.392 = 0.571. Of course, for the M-F distinction the conditional probabilities are the node probabilities. We see that it is a simple mechanical procedure to change the order of any probability tree and, consequently, of any relevance diagram. In professional settings, the computations are automatically performed by computers.
+Once we have the node probabilities at all nodes, the conditional probability at any branch is computed by dividing the node probability at the end of the branch by the sum of the node probabilities following all branches of this distinction. We can begin in any part of the tree that we like. For example, to find the conditional probability of B given M, we write $\textsf{P}(B \, |\, M, \mathcal{E}) = 0.144÷0.552 = 0.261$, as shown in the tree. To compute the probability of $G$ given $F$ and $B^c$, we write $\textsf{P}(G \, |\, FB^c, \mathcal{E}) = 0.224÷0.392 = 0.571$. Of course, for the M-F distinction the conditional probabilities are the node probabilities. We see that it is a simple mechanical procedure to change the order of any probability tree and, consequently, of any relevance diagram. In professional settings, the computations are automatically performed by computers.
 
 ##### 1.2.9.2.3 Assessing Relevance
 
-Now that we have the probability assignments for the tree in Figure 1-26, let us examine them in some detail. We note, for example, that {G|MB&} = 0.222 and {G|FB&} = 0.143. From either Figure 1-16 or Figure 1-23 we know that {G|B&} = 0.2. This means that you have assigned the probability of College Graduate given Beer Drinker as 0.2 in the absence of any additional information. However, if you are told, in addition, that the person is a Male, you will increase that probability to 0.222 and if you were told that the person is a Female, you will decrease it to 0.143. This shows the relevance of Sex to College Graduate when the person is known to be a Beer Drinker. We can, thus, readily determine the inferential value of any piece of information.
+Now that we have the probability assignments for the tree in Figure 1-26, let us examine them in some detail. We note, for example, that $\textsf{P}(G \, |\, MB, \mathcal{E}) = 0.222$ and $\textsf{P}(G \, |\, FB, \mathcal{E}) = 0.143$. From either Figure 1-16 or Figure 1-23 we know that $\textsf{P}(G \, |\, B, \mathcal{E}) = 0.2$. This means that you have assigned the probability of College Graduate given Beer Drinker as 0.2 in the absence of any additional information. However, if you are told, in addition, that the person is a Male, you will increase that probability to 0.222 and if you were told that the person is a Female, you will decrease it to 0.143. This shows the relevance of Sex to College Graduate when the person is known to be a Beer Drinker. We can, thus, readily determine the inferential value of any piece of information.
 
 ### 1.2.10 Computing the Probability of Any Set of Distinctions Given Any Information Represented by Distinctions
 
-We have said that a probability tree is sufficient to compute the probability of any set of distinctions given any other set of distinctions as long as all distinctions are represented in the tree. Let us compute the probability that the person is a college graduate given that he is a male, {G|M&}, from the probability tree of Figure 1-26.
+We have said that a probability tree is sufficient to compute the probability of any set of distinctions given any other set of distinctions as long as all distinctions are represented in the tree. Let us compute the probability that the person is a college graduate given that he is a male, $\textsf{P}(G \, |\, M, \mathcal{E})$, from the probability tree of Figure 1-26.
 
 #### 1.2.10.1 Reordering the Tree
 
-We could, of course, reorder the tree in the order College Graduate–Sex–Beer Drinker and simply read the probability {G|M&} at the second layer. This procedure should now be clear. It will always work, but sometimes smaller computations are adequate.
+We could, of course, reorder the tree in the order College Graduate–Sex–Beer Drinker and simply read the probability $\textsf{P}(G \, |\, M, \mathcal{E})$ at the second layer. This procedure should now be clear. It will always work, but sometimes smaller computations are adequate.
 
 #### 1.2.10.2 Using the Chain Rule and Selected Node Probabilities
 
-For example, if we wish to work using the tree in Figure 1-26, we have a choice of methods. First we recall from our chain rule discussion that {GM|&} = {M|&}{G|M&}, and hence that the probability we seek is given by {G|M&} = {GM|&}/{M|&}. From the tree we can compute the probability {GM|&} as the sum of {MBG|&} and {MB'G|&}; or 0.032+0.336 = 0.368; the probability of M, {M|&}, is 0.552 as shown. Hence {G|M&} = 0.368/0.552 = 0.667. You have assigned a probability of about two-thirds that if a Male enters the room he will be a College Graduate.
+For example, if we wish to work using the tree in Figure 1-26, we have a choice of methods. First we recall from our chain rule discussion that $\textsf{P}(GM \, |\, \mathcal{E})$ = $\textsf{P}(M \, |\, \mathcal{E})$$\textsf{P}(G \, |\, M, \mathcal{E})$, and hence that the probability we seek is given by $\textsf{P}(G \, |\, M, \mathcal{E})$ = $\textsf{P}(GM \, |\, \mathcal{E})$/$\textsf{P}(M \, |\, \mathcal{E})$. From the tree we can compute the probability $\textsf{P}(GM \, |\, \mathcal{E})$ as the sum of $\textsf{P}(MBG \, |\, \mathcal{E})$ and $\textsf{P}(MB^cG \, |\, \mathcal{E})$; or $0.032+0.336 = 0.368$; the probability of M, $\textsf{P}(M \, |\, \mathcal{E})$, is 0.552 as shown. Hence $\textsf{P}(G \, |\, M, \mathcal{E}) = 0.368/0.552 = 0.667$. You have assigned a probability of about two-thirds that if a Male enters the room he will be a College Graduate.
 
 #### 1.2.10.3 Recognizing a Conditioned Probability Tree
 
 Another way to compute this same probability is to consider the portion of the probability tree in Figure 1-26 that follows the branch M to be a probability tree that is already conditioned on the person being a Male. Within this tree we can then ask what is the probability that the person is a College Graduate. This is just the probability of traversing the remaining branches BG or B'G, or $(0.261)(0.222) + (0.739)(0.824) = 0.667$, the same result.
 
-We may also be interested in the probability that if a Female enters the room she will be a College Graduate, {G|F&}. By any of the methods we have discussed we obtain the result of about 0.52, as you may wish to check. Thus, the probability assignments you have made indicate that in this situation the probability that the next person entering the room will be a College Graduate is higher if the person is Male than if she is Female.
+We may also be interested in the probability that if a Female enters the room she will be a College Graduate, $\textsf{P}(G \, |\, F, \mathcal{E})$. By any of the methods we have discussed we obtain the result of about 0.52, as you may wish to check. Thus, the probability assignments you have made indicate that in this situation the probability that the next person entering the room will be a College Graduate is higher if the person is Male than if she is Female.
 
 ### 1.2.11 Probability Trees with Several Degrees of Distinction
 
@@ -564,9 +564,9 @@ Note that this tree implies a probability of the event College Graduate, G = G3+
 
 The existence of multiple degrees of distinctions will allow us to refine the definition of relevance we used for simple distinctions. Consider a distinction named A with m degrees A₁, A₂, ..., Aₘ and a distinction named B with n degrees of distinction B₁, B₂, ..., Bₙ. Then A is said to be relevant to B if for at least one degree of distinction Aᵢ and at least one degree of distinction Bⱼ,
 
-{Bⱼ|Aᵢ&} ≠ {Bⱼ|&}.
+$$\textsf{P}(Bⱼ \, |\, Aᵢ, \mathcal{E}) ≠ \textsf{P}(Bⱼ \, |\, \mathcal{E})$$.
 
-To show that if A is relevant to B, then B is relevant to A, consider one such pair Aᵢ and Bⱼ. Let Aᵢ be our earlier simple distinction E, and all other degrees of distinction of A be E'. Similarly, let Bⱼ be our earlier simple distinction F, and all other degrees of distinction of B be F'. Then by our earlier proof since {F|E&} ≠ {F|&}, then {E|F&} ≠ {E|&}. Therefore, {Aᵢ|Bⱼ&} ≠ {Aᵢ|&}, and we have shown that for multiple degrees of distinction, if one distinction is relevant to another, then the second is relevant to the first.
+To show that if A is relevant to B, then B is relevant to A, consider one such pair Aᵢ and Bⱼ. Let Aᵢ be our earlier simple distinction E, and all other degrees of distinction of A be E'. Similarly, let Bⱼ be our earlier simple distinction F, and all other degrees of distinction of B be F'. Then by our earlier proof since $\textsf{P}(F \, |\, E, \mathcal{E})$ ≠ $\textsf{P}(F \, |\, \mathcal{E})$, then $\textsf{P}(E \, |\, F, \mathcal{E})$ ≠ $\textsf{P}(E \, |\, \mathcal{E})$. Therefore, $\textsf{P}(Aᵢ \, |\, Bⱼ, \mathcal{E})$ ≠ $\textsf{P}(Aᵢ \, |\, \mathcal{E})$, and we have shown that for multiple degrees of distinction, if one distinction is relevant to another, then the second is relevant to the first.
 
 We must note that even if one multi-degree distinction is relevant to another multi-degree distinction, then it is possible that knowing about the occurrence of one degree of the first distinction may tell you nothing about the occurrence of a particular degree of the second distinction. However, this knowledge must tell you something about the occurrence of some degree of the second distinction.
 
@@ -580,19 +580,20 @@ We have shown at each endpoint the dollar winnings you will receive from the bet
 
 #### 1.2.12.1 Probability Distributions
 
-Although the tree contains all information we have on the probabilities to be assigned to different measure values, there is a more convenient way to describe the information. We can construct a graph that shows for each possible value of the measure, the probability of achieving that value. We call this graph a probability distribution. For every possible value of the measure m we construct a bar whose height is the probability that that value will be attained. We give this distribution the notation {m|&} and call it the probability distribution on m given your background information &. The probability distribution on dollar winnings, d, for this problem, appears as Figure 1-30.
+Although the tree contains all information we have on the probabilities to be assigned to different measure values, there is a more convenient way to describe the information. We can construct a graph that shows for each possible value of the measure, the probability of achieving that value. We call this graph a probability distribution. For every possible value of the measure m we construct a bar whose height is the probability that that value will be attained. We give this distribution the notation $\textsf{P}(m \, |\, \mathcal{E})$ and call it the probability distribution on m given your background information $\mathcal{E}$. The probability distribution on dollar winnings, d, for this problem, appears as Figure 1-30.
 
-*Figure 1-30. Probability Distribution of Dollar Winnings {d|&}*
+
+*Figure 1-30. Probability Distribution of Dollar Winnings $\textsf{P}(d \, |\, \mathcal{E})$*
 
 The probability distribution is a much more compact and informative representation of the probabilities assigned to d than is the tree. We can see just by looking at it that more of your certainty lies to the right of 0 than to the left. This means that you are more likely to win the bet than you are to lose it. However, the probability of 0.62 at 0 shows that most likely result is that no money will change hands.
 
 #### 1.2.12.2 Cumulative Probability Distributions
 
-An alternate representation of the probabilities assigned to a measure is the cumulative probability distribution, which shows the probability that the measure will take on any value less than or equal to a specified number. For any specified number c, the cumulative probability that m will be less than or equal to c is, in our notation, {m≤c|c&}.
+An alternate representation of the probabilities assigned to a measure is the cumulative probability distribution, which shows the probability that the measure will take on any value less than or equal to a specified number. For any specified number c, the cumulative probability that m will be less than or equal to c is, in our notation, $\textsf{P}(m≤c \, |\, c, \mathcal{E})$.
 
-The cumulative probability distribution {d≤c|c&}.on dollar winnings, d, is shown in Figure 1-31.
+The cumulative probability distribution $\textsf{P}(d≤c \, |\, c, \mathcal{E})$.on dollar winnings, d, is shown in Figure 1-31.
 
-*Figure 1-31. Cumulative Probability Distribution of Dollar Winnings {d≤c|c&}*
+*Figure 1-31. Cumulative Probability Distribution of Dollar Winnings $\textsf{P}(d≤c \, |\, c, \mathcal{E})$*
 
 To construct the cumulative distribution, we begin at the left side. For numbers less than -300, there is no chance that the dollar winnings will be less than or equal to such a number; therefore the height of the cumulative distribution is 0. For numbers between -300 and -200, the probability that the winnings will be less than or equal to such a number will be 0.01, just the chance of losing $300. For numbers between -200 and -100 the probability of winnings less than or equal to such a number is 0.03, the sum of the probabilities of losing $200 and of losing $300.
 
@@ -600,11 +601,11 @@ We see that what we are generating is a staircase. Steps occur where there are b
 
 #### 1.2.12.3 Excess Probability Distributions
 
-Sometimes it is more convenient to talk about the probability that the value of a measure will exceed any specified number rather than be less than or equal to it. We call the probability distribution defined in this way an excess probability distribution. For any number, c, the excess probability distribution on a measure m shows the probability that m will be greater than c; in our notation, {m>c|c&}.
+Sometimes it is more convenient to talk about the probability that the value of a measure will exceed any specified number rather than be less than or equal to it. We call the probability distribution defined in this way an excess probability distribution. For any number, c, the excess probability distribution on a measure m shows the probability that m will be greater than c; in our notation, $\textsf{P}(m>c \, |\, c, \mathcal{E})$.
 
-Figure 1-32 shows the excess probability distribution {d>c|c&} on dollar winnings d.
+Figure 1-32 shows the excess probability distribution $\textsf{P}(d>c \, |\, c, \mathcal{E})$ on dollar winnings d.
 
-*Figure 1-32. Excess Distribution of Dollar Winnings {d≥c|c&}*
+*Figure 1-32. Excess Distribution of Dollar Winnings $\textsf{P}(d≥c \, |\, c, \mathcal{E})$*
 
 The probability that you will win more than any amount less than -$300 is 1. The probability that you will win more than -$300 is 0.99; the probability that you will win more than -$200 is 0.97. Note that what we have constructed is a staircase in the opposite direction. The excess distribution starts at the left at 1 and falls anywhere there is a bar in the probability distribution by an amount equal to the height of that bar.
 
@@ -622,7 +623,7 @@ Figure 1-33 adds a second measure called car wash winnings, w, to Figure 1-29.
 
 Whenever you lose money you must wash the other person's car; when you win money you get your car washed. The probability distribution of the measure car wash winnings appears in Figure 1-34.
 
-*Figure 1-34. Probability Distribution of Car Wash Winnings {w|&}*
+*Figure 1-34. Probability Distribution of Car Wash Winnings $\textsf{P}(w \, |\, \mathcal{E})$*
 
 Since you win money whenever you get your car washed, the probability of 0.28 for the value w = 1 is your probability of winning money shown by the height of the excess probability distribution of Figure 1-32 at the value 1.
 
@@ -630,9 +631,9 @@ Since you win money whenever you get your car washed, the probability of 0.28 fo
 
 We can also construct a joint probability distribution on both dollar winnings and car wash winnings as shown in the three dimensional plot of Figure 1-35.
 
-*Figure 1-35. Joint Probability Distribution of Dollar Winnings and Car Wash Winnings {d,w|&}*
+*Figure 1-35. Joint Probability Distribution of Dollar Winnings and Car Wash Winnings $\textsf{P}(d,w \, |\, \mathcal{E})$*
 
-Here for every point in the d,w plane described by dollar winnings and car wash winnings, we construct a bar whose height is the probability, that this combination of values will be attained. Our notation for this joint probability distribution is {d,w|&}. We can also define joint cumulative and joint excess distributions when necessary.
+Here for every point in the $d,w$ plane described by dollar winnings and car wash winnings, we construct a bar whose height is the probability, that this combination of values will be attained. Our notation for this joint probability distribution is $\textsf{P}(d,w \, |\, \mathcal{E})$. We can also define joint cumulative and joint excess distributions when necessary.
 
 ### 1.2.13 Using the Characterization Language
 
