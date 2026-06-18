@@ -1,3 +1,9 @@
+---
+layout: page
+title: Foundations of Decision Analysis — Table of Contents
+nav_exclude: true
+---
+
 # Decision Analysis																									:1
 ## Table of Contents																								:13
 # 1 Possibilities and Probabilities																					:24
