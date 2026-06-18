@@ -25,7 +25,6 @@ WELCOME TO THE COURSE! PLEASE MAKE SURE TO READ SYLLABUS
 
 | Milestone | Date |
 |:----------|:-----|
-| Elicitation exercise due | Mon, Jun 29 |
 | Team project proposal due | Mon, Jul 6 |
 | Midterm (in class) | Wed, Jul 22 |
 | Draft project submission | Wed, Jul 29 |
