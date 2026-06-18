@@ -1,23 +1,27 @@
+---
+layout: page
+title: References, readings, and other resources
+nav_exclude: true
+description: Required readings, recommended texts, videos, and bibliography.
+---
+
 # References, readings, and other resources
 
 ## I. Required Readings
 
- See the class [website:](https://stanford-msande152.github.io/summer26/)
 
 1. Ron Howard, "Decision Analysis Manuscript in Progress",   revisions for MZS&E 152. 
 2. Ross Shachter "Evaluating Influence Diagrams", _Operations Research_, Vol. 34, No. 6. (Nov. - Dec., 1986), pp. 871-882.
 3. Ronald A. Howard "On Fates Comparable to Death",  **Management Science** , Apr., 1984, Vol. 30, No. 4, Risk Analysis (Apr., 1984), pp. 407-422 Published by: INFORMS Stable URL: https://www.jstor.org/stable/2631429.  Also in RODA. 
 
-_Lecture notes will be posted and distributed after each class section_
 
 ## II. Optional recommended texts
 
-1. Ali Abbas "Foundations of Decision Analysis" 
-2. D Heckerman, "Heckerthoughts" https://arxiv.org/abs/2302.05449.  
-3. R. Howard, C. Korver "Ethics for the Real World" (2008) Harvard Business Press. 
-4. R. Howard & J. Matheson "Readings in Decision Analysis ("The Blue Book" - RODA)  (1983) SDG - Vol 1&2 
-5. Blickstein "Probability"
-
+1. J.K. Blitzstein, J. Hwang (2015)"Introduction to Probability" CRC Press.
+2. D. Heckerman, "Heckerthoughts" https://arxiv.org/abs/2302.05449.  
+3. R. Howard, Ali Abbas (2016) "Foundations of Decision Analysis" Pearson
+4. R. Howard, C. Korver (2008) "Ethics for the Real World"  Harvard Business Press. 
+5. R. Howard & J. Matheson (1983) "Readings in Decision Analysis ("The Blue Book" - RODA)  SDG - Vol 1&2 
 
 ### III. Videos
 
@@ -39,7 +43,7 @@ Consider these of equal value to the required readings.
 
 ## IV. Bibliography
 
-Primary sources
+Primary sources and fundamental literature for Decision Analysis
 ### A. Decision Theory
 
 1. A. Abbas (2018)"Foundations of Multiattribute Utility",  Cambridge University Press.
@@ -61,6 +65,9 @@ Primary sources
 
 1. A. Darwiche (2009) "Modeling and Reasoning with Bayesian Networks" Cambridge. 
 
+### D. Psychology of choice
+
+1. Kahneman, D. (2011). "Thinking, fast and slow." Farrar, Straus and Giroux.
 
 ### E. Decision Quality
 
@@ -90,33 +97,5 @@ M. Lewis (2017) "The Undoing Project" Norton.
 
 A. Abbas, (2023) "Ethical Decision Quality: Building an Ethical Decision Culture" eBook, [Bradford, UK] : Ethics International Press. 
 
-### D. Risk
-
-
-#### Articles
-### Review of The Art of "Uncertainty"
- Yongyi Min *How to navigate uncertainty in an unpredictable world*
- 
-@article{spiegelhalter2025books,
-  title={Books \& arts},
-  author={Spiegelhalter, David},
-  journal={Nature},
-  volume={637},
-  pages={785},
-  year={2025}
-}
-
-### "Understanding uncertainty"
-
-misc{spiegelhalter2008understanding,
-  title={Understanding uncertainty},
-  author={Spiegelhalter, David J},
-  journal={The Annals of Family Medicine},
-  volume={6},
-  number={3},
-  pages={196--197},
-  year={2008},
-  publisher={The Annals of Family Medicine}
-}
-
-
+### Risk
+A. D. Spiegelhalter, "Quantifying uncertainty"  in Layla Skinns,et al. Eds. "Risk" (2011) Cambridge University Press.

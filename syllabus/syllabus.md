@@ -1,19 +1,10 @@
----
-layout: page
-title: Syllabus
-description: Course policies, grading, and logistics.
-nav_order: 3
----
 
-# Syllabus MS&E 152 Summer 2026
-
-** Introduction to Decision Analysis** · Stanford University · 4 units
+#Syllabus 
 
 ## Course Links
+[Canvas](https://canvas.stanford.edu/courses/228284)
 
-* [Canvas](https://canvas.stanford.edu/courses/228284) 
-* [Ed Discussion](https://edstem.org) 
-* [Course Website](https://stanford-msande152.github.io/summer26/)
+[website](https://stanford-msande152.github.io/summer26/)
 
 ## Course Description
 Decision Analysis is an application of Decision Theory to making good decisions when outcomes are uncertain.  It applies to practical problems in engineering, organizations, and even one's personal life.  It is a principled, quantitative approach that draws upon theory in Economics, Applied Probability, and Psychology.  These principles of rational choice extend to  applications that combine individual judgment with quantitative, data-driven modeling techniques.
@@ -24,8 +15,8 @@ This course will develop skills in structuring and solving problems through inte
 As this is an Engineering course, ability in high-school level mathematics and spreadsheets is needed. A background in probability is helpful. Co-registration in an introductory probability course is appropriate for students with no previous study. Basic software or programming (e.g. python notebooks) experience is entirely optional. 
 
 #### Pre-course assignment
-- Review your understanding of basic probability with the [probability refresher](/summer26/probability_refresher_MSE152/).
-- Watch [this TED talk](https://www.youtube.com/watch?v=-gqNOmdvwiI) on the value of improving personal decision making.
+* Review your understanding of basic probability with the provided review exercise.
+* Watch [this TED talk](https://www.youtube.com/watch?v=-gqNOmdvwiI) on the value of improving personal decision making
 
 ## Course Learning Objectives
 By virtue of taking this course you should: 
@@ -36,21 +27,18 @@ By virtue of taking this course you should:
 5) Be skilled in how one can assist others by the process of Decision Analysis and application of the principles of Decision Quality. 
 
 ## Teaching Team
+- _Instructor:_ John Mark Agosta Ph.D., Lecturer,  jmagosta@stanford.edu. \
+Room: Huang 261, 
+650 465-4707
+- _Teaching Assistant:_ Uluk Batyrgaliev, ubtrglv@stanford.edu 
 
-| Role | Name | Contacts | Location |
-|:-----|:-----|:---------|:---------|
-| Instructor | [John Mark Agosta, Ph.D.](/summer26/staff/) | [jmagosta@stanford.edu](mailto:jmagosta@stanford.edu)<br>650 465-4707 | Huang 261 |
-| Teaching Assistant | [Uluk Batyrgaliev](/summer26/staff/) | [ubtrglv@stanford.edu](mailto:ubtrglv@stanford.edu) | Zoom |
 
 ## Class Hours
-
-The course runs for eight weeks (Jun 22 – Aug 13, 2026), with two lecture sessions and one disscussion section per week.
-
-- **Lectures:** Mon/Wed, 10:30 AM–12:30 PM · [Y2E2 111](http://campus-map.stanford.edu/?srch=Y2E2+111)
-- **Discussion Section:** Thu, 3:00–4:15 PM · [Y2E2 111](http://campus-map.stanford.edu/?srch=Y2E2+111)
-- **Office Hours:** On days following lectures, after lunchtime.
-
-Lectures and discussion sections will not be recorded. Lecture notes will be posted on the course website after each session.
+The course runs for eight weeks, with two lecture sessions per week. 
+_Lectures_: Mon, Wed 10:30 AM - 12:30 PM at [Y2E2 111](http://campus-map.stanford.edu/?srch=Y2E2+111), 06/22/2026 - 08/13/2026
+*Discussion Section:*  Thursday 3:00-4;15 PM at  [Y2E2 111](http://campus-map.stanford.edu/?srch=Y2E2+111)
+*Office Hours:*  On days following lectures, after lunchtime. 
+Lectures and discussion sections will not be recorded. I will try to post the session's lecture notes after each lecture. 
 
 **Discussion and Office Hours** The best way to communicate is in person, after lecture or during office hours. Real-time meetings are more efficient, more effective, and more fun. Discussion sections will offer of help with the course material. Be sure to bring your laptop!  You will need to attend some discussion sessions where you will be asked to explain how you solved one of your previous homework problems. 
 
@@ -64,14 +52,16 @@ All online forum discussions will take place using **Ed Discussion Platform**.  
 
 As with any college level course, you will be expected to read the required course material for each lecture before attending the class. The class schedule shows the assignments of videos, required and optional readings for each class. 
 
-- **Course Notes (primary):**The textbook for the course consists of excerpts, with revisions, from Professor Howard’s draft manuscript, [Foundations of Decision Analysis](/summer26/lit/manuscript/Howard_manuscript/)
-- **Optional Textbook:** Students desiring a comprehensive source on Decision Analysis can instead purchase the book of the same title:
+_Textbook_: The textbook for the course consists of excerpts, with revisions, from Professor Howard’s draft manuscript, **Foundations of Decision Analysis**, which will be available on the class website. 
+
+_Optional Textbook_: Students desiring a comprehensive source on Decision Analysis can instead purchase the book of the same title:
 R. Howard  and A. Abbas, (2016) **Foundations of Decision Analysis**, Pearson.
 It can also be found among the books on reserve for the class in the Terman Engineering Library.
-- **Videos and Supplemental Readings:** There are video links to `youtube` recordings that are an gentle way to familiarize yourself with class content.  For those interested in pursuing subjects in depth there will be optional further readings of interest distributed online, and on library reserve. 
 
-- **Software:** 
-Students should be familiar with the use of Canvas, as the "top level" portal for the course. We will use it for announcements, links to other sites, as well as for homework submission and tracking grades. However all class material such as readings and lecture notes, homework guides will be distributed as files, downloadable on the class website. 
+_Videos and Supplemental Readings_: There are video links to `youtube` recordings that are an gentle way to familiarize yourself with class content.  For those interested in pursuing subjects in depth there will be optional further readings of interest distributed online, and on library reserve. 
+
+*Software:* 
+Students should be familiar with the use of Canvas, as the "top level" portal for the course. We will use it for announcements, links to other sites, online discussions, as well as for homework submission and tracking grades. However all class material such as readings and lecture notes will be distributed as files, downloadable on the class website. 
 
 Occasionally we may distribute via the class website python notebooks or scripts to illustrate points made in lecture. 
 
@@ -95,18 +85,17 @@ We realize that there will a wide range of backgrounds and education levels in a
 
 Lectures will be in person only. Class participation is important. Since there are interactive class activities students are expected to attend class sessions to the greatest extent possible. Please **DO NOT** register for this course if you have a recurring conflict with the lecture times.  Attending in person is encouraged through our participation policy.
 
-## Course Grading
+
+## Course grading scheme
 
 The course grading scheme is designed to encourage students to keep up with  
 the course content in a timely manner, and to participate in class sessions in person to the extent possible. Please **DO NOT** register for this course if you have a recurring conflict with the lecture times.
 
-| Component | Weight |
-|:----------|:-------|
-| 7 Homeworks (2 pts each) | 14% |
-| 15 Quizzes (2 pts each) | 30% |
-| Midterm | 16% |
-| Group Project | 30% |
-| Class Participation & Attendance | 10% |
+- **7 Homeworks: (2 pts @ = 14%):** Assigned weekly 
+- **15 Quizzes (2 pts @ = 30%):** Given at the beginning of each class. 
+- **Midterm (16%):** Given in class
+- **Project (30%):** A group decision analysis project
+- **Class Participation and Attendance** **(10%)**
 
 **Grading Exceptions** 
 
@@ -116,7 +105,7 @@ the course content in a timely manner, and to participate in class sessions in p
 
 #### Accommodations
 
-If you have a letter from the _Office of Accessible Education_ that grants extra time or modified test-taking conditions, [fill out the form with your letter attached](https://forms.gle/fbKkNysaeK2MrpED6).
+If you have a letter from the _Office of Accessible Education_ that grants extra time or modified test-taking conditions, send your letter to us and we will accommodate your needs on the midterm exam.
 To get started, or to initiate services if you do not have such a letter, please visit [oae.stanford.edu](https://oae.stanford.edu/). Other extensions on assignments will be granted only with an academic accommodation letter from the Office of Accessible Education, generally for medical reasons, or in other such exceptional circumstances. Requests due to job interviews, athletic competitions, other classes and assignments, and poor planning will not be considered.
 
 **Honor Code**
