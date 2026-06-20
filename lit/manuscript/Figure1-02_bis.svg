@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: visioncortex VTracer 0.6.12 -->
+
+<svg
+   version="1.1"
+   width="1876"
+   height="530"
+   id="svg2264"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2268" />
+  <path
+     d="M0,0 L10,0 L17,4 L20,10 L20,12 L15,12 L12,7 L7,5 L-1,6 L-4,7 L-6,12 L-7,20 L-5,28 L-1,32 L7,33 L13,30 L16,22 L5,22 L5,18 L21,18 L21,37 L17,37 L15,34 L11,37 L8,38 L0,38 L-8,34 L-12,27 L-13,18 L-11,9 L-5,2 Z "
+     fill="#000000"
+     transform="translate(1030,28)"
+     id="path2256" />
+  <path
+     d="M0,0 L307,1 L307,5 L3,6 L-124,133 L-119,144 L-118,148 L-118,160 L-122,171 L-124,175 L3,302 L307,303 L307,307 L-1,307 L-128,180 L-133,182 L-140,185 L-155,185 L-165,180 L-172,172 L-176,163 L-177,158 L-177,150 L-174,139 L-168,131 L-160,125 L-150,122 L-140,123 L-130,128 L-126,126 Z M-154,127 L-162,131 L-169,139 L-172,146 L-173,156 L-171,165 L-165,174 L-160,178 L-153,181 L-141,181 L-133,177 L-125,168 L-122,159 L-122,149 L-125,140 L-134,130 L-141,127 Z "
+     fill="#000000"
+     transform="translate(880,102)"
+     id="path2258" />
+  <path
+     d="M0,0 L10,0 L17,4 L20,10 L20,12 L15,12 L12,7 L7,5 L-1,6 L-4,7 L-6,12 L-7,20 L-5,28 L-1,32 L7,33 L13,30 L16,22 L5,22 L5,18 L21,18 L21,37 L17,37 L15,34 L11,37 L8,38 L0,38 L-8,34 L-12,27 L-13,18 L-11,9 L-5,2 Z "
+     fill="#000000"
+     transform="translate(1038,444)"
+     id="path2260" />
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="1060.5"
+     y="458"
+     id="text3478"><tspan
+       id="tspan3476"
+       x="1060.5"
+       y="458">C</tspan></text>
+</svg>

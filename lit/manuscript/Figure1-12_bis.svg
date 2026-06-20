@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: visioncortex VTracer 0.6.12 -->
+
+<svg
+   version="1.1"
+   width="1876"
+   height="538"
+   id="svg46809"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs46813" />
+  <path
+     d="M0,0 L20,0 L25,4 L26,11 L23,17 L27,21 L28,27 L25,33 L19,36 L0,36 Z M5,4 L5,15 L18,15 L21,12 L21,7 L18,4 Z M5,19 L5,32 L18,32 L23,27 L22,22 L18,19 Z "
+     fill="#000000"
+     transform="translate(1018,24)"
+     id="path46789" />
+  <path
+     d="M0,0 L8,0 L14,5 L16,12 L16,23 L13,31 L9,35 L7,36 L0,36 L-6,31 L-8,26 L-8,10 L-4,2 Z M1,4 L-3,9 L-4,21 L-2,29 L1,32 L8,31 L11,25 L11,11 L9,6 L7,4 Z "
+     fill="#000000"
+     transform="translate(789,58)"
+     id="path46791" />
+  <path
+     d="M0,0 L11,0 L16,5 L17,7 L17,13 L13,19 L0,27 L-2,31 L17,31 L17,35 L-7,35 L-6,27 L-1,22 L8,16 L10,16 L11,8 L9,5 L2,5 L-1,8 L-2,12 L-7,12 L-5,4 Z "
+     fill="#000000"
+     transform="translate(830,58)"
+     id="path46793" />
+  <path
+     d="M0,0 L5,0 L5,5 L0,5 Z "
+     fill="#000000"
+     transform="translate(811,88)"
+     id="path46795" />
+  <path
+     d="M0,0 L315,0 L315,5 L3,6 L-24,33 L-32,40 L-61,69 L-69,76 L-99,106 L-107,113 L-127,133 L-126,137 L-122,147 L-122,160 L-125,169 L-127,174 L-118,183 L-110,190 L-99,201 L-91,208 L-81,218 L-73,225 L-62,236 L-54,243 L-43,254 L-35,261 L-25,271 L-17,278 L-6,289 L2,296 L4,298 L315,299 L315,303 L0,303 L-8,296 L-19,285 L-27,278 L-38,267 L-46,260 L-57,249 L-65,242 L-75,232 L-83,225 L-94,214 L-102,207 L-113,196 L-121,189 L-131,179 L-135,180 L-143,184 L-146,185 L-160,185 L-170,181 L-179,173 L-184,163 L-185,158 L-185,149 L-181,138 L-175,130 L-165,124 L-157,122 L-149,122 L-139,125 L-134,128 L-130,126 L-118,115 L-90,87 L-82,80 L-52,50 L-44,43 L-14,13 L-6,6 Z M-155,126 L-164,128 L-173,134 L-179,143 L-181,152 L-180,161 L-175,171 L-167,178 L-159,181 L-148,181 L-138,177 L-133,173 L-127,163 L-126,159 L-126,149 L-129,140 L-137,131 L-146,127 Z "
+     fill="#000000"
+     transform="translate(880,93)"
+     id="path46797" />
+  <path
+     d="M0,0 L8,0 L14,5 L16,12 L16,23 L13,31 L9,35 L7,36 L0,36 L-6,31 L-8,26 L-8,10 L-4,2 Z M1,4 L-3,9 L-4,21 L-2,29 L1,32 L8,31 L11,25 L11,11 L9,6 L7,4 Z "
+     fill="#000000"
+     transform="translate(789,386)"
+     id="path46799" />
+  <path
+     d="M0,0 L10,0 L15,5 L16,10 L13,15 L15,19 L17,22 L17,28 L13,34 L9,36 L1,36 L-5,33 L-7,30 L-7,21 L-3,16 L-6,12 L-6,6 L-2,1 Z M1,4 L-1,6 L-1,12 L1,14 L8,14 L11,11 L10,6 L8,4 Z M3,18 L-2,21 L-3,26 L0,31 L2,32 L8,32 L12,28 L12,22 L9,19 Z "
+     fill="#000000"
+     transform="translate(830,386)"
+     id="path46801" />
+  <path
+     d="M0,0 L5,0 L5,5 L0,5 Z "
+     fill="#000000"
+     transform="translate(811,416)"
+     id="path46803" />
+  <path
+     d="M0,0 L20,0 L25,4 L26,11 L23,17 L27,21 L28,27 L25,33 L19,36 L0,36 Z M5,4 L5,15 L18,15 L21,12 L21,7 L18,4 Z M5,19 L5,32 L18,32 L23,27 L22,22 L18,19 Z "
+     fill="#000000"
+     transform="translate(1027,436)"
+     id="path46805" />
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="1060.3317"
+     y="446.04227"
+     id="text6687-32"><tspan
+       id="tspan6685-8"
+       x="1060.3317"
+       y="446.04227">C</tspan></text>
+</svg>

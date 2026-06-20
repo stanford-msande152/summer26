@@ -47,6 +47,7 @@ Primary sources and fundamental literature for Decision Analysis
 ### A. Decision Theory
 
 1. A. Abbas (2018)"Foundations of Multiattribute Utility",  Cambridge University Press.
+#. M. H. DeGroot (1970) "Optimal Statistical Decisions", McGraw Hill. 
 2. S. French, (1988). "Decision Theory: An Introduction to the Mathematics of Rationality", Ellis Horwood Limited.
 3. D. V. Lindley, (1985). "Making decisions (2nd ed.)". John Wiley & Sons.
 4. R. L. Keeney, (1992). "Value-Focused Thinking: A Path to Creative Decision making", Harvard University Press.
@@ -78,71 +79,23 @@ C. Spetzler, H. Winter, J. Meyer, "Decision Quality: Value Creation from Better 
 
 E. Borgonovoa , Victor Richmond R. Jose, Ross Shachter, Johannes Ulrich Siebert, Morgan Knowlton, Canan Ulu, (2025) "Fifty years of decision analysis in operational research: A review", European Journal of Operational Research, 329, pp.355-377.
 
-### B. Probability 
+### B. Psychology of Choice 
 
 N. Taleb, "Fooled by Randomness"
 
-Neil "Noise" (other previous works)
+D. Kahneman, O. Sibony, C.R. Sunstein, (2021) "Noise" Little, Brown Spark.
 
-Spiegelhalter, "The Art of Uncertainty"
+D. Kahneman, () "Thinking Fast, Thinking Slow"
 
-THe Undoing Projectf
+L. Skinns, M. Scott, T. Cox Eds. (2011) "Risk" Cambridge.
+
+D. Spiegelhalter, (2024) "The Art of Uncertainty: How to Navigate Chance, Ignorance, Risk, and Luck" Norton.   Not available in the Stanford Libraries. 
+
+M. Lewis (2017) "The Undoing Project" Norton.
 
 ### C. Decision Quality
 
 A. Abbas, (2023) "Ethical Decision Quality: Building an Ethical Decision Culture" eBook, [Bradford, UK] : Ethics International Press. 
 
 ### Risk
-A. D. Spiegelhalter, "Quantifying uncertainty"  in Layla Skinns,et al. Eds. "Risk" (2011) Cambridge University Press. 
-
-Call number: HM1101 .R548 2011
-Stanford library request
-Book (2011)
-
-- [Skinns, Layla](https://searchworks.stanford.edu/catalog?q=%22Skinns%2C+Layla%22&search_field=search_author), contributor
-- [Scott, Michael, 1981-](https://searchworks.stanford.edu/catalog?q=%22Scott%2C+Michael%2C+1981-%22&search_field=search_author), contributor
-- [Cox, Tony, 1941-](https://searchworks.stanford.edu/catalog?q=%22Cox%2C+Tony%2C+1941-%22&search_field=search_author), contributor
-
-- 1. Introduction Layla Skinns, Michael Scott and Tony Cox
-- 2. Quantifying uncertainty David Spiegelhalter
-- 3. Decisions, risk and the brain John P. O'Doherty
-- 4. Risk and government: the architectonics of blame avoidance Christopher Hood
-- 5. Risk and the humanities: alea iacta est Mary Beard
-- 6. Terrorism and counterterrorism: what is at risk? Lucia Zedner
-- 7. Risk and natural catastrophes: the long view Mark Bailey
-- 8. Risk in the context of (human-induced) climate change Robert Watson.
-- (source: Nielsen Book Data)
-
-Recent events from the economic downturn to climate change mean that there has never been a better time to be thinking about and trying to better understand the concept of risk. In this book, prominent and eminent speakers from fields as diverse as statistics to classics, neuroscience to criminology, politics to astronomy, as well as speakers embedded in the media and in government, have put their ideas down on paper in a series of essays that broaden our understanding of the meaning of risk. The essays come from the prestigious Darwin College Lecture Series which, after twenty-five years, is one of the most popular public lecture series at the University of Cambridge. The risk lectures in 2010 were amongst the most popular yet and, in essay form, they make for a lively and engaging read for specialists and non-specialists alike.  
-(source: Nielsen Book Data)
-
-[](https://searchworks.stanford.edu/view/9398354)
-
-
-#### Articles
-### Review of The Art of "Uncertainty"
- Yongyi Min *How to navigate uncertainty in an unpredictable world*
- 
-@article{spiegelhalter2025books,
-  title={Books \& arts},
-  author={Spiegelhalter, David},
-  journal={Nature},
-  volume={637},
-  pages={785},
-  year={2025}
-}
-
-### "Understanding uncertainty"
-
-misc{spiegelhalter2008understanding,
-  title={Understanding uncertainty},
-  author={Spiegelhalter, David J},
-  journal={The Annals of Family Medicine},
-  volume={6},
-  number={3},
-  pages={196--197},
-  year={2008},
-  publisher={The Annals of Family Medicine}
-}
-
-
+A. D. Spiegelhalter, "Quantifying uncertainty"  in Layla Skinns,et al. Eds. "Risk" (2011) Cambridge University Press.
