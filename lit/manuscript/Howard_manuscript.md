@@ -67,26 +67,14 @@ The question of whether the event is usefully defined as well as clearly defined
 
 With this definition of Beer Drinker, we can depict the distinction of Beer Drinker by a diagram like Figure 1-1, called a possibility tree.
 
-```
-    B
-    |
-    |
-    B'
-```
-
+![](Figure1-01_bis.svg)
 *Figure 1-1. The Possibilities Represented by the Distinction Beer Drinker, B*
 
 Here we show a small tree with one branch representing the event "Beer Drinker" and denoted by $B$ and another branch representing the event "not a Beer Drinker" and represented by $B^c$ or "B complement". This diagram shows that we are considering two possibilities for the next person entering the room. That he or she will be a Beer Drinker and that he or she will not be a Beer Drinker.
 
 Of course, being a Beer Drinker is not the only distinction we might make about the next person entering the room. Another might be whether he or she is a college graduate, an event we denote by G. After some thought we might agree that a clear definition of the distinction College Graduate is that the person be on the list of graduates of institutions that are accredited institutions providing two or more years of college education. If we further specified the accreditation agencies, then we would be even more sure that we had achieved clarity. Figure 1-2 shows the corresponding tree.
 
-```
-    G
-    |
-    |
-    G'
-```
-
+![](Figure1-02_bis.svg)
 *Figure 1-2. The Possibilities Represented by the Distinction College Graduate, G*
 
 The next person entering the room will either be a College Graduate or will not be by this definition.
@@ -95,16 +83,8 @@ The next person entering the room will either be a College Graduate or will not 
 
 Most decisions require possibilities composed of several events or kinds of distinction. For example, you might be interested in whether the next person entering the room is both a Beer Drinker and a College Graduate or a Beer Drinker and not a College Graduate etc. A tree diagram representing these multiple kinds of distinctions is shown in Figure 1-3.
 
-```
-      B
-     / \
-    B'  G
-       / \
-      G'  BG
-          |
-         BG'
-```
 
+![](Figure1-03_bis.svg)
 *Figure 1-3. The Possibilities Represented by the Distinctions Beer Drinker, B, and College Graduate, G*
 
 The order of this tree indicates that we are first going to think about whether the person is a Beer Drinker and then whether the person is a College Graduate.
@@ -143,12 +123,14 @@ Figure 1-3 shows the possibility tree where we have first thought about the dist
          GB' = B'G
 ```
 
+![](Figure1-04_bis.svg)
 *Figure 1-4. The Possibilities Represented by the Distinction College Graduate, G, Followed by the Distinction Beer Drinker, B*
 
 Note that this tree has the same elemental possibilities as that of Figure 1-3, but that the middle two elemental probabilities are switched in order in Figure 1-4. We also note that the order of letters in the notation for each endpoint is immaterial. The event of both a College Graduate and a Beer Drinker is the same as the event of both a Beer Drinker and a College Graduate.
 
 If we draw Figure 1-4 from right to left, then we can put it in the form of Figure 1-5 which shows clearly that the same endpoints are produced by both trees.
 
+![](Figure1-05_bis.svg)
 *Figure 1-5. Construction to Show that the Same Possibilities Exist Regardless of Tree Order*
 
 ### 1.1.12 Many Kinds of Distinction
@@ -157,6 +139,7 @@ We can introduce as many kinds of distinction as we like. For example, in a disc
 
 The possibility tree for these three distinctions appears as Figure 1-6.
 
+![](Figure1-06_bis.svg)
 *Figure 1-6. Result of Adding the Distinction of Sex*
 
 There are now eight elemental possibilities represented by the tree: $BGM$, $BGF$, $BG^cM$, etc. For example, the elemental possibility $B^cG^cF$ represents the situation where the next person entering the room is a female who is not a Beer Drinker and not a College Graduate. In this possibility tree the compound possibility Male Beer Drinker could be represented by a collection of two elemental possibilities and denoted by BGM+BG'M. Thus, adding a kind of distinction does not prevent us from representing any compound possibility that could have been represented without it.
@@ -171,12 +154,14 @@ We need not limit ourselves to creating simple dichotomies for each kind of dist
 
 Suppose you believe that higher education is associated with less beer drinking, and that your companion disagrees. The disagreement has resulted in a bet about the next person entering the room. In defining the bet you may wish to deal with more than simply whether the next person entering the room is a Beer Drinker. You may want to distinguish three different levels of beer consumption, which we might denote by $B_1$, $B_2$, and $B_3$. Define $B_1$ as the event that the person is a light beer drinker, drinking no more than 50 quarts of beer per year; $B_2$, the event that the person is a medium beer drinker who drinks more than 50 quarts of beer per year but not more than 150 quarts per year; and $B_3$, the event that the person is a heavy beer drinker who consumes more than 150 quarts of beer per year. Thus every person who might enter the room can be characterized by one of the three events, $B_1$, $B_2$, or $B_3$. Figure 1-7 represents a possibility tree showing these three degrees of distinction for drinking beer.
 
+![](Figure1-07_bis.svg)
 *Figure 1-7. Three Degrees of Distinction for Drinking Beer*
 
 #### 1.1.13.2 Degrees of Distinction for Education
 
 In constructing our bet about beer drinking and education, we might also wish to create more degrees of distinction than simply whether the person was a College Graduate. Let us create four degrees of distinction for education, $G_1$ , $G_2$ , $G_3$ , and $_4_$. $G_1$  is the event that the person has completed no more than grade school; $G_2$ , the event that the person has completed more than grade school but no more than high school; $G_3$ , the event that the person has completed more than high school, but no more than undergraduate college; and G₄, the event that the person has completed more than undergraduate college. Figure 1-8 shows the corresponding possibility tree for the kind of distinction education and with the four degrees or levels of distinction that we have specified.
 
+![](Figure1-08_bis.svg)
 *Figure 1-8. Four Degrees of Distinction for Level of Education*
 
 In creating the different degrees of distinction for both beer drinking and education we must assure that the clarity test has been passed.
@@ -185,6 +170,7 @@ In creating the different degrees of distinction for both beer drinking and educ
 
 In constructing the bet we will want to consider all the elemental possibilities generated by the two kinds of distinctions we have defined. Figure 1-9 shows the possibility tree that results.
 
+![](Figure1-09_bis.svg)
 *Figure 1-9. Possibility Tree with Multiple Degrees of Distinction for Two Kinds of Distinction*
 
 This tree shows the twelve elemental possibilities that we can distinguish, ranging from $B_1G_1$, the light beer drinker who has completed no more than grade school, to $B_3G_4$, the heavy beer drinker who has completed more than undergraduate college. In general, the number of elemental possibilities in a possibility tree is the product of the number of degrees of distinction of each kind; in this case, 3x4.
@@ -197,6 +183,7 @@ As with possibility trees composed of simple distinctions, possibility trees wit
 
 The introduction of several degrees of distinction of one kind is a useful, but not necessary generalization of the notion of simple distinctions or dichotomies that we have discussed. Several degrees of distinction of one kind can always be represented by several simple distinctions. For example, in our discussion of the amount of beer drinking, we could define two simple distinctions. The first distinction L represents a light beer drinker, a person who drinks no more than 50 quarts of beer per year. The second distinction H represents a heavy beer drinker, a person who drinks more than 150 quarts of beer per year. Figure 1-10 shows that the possibility tree generated by these two simple distinctions creates four elemental possibilities, $LH, LH^c, L^cH$, and $L^cH^c$.
 
+![Multiple Degrees](Figure1-10_bis.svg)
 *Figure 1-10. Multiple Degrees of Distinction Represented by Simple Distinctions*
 
 The figure shows that the elemental possibility $L^cH^c$ is the degree of distinction $B_2$. The elemental possibility $L^cH$ is the degree of distinction $B_3$. Finally, the elemental possibility $LH$ and $LH^c$ or $LH\cup LH^c$ represents the degree of distinction $B_1$. Here we note that $LH$ is an elemental possibility that cannot occur because L and H as defined are mutually exclusive events. Therefore $B_1 = LH^c$, $B_2 = L^cH^c$, and $B_3 = L^cH$. The three degrees of distinction have been interpreted in terms of simple dichotomies. This procedure of introducing dichotomies can be used repeatedly to allow any kind of distinction with multiple degrees to be represented by simple distinctions.
@@ -209,6 +196,7 @@ The specific bet is this: You will win \$300 if the next person entering the roo
 
 The possibility tree with a measure representing your payoff from the bet is shown in Figure 1-11.
 
+![Tree with Measure](Figure1-11_bis.svg)
 *Figure 1-11. Possibility Tree with a Measure*
 
 We see that six of the elemental possibilities will yield no exchange of money, and that the others will have the payoffs we discussed.
@@ -235,6 +223,7 @@ The answer to this question depends on our general personal experience—everyth
 
 You can describe the likelihood that the next person entering the room will be a beer drinker by dividing your certainty between the two possibilities Beer Drinker, $B$ and not a Beer Drinker, $B^c$. If, all things considered, you think it is four times as likely that the person will not be a Beer Drinker as be one, then you must divide your certainty in the ratio 1 to 4 between the two possibilities. Since you only have one unit of certainty, this means that you must place a fraction 0.2 on the possibility Beer Drinker and 0.8 on the possibility not a Beer Drinker. Figure 1-12 shows this division.
 
+![Beer Drinker](Figure1-12_bis.svg)
 *Figure 1-12. Division of Certainty on the Distinction Beer Drinker, B*
 
 The number 0.2 has been written adjacent to the upper branch and the number 0.8 adjacent to the lower branch. We call these two numbers probabilities. We say that the probability that the next person entering the room will be a beer drinker given the state of information represented by your total experience is 0.2.
@@ -245,6 +234,7 @@ Our notation for this statement is $\textsf{P}(B \, |\, \mathcal{E}) = 0.2$. The
 
 You might also wish to describe what you know about whether the next person entering the room will be a College Graduate by dividing your certainty between the two possibilities G and $G^c$ as shown in Figure 1-13.
 
+![Division of Certainty](Figure1-13_bis.svg)
 *Figure 1-13. Division of Certainty on the Distinction College Graduate, G*
 
 Here you have assigned a probability $0.6$ to the event College Graduate; $\textsf{P}(G \, |\, \mathcal{E}) = 0.6$; therefore, you have assigned $\textsf{P}(G^c \, |\, \mathcal{E}) = 0.4$. Thus you have divided your certainty between the two possibilities $G$ and $G^c$ in the ratio of 3 to 2.
@@ -253,12 +243,14 @@ Here you have assigned a probability $0.6$ to the event College Graduate; $\text
 
 The main rule of the probability game is that there is one unit of certainty to be divided among all the degrees of distinction. If we had several degrees of distinction for drinking beer, such as the three degrees of Figure 1-7, then the numbers on all branches must add to 1. Figure 1-14 shows the division of certainty you might have among the three distinctions $B_1$, $B_2$, $B_3$.
 
+![Three Degrees(Figure1-14_bis.svg)
 *Figure 1-14. Division of Certainty Over Three Degrees of Distinction for Drinking Beer*
 
 A probability 0.7 is assigned to $B_1$, 0.2 to $B_2$, and 0.1 to $B_3$. This assignment says that since $\textsf{P}(B_1 \, |\, \mathcal{E})$ = 0.7 and $\textsf{P}(B_3 \, |\, \mathcal{E})$ = 0.1, then the next person entering the room is, in your opinion, seven times as likely to be someone who drinks less than 50 quarts of beer per year as to be a person who drinks more than 150 quarts of beer per year.
 
 If you wished to use the more refined levels of education we have previously defined, then you might divide your certainty as shown in Figure 1-15.
 
+![Four Degrees](Figure1-15_bis.svg)
 *Figure 1-15. Division of Certainty Over Four Degrees of Distinction for Level of Education*
 
 Since the event $G = G_3 \cup G_4$, the two branches corresponding to $G_3$ and $G_4$ in the figure must receive a total of 60 percent of your certainty. The probability assignment 0.1, 0.3, 0.5, 0.1, to $G_1$, $G_2$, $G_3$, $G_4$ is consistent with your beliefs as expressed in Figure 1-13. Since $\textsf{P}(G_3 \, |\, \mathcal{E}) = 0.5$, you see it as likely as not that the person has an undergraduate degree, but no higher degree.
@@ -267,6 +259,7 @@ Since the event $G = G_3 \cup G_4$, the two branches corresponding to $G_3$ and 
 
 The purpose of the Beer Drinker and College Graduate distinctions was to discuss the connection between being a beer drinker and being a college graduate. To represent your beliefs about these distinctions, you attach probabilities to the possibility tree of Figure 1-3 to obtain the probability tree of Figure 1-16.
 
+![Probability Tree](Figure1-16_bis.svg)
 *Figure 1-16. Probability Tree: Division of Certainty by Two Successive Distinctions*
 
 The beginning of the tree shows your division of certainty according to the probabilities of 0.2 and 0.8 on the events $B$ and $B^c$, as in Figure 1-12. But now we must consider further division of your certainty. The $B$ branch of the tree represents the possibility that you know that the person is a Beer Drinker. If you knew this were true, how would you then split your certainty between the events College Graduate and not a College Graduate, G and $G^c$? Figure 1-16 indicates that in this case you would split your certainty in the ratio 1 to 4 and hence assign a probability 0.2 to the person's being a College Graduate and 0.8 to the person's not being a College Graduate. Similarly, the split following the branch $B^c$ shows that you would assign a probability of 0.7 to the person's being a College Graduate and 0.3 to the person's not being a College Graduate if you knew that the person was not a Beer Drinker.
@@ -289,6 +282,7 @@ The probability tree you have created in Figure 1-16 shows that you think there 
 
 We can answer this question by reversing the order of the distinctions as we did in the possibility tree of Figure 1-4. Remember that reversing the order of distinctions creates the same elemental possibilities. The reversed possibility tree has the order College Graduate – Beer Drinker and is shown in Figure 1-17.
 
+![Reversing Order](Figure1-17_bis.svg)
 *Figure 1-17. Reversing the Order of Distinctions in a Probability Tree*
 
 ##### 1.2.3.1.1 Copying the Elemental Probabilities
@@ -324,6 +318,9 @@ We cannot emphasize too strongly that relevance rests on your state of informati
 #### 1.2.4.3 Mutual Relevance
 
 If event E is relevant to event F, is event F relevant to event $E$? Sometimes? Always? Never? After reflecting on the question, take a look at Figure 1-18.
+
+![Mutual Relevance](Figure1-18_bis.svg)
+
 
 *Figure 1-18. Proof that if One Distinction is Relevant to a Second, the Second is Relevant to the First*
 
@@ -363,7 +360,7 @@ Therefore, we have proved that if one simple distinction is relevant to another,
 
 Another way of expressing relevance is to say that if E is relevant to F, then $\textsf{P}(F \, |\, E, \mathcal{E})$ ≠ $\textsf{P}(F \, |\, \mathcal{E})$. The probability you assign to F given that E occurs is different from the probability you would assign to F if you had no knowledge of E. In our tree this would require,
 
-```
+```math
 a/(a+b) ≠ (a+c)/(a+b+c+d)
 
 aa + ab + ac + ad ≠ aa + ab + ac + bc
@@ -455,17 +452,19 @@ The probability assignments for the first two distinctions Beer Drinker and Coll
 
 #### 1.2.8.1 Generating Elemental Probabilities
 
-The eight elemental possibilities represented by the endpoints of this tree have probabilities obtained by multiplying the branch probabilities along the path that leads to each endpoint. For example, the elemental possibility $BG^cM$ referring to a Beer Drinker –non-College Graduate–Male has probability $\textsf{P}(BG^cM \, |\, \mathcal{E})$ = 0.112 = $\textsf{P}(B \, |\, \mathcal{E})$$\textsf{P}(G^c \, |\, B, \mathcal{E})$$\textsf{P}(M \, |\, BG^c, \mathcal{E})$. Notice the pattern in generating this elemental probability. It is composed of the probability of the first distinction times the probability of the second distinction given the first times the probability of the third distinction given the first and second. We shall find it useful to place this result in general form.
+The eight elemental possibilities represented by the endpoints of this tree have probabilities obtained by multiplying the branch probabilities along the path that leads to each endpoint. For example, the elemental possibility $BG^cM$ referring to a Beer Drinker –non-College Graduate–Male has probability $\textsf{P}(BG^cM \, |\, \mathcal{E}) = 0.112 = \textsf{P}(B \, |\, \mathcal{E})\textsf{P}(G^c \, |\, B, \mathcal{E})\textsf{P}(M \, |\, BG^c, \mathcal{E})$. Notice the pattern in generating this elemental probability. It is composed of the probability of the first distinction times the probability of the second distinction given the first times the probability of the third distinction given the first and second. We shall find it useful to place this result in general form.
 
 #### 1.2.8.2 The Chain Rule for Distinctions
 
-Suppose that we have many distinctions A, B, C and several degrees of distinction any one of which we designate by Aᵢ, Bⱼ, and Cₖ. Then in accordance with our visualization of the probability tree, we can write for the probability of the elemental possibility Aᵢ,BⱼCₖ,
+Suppose that we have many distinctions A, B, C and several degrees of distinction any one of which we designate by $A_i,   B_j$, and $C_k$. Then in accordance with our visualization of the probability tree, we can write for the probability of the elemental possibility $A_iB_jC_k$,
 
-$$\textsf{P}(Aᵢ Bⱼ Cₖ \, |\, \mathcal{E}) = \textsf{P}(Aᵢ \, |\, \mathcal{E})\textsf{P}(Bⱼ \, |\, Aᵢ, \mathcal{E})\textsf{P}(Cₖ \, |\, Aᵢ Bⱼ, \mathcal{E})$$.
+$$\textsf{P}(A_i   B_j C_k \, |\, \mathcal{E}) = \textsf{P}(A_i \, |\, \mathcal{E})\textsf{P}(  B_j \, |\, A_i, \mathcal{E})\textsf{P}(C_k \, |\, A_i   B_j, \mathcal{E})$$
 
-We call this the chain rule for distinctions. The chain rule shows how to compute the probability of any elemental possibility as the product of conditional probabilities. Since the tree that generates the elemental possibility AᵢBⱼCₖ could be drawn in any of the six possible orders we discussed, the chain rule for three events can be written in six possible ways. For example, this elemental probability is also given by,
 
-$$\textsf{P}(AᵢBⱼCₖ \, |\, \mathcal{E}) = \textsf{P}(Cₖ \, |\, \mathcal{E})\textsf{P}(Aᵢ \, |\, Cₖ, \mathcal{E})\textsf{P}(Bⱼ \, |\, AᵢCₖ, \mathcal{E})$$.
+We call this the chain rule for distinctions. The chain rule shows how to compute the probability of any elemental possibility as the product of conditional probabilities. Since the tree that generates the elemental possibility $A_iB_jC_k$ could be drawn in any of the six possible orders we discussed, the chain rule for three events can be written in six possible ways. For example, this elemental probability is also given by,
+
+$$\textsf{P}(A_i  B_jC_k \, |\, \mathcal{E}) = \textsf{P}(C_k \, |\, \mathcal{E})\textsf{P}(A_i \, |\, C_k, \mathcal{E})\textsf{P}(  B_j \, |\, A_iC_k, \mathcal{E})$$
+
 
 We shall soon have more to say about probability tree reordering.
 
@@ -474,8 +473,7 @@ We shall soon have more to say about probability tree reordering.
 The probability of any compound event can be obtained by adding the probabilities of the elemental possibilities of which it is composed. Thus, if we wish to find the probability that the next person entering the room will be a Male using the probability tree in Figure 1-23, we note that the event Male is composed of four elemental possibilities,$ M = BGM \cup BGM \cup B^cGM \cup B^cG^cM$; therefore,
 
 $$\textsf{P}(M \, |\, \mathcal{E}) = \textsf{P}(BGM \, |\, \mathcal{E})+\textsf{P}(BG^cM \, |\, \mathcal{E})+\textsf{P}(B^cGM \, |\, \mathcal{E})+\textsf{P}(B^cG^cM \, |\, \mathcal{E})\\
-= 0.032+0.112+0.36+0.072
-= 0.552.$$
+= 0.032+0.112+0.36+0.072 = 0.552.$$
 
 Thus implicit in your probability assignments of Figure 1-23 is the assignment of probability 0.552 to the event that the next person entering the room in this situation will be a Male.
 
@@ -483,18 +481,19 @@ Suppose that your real purpose all along had been to assign this probability. Su
 
 #### 1.2.8.4 Expanding the Conversation
 
-Suppose we have the distinction A discussed above, with typical level Aᵢ, and that we wish to assign the probability $\textsf{P}(Aᵢ \, |\, \mathcal{E})$. If we find it easier to think about Aᵢ by introducing another distinction $B$ with typical level Bⱼ, then we could draw a probability tree in the order B-A and obtain the probability of Aᵢ by adding the probabilities of the elemental possibilities that constitute the compound event Aᵢ in this tree,
+Suppose we have the distinction A discussed above, with typical level $A_i$, and that we wish to assign the probability $\textsf{P}(A_i \, |\, \mathcal{E})$. If we find it easier to think about $A_i$ by introducing another distinction $B$ with typical level $  B_j$, then we could draw a probability tree in the order B-A and obtain the probability of $A_i$ by adding the probabilities of the elemental possibilities that constitute the compound event $A_i$ in this tree,
 
-$$\textsf{P}(Aᵢ \, |\, \mathcal{E}) = \Sigma_i\textsf{P}(AᵢBⱼ \, |\, \mathcal{E}) = \Sigma_j\textsf{P}(Bⱼ \, |\, \mathcal{E})$$\textsf{P}(Aᵢ \, |\, Bⱼ, \mathcal{E})$$.
+$$\textsf{P}(A_i \, |\, \mathcal{E}) = \Sigma_i\textsf{P}(A_i B_j \, |\, \mathcal{E}) = 
+\Sigma_j\textsf{P}( B_j \, |\, \mathcal{E})$$\textsf{P}(A_i \, |\,  B_j, \mathcal{E})$$
 
 This result is equivalent to applying the chain rule to compute each of the elemental probabilities and then summing them over the possible levels of B.
 
-If we wish to introduce the further distinction C with typical level Cₖ, then we would write,
+If we wish to introduce the further distinction C with typical level $C_k$, then we would write,
 
-$$\textsf{P}(Aᵢ \, |\, \mathcal{E}) = \Sigma_j\Sigma_k\textsf{P}(AᵢBⱼCₖ \, |\, \mathcal{E}))
-= \Sigma_j\Sigma_k\textsf{P}(Cₖ \, |\, \mathcal{E})\textsf{P}(Bⱼ \, |\, Cₖ, \mathcal{E})\textsf{P}(Aᵢ \, |\, BⱼCₖ, \mathcal{E})$$.
+$$\textsf{P}(A_i \, |\, \mathcal{E}) = \Sigma_j\Sigma_k\textsf{P}(A_i B_jC_k \, |\, \mathcal{E})) =\\
+\Sigma_j\Sigma_k\textsf{P}(C_k \, |\, \mathcal{E})\textsf{P}( B_j \, |\, C_k, \mathcal{E})\textsf{P}(A_i \, |\,  B_jC_k, \mathcal{E})$$
 
-Here we have introduced two distinctions $B$ and C into the discussion, computed the elemental probabilities using the chain rule, and then summed over all elemental possibilities contained in the compound possibility Aᵢ to obtain the probability we desire. We use this general method of introducing new distinctions into the conversation in virtually every application of decision analysis.
+Here we have introduced two distinctions $B$ and C into the discussion, computed the elemental probabilities using the chain rule, and then summed over all elemental possibilities contained in the compound possibility $A_i$ to obtain the probability we desire. We use this general method of introducing new distinctions into the conversation in virtually every application of decision analysis.
 
 ### 1.2.9 Relevance Diagrams
 
@@ -542,7 +541,7 @@ We could, of course, reorder the tree in the order College Graduate–Sex–Beer
 
 #### 1.2.10.2 Using the Chain Rule and Selected Node Probabilities
 
-For example, if we wish to work using the tree in Figure 1-26, we have a choice of methods. First we recall from our chain rule discussion that $\textsf{P}(GM \, |\, \mathcal{E})$ = $\textsf{P}(M \, |\, \mathcal{E})$$\textsf{P}(G \, |\, M, \mathcal{E})$, and hence that the probability we seek is given by $\textsf{P}(G \, |\, M, \mathcal{E})$ = $\textsf{P}(GM \, |\, \mathcal{E})$/$\textsf{P}(M \, |\, \mathcal{E})$. From the tree we can compute the probability $\textsf{P}(GM \, |\, \mathcal{E})$ as the sum of $\textsf{P}(MBG \, |\, \mathcal{E})$ and $\textsf{P}(MB^cG \, |\, \mathcal{E})$; or $0.032+0.336 = 0.368$; the probability of M, $\textsf{P}(M \, |\, \mathcal{E})$, is 0.552 as shown. Hence $\textsf{P}(G \, |\, M, \mathcal{E}) = 0.368/0.552 = 0.667$. You have assigned a probability of about two-thirds that if a Male enters the room he will be a College Graduate.
+For example, if we wish to work using the tree in Figure 1-26, we have a choice of methods. First we recall from our chain rule discussion that $\textsf{P}(GM \, |\, \mathcal{E}) = \textsf{P}(M \, |\, \mathcal{E})\textsf{P}(G \, |\, M, \mathcal{E})$, and hence that the probability we seek is given by $\textsf{P}(G \, |\, M, \mathcal{E}) = \textsf{P}(GM \, |\, \mathcal{E})$/$\textsf{P}(M \, |\, \mathcal{E})$. From the tree we can compute the probability $\textsf{P}(GM \, |\, \mathcal{E})$ as the sum of $\textsf{P}(MBG \, |\, \mathcal{E})$ and $\textsf{P}(MB^cG \, |\, \mathcal{E})$; or $0.032+0.336 = 0.368$; the probability of $M$, $\textsf{P}(M \, |\, \mathcal{E})$, is 0.552 as shown. Hence $\textsf{P}(G \, |\, M, \mathcal{E}) = 0.368/0.552 = 0.667$. You have assigned a probability of about two-thirds that if a Male enters the room he will be a College Graduate.
 
 #### 1.2.10.3 Recognizing a Conditioned Probability Tree
 
@@ -568,11 +567,11 @@ Note that this tree implies a probability of the event College Graduate, $G = G_
 
 #### 1.2.11.2 Multi-degree Relevance
 
-The existence of multiple degrees of distinctions will allow us to refine the definition of relevance we used for simple distinctions. Consider a distinction named A with m degrees A₁, A₂, ..., Aₘ and a distinction named $B$ with n degrees of distinction B₁, B₂, ..., Bₙ. Then A is said to be relevant to $B$ if for at least one degree of distinction Aᵢ and at least one degree of distinction Bⱼ,
+The existence of multiple degrees of distinctions will allow us to refine the definition of relevance we used for simple distinctions. Consider a distinction named A with m degrees $A_1$, $A_2$, ..., $A_m$ and a distinction named $B$ with $n$ degrees of distinction $B_1$, $B_2$, ..., $B_n$. Then A is said to be relevant to $B$ if for at least one degree of distinction $A_i$ and at least one degree of distinction  $ B_j$,
 
-$$\textsf{P}(Bⱼ \, |\, Aᵢ, \mathcal{E}) ≠ \textsf{P}(Bⱼ \, |\, \mathcal{E})$$.
+$$\textsf{P}(  B_j \, |\, A_i, \mathcal{E}) \ne \textsf{P}(  B_j \, |\, \mathcal{E})$$
 
-To show that if A is relevant to B, then $B$ is relevant to A, consider one such pair Aᵢ and Bⱼ. Let Aᵢ be our earlier simple distinction E, and all other degrees of distinction of A be $E^c$. Similarly, let Bⱼ be our earlier simple distinction F, and all other degrees of distinction of $B$ be F'. Then by our earlier proof since $\textsf{P}(F \, |\, E, \mathcal{E})$ ≠ $\textsf{P}(F \, |\, \mathcal{E})$, then $\textsf{P}(E \, |\, F, \mathcal{E})$ ≠ $\textsf{P}(E \, |\, \mathcal{E})$. Therefore, $\textsf{P}(Aᵢ \, |\, Bⱼ, \mathcal{E})$ ≠ $\textsf{P}(Aᵢ \, |\, \mathcal{E})$, and we have shown that for multiple degrees of distinction, if one distinction is relevant to another, then the second is relevant to the first.
+To show that if A is relevant to B, then $B$ is relevant to A, consider one such pair $A_i$ and $  B_j$. Let $A_i$ be our earlier simple distinction E, and all other degrees of distinction of A be $E^c$. Similarly, let $  B_j$ be our earlier simple distinction F, and all other degrees of distinction of $B$ be $F^c$. Then by our earlier proof since $\textsf{P}(F \, |\, E, \mathcal{E}) \ne \textsf{P}(F \, |\, \mathcal{E})$, then $\textsf{P}(E \, |\, F, \mathcal{E}) \ne \textsf{P}(E \, |\, \mathcal{E})$. Therefore, $\textsf{P}(A_i \, |\,   B_j, \mathcal{E}) \ne \textsf{P}(A_i \, |\, \mathcal{E})$, and we have shown that for multiple degrees of distinction, if one distinction is relevant to another, then the second is relevant to the first.
 
 We must note that even if one multi-degree distinction is relevant to another multi-degree distinction, then it is possible that knowing about the occurrence of one degree of the first distinction may tell you nothing about the occurrence of a particular degree of the second distinction. However, this knowledge must tell you something about the occurrence of some degree of the second distinction.
 
@@ -651,13 +650,13 @@ Problem: A deck of two red cards and two blue cards is fairly shuffled and then 
 
 *Thinking Time*
 
-Most people answer that the probability of both cards being red is one-half, some people say one-quarter. We apply our characterization analysis as follows. First we construct the possibility tree. We create two distinctions. The first distinction is the color of the first card turned up. The first card turned up may be red, R₁, or blue, B₁. The second distinction is the color of the second card turned up. The second card can be red, R₂ or blue, B₂. The events in Figure 1-36 constitute the possibility tree for this situation.
+Most people answer that the probability of both cards being red is one-half, some people say one-quarter. We apply our characterization analysis as follows. First we construct the possibility tree. We create two distinctions. The first distinction is the color of the first card turned up. The first card turned up may be red, $R_1$, or blue, $B_1$. The second distinction is the color of the second card turned up. The second card can be red, $R_2$ or blue, $B_2$. The events in Figure 1-36 constitute the possibility tree for this situation.
 
 *Figure 1-36. Probability Tree for a Card Problem*
 
-There are four elemental possibilities, R₁R₂, that both cards turned up will be red, B₁R₂, that the first card turned up will be blue and the second card turned up will be red, etc. Note that every possible result of turning up the cards is described by an elemental possibility. Next we change the possibility tree into a probability tree by assigning probabilities to the possibilities. Since there are two cards of each color the first card turned up is equally likely to be red or blue, and we assign probability 1/2 to each of the two possibilities.
+There are four elemental possibilities, $R_1R_2$, that both cards turned up will be red, $B_1R_2$, that the first card turned up will be blue and the second card turned up will be red, etc. Note that every possible result of turning up the cards is described by an elemental possibility. Next we change the possibility tree into a probability tree by assigning probabilities to the possibilities. Since there are two cards of each color the first card turned up is equally likely to be red or blue, and we assign probability 1/2 to each of the two possibilities.
 
-Then we assign the conditional probability to the result of the second card turned up given the result of the first card. If the first card turned up was red, then the remaining face down cards are one red card and two blue cards; the probability of a red card is therefore one-third. If the first card turned up is a blue card, there are two red cards and one blue card remaining face down so the probability that the second card is red is now two-thirds. These probabilities are recorded in the tree. We now multiply the branch probabilities to obtain the four elemental probabilities. We see that the probability of the outcome we are interested in, R₁R₂, is 1/2x1/3 or 1/6.
+Then we assign the conditional probability to the result of the second card turned up given the result of the first card. If the first card turned up was red, then the remaining face down cards are one red card and two blue cards; the probability of a red card is therefore one-third. If the first card turned up is a blue card, there are two red cards and one blue card remaining face down so the probability that the second card is red is now two-thirds. These probabilities are recorded in the tree. We now multiply the branch probabilities to obtain the four elemental probabilities. We see that the probability of the outcome we are interested in, $R_1R_2$, is 1/2x1/3 or 1/6.
 
 Note that this analysis requires no creative leaps, but only the straightforward application of the concepts we have been discussing.
 
@@ -883,7 +882,7 @@ By defining a new operation, we can save ourselves one step in deriving the best
 
 We note that if for each alternative we multiplied for each elemental possibility its elemental probability and the value of the measure and then summed over all elemental possibilities, we would obtain the preference probability for the alternative as given by Figure 3-6. These preference probabilities are shown underlined in the decision tree of Figure 3-7.
 
-Consider a probability tree with a measure. We compute for each elemental possibility the product of its elemental probability and the associated value of the measure. Then we sum over all elemental possibilities. We call the number we have computed the e-value of the measure. With this e-operation defined, we can now say that the preference probability for any alternative is the e-value of the preference probabilities for each prospect. We shall have other uses for the e- operation as we proceed.
+Consider a probability tree with a measure. We compute for each elemental possibility the product of its elemental probability and the associated value of the measure. Then we sum over all elemental possibilities. We call the number we have computed the expected value of the measure. With this e-operation defined, we can now say that the preference probability for any alternative is the expected value of the preference probabilities for each prospect. We shall have other uses for the e- operation as we proceed.
 
 ### 3.1.9 Money
 
@@ -934,51 +933,51 @@ The higher the preference probability, the higher the dollar value. For these si
 
 We can think of this plot as a scaling from dollars to preference probability. If we had had this plot for Kim for the dollar values she assigned for the prospects, then we could have used it to obtain the preference probabilities for Figures 3-5 or 3-7 and thereby found the preference probability for each alternative.
 
-#### 3.1.10.3 The U-curve
+#### 3.1.10.3 The Utility function
 
 The form of Figure 3-10 suggests that there is a relationship between Kim's preference probabilities and her value in dollars. Note that for purposes of making the decision, the vertical scale of Figure 3-10 is irrelevant. If we had multiplied all the preference probabilities by 10 and then carried out the e-operation of Figure 3-7, the preference probabilities for each alternative would merely be multiplied by 10. The one that was largest before would still be largest. The same would be true if we added or subtracted any number from all the preferences probabilities in the plot. The same number would merely be added or subtracted to the preference probabilities for each alternative; the alternative with the largest preference probability would be unchanged. While such transformations would no longer permit the interpretation of the results as a preference probabilities, they would lead to the selection of the correct alternative. It is sometimes numerically convenient to perform such a transformation and to forgo the preference probability interpretation. If at any time it is desired to interpret the results as a preference probability, it is merely a matter of defining a best and a worst prize and of rescaling.
 
-##### 3.1.10.3.1 Kim's U-curve
+##### 3.1.10.3.1 Kim's Utility function
 
 Kim's preference probability plot of Figure 3-10 has been smoothed and replotted as Figure 3-11.
 
 *Figure 3-11. Smoothed Plot of Preference Probabilities versus Dollar Values: Kim's U-Curve*
 
-Notice that the plot extends beyond the value 1 and below the value 0; we have forgone the interpretation as preference probability outside the range from \$0 to \$100. We call a curve like Figure 3-11 a u-curve and the value it produces at any point the u-value.
+Notice that the plot extends beyond the value 1 and below the value 0; we have forgone the interpretation as preference probability outside the range from \$0 to \$100. We call a curve like Figure 3-11 a utility function and the value it produces at any point the u-value.
 
-The u-curve as plotted is adequate for the following discussion; however, if you wish to confirm our calculations, you should know that Kim's particular u-curve has the form
+The utility function as plotted is adequate for the following discussion; however, if you wish to confirm our calculations, you should know that Kim's particular utility function has the form
 
 $$u(x) = \frac{4}{3}\left[1 - \left(\frac{1}{2}\right)^{x/50}\right]$$
 
-This means that to find the u-value corresponding to any dollar measure $x$, we raise $\frac{1}{2}$ to the power $x$ divided by 50, subtract the result from 1, and then multiply by $\frac{4}{3}$.
+This means that to find the utility corresponding to any dollar measure $x$, we raise $\frac{1}{2}$ to the power $x$ divided by 50, subtract the result from 1, and then multiply by $\frac{4}{3}$.
 
-Once we have Kim's u-curve and her dollar valuation on prospects, we use the u-curve to obtain the u-value of each prospect, and then find the best alternative for her by finding the alternative with the highest e-value of u-value. It is clear that this procedure will choose for her the Indoor alternative in the party problem.
+Once we have Kim's utility function and her dollar valuation on prospects, we use the utility function to obtain the utility of each prospect, and then find the best alternative for her by finding the alternative with the highest expected value of u-value. It is clear that this procedure will choose for her the Indoor alternative in the party problem.
 
 ### 3.1.11 Kim's Certain Equivalent of a 50-50 Chance of \$100
 
-Kim's u-curve may be used to help her make other decisions having nothing to do with the party. We can use Kim's u-curve to obtain her certain equivalent for any monetary deal that is within the scope of the u-curve.
+Kim's utility function may be used to help her make other decisions having nothing to do with the party. We can use Kim's utility function to obtain her certain equivalent for any monetary deal that is within the scope of the utility function.
 
-For example, suppose she is offered a deal which she assesses as a 50-50 chance of winning \$100 as opposed to nothing. What should her certain equivalent in dollars for this deal be? We could answer this question without consulting her once we have her u-curve from Figure 3-11.
+For example, suppose she is offered a deal which she assesses as a 50-50 chance of winning \$100 as opposed to nothing. What should her certain equivalent in dollars for this deal be? We could answer this question without consulting her once we have her utility function from Figure 3-11.
 
-We know that her certain equivalent will be the amount of money she would have to receive for sure to be indifferent between that prospect and the deal with a 50 percent chance of winning \$100 and a 50 percent chance of winning nothing. We know that if she is to be indifferent, the certain equivalent and the deal must have the same preference probability or u-value. The u-value of the deal is the e-value of the u-values of its prizes. The calculation is shown in Figure 3-12.
+We know that her certain equivalent will be the amount of money she would have to receive for sure to be indifferent between that prospect and the deal with a 50 percent chance of winning \$100 and a 50 percent chance of winning nothing. We know that if she is to be indifferent, the certain equivalent and the deal must have the same preference probability or u-value. The utility of the deal is the expected value of the utilities  of its prizes. The calculation is shown in Figure 3-12.
 
 *Figure 3-12. Kim's Certain Equivalent for a 50-50 Chance of \$100*
 
-According to Figure 3-11, the prize of \$100 has a u-value of 1; the prize of \$0 has a u-value of 0. The e-value of these u-values is $0.5 \times 1 + 0.5 \times 0 = 0.5$, the u-value of the deal. If she is to be indifferent to the certain equivalent, it must also have a u-value of 0.5. By referring to the u-curve of Figure 3-11, we find that a u-value of 0.5 corresponds to a dollar value of about \$34. Consequently, the sum of \$34 and the deal both have the same u-value of 0.5. This means that \$34 is Kim's certain equivalent for the 50-50 chance at \$100.
+According to Figure 3-11, the prize of \$100 has a utility of 1; the prize of \$0 has a utility of 0. The expected value of these utilities  is $0.5 \times 1 + 0.5 \times 0 = 0.5$, the utility of the deal. If she is to be indifferent to the certain equivalent, it must also have a utility of 0.5. By referring to the utility function of Figure 3-11, we find that a utility of 0.5 corresponds to a dollar value of about \$34. Consequently, the sum of \$34 and the deal both have the same utility of 0.5. This means that \$34 is Kim's certain equivalent for the 50-50 chance at \$100.
 
 #### 3.1.11.1 Graphical Interpretation
 
-When a deal has only two possible monetary payoffs, we can find its certain equivalent from the u-curve by a simple construction that implements this set of calculations. First we draw a straight line between the two points on the u-curve corresponding to the u-values of the payoffs. Then we find the point on this line such that the distance from the lower u-value to this point divided by the total length of the line is equal to the probability of the larger payoff. Finally, we move horizontally to the left from this point until we meet the u-curve and drop down to read the certain equivalent.
+When a deal has only two possible monetary payoffs, we can find its certain equivalent from the utility function by a simple construction that implements this set of calculations. First we draw a straight line between the two points on the utility function corresponding to the utilities  of the payoffs. Then we find the point on this line such that the distance from the lower utility to this point divided by the total length of the line is equal to the probability of the larger payoff. Finally, we move horizontally to the left from this point until we meet the utility function and drop down to read the certain equivalent.
 
 Figure 3-13 illustrates the procedure for the 50-50 chance at \$100.
 
 *Figure 3-13. Graphical Construction to Find Certain Equivalent*
 
-The dashed straight line connects the points on the u-curve corresponding to 0 and 100 dollars. Since the probability of winning the higher amount, \$100, is 1/2, starting from the lower point, we proceed 1/2 the way along the line and locate the point shown as a large dot. The height of this point is the u-value of the deal. Then we move left from this point until we encounter the u-curve and read off the corresponding certain equivalent, \$34, on the dollar scale.
+The dashed straight line connects the points on the utility function corresponding to 0 and 100 dollars. Since the probability of winning the higher amount, \$100, is 1/2, starting from the lower point, we proceed 1/2 the way along the line and locate the point shown as a large dot. The height of this point is the utility of the deal. Then we move left from this point until we encounter the utility function and read off the corresponding certain equivalent, \$34, on the dollar scale.
 
 ### 3.1.12 Kim's Certain Equivalents of Party Locations
 
-We can also use Kim's u-curve to obtain her dollar certain equivalent for the three party locations. We know from Figures 3-6 or 3-7 that the Outdoor, Porch and Indoor alternatives correspond to preference probabilities or u-values of 0.40, 0.57, and 0.63. By referring to the u-curve of Figure 3-11, we find that the dollar certain equivalents corresponding to these u-values are \$26, \$40, and \$46. You may also wish to obtain these certain equivalents by the graphical construction we just discussed.
+We can also use Kim's utility function to obtain her dollar certain equivalent for the three party locations. We know from Figures 3-6 or 3-7 that the Outdoor, Porch and Indoor alternatives correspond to preference probabilities or utilities  of 0.40, 0.57, and 0.63. By referring to the utility function of Figure 3-11, we find that the dollar certain equivalents corresponding to these utilities  are \$26, \$40, and \$46. You may also wish to obtain these certain equivalents by the graphical construction we just discussed.
 
 The certain equivalents are recorded in boxes adjacent to each alternative in the tree of Figure 3-14.
 
@@ -988,7 +987,7 @@ Kim would be just indifferent between following the Outdoor alternative and rece
 
 #### 3.1.12.1 Choosing by Certain Equivalent
 
-Since Kim will always prefer more money at least as much as less (she can always give it away), Kim's u-curve can never decrease as dollars increase. This means that the higher her preference probability or u-value for an alternative, the higher her certain equivalent for that alternative. Consequently she can determine the best alternative to follow either by choosing the one with the highest preference probability—u-value—or by choosing the alternative with the highest certain equivalent.
+Since Kim will always prefer more money at least as much as less (she can always give it away), Kim's utility function can never decrease as dollars increase. This means that the higher her preference probability or utility for an alternative, the higher her certain equivalent for that alternative. Consequently she can determine the best alternative to follow either by choosing the one with the highest preference probability—u-value—or by choosing the alternative with the highest certain equivalent.
 
 ### 3.1.13 Valuing Clairvoyance
 
@@ -1002,15 +1001,15 @@ We represent Kim's decision on buying clairvoyance at a price of \$15 by the dec
 
 *Figure 3-15. Determining the Value of Clairvoyance on S/R at a Cost of \$15*
 
-The upper part of the tree represents the situation where she does not buy clairvoyance. She then faces the same choices for party location and the same consequences shown in Figure 3-14. As we have shown, her best alternative in this case is to have the party indoors with a u-value of 0.63 and a certain equivalent of \$46.
+The upper part of the tree represents the situation where she does not buy clairvoyance. She then faces the same choices for party location and the same consequences shown in Figure 3-14. As we have shown, her best alternative in this case is to have the party indoors with a utility of 0.63 and a certain equivalent of \$46.
 
 The lower portion of the tree represents the clairvoyance deal at a price of \$15. If she takes this deal, the first thing that will happen after committing herself to the payment of \$15, is the report by the clairvoyant on what will happen. We let "S" represent the event that the clairvoyant reports that the event S will occur and "R" be his report that it will not. We are uncertain about what he will say because we are uncertain about the weather. Since he will report "S" when and only when S will occur, "S" and S represent the same distinction and must be assigned the same probability; in this case, 0.4, with 0.6 probability assigned to "R". Once the clairvoyant's report is known, Kim will be able to choose a party location, Outdoors, Porch, or Indoors. Then the weather will actually turn out to be sunny or rainy, S or R, and at the end of the tree we show the measure she has attached to each of these prospects. The dollar measure of each prospect is computed by subtracting the \$15 that must be paid to the clairvoyant from the measures that we have been using for each prospect. Thus, for example, if she has an outdoor party in the sunshine her value is not \$100 as before, but now \$85 because of the clairvoyant's payment. All the dollar values at the end of the tree have been reduced by \$15 to reflect this commitment.
 
 We have now completed the structure of the tree and the assignments it requires except for noting that when the clairvoyant says "S", then of course the weather will be S with probability 1, and that when he says "R", then it will be R with probability 1. Thus when the clairvoyant reports S, Kim is looking forward to Sunshine and must select between party locations that will pay her the equivalent of \$85, \$75, and \$25 for the locations Outdoors, Porch, and Indoors. Clearly she will choose to have her party Outdoors in this case and obtain the payoff \$85. This is shown by the arrow on the Outdoor branch of the location decision following the report "S". If the clairvoyant reports "R", then she faces rainy weather and must choose among the three locations which will then pay –\$15, \$5, and \$35. Again, she will choose the one that gives her the highest payoff, namely to have the party Indoors.
 
-We thus see that the alternative of purchasing clairvoyance at a price of \$15 reduces to selecting a deal with a 0.4 chance of an \$85 payoff and a 0.6 chance of a \$35 payoff. From the u-curve of Figure 3-11, the u-values of \$85 and \$35 are 0.92 and 0.51 as shown adjacent to the "S" and "R" branches. The u-value of buying the clairvoyance is then $0.4 \times 0.92 + 0.6 \times 0.51$ or 0.674. From the u-curve we find that the certain equivalent of this alternative is \$51.
+We thus see that the alternative of purchasing clairvoyance at a price of \$15 reduces to selecting a deal with a 0.4 chance of an \$85 payoff and a 0.6 chance of a \$35 payoff. From the utility function of Figure 3-11, the utilities  of \$85 and \$35 are 0.92 and 0.51 as shown adjacent to the "S" and "R" branches. The utility of buying the clairvoyance is then $0.4 \times 0.92 + 0.6 \times 0.51$ or 0.674. From the utility function we find that the certain equivalent of this alternative is \$51.
 
-Thus we have determined that buying the clairvoyance at this price is a better deal for Kim than her original deal without it, for the u-value of 0.674 is higher than the u-value of 0.63 or equivalently, the certain equivalent of the clairvoyant's deal is \$51 compared to the certain equivalent of \$46 from proceeding without clairvoyance. Kim would be well advised to buy the clairvoyance at a price of \$15.
+Thus we have determined that buying the clairvoyance at this price is a better deal for Kim than her original deal without it, for the utility of 0.674 is higher than the utility of 0.63 or equivalently, the certain equivalent of the clairvoyant's deal is \$51 compared to the certain equivalent of \$46 from proceeding without clairvoyance. Kim would be well advised to buy the clairvoyance at a price of \$15.
 
 Notice how the clairvoyant's report will affect Kim's actions. If he reports that the weather will be rainy, then she will have an indoor party just as she would have had if she had never consulted him. If, on the other hand, the clairvoyant's report is that the weather will be sunny, then she will change from an indoor party to an outdoor party. The value of the clairvoyant's information comes from the possibility that the information may affect her decision. In this case there is a 40 percent chance that she will change her course of action as the result of engaging the clairvoyant.
 
@@ -1020,7 +1019,7 @@ We have found that Kim should buy clairvoyance at a price of \$15, but what is t
 
 To compute the value of clairvoyance, we must increase the cost of clairvoyance until she is just indifferent between buying it and not. Thus, in the tree of Figure 3-15, we would consider successively larger values of c like \$16, \$17, \$18, etc. and determine whether it was still a good idea to buy clairvoyance. When we had increased the price to the point where the certain equivalent of the alternative of purchasing clairvoyance was equal to the certain equivalent of not purchasing it, then we would have determined the threshold buying price of clairvoyance. You may wish to verify that at a price of \$20 Kim will find that she does not care whether she buys clairvoyance or not because she will face the same \$46 certain equivalent regardless of whether she buys it.
 
-We observe that the increase in price from \$15 to \$20 required to find the value of clairvoyance is just equal to the difference in the certain equivalent of the clairvoyance and no clairvoyance alternatives of Figure 3-15, \$51 less \$46. While this result is true in our example, it is not generally true for any u-curve that a person might have. The only general way to compute the value of clairvoyance is to increase its price iteratively until the point of indifference between buying it and not buying it is reached. We shall soon discuss the special conditions that the u-curve must satisfy if we are to be able to compute the value of clairvoyance simply by computing the certain equivalent of the deal with free clairvoyance and then subtracting the certain equivalent of the deal without clairvoyance.
+We observe that the increase in price from \$15 to \$20 required to find the value of clairvoyance is just equal to the difference in the certain equivalent of the clairvoyance and no clairvoyance alternatives of Figure 3-15, \$51 less \$46. While this result is true in our example, it is not generally true for any utility function that a person might have. The only general way to compute the value of clairvoyance is to increase its price iteratively until the point of indifference between buying it and not buying it is reached. We shall soon discuss the special conditions that the utility function must satisfy if we are to be able to compute the value of clairvoyance simply by computing the certain equivalent of the deal with free clairvoyance and then subtracting the certain equivalent of the deal without clairvoyance.
 
 #### 3.1.14.1 Graphical Procedures
 
@@ -1028,9 +1027,9 @@ We can pursue the issue of valuing clairvoyance graphically as shown in Figure 3
 
 *Figure 3-16. Finding the Value of Clairvoyance Graphically*
 
-If Kim pays \$15 for the clairvoyance, then as we have shown she will face a deal with a 40 percent chance of an \$85 payoff and a 60 percent chance of a \$35 payoff. To compute the certain equivalent of this deal, we connect the points on the u-curve corresponding to \$35 and \$85 by the dashed straight line. Then we locate a point that is 40 percent of the way up this line and move left to the point C. This is the point that represents the u-value of clairvoyance at this price on the u scale, namely 0.674, and the certain equivalent of clairvoyance at this price on the dollar scale, namely \$51. Since the point marked I for indoor alternative is otherwise her best choice and this point has a u-value of 0.63 and a certain equivalent of \$46, the clairvoyant's deal is clearly superior. This merely confirms what we found in Figure 3-15.
+If Kim pays \$15 for the clairvoyance, then as we have shown she will face a deal with a 40 percent chance of an \$85 payoff and a 60 percent chance of a \$35 payoff. To compute the certain equivalent of this deal, we connect the points on the utility function corresponding to \$35 and \$85 by the dashed straight line. Then we locate a point that is 40 percent of the way up this line and move left to the point C. This is the point that represents the utility of clairvoyance at this price on the u scale, namely 0.674, and the certain equivalent of clairvoyance at this price on the dollar scale, namely \$51. Since the point marked I for indoor alternative is otherwise her best choice and this point has a utility of 0.63 and a certain equivalent of \$46, the clairvoyant's deal is clearly superior. This merely confirms what we found in Figure 3-15.
 
-To visualize computing the value of clairvoyance from Figure 3-16, we imagine moving the two ends of the dashed line by equal dollar amounts to the left and observing the motion of the point C. We see that as the dashed line moves down the u-curve in this way, the point C will slide down until for some total payment to the clairvoyant C will coincide with I. A careful construction will show that this point will be reached when the total payment for clairvoyance is \$20.
+To visualize computing the value of clairvoyance from Figure 3-16, we imagine moving the two ends of the dashed line by equal dollar amounts to the left and observing the motion of the point C. We see that as the dashed line moves down the utility function in this way, the point C will slide down until for some total payment to the clairvoyant C will coincide with I. A careful construction will show that this point will be reached when the total payment for clairvoyance is \$20.
 
 ##### 3.1.14.1.1 Interpretation
 
@@ -1050,7 +1049,7 @@ We can determine the effect of these different preference probabilities on the c
 
 *Figure 3-18. Jane's Decision Tree*
 
-Then, following our usual procedure, we find the preference probability for each of the location alternatives by computing the e-value of this measure for each alternative. For the Outdoor alternative we record $0.4 \times 1 + 0.6 \times 0 = 0.40$; and for the Porch and Indoor alternatives 0.48 and 0.46. Note that the highest preference probability is the 0.48 for the Porch alternative and therefore, by the choice rule, Jane will choose to have her party on the porch. Recall that Kim's best decision was to have the party indoors. Thus the effect of the difference between Jane's and Kim's preference probabilities for prospects is to cause Jane to follow a different alternative for the party location.
+Then, following our usual procedure, we find the preference probability for each of the location alternatives by computing the expected value of this measure for each alternative. For the Outdoor alternative we record $0.4 \times 1 + 0.6 \times 0 = 0.40$; and for the Porch and Indoor alternatives 0.48 and 0.46. Note that the highest preference probability is the 0.48 for the Porch alternative and therefore, by the choice rule, Jane will choose to have her party on the porch. Recall that Kim's best decision was to have the party indoors. Thus the effect of the difference between Jane's and Kim's preference probabilities for prospects is to cause Jane to follow a different alternative for the party location.
 
 Jane, just like Kim, would like to have the advantages of using a monetary measure. Therefore we summon the wizard and investigate Jane's willingness to pay for changes in party prospects. We find that Jane's willingness to pay in every case is exactly equal to Kim's, so that the dollar measure she assigns to each prospect is exactly the same. We can record Jane's preference probabilities and corresponding dollar values of each prospect in the table shown in Figure 3-19, just as we did for Kim in Figure 3-9.
 
@@ -1065,35 +1064,35 @@ Jane, just like Kim, would like to have the advantages of using a monetary measu
 | Porch, Rain | 0.20 | \$20 |
 | Outdoors, Rain | 0 | \$0 |
 
-We note that Jane's dollar values are directly proportional to her preference probabilities; in fact, they are just the preference probabilities multiplied by 100. This means that if we make a plot of preference probability versus dollar value for Jane, all the points will lie on a straight line. Thus, if we assume that this relationship will apply for any point, then we can plot the u-curve for Jane as the straight line shown in Figure 3-20.
+We note that Jane's dollar values are directly proportional to her preference probabilities; in fact, they are just the preference probabilities multiplied by 100. This means that if we make a plot of preference probability versus dollar value for Jane, all the points will lie on a straight line. Thus, if we assume that this relationship will apply for any point, then we can plot the utility function for Jane as the straight line shown in Figure 3-20.
 
-*Figure 3-20. Kim's and Jane's u-curves*
+*Figure 3-20. Kim's and Jane's utility functions*
 
-Kim's u-curve is also shown for convenience and comparison.
+Kim's utility function is also shown for convenience and comparison.
 
-We can use this u-curve for Jane to answer the same type of questions we explored using Kim's u-curve. For example, to find Jane's certain equivalent for a 50-50 chance at \$100 versus nothing we would proceed as shown in Figure 3-21.
+We can use this utility function for Jane to answer the same type of questions we explored using Kim's utility function. For example, to find Jane's certain equivalent for a 50-50 chance at \$100 versus nothing we would proceed as shown in Figure 3-21.
 
 *Figure 3-21. Jane's Certain Equivalent for a 50-50 Chance of \$100*
 
-We know that for Jane to be indifferent between the deal and the certain equivalent, they must both have the same u-value. In the right part of the figure we compute the u-value of the deal by first finding the u-value of its prospects \$100 and 0 as 1 and 0 by consulting Jane's u-curve. Then we find the u-value of the deal by finding the e-value of these u-values, $0.5 \times 1 + 0.5 \times 0 = 0.5$. The certain equivalent therefore must also have a u-value of 0.5. By examining Jane's u-curve we find that \$50 has a u-value of 0.5. Therefore \$50 is her certain equivalent of a 50-50 chance at \$100.
+We know that for Jane to be indifferent between the deal and the certain equivalent, they must both have the same u-value. In the right part of the figure we compute the utility of the deal by first finding the utility of its prospects \$100 and 0 as 1 and 0 by consulting Jane's utility function. Then we find the utility of the deal by finding the expected value of these u-values, $0.5 \times 1 + 0.5 \times 0 = 0.5$. The certain equivalent therefore must also have a utility of 0.5. By examining Jane's utility function we find that \$50 has a utility of 0.5. Therefore \$50 is her certain equivalent of a 50-50 chance at \$100.
 
-We observe that Jane's certain equivalent for the deal is in fact equal to the e-value of its monetary value, $0.5 \times 100 + 0.5 \times 0$. We shall see that this is a general property for people with straight-line u-curves: the certain equivalent of any deal is the e-value of its monetary measure.
+We observe that Jane's certain equivalent for the deal is in fact equal to the expected value of its monetary value, $0.5 \times 100 + 0.5 \times 0$. We shall see that this is a general property for people with straight-line utility functions: the certain equivalent of any deal is the expected value of its monetary measure.
 
-To illustrate in the party problem, we solve it using monetary values and the u-curve just as we did for Kim in Figure 3-14. The solution appears as Figure 3-22.
+To illustrate in the party problem, we solve it using monetary values and the utility function just as we did for Kim in Figure 3-14. The solution appears as Figure 3-22.
 
 *Figure 3-22. Jane's Certain Equivalents for Party Problem Alternatives*
 
-We have recorded both the dollar value and its associated u-value for each prospect of the party problem. The u-values for each alternative are, of course, exactly those computed in Figure 3-18. When we compute the certain equivalents of each alternative by finding the dollar amounts corresponding to each u-value, we find that they are \$40, \$48, and \$46, for O, P, and I. We observe that these certain equivalents are exactly the e-values of the dollar measures for each alternative. Thus the \$48 certain equivalent for the porch alternative equals $0.4 \times 90 + 0.6 \times 20$. We could have found these certain equivalents directly from the monetary measure without ever introducing the particular u-curve values.
+We have recorded both the dollar value and its associated utility for each prospect of the party problem. The utilities  for each alternative are, of course, exactly those computed in Figure 3-18. When we compute the certain equivalents of each alternative by finding the dollar amounts corresponding to each u-value, we find that they are \$40, \$48, and \$46, for O, P, and I. We observe that these certain equivalents are exactly the expected values of the dollar measures for each alternative. Thus the \$48 certain equivalent for the porch alternative equals $0.4 \times 90 + 0.6 \times 20$. We could have found these certain equivalents directly from the monetary measure without ever introducing the particular utility function values.
 
 ### 3.1.16 Attitudes Toward Risk
 
-A person with a u-curve that is a straight line will have a certain equivalent for any monetary deal that is the e-value of the monetary measure. We call such a person risk-neutral; Jane is risk-neutral.
+A person with a utility function that is a straight line will have a certain equivalent for any monetary deal that is the expected value of the monetary measure. We call such a person risk-neutral; Jane is risk-neutral.
 
-We call a person risk averse when he has a certain equivalent for any monetary deal that is always less than or equal to the e-value of the monetary measure. As we saw in Figure 3-14, Kim's certain equivalents for the three party locations Outdoors, Porch and Indoors, \$26, \$40 and \$46 are always less than or equal to Jane's. In fact, if we included more decimal places in our calculation of the certain equivalent for the Indoor alternative, we would see than Kim's certain equivalent for the Indoor alternative is \$45.83, slightly less than Jane's, which is exactly \$46. Since Kim's certain equivalents are always less than Jane's for the same deals we know that we can call Kim risk averse in this situation. In fact, since her curve as shown in Figure 3-20 is always concave downwards, Kim's certain equivalents will always be less than Jane's unless both are facing certainty.
+We call a person risk averse when he has a certain equivalent for any monetary deal that is always less than or equal to the expected value of the monetary measure. As we saw in Figure 3-14, Kim's certain equivalents for the three party locations Outdoors, Porch and Indoors, \$26, \$40 and \$46 are always less than or equal to Jane's. In fact, if we included more decimal places in our calculation of the certain equivalent for the Indoor alternative, we would see than Kim's certain equivalent for the Indoor alternative is \$45.83, slightly less than Jane's, which is exactly \$46. Since Kim's certain equivalents are always less than Jane's for the same deals we know that we can call Kim risk averse in this situation. In fact, since her curve as shown in Figure 3-20 is always concave downwards, Kim's certain equivalents will always be less than Jane's unless both are facing certainty.
 
-If a person had a u-curve that was always concave upward, then that person's certain equivalents would always be greater than the e-values of the monetary measure. We would such a person risk preferring.
+If a person had a utility function that was always concave upward, then that person's certain equivalents would always be greater than the expected values of the monetary measure. We would such a person risk preferring.
 
-A person who is risk-neutral for the deal under consideration in monetary terms has a considerable practical advantage in being able to compute certain equivalents as e-values of money. As you remember, if we add or subtract a constant from all these measures of a deal, the e-value of the deal changes in exactly the same way. This property is especially useful when we wish to compute the value of clairvoyance for a risk-neutral person. Recall that to compute the value of clairvoyance in general, we had to subtract larger and larger costs of clairvoyance from all the prospect measures until the person was indifferent between buying the clairvoyance at that price and not buying it. In the case of a risk-neutral person, we know that the certain equivalent for any deal will be its e-value of the monetary measure, and therefore that any subtraction from the measure will cause the same subtraction from the certain equivalent. The practical importance of this is that we can find the value of clairvoyance for risk-neutral persons by computing the e-value of the deal with free clairvoyance and then subtracting the e-value of the best deal without clairvoyance.
+A person who is risk-neutral for the deal under consideration in monetary terms has a considerable practical advantage in being able to compute certain equivalents as expected value of money. As you remember, if we add or subtract a constant from all these measures of a deal, the expected value of the deal changes in exactly the same way. This property is especially useful when we wish to compute the value of clairvoyance for a risk-neutral person. Recall that to compute the value of clairvoyance in general, we had to subtract larger and larger costs of clairvoyance from all the prospect measures until the person was indifferent between buying the clairvoyance at that price and not buying it. In the case of a risk-neutral person, we know that the certain equivalent for any deal will be its expected value of the monetary measure, and therefore that any subtraction from the measure will cause the same subtraction from the certain equivalent. The practical importance of this is that we can find the value of clairvoyance for risk-neutral persons by computing the expected value of the deal with free clairvoyance and then subtracting the expected value of the best deal without clairvoyance.
 
 Figure 3-23 illustrates this procedure for risk-neutral Jane in the party problem.
 
@@ -1105,7 +1104,7 @@ As we have seen, it is much simpler to calculate the value of clairvoyance witho
 
 ### 3.1.17 Mary
 
-Let us consider another friend of both Kim and Jane who shares certain preferences with respect to the party with each of them. Mary has the same preference probabilities for party prospects as does Kim; namely, those shown in Figure 3-9. However, she has the same risk-neutral u-curve for money as does Jane in Figure 3-20. This means that her dollar values will be proportional to her preference probabilities as were Jane's in Figure 3-19, but they will be different dollar values from the ones shared by Kim and Jane.
+Let us consider another friend of both Kim and Jane who shares certain preferences with respect to the party with each of them. Mary has the same preference probabilities for party prospects as does Kim; namely, those shown in Figure 3-9. However, she has the same risk-neutral utility function for money as does Jane in Figure 3-20. This means that her dollar values will be proportional to her preference probabilities as were Jane's in Figure 3-19, but they will be different dollar values from the ones shared by Kim and Jane.
 
 Mary's preference probabilities and dollar values appear in Figure 3-24.
 
@@ -1126,7 +1125,7 @@ When will Mary's actions differ from Kim's? When the clairvoyant arrives. We com
 
 *Figure 3-25. Determining Mary's Value of Free Clairvoyance on S/R*
 
-In the upper part of the tree we review her decision without clairvoyance. Since she is risk-neutral like Jane, she enters her dollar values for each prospect and computes the e-value of each alternative as its certain equivalent. The Indoor alternative has the highest certain equivalent of \$63 ; she will take the action we predicted.
+In the upper part of the tree we review her decision without clairvoyance. Since she is risk-neutral like Jane, she enters her dollar values for each prospect and computes the expected value of each alternative as its certain equivalent. The Indoor alternative has the highest certain equivalent of \$63 ; she will take the action we predicted.
 
 In the lower part of the tree, we compute Mary's value of free clairvoyance. Like Jane and Kim, she will have the party Outdoors when the clairvoyant says "S" and Indoors when he says "R". She assigns, as did Kim and Jane, a \$100 value to the report "S"; however, unlike both Kim and Jane, the value she assigns to the report "R" is \$67. Her certain equivalent for the party with free clairvoyance is then $0.4 \times 100 + 0.6 \times 67$ or \$80. Since Mary is risk-neutral, we can compute her value of clairvoyance on S by subtracting her certain equivalent without clairvoyance from her certain equivalent with free clairvoyance: \$80 – \$63 = \$17.
 
@@ -1148,57 +1147,57 @@ We have thus found that Kim, Jane, and Mary will each pay different amounts for 
 
 ## 4.1 Wealth Risk Attitude
 
-When we draw u-curves like those shown in Figure 3-20, showing the dollar values with a range from \$0 to \$100 is possibly misleading. These dollar amounts are supposed to represent prospects, that is, life with the dollar amount added. This means that zero dollars properly corresponds to the person's present wealth, and any other amount to that amount plus present wealth. If we let w be wealth and w₀ be present wealth, then Figure 4-1 would represent a typical u-curve on wealth.
+When we draw utility functions like those shown in Figure 3-20, showing the dollar values with a range from \$0 to \$100 is possibly misleading. These dollar amounts are supposed to represent prospects, that is, life with the dollar amount added. This means that zero dollars properly corresponds to the person's present wealth, and any other amount to that amount plus present wealth. If we let w be wealth and $w_0$ be present wealth, then Figure 4-1 would represent a typical utility function on wealth.
 
-*Figure 4-1. A Wealth u-curve*
+*Figure 4-1. A Wealth utility function*
 
-Everything we have done up to this point is consistent with the u-curve on wealth interpretation. Thus, if Kim's wealth were \$13,000 at the beginning of the party problem, we have been using the portion of her u-curve on wealth between approximately \$13,000 and \$13,100 to do our calculations. We invoked this "bank account" idea of wealth in using the wizard to help her assign values.
+Everything we have done up to this point is consistent with the utility function on wealth interpretation. Thus, if Kim's wealth were \$13,000 at the beginning of the party problem, we have been using the portion of her utility function on wealth between approximately \$13,000 and \$13,100 to do our calculations. We invoked this "bank account" idea of wealth in using the wizard to help her assign values.
 
-If a person is given a monetary deal, then we can use the u-curve on wealth to calculate the certain equivalent wealth that the person will now have as well as the certain equivalent of the deal. Let the deal x be represented by the possibility of receiving different amounts xᵢ with corresponding probability pᵢ. Let w be the person's wealth in general and w₀ be the person's wealth without the deal. Then $\tilde w$, the person's certain equivalent wealth with the deal is defined by
+If a person is given a monetary deal, then we can use the utility function on wealth to calculate the certain equivalent wealth that the person will now have as well as the certain equivalent of the deal. Let the deal x be represented by the possibility of receiving different amounts $x_i$ with corresponding probability $p_i$. Let w be the person's wealth in general and $w_0$ be the person's wealth without the deal. Then $\tilde w$, the person's certain equivalent wealth with the deal is defined by
 
-$$u(\tilde w) = Σᵢ pᵢ u(w₀ + xᵢ)$$,
+$$u(\tilde w) = \Sigma_i p_i u(w_0 + x_i)$$
 
-in complete correspondence with our earlier calculations. Since owning the deal is equivalent to having a certain wealth ~w, and since the wealth without the deal is w₀, the certain equivalent of the deal is ~x = ~w – w₀.
+in complete correspondence with our earlier calculations. Since owning the deal is equivalent to having a certain wealth $\tilde w$, and since the wealth without the deal is $w_0$, the certain equivalent of the deal is $\tilde x = \tilde w – w_0$.
 
 ### 4.1.1 Buying and Selling a Deal
 
-Suppose that a man with wealth w₀ does not own the deal x, but is thinking about buying it. What is his (breakeven) buying price b, the most that he should pay for it? Since when he pays b he is indifferent between buying it at that price and not having it, b is defined by
+Suppose that a man with wealth $w_0$ does not own the deal x, but is thinking about buying it. What is his (breakeven) buying price b, the most that he should pay for it? Since when he pays b he is indifferent between buying it at that price and not having it, b is defined by
 
-$$Σᵢ pᵢ u(w₀ + xᵢ – b) = u(w₀)$$.
+$$\Sigma_i p_i u(w_0 + x_i – b) = u(w_0)$$
 
 Suppose now that having bought the deal for this price, he wishes to find out how much he should be willing to sell it for, his (breakeven) selling price s. Since he is indifferent between selling it at this price and continuing to own it, s is defined by
 
-$$Σᵢ pᵢ u(w₀ + s – b) = u(w₀)$$.
+$$\Sigma_i p_i u(w_0 + s – b) = u(w_0)$$
 
 The only general solution to this equation is s = b; the amount he is just willing to sell the deal for must be equal to the breakeven amount he paid for it. This is a logical tautology, since he is returning to the state of not having the deal after paying and then receiving the same amount of money.
 
-We obtain the same type of result if the person originally owns the deal in addition to wealth w₀, then sells it and buys it back. We let the (breakeven) selling price in this case be s*, defined by,
+We obtain the same type of result if the person originally owns the deal in addition to wealth $w_0$, then sells it and buys it back. We let the (breakeven) selling price in this case be s*, defined by,
 
-$$u(w₀ + s*) = Σᵢ pᵢ u(w₀ + xᵢ)$$.
+$$u(w_0 + s*) = \Sigma_i p_i u(w_0 + x_i)$$
 
-Note that the selling price s* for an owned deal is just the certain equivalent ~x for the deal as defined in the preceding section. After selling it for s*, the breakeven price at which he would buy it back b* would be defined by
+Note that the selling price s* for an owned deal is just the certain equivalent $\tilde x$ for the deal as defined in the preceding section. After selling it for s*, the breakeven price at which he would buy it back b* would be defined by
 
-$$u(w₀ + s*) = Σᵢ pᵢ u(w₀ + s* – b* + xᵢ)$$.
+$$u(w_0 + s*) = \Sigma_i p_i u(w_0 + s* – b* + x_i)$$
 
 Again, the only general solution is s* = b*, equality of the selling price to the subsequent buying price. If a man owns a deal, the price at which he is just willing to sell it must be the price at which he is just willing to buy it back after he sells it.
 
-Notice that these two cycles of purchase and sale take place in different worlds. In both worlds the man has wealth w₀ without the deal. In the first world, the man does not own the deal initially; in the second, he does. Although the buying and selling prices must be the same around each cycle, it does not follow that they are the same in both worlds. It is very possible that s ≠ s* and b ≠ b*. The price at which he is just willing to buy something he does not have b (=s) may not be the price at which he is just willing sell the same thing if he has it s* (=b*).
+Notice that these two cycles of purchase and sale take place in different worlds. In both worlds the man has wealth $w_0$ without the deal. In the first world, the man does not own the deal initially; in the second, he does. Although the buying and selling prices must be the same around each cycle, it does not follow that they are the same in both worlds. It is very possible that s ≠ s* and b ≠ b*. The price at which he is just willing to buy something he does not have b (=s) may not be the price at which he is just willing sell the same thing if he has it s* (=b*).
 
 We might now ask what would have to be true about a person's preferences if the person were to have b = s*.
 
 ## 4.2 The Delta Property
 
-Consider an additional optional rule that you may wish to be true about your evaluation of monetary deals. Suppose that you own the deal x and that someone offers to increase each and every payoff xᵢ by the same dollar amount Δ. What do you want to happen to your certain equivalent (selling price) for the deal? For example, Kim's certain equivalent for the 50-50 chance at \$0 versus \$100 was \$34. If now someone sweetens the deal so that she will receive \$20 more regardless of what happens, \$20 at worst and \$120 at best, what should be her certain equivalent for the revised deal? Many would say that her certain equivalent should increase by the same amount that the payoffs have increased, namely, by \$20, to a new certain equivalent of \$54. The idea is that the \$20 is "money in the bank" about which there is no uncertainty.
+Consider an additional optional rule that you may wish to be true about your evaluation of monetary deals. Suppose that you own the deal x and that someone offers to increase each and every payoff $x_i$ by the same dollar amount Δ. What do you want to happen to your certain equivalent (selling price) for the deal? For example, Kim's certain equivalent for the 50-50 chance at \$0 versus \$100 was \$34. If now someone sweetens the deal so that she will receive \$20 more regardless of what happens, \$20 at worst and \$120 at best, what should be her certain equivalent for the revised deal? Many would say that her certain equivalent should increase by the same amount that the payoffs have increased, namely, by \$20, to a new certain equivalent of \$54. The idea is that the \$20 is "money in the bank" about which there is no uncertainty.
 
 The delta property is illustrated graphically in Figure 4-2.
 
 *Figure 4-2. The Delta Property*
 
-On the left side of the figure the person has expressed a certain equivalent ~x for a three branch deal. On the right side of the figure, the payoffs have changed by $Δ$ and the certain equivalent has changed by the same amount. If this describes the person's wishes for any monetary deal within a range of payoffs, then we say that the person satisfies the delta property within that range.
+On the left side of the figure the person has expressed a certain equivalent $\tilde x$ for a three branch deal. On the right side of the figure, the payoffs have changed by $Δ$ and the certain equivalent has changed by the same amount. If this describes the person's wishes for any monetary deal within a range of payoffs, then we say that the person satisfies the delta property within that range.
 
-Within the range where it is valid, the delta property makes the person's certain equivalent for any deal be independent of the person's wealth. The delta property is very attractive to almost everyone for some range of payoffs. However, when $Δ$ is very large and positive, some people say that possession of the deal changes their attitude toward risk so that they are now willing to assess certain equivalents that are much closer to the e-value of payoffs. When $Δ$ is very large and negative others are equally concerned that they will not be sufficiently risk averse.
+Within the range where it is valid, the delta property makes the person's certain equivalent for any deal be independent of the person's wealth. The delta property is very attractive to almost everyone for some range of payoffs. However, when $Δ$ is very large and positive, some people say that possession of the deal changes their attitude toward risk so that they are now willing to assess certain equivalents that are much closer to the expected value of payoffs. When $Δ$ is very large and negative others are equally concerned that they will not be sufficiently risk averse.
 
-We shall find it useful to think of the delta property as a convenient approximation to any u-curve for a sufficiently small range of payoffs. For some people, this range may in fact be very large. We note that a risk neutral person automatically satisfies the delta property.
+We shall find it useful to think of the delta property as a convenient approximation to any utility function for a sufficiently small range of payoffs. For some people, this range may in fact be very large. We note that a risk neutral person automatically satisfies the delta property.
 
 ### 4.2.1 Equality of Buying and Selling Prices
 
@@ -1206,21 +1205,21 @@ Accepting the delta property has strong implications for decision making about m
 
 *Figure 4-3. With the Delta Property, Buying and Selling Prices are Equal*
 
-On the top left, a woman owns the deal and establishes a selling price ~x = s* using the idea that she is indifferent between having s* for sure and having the payoff from the deal. On the top right, she does not own the deal and establishes a buying price b by finding the amount she would pay for the deal before she would be indifferent to owning it. If she satisfies the delta property, then we know that if we add b to all the payoffs on the right, the resulting deal shown on the bottom right must have certain equivalent b, since the certain equivalent must change by the same amount as the payoffs. However, we already know from the top left that this deal has certain equivalent s*; therefore, s* = b. Thus we have found that if a person satisfies the delta property, her selling price for an owned deal will be the same as her buying price for an unowned deal.
+On the top left, a woman owns the deal and establishes a selling price $\tilde x = s*$ using the idea that she is indifferent between having s* for sure and having the payoff from the deal. On the top right, she does not own the deal and establishes a buying price b by finding the amount she would pay for the deal before she would be indifferent to owning it. If she satisfies the delta property, then we know that if we add b to all the payoffs on the right, the resulting deal shown on the bottom right must have certain equivalent b, since the certain equivalent must change by the same amount as the payoffs. However, we already know from the top left that this deal has certain equivalent s*; therefore, s* = b. Thus we have found that if a person satisfies the delta property, her selling price for an owned deal will be the same as her buying price for an unowned deal.
 
 ### 4.2.2 Implications for Computing Value of Clairvoyance
 
 Someone who satisfies the delta property has a much easier task in computing any value of clairvoyance question. Since the certain equivalent for such a person will experience the same change made to all the payoffs of a deal, the person can compute the certain equivalent of a decision situation with clairvoyance when clairvoyance costs k by simply subtracting k from the certain equivalent of the decision situation with free clairvoyance. This means that the value of clairvoyance for such a person is simply the difference between the certain equivalent of the decision situation with free clairvoyance and the certain equivalent of the decision situation with no clairvoyance. There will be no need to use the iterative or graphical techniques for evaluating the value of clairvoyance that we discussed earlier. This simplification is of such great practical importance that it is wise in many cases to assume that the delta property holds exactly when it is close to being acceptable.
 
-### 4.2.3 Forms of u-curve Required by the Delta Property
+### 4.2.3 Forms of utility function Required by the Delta Property
 
-The delta property puts stringent requirements on the shape of the u-curve. If the person has wealth w₀ then the implication of Figure 4-2 is that for any deal and any $Δ$,
+The delta property puts stringent requirements on the shape of the utility function. If the person has wealth $w_0$ then the implication of Figure 4-2 is that for any deal and any $Δ$,
 
-$$u(w₀ + ~x + Δ) = Σᵢ pᵢ u(w₀ + xᵢ + Δ)$$.
+$$u(w_0 + \tilde x + Δ) = \Sigma_i p_i u(w_0 + x_i + Δ)$$
 
 #### 4.2.3.1 Straight Line
 
-Suppose that for any monetary amount y, the u-curve has the form of a straight line,
+Suppose that for any monetary amount y, the utility function has the form of a straight line,
 
 $$u(y) = a + by$$
 
@@ -1228,69 +1227,73 @@ where a and b are constants, with b positive so that increasing y causes increas
 
 Then,
 
-$$a + b(w₀ + ~x + Δ) = Σᵢ pᵢ [a + b(w₀ + xᵢ + Δ)]$$
+$$a + b(w_0 + \tilde x + Δ) = \Sigma_i p_i [a + b(w_0 + x_i + Δ)]$$
 
-and since $$Σᵢ pᵢ = 1$$, we find,
+and since $$\Sigma_i p_i = 1,$$ 
 
-$$~x = Σᵢ pᵢ xᵢ = <x|&>.$$
+we find
 
-Therefore, as we have noted earlier, the risk neutral person's straight line u-curve satisfies the delta property and yields a certain equivalent equal to the e-value of the deal, regardless of Δ and the person's wealth w₀. Jane and Mary satisfied the delta property.
+$$\tilde x = \Sigma_i p_i x_i = E[x|\mathcal{E}].$$
+
+Therefore, as we have noted earlier, the risk neutral person's straight line utility function satisfies the delta property and yields a certain equivalent equal to the expected value of the deal, regardless of Δ and the person's wealth $w_0$. Jane and Mary satisfied the delta property.
 
 #### 4.2.3.2 Exponential
 
-But are there other forms for the u-curve that satisfy the delta property? Yes. By methods that lie outside our scope it can be shown that there is one and only one other form of u-curve that satisfies the delta property. It is the exponential form,
+But are there other forms for the utility function that satisfy the delta property? Yes. By methods that lie outside our scope it can be shown that there is one and only one other form of utility function that satisfies the delta property. It is the exponential form,
 
-$$u(y) = a + bcʸ$$
+$$u(y) = a + bc^y$$
 
 where a, b, and c are constants so defined that increasing y causes increasing u which means, among other things that c cannot be 1.
 
 Substituting this form in the equation for u required by the delta property produces
 
-$$a + bc^(w₀ + ~x + Δ) = Σᵢ pᵢ [a + bc^(w₀ + xᵢ + Δ)]$$
+$$a + bc^{(w_0 + {\tilde x} + Δ)} = \Sigma_i p_i [a + bc^{(w_0 + x_i + Δ)}]$$
 
-and with $$Σᵢ pᵢ = 1$$,
+and with $\Sigma_i p_i = 1$
 
-$$c^(w₀ + Δ) c^~x = c^(w₀ + Δ) Σᵢ pᵢ c^xᵢ$$
+$$c^{(w_0 + {\tilde x}+Δ)} =  \Sigma_i p_i c^{(w_0 + x_i + Δ)}$$
 
-$$c^~x = Σᵢ pᵢ c^xᵢ$$
+$$c^{(w_0 + Δ)}c^{\tilde x} = c^{(w_0 + Δ)}\Sigma_i p_i c^{x_i}$$
 
-If the u-curve has the exponential form, the certain equivalent of a deal will not depend on Δ or on wealth w₀.
+$$c^{\tilde x} = \Sigma_i p_i c^{x_i}$$
+ 
+If the utility function has the exponential form, the certain equivalent of a deal will not depend on Δ or on wealth $w_0$.
 
-The exponential u-curve is described by a single number, c, which may be chosen for convenience. The u-curve we used for Kim was of the exponential form,
+The exponential utility function is described by a single number, c, which may be chosen for convenience. The utility function we used for Kim was of the exponential form,
 
-$$u(x) = (4/3)[1 – (1/2)^(x/50)]$$
+$$u(x) = \frac{4}{3}\left[1 - \left(\frac{1}{2}\right)^{x/50}\right]$$
 
-Here, a = 4/3, b = –4/3, and c = (1/2)^(1/50) = 2^(–1/50), and we have confirmed that Kim satisfies the delta property.
+Here, $a = 4/3, b = –4/3$, and $c = (1/2)^{(1/50)} = 2^{(–1/50)}$, and we have confirmed that Kim satisfies the delta property.
 
 ## 4.3 Risk Odds
 
-We shall find it useful to provide a direct interpretation for the constant c in the exponential form. For convenience we usually prefer to write the form in terms of the reciprocal of c, r = c⁻¹, as u(y) = a + br^(–y). Suppose that someone satisfying the delta property and, therefore, having a u-curve in this form, faces a deal with a probability p of winning one monetary unit and a probability 1–p of losing one monetary unit, as shown in Figure 4-4.
+We shall find it useful to provide a direct interpretation for the constant c in the exponential form. For convenience we usually prefer to write the form in terms of the reciprocal of $c, r = c^{(-1)}$, as $u(y) = a + br^{(–y)}$. Suppose that someone satisfying the delta property and, therefore, having a utility function in this form, faces a deal with a probability p of winning one monetary unit and a probability 1–p of losing one monetary unit, as shown in Figure 4-4.
 
 *Figure 4-4. Indifference to a Deal Involving Winning or Losing One Monetary Unit*
 
-The monetary unit could be any size, like \$1000. The question is, for a given r, what p will create indifference between accepting the deal and not accepting it. The figure shows on the right the monetary values and u-values associated with each prospect. The figure shows on the left the monetary and u-values that correspond to the prospect of not accepting the deal. Since for indifference the person must have the same e-value of u-values for not accepting and accepting the deal, we have,
+The monetary unit could be any size, like \$1000. The question is, for a given r, what p will create indifference between accepting the deal and not accepting it. The figure shows on the right the monetary values and utilities associated with each prospect. The figure shows on the left the monetary and utilities  that correspond to the prospect of not accepting the deal. Since for indifference the person must have the same expected value of utilities  for not accepting and accepting the deal, we have,
 
-$$a + b = p(a + br⁻¹) + (1–p)(a + br)$$
+$$a + b = p(a + br^{-1}) + (1–p)(a + br)$$
 
-$$= a + b[pr⁻¹ + (1–p)r]$$
+$$= a + b[pr^{-1} + (1–p)r]$$
 
 or, subtracting a and dividing by b,
 
-$$1 = pr⁻¹ + (1–p)r$$
+$$1 = pr^{-1} + (1–p)r$$
 
-$$(1–p)r² – r + p = 0$$.
+$$(1–p)r^{2} – r + p = 0$$
 
 Solving for r, we have,
 
-$$r = [1 ± √(1 – 4p(1–p))]/[2(1–p)]$$
-$$= [1 ± √(1 – 4p + 4p²)]/[2(1–p)]$$
-$$= [1 ± (1 – 2p)]/[2(1–p)]$$
+$$r = \frac{1 ± √(1 – 4p(1–p))}{2(1–p)}$$
+$$= \frac{1 ± √(1 – 4p + 4p²)}{2(1–p)}$$
+$$= \frac{1 ± (1 – 2p)}{2(1–p)}$$
 
 or,
 
-$$r = 1, p/(1–p)$$.
+$$r = 1, \frac{p}{(1–p)}$$
 
-The solution r = 1 is a limiting case that corresponds to the risk-neutral u-curve we have discussed previously, u(y) = a + by. The solution r = p/(1–p) means that when r is equal to the odds of winning one monetary unit versus losing one monetary unit, the person is indifferent between accepting and rejecting the deal. We call r the risk odds that characterize the risk attitude of a person who satisfies the delta property.
+The solution $r = 1$ is a limiting case that corresponds to the risk-neutral utility function we have discussed previously, $u(y) = a + by$. The solution $r = p/(1–p)$ means that when $r$ is equal to the odds of winning one monetary unit versus losing one monetary unit, the person is indifferent between accepting and rejecting the deal. We call r the risk odds that characterize the risk attitude of a person who satisfies the delta property.
 
 ### 4.3.1 Using Risk Odds
 
@@ -1300,18 +1303,18 @@ The constant r can be put to immediate use. Suppose that the person faces a deal
 
 What is the probability of winning q that will just create indifference? We proceed as before,
 
-$$a + b = q(a + br⁻ᵐ) + (1–q)(a + brᵐ)$$
-$$= a + b[qr⁻ᵐ + (1–q)rᵐ]$$
+$$a + b = q(a + br^{-m}) + (1–q)(a + br^{m})$$
+$$= a + b[qr^{-m} + (1–q)r^{m}]$$
 
 then,
 
-$$1 = qr⁻ᵐ + (1–q)rᵐ$$
+$$1 = qr^{-m} + (1–q)r^{m}$$
 
-$$(1–q)r²ᵐ – rᵐ + q = 0$$.
+$$(1–q)r^{2m} – r^{m} + q = 0$$
 
-By comparing this equation with our earlier development, we see that the solution for r to the power m must be rᵐ = q/(1–q), or since r = p/(1–p),
+By comparing this equation with our earlier development, we see that the solution for $r$ to the power $m$ must be $r^{m} = q/(1–q)$, or since $r = p/(1–p)$,
 
-$$q/(1–q) = [p/(1–p)]ᵐ$$
+$$\frac q{1–q} = \left(\frac p{1–p}\right)^m$$
 
 The odds required to be indifferent for stakes m are just the odds required to be indifferent for unit stakes raised to the mᵗʰ power. This is true for any value of m for an exponential person. For example, if the stakes were one-half a monetary unit, then the odds on winning for indifference would be just the square root of the risk odds.
 
@@ -1319,25 +1322,25 @@ The odds required to be indifferent for stakes m are just the odds required to b
 
 Let us test these ideas in Kim's case. We have already found that for Kim,
 
-$$c = (1/2)^{(1/50)} = 0.986$$,
+$$c = (1/2)^{(1/50)} = 0.986$$
 
 and hence that her risk odds are
 
-$$r = 1/c = (1/2)^{(–1/50)} = 1.014$$.
+$$r = 1/c = (1/2)^{(–1/50)} = 1.014$$
 
 This means that Kim would have to have 1.014 odds of winning versus losing \$1 before she would be indifferent.
 
 More interesting, however, are the odds of winning versus losing \$100 that would just make her indifferent. These odds would be just the 100ᵗʰ power of her risk odds or
 
-$$[(1/2)^{(–1/50)}]^{100}= (1/2)^{–2} = 4$$.
+$$[(1/2)^{(–1/50)}]^{100}= (1/2)^{–2} = 4$$
 
 Kim would require 4:1 odds of winning versus losing \$100 to be indifferent. This means that she would have to have a 0.8 chance of winning and 0.2 chance of losing.
 
 ### 4.3.3 Assessing Risk Odds
 
-We have now found one way we could have assessed Kim's u-curve. First we would ask questions that confirmed that she wanted to satisfy the delta property for gains and losses in the \$100 range. Then we would ask her what chance of winning versus losing $100 would create indifference. When she says 80 percent or 4:1 odds, we can use this answer to construct her u-curve and answer any question regarding risky choice that she might face in the specified range. From our discussion, it follows that Kim is just indifferent to 2:1 odds of winning versus losing \$50.
+We have now found one way we could have assessed Kim's utility function. First we would ask questions that confirmed that she wanted to satisfy the delta property for gains and losses in the \$100 range. Then we would ask her what chance of winning versus losing $100 would create indifference. When she says 80 percent or 4:1 odds, we can use this answer to construct her utility function and answer any question regarding risky choice that she might face in the specified range. From our discussion, it follows that Kim is just indifferent to 2:1 odds of winning versus losing \$50.
 
-We can use the same method to assess the u-curve for anyone who accepts the delta property. The best way is to select a large enough monetary unit like \$100 or \$1000 to gain the person's interest. Then you can ask the odds for winning versus losing that would create indifference. You can check for consistency by doubling or halving the size of the monetary unit and repeating the question. If the person is always indifferent to equal odds, then we are observing risk neutrality and we use the u-curve form $u(y) = a + by$.
+We can use the same method to assess the utility function for anyone who accepts the delta property. The best way is to select a large enough monetary unit like \$100 or \$1000 to gain the person's interest. Then you can ask the odds for winning versus losing that would create indifference. You can check for consistency by doubling or halving the size of the monetary unit and repeating the question. If the person is always indifferent to equal odds, then we are observing risk neutrality and we use the utility function form $u(y) = a + by$.
 
 ### 4.3.4 Relationship to Other Forms of the Exponential
 
@@ -1371,21 +1374,21 @@ To explore this issue, we let p be the probability of sunshine that she assigns 
 
 *Figure 5-1. Kim's Decision Tree for General Probability of Sunshine, p*
 
-The u-values of the three alternatives are easily computed. The u-value of the outdoor alternative is simply p. The u-value of the porch alternative is $0.950p + 0.323(1-p) or 0.323+0.627p$. The u-value of the indoor alternative is $0.568p+0.667(1-p) or 0.667-0.099p$. The u-value for each alternative is shown by the branch for that alternative in the figure.
+The utilities  of the three alternatives are easily computed. The utility of the outdoor alternative is simply p. The utility of the porch alternative is $0.950p + 0.323(1-p)$ or $0.323+0.627p$. The utility of the indoor alternative is $0.568p+0.667(1-p)$ or $0.667-0.099p$. The utility for each alternative is shown by the branch for that alternative in the figure.
 
-Figure 5-2 shows a plot of these u-values versus p, the probability of sunshine, as p ranges from 0 to 1.
+Figure 5-2 shows a plot of these utilities  versus p, the probability of sunshine, as p ranges from 0 to 1.
 
-*Figure 5-2. Kim's u-value Sensitivity to Probability of Sunshine*
+*Figure 5-2. Kim's utility Sensitivity to Probability of Sunshine*
 
-Each alternative plots as a straight line that joins the u-value of the alternative with p = 0 to the u-value of the alternative with p = 1. The best alternative to follow is the one with the highest u-value for the particular p. Thus, we see that the best alternative when p = 0 is the indoor alternative. The indoor line remains highest until it crosses the porch line at a value of p = 0.47. Then the porch line is highest until it crosses the outdoor line at p = 0.87. Thus, for probabilities of sunshine less than 0.47, the indoor alternative is best; for probabilities of sunshine greater than 0.87, the outdoor alternative is best; and otherwise the porch alternative is best. Note that the value of probability of sunshine that Kim originally assigned, 0.4, leads her to follow the indoor alternative, as we found in Figure 3-14. You can see that Kim will only move to the outdoor alternative when is very sure that the weather will be sunny.
+Each alternative plots as a straight line that joins the utility of the alternative with $p = 0 $ to the utility of the alternative with $p = 1. $ The best alternative to follow is the one with the highest utility for the particular p. Thus, we see that the best alternative when $p = 0 $ is the indoor alternative. The indoor line remains highest until it crosses the porch line at a value of $p = 0.47. $ Then the porch line is highest until it crosses the outdoor line at $p = 0.87. $ Thus, for probabilities of sunshine less than 0.47, the indoor alternative is best; for probabilities of sunshine greater than 0.87, the outdoor alternative is best; and otherwise the porch alternative is best. Note that the value of probability of sunshine that Kim originally assigned, 0.4, leads her to follow the indoor alternative, as we found in Figure 3-14. You can see that Kim will only move to the outdoor alternative when is very sure that the weather will be sunny.
 
-One easy way to draw Figure 5-2 is to create on the right hand side of the figure a dollar scale that is distorted according to Kim's u-curve of Figure 3-11. For example, the point corresponding to \$50 on the right of Figure 5-2 is found by observing from Figure 3-11 that \$50 corresponds to a u-value of 0.667. Once we have constructed this distorted dollar scale, then we can draw the lines corresponding to each alternative by simply connecting the end points that correspond to the dollar values. Thus, for example, the porch line connects the point corresponding to \$20 when p = 0 to the point corresponding to \$90 when p = 1.
+One easy way to draw Figure 5-2 is to create on the right hand side of the figure a dollar scale that is distorted according to Kim's utility function of Figure 3-11. For example, the point corresponding to \$50 on the right of Figure 5-2 is found by observing from Figure 3-11 that \$50 corresponds to a utility of 0.667. Once we have constructed this distorted dollar scale, then we can draw the lines corresponding to each alternative by simply connecting the end points that correspond to the dollar values. Thus, for example, the porch line connects the point corresponding to \$20 when $p = 0 $ to the point corresponding to \$90 when p = 1.
 
-We can also use this figure to show the u-value of free clairvoyance. Recall that if Kim receives free clairvoyance on the weather and, if she finds that the weather will be sunny, then she will have a party outdoors with a value of \$100. If she finds that the weather will be rainy, then she will have her party indoors with a value of \$50. Consequently, if the probability of sunshine is p, the u-value of free clairvoyance is $pu(100)+(1-p)u(50)$. This is the line that connects the point corresponding to \$50 when p = 0 to the point corresponding to \$100 when $p = 1$. It is shown dotted in Figure 5-2. Note that it connects the highest point on the $p = 0$ axis to the highest point on the $p = 1$ axis. It is clear that the alternative consisting of free clairvoyance and then a decision is better than any of the other alternatives in the problem without clairvoyance unless $p = 0$ or $p = 1$.
+We can also use this figure to show the utility of free clairvoyance. Recall that if Kim receives free clairvoyance on the weather and, if she finds that the weather will be sunny, then she will have a party outdoors with a value of \$100. If she finds that the weather will be rainy, then she will have her party indoors with a value of \$50. Consequently, if the probability of sunshine is p, the utility of free clairvoyance is $pu(100)+(1-p)u(50)$. This is the line that connects the point corresponding to \$50 when $p = 0 $ to the point corresponding to \$100 when $p = 1$. It is shown dotted in Figure 5-2. Note that it connects the highest point on the $p = 0$ axis to the highest point on the $p = 1$ axis. It is clear that the alternative consisting of free clairvoyance and then a decision is better than any of the other alternatives in the problem without clairvoyance unless $p = 0$ or $p = 1$.
 
 #### 5.1.1.1 Certain Equivalent Sensitivity
 
-For any alternative, and any probability of sunshine p, we can determine from Figure 5-2 the corresponding u-value and, consequently, by reading off the distorted dollar scale, the corresponding certain equivalent of that situation. However, it will be more convenient to perform this operation on the whole figure and so obtain a plot of Kim's certain equivalent sensitivity to probability of sunshine p as shown in Figure 5-3.
+For any alternative, and any probability of sunshine p, we can determine from Figure 5-2 the corresponding utility and, consequently, by reading off the distorted dollar scale, the corresponding certain equivalent of that situation. However, it will be more convenient to perform this operation on the whole figure and so obtain a plot of Kim's certain equivalent sensitivity to probability of sunshine p as shown in Figure 5-3.
 
 *Figure 5-3. Kim's Certain Equivalent Sensitivity to Probability of Sunshine, p*
 
@@ -1397,7 +1400,7 @@ Because Kim wishes to accept the delta property, we can in fact find her value o
 
 *Figure 5-4. Kim's Value of Clairvoyance Sensitivity to Probability of Sunshine, p*
 
-We observe that there will be no value of clairvoyance when p is either 0 or 1 because at these points Kim would have clairvoyance. Otherwise, in this problem, there will be a positive value to free knowledge of the weather. As p increases from 0, the value of clairvoyance also increases, reaching a peak of about \$24.36 at p = 0.47. Note that the value is \$20.27 at p = 0.4. When p exceeds 0.47, the value of clairvoyance falls, and falls even more rapidly when p exceeds 0.87. We can see that clairvoyance will be worth at least \$15 for probabilities of sunshine that range from about 0.3 to 0.85. Figure 5-3 also shows that as the probability of sunshine varies from 0.2 to 0.6. Kim's certain equivalent will be much less sensitive to this change if she follows the indoor alternative than it would be if she followed the porch alternative. There is only about a $4 difference in certain equivalents over this range for the indoor alternative, while there would be a \$24 difference for the porch alternative.
+We observe that there will be no value of clairvoyance when p is either 0 or 1 because at these points Kim would have clairvoyance. Otherwise, in this problem, there will be a positive value to free knowledge of the weather. As p increases from 0, the value of clairvoyance also increases, reaching a peak of about \$24.36 at $p = 0.47. $ Note that the value is \$20.27 at $p = 0.4. $ When p exceeds 0.47, the value of clairvoyance falls, and falls even more rapidly when p exceeds 0.87. We can see that clairvoyance will be worth at least \$15 for probabilities of sunshine that range from about 0.3 to 0.85. Figure 5-3 also shows that as the probability of sunshine varies from 0.2 to 0.6. Kim's certain equivalent will be much less sensitive to this change if she follows the indoor alternative than it would be if she followed the porch alternative. There is only about a $4 difference in certain equivalents over this range for the indoor alternative, while there would be a \$24 difference for the porch alternative.
 
 ### 5.1.2 Jane's Sensitivity to Probability of Sunshine
 
@@ -1405,23 +1408,23 @@ We can perform this analysis even more easily for the risk-neutral Jane. Figure 
 
 *Figure 5-5. Jane's Decision Tree for General Probability of Sunshine, p*
 
-Since Jane's certain equivalents are simply her e-values of monetary values, we find her certain equivalent for the outdoor alternative is simply 100p. For the porch alternative, her certain equivalent is $90p+20(1-p) = 20+70p$; for the indoor alternative, it is $40p+50(1-p) = 50-10p$. We plot these certain equivalents in Figure 5-6.
+Since Jane's certain equivalents are simply her expected value of monetary values, we find her certain equivalent for the outdoor alternative is simply 100p. For the porch alternative, her certain equivalent is $90p+20(1-p) = 20+70p$; for the indoor alternative, it is $40p+50(1-p) = 50-10p$. We plot these certain equivalents in Figure 5-6.
 
 *Figure 5-6. Jane's Certain Equivalent Sensitivity to Probability of Sunshine, p*
 
-The certain equivalent for each alternative is a straight line connecting the dollar values for p = 0 and p = 1. Again, as p increases from 0 through 1, the best alternative will change from indoor to porch to outdoor; however, the points of change are different from those for Kim. Jane will change from the indoor to the porch alternative when p crosses 0.375 and from the porch to the outdoor alternative when p crosses 0.667. Thus, she is more willing to follow the more exposed alternatives for lower probabilities of sunshine than is Kim. We see that the value of p = 0.4 corresponds to the porch region for Jane. Her certain equivalents are shown for the indoor, porch, and outdoor alternatives for p = 0.4 as \$48, \$46, and \$40.
+The certain equivalent for each alternative is a straight line connecting the dollar values for $p = 0 $ and $p = 1$. Again, as p increases from 0 through 1, the best alternative will change from indoor to porch to outdoor; however, the points of change are different from those for Kim. Jane will change from the indoor to the porch alternative when p crosses 0.375 and from the porch to the outdoor alternative when p crosses 0.667. Thus, she is more willing to follow the more exposed alternatives for lower probabilities of sunshine than is Kim. We see that the value of $p = 0.4 $ corresponds to the porch region for Jane. Her certain equivalents are shown for the indoor, porch, and outdoor alternatives for $p = 0.4 $ as \$48, \$46, and \$40.
 
-If Jane is given free clairvoyance, her certain equivalent is represented by the dotted line that connects the \$100 value she will receive when p = 1 by having the party outdoors and the \$50 value she will receive when p = 0 by having the party indoors. When p = 0.4 this line shows that Jane's certain equivalent of free clairvoyance will be \$70. Since Jane is risk-neutral, she satisfies the delta property and consequently we can obtain her value of clairvoyance at p = 0.4 by subtracting from the \$70 certain equivalent of free clairvoyance the \$48 certain equivalent of her otherwise best alternative, having the party on the porch. The result is the \$22 value of clairvoyance for Jane that we computed in Figure 3-23.
+If Jane is given free clairvoyance, her certain equivalent is represented by the dotted line that connects the \$100 value she will receive when $p = 1 $ by having the party outdoors and the \$50 value she will receive when $p = 0 $ by having the party indoors. When $p = 0.4 $ this line shows that Jane's certain equivalent of free clairvoyance will be \$70. Since Jane is risk-neutral, she satisfies the delta property and consequently we can obtain her value of clairvoyance at $p = 0.4 $ by subtracting from the \$70 certain equivalent of free clairvoyance the \$48 certain equivalent of her otherwise best alternative, having the party on the porch. The result is the \$22 value of clairvoyance for Jane that we computed in Figure 3-23.
 
 We can perform this same computation of subtracting the certain equivalent of the best alternative for a particular p from the certain equivalent of free clairvoyance at the same p to obtain Jane's value of clairvoyance sensitivity to p as shown in Figure 5-7.
 
 *Figure 5-7. Jane's Value of Clairvoyance Sensitivity to Probability of Sunshine, p*
 
-Just as for Kim, Jane will have no value of clairvoyance when p = 0 or p = 1 because she will already have clairvoyance at these points. Otherwise, clairvoyance will have a positive value to Jane. As you can see from the construction, the segments of Jane's value of clairvoyance sensitivity curve will all be straight lines. The highest value of clairvoyance occurs at the crossover point p = 0.375 and here it is \$22.50. For the probability of sunshine 0.4, the value of clairvoyance is \$22 as we have observed.
+Just as for Kim, Jane will have no value of clairvoyance when $p = 0 $ or $p = 1 $ because she will already have clairvoyance at these points. Otherwise, clairvoyance will have a positive value to Jane. As you can see from the construction, the segments of Jane's value of clairvoyance sensitivity curve will all be straight lines. The highest value of clairvoyance occurs at the crossover point $p = 0.375 $ and here it is \$22.50. For the probability of sunshine 0.4, the value of clairvoyance is \$22 as we have observed.
 
 ### 5.1.3 Comparison of Kim's and Jane's Value of Clairvoyance Sensitivities
 
-We can now compare the value of clairvoyance sensitivity for both Kim and Jane. Note that, from Figure 5-4, when the probability of sunshine is 0.4, Kim's value of clairvoyance is $20.27, whereas from Figure 5-7, Jane's value of clairvoyance is \$22. Kim, as the risk averse person, is in this case willing to pay less for clairvoyance than is Jane. But is that always true? While many people think so, the answer is no. Compare the two figures when p = 0.5. At this point Kim's value of clairvoyance is about \$24, while Jane's is \$20. The order of their values is reversed for this different probability of sunshine.
+We can now compare the value of clairvoyance sensitivity for both Kim and Jane. Note that, from Figure 5-4, when the probability of sunshine is 0.4, Kim's value of clairvoyance is $20.27, whereas from Figure 5-7, Jane's value of clairvoyance is \$22. Kim, as the risk averse person, is in this case willing to pay less for clairvoyance than is Jane. But is that always true? While many people think so, the answer is no. Compare the two figures when $p = 0.5. $ At this point Kim's value of clairvoyance is about \$24, while Jane's is \$20. The order of their values is reversed for this different probability of sunshine.
 
 One way to interpret this result is to note that when p = 0.5, both Kim and Jane will follow the porch alternative, and be more exposed to the weather. Kim, as a risk averse person, is more concerned about this and consequently is willing to pay more for clairvoyance on the weather. However, when p = 0.4, Kim has already switched to the indoor alternative, while Jane is still following the porch alternative. Kim, as we found in the sensitivity analysis, is now much less exposed to the weather and so her value of clairvoyance becomes less than Jane's. Even in such a simple problem as this, intuition can often be misleading.
 
@@ -1515,19 +1518,21 @@ The posterior probabilities on the weather, given the experimental indication, a
 
 Now we are ready to find whether Kim should pay \$10 to use the detector. We construct a decision tree similar to that of Figure 3-15; in fact, since the upper part of the figure where she makes the decision without any further information is identical to that of Figure 3-15, we represent it here only in summary form. Recall that in this case she will have the party indoors and will have a certain equivalent of \$46, or \$45.83 to be more precise. However, if she buys the rain detector for \$10, then she faces the tree shown in the lower part of Figure 6-6.
 
+![alt text](Figure6-6.png)
+
 *Figure 6-6. Should Kim Pay \$10 to Use the Rain Detector*
 
 We shall analyze the problem without using our knowledge that Kim satisfies the delta property so that we will be able to observe a general analysis. Note that the structure of the problem is exactly the same as that for clairvoyance, the only difference is in the probabilities that we will be assigning.
 
-The values at the tips of the tree are the usual dollar values. We begin by subtracting the \$10 cost of the experiment from each of the values and then computing the u-value of each of these reduced amounts, as shown in the column at the far right of the figure. Then we copy the appropriate probability assignments into the figure, for example, the preposterior probabilities of 0.44 and 0.56 that the detector will indicate sunny and rainy, respectively. Next, following each indication, we record the proper conditional probability of sunshine and rain as computed in Figure 6-5. Thus, following the sunny indication, there will be a 0.727 chance of sunshine and, following the rainy indication, there will be a 0.143 chance of sunshine. Now we can roll back this tree to see whether the u-value of buying the rain detector service is greater than the u-value of 0.63 of doing no experiment or, equivalently, whether the certain equivalent of buying the rain detector at a cost of \$10 is greater or less than \$45.83, the certain equivalent of performing no experiment.
+The values at the tips of the tree are the usual dollar values. We begin by subtracting the \$10 cost of the experiment from each of the values and then computing the utility of each of these reduced amounts, as shown in the column at the far right of the figure. Then we copy the appropriate probability assignments into the figure, for example, the preposterior probabilities of 0.44 and 0.56 that the detector will indicate sunny and rainy, respectively. Next, following each indication, we record the proper conditional probability of sunshine and rain as computed in Figure 6-5. Thus, following the sunny indication, there will be a 0.727 chance of sunshine and, following the rainy indication, there will be a 0.143 chance of sunshine. Now we can roll back this tree to see whether the utility of buying the rain detector service is greater than the utility of 0.63 of doing no experiment or, equivalently, whether the certain equivalent of buying the rain detector at a cost of \$10 is greater or less than \$45.83, the certain equivalent of performing no experiment.
 
-Proceeding, we find that following the branch of a sunny indication, "S", the decision to have the party outdoors will produce a 0.727 chance of a 0.951 u-value and 0.273 chance of a -0.198 u-value, or a u-value for this alternative of 0.637. The porch alternative in this situation produces a u-value of 0.697, and the indoor alternative a u-value of 0.485. Consequently, the porch alternative is best and, if the detector indicates sunny, she will decide to have the party on the porch. Notice that this is a change from the decision she would make otherwise to have it indoors.
+Proceeding, we find that following the branch of a sunny indication, "S", the decision to have the party outdoors will produce a 0.727 chance of a 0.951 utility and 0.273 chance of a -0.198 u-value, or a utility for this alternative of 0.637. The porch alternative in this situation produces a utility of 0.697, and the indoor alternative a utility of 0.485. Consequently, the porch alternative is best and, if the detector indicates sunny, she will decide to have the party on the porch. Notice that this is a change from the decision she would make otherwise to have it indoors.
 
-The alternatives following the rainy indication have u-values -0.034, 0.276, and 0.551. Clearly the indoor alternative is best when the detector indicates rainy. This is what she would have done if she did not use the detector, so the detector has the possibility of changing her decision only when it indicates sunshine. Therefore, overall she has a 0.44 chance of a u-value of 0.697 and a 0.56 chance of a u-value of 0.551, producing a u-value of 0.615 with a corresponding certain equivalent of \$44.62 for the rain detector alternative. We see that Kim is better advised to pass up the opportunity of using the rain detector because she will be worse off by at least \$1 by doing so. Thus, even though the detector has an 80 percent chance of giving a correct indication, and even though her value of clairvoyance is at least \$20, Kim would not be wise to employ the detector in this situation.
+The alternatives following the rainy indication have utilities  -0.034, 0.276, and 0.551. Clearly the indoor alternative is best when the detector indicates rainy. This is what she would have done if she did not use the detector, so the detector has the possibility of changing her decision only when it indicates sunshine. Therefore, overall she has a 0.44 chance of a utility of 0.697 and a 0.56 chance of a utility of 0.551, producing a utility of 0.615 with a corresponding certain equivalent of \$44.62 for the rain detector alternative. We see that Kim is better advised to pass up the opportunity of using the rain detector because she will be worse off by at least \$1 by doing so. Thus, even though the detector has an 80 percent chance of giving a correct indication, and even though her value of clairvoyance is at least \$20, Kim would not be wise to employ the detector in this situation.
 
 #### 6.1.5.1 Analysis Using the Delta Property
 
-As we mentioned, we have ignored the fact that Kim satisfies the delta property and carried out the analysis in some detail to show the general procedure for dealing with experimentation. We have also used more accuracy than necessary to allow following the computations in detail. However, let us now take advantage of Kim's acceptance of the delta property. We do this by noting that we have already solved the problem of what Kim would do for any probability of sunshine that she might face in Figure 5-2. If Kim faced a 0.727 chance of sunshine, we see that she would follow the porch alternative and if she faced a 0.143 chance of sunshine, we see that she would follow the indoor alternative. Therefore, assuming that she received use of the rain detector at no charge, her u-value of using the free detector would be the chance it would indicate sunny, 0.44, times the u-value of the porch alternative when the probability of sunshine is 0.727, or $0.323+0.628(0.727) = 0.780$ plus the chance that the detector will indicate rainy, 0.56, times the u-value of the indoor alternative when the probability of rain is 0.143, or $0.667-0.099(0.143) = 0.653$. The result is a u-value of 0.709 or a certain equivalent of \$54.7. This means that Kim would have a certain equivalent of about \$54.7 for the experiment if she could get it free. Since her certain equivalent without the experiment is about \$46.00, she should pay no more than about \$8.7 for the experiment as a believer in a delta property. The cost of \$10 is over a dollar too high.
+As we mentioned, we have ignored the fact that Kim satisfies the delta property and carried out the analysis in some detail to show the general procedure for dealing with experimentation. We have also used more accuracy than necessary to allow following the computations in detail. However, let us now take advantage of Kim's acceptance of the delta property. We do this by noting that we have already solved the problem of what Kim would do for any probability of sunshine that she might face in Figure 5-2. If Kim faced a 0.727 chance of sunshine, we see that she would follow the porch alternative and if she faced a 0.143 chance of sunshine, we see that she would follow the indoor alternative. Therefore, assuming that she received use of the rain detector at no charge, her utility of using the free detector would be the chance it would indicate sunny, 0.44, times the utility of the porch alternative when the probability of sunshine is 0.727, or $0.323+0.628(0.727) = 0.780$ plus the chance that the detector will indicate rainy, 0.56, times the utility of the indoor alternative when the probability of rain is 0.143, or $0.667-0.099(0.143) = 0.653$. The result is a utility of 0.709 or a certain equivalent of \$54.7. This means that Kim would have a certain equivalent of about \$54.7 for the experiment if she could get it free. Since her certain equivalent without the experiment is about \$46.00, she should pay no more than about \$8.7 for the experiment as a believer in a delta property. The cost of \$10 is over a dollar too high.
 
 ### 6.1.6 Detector Use Analysis for Jane
 
