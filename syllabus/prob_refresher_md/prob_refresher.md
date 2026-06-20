@@ -4,7 +4,6 @@
 
 *Everything You Need Before the Probability Lecture*
 
-*Based on Drake's §1.2 & §1.3 outline — 15 Jun 2026*
 
 > **What this guide is.** The class lecture on probability will move fast and assume you are comfortable with certain ideas. This guide builds those ideas from scratch — starting from the question *"what even is a probability?"* and ending at the rules you will use every day in MS&E 152. No calculus, no prior probability course required. Work through each section in order; every concept leads into the next.
 
