@@ -24,7 +24,7 @@ This course will develop skills in structuring and solving problems through inte
 As this is an Engineering course, ability in high-school level mathematics and spreadsheets is needed. A background in probability is helpful. Co-registration in an introductory probability course is appropriate for students with no previous study. Basic software or programming (e.g. python notebooks) experience is entirely optional. 
 
 #### Pre-course assignment
-- Review your understanding of basic probability with the [probability refresher](syllabus/prob_refresher_md).
+- Review your understanding of basic probability with the [probability refresher](/syllabus/prob_refresher_md).
 - Watch [this TED talk](https://www.youtube.com/watch?v=-gqNOmdvwiI) on the value of improving personal decision making.
 
 ## Course Learning Objectives
