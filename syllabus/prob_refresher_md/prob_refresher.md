@@ -1,6 +1,10 @@
+---
+   layout: default
+   title: Probability Refresher
+   ---
 # Probability Refresher
 
-**Stanford University · MS&E 152 · Decision Analysis · Summer 2026**
+**Stanford University · MS&E 152 ·Introduction to Decision Analysis · Summer 2026**
 
 *Everything You Need Before the Probability Lecture*
 
