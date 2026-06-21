@@ -32,7 +32,7 @@ Before we can assign a number to something uncertain, we need to be precise abou
 
 **event** — a **statement** (a **proposition**) that is either true or false at a specific point in time. Events are defined by **distinctions**: a 'crisp' yes/no question about the world. An event has two possible outcomes.
 
-> **Definition (Drake §1.2): event** — a statement, a proposition — that includes a distinction at a point & time. 'Point event' means an elemental outcome.
+> **Definition (Drake §1.2): event** — a statement, a proposition that creates a distinction, at a point in time. 'Point event' means an elemental outcome - the finest level of distinction. 
 
 Three examples, going from simple to the kind you'll use all course:
 
@@ -50,11 +50,11 @@ In everyday speech, "something might happen" is vague. Probability requires prec
 
 -   *How sure am I?* (the number we'll assign) — this is a **probability measure**.
 
-> **Intuition:** Think of an event as *something you can bet on.* "It will rain this Saturday" is a clear bet — on Sunday morning you know who won. "The weather will be bad" is not clear enough: bad by whose standard? By when? A well-defined event always has a crisp answer when the moment arrives.
+> **Intuition:** Think of an uncertain event as *something you can bet on.* "It will rain this Saturday" is a clear bet — on Sunday morning you know who won. "The weather will be bad" is not clear enough: bad by whose standard? By when? A well-defined event always has a crisp answer when the moment arrives.
 
 **Two symbols to keep apart: ∅ and ε**
 
-The symbol ∅ is the **empty set** — the impossible event, which can never be true (you'll see it in the axioms in §4). Do not confuse it with ε (epsilon), which stands for your background knowledge: the state of information every probability is conditioned on. That is why P(A) always means P(A \| ε).
+The symbol ∅ is the **empty set** — the impossible event, which can never be true (you'll see it in the axioms in §4). Do not confuse it with ε (epsilon), which stands for the "event" of your background knowledge: the state of information every probability is conditioned on. That is why P(A) always means P(A \| ε).
 
 
 ## §2. The Outcome Space — Listing All Possibilities
@@ -63,11 +63,13 @@ The symbol ∅ is the **empty set** — the impossible event, which can never be
 
 The most basic events are **point events** (Drake's term) — also called **outcomes** or **elemental outcomes**. These are the most specific things that could happen: you cannot break them down further.
 
-> **"point event"** → elemental outcomes of the outcome space. **outcome space**: the complete set of all possible point events. **compound event** → a combination of elemental events (point events).
+> **"point event"** → elemental outcomes of the outcome space. 
+
+> **outcome space** → the complete set of all possible point events. **compound event** → a combination of elemental events (point events).
 
 Two notations for the same idea:
 
--   **Drake / B&H:** "outcome space" — denoted Ω (capital omega)
+-   **Drake / B&H:** The entire "outcome space", equivalent to the "certain event"  — denoted Ω (capital omega)
 
 -   **Standard:** "sample space" — same symbol Ω
 
@@ -79,7 +81,7 @@ Two notations for the same idea:
 
 > **Venn diagrams** represent the outcome space visually. Each region is a set of point events; its **area is proportional to its probability**.
 
-Venn diagrams are useful for seeing OR, AND, and NOT geometrically. But for problems with many distinctions, they get crowded. That's why we use probability trees instead.
+Venn diagrams are useful for seeing OR, AND, and NOT **Event algebra**  expressions geometrically. But for problems with many distinctions, they get crowded. That's why we use probability trees instead.
 
 **Probability trees — the main tool of MS&E 152**
 
@@ -99,9 +101,9 @@ How to build one:
 
 **Discrete variable:** A variable that contains a finite list of possible outcomes. Drake notes:
 
--   A **"binary"** variable has exactly 2 branches ≡ 2 events (e.g. C vs. C′)
+-   A **"binary"** variable has exactly 2 branches ≡ 2 events (e.g. $C$ vs. $C^c$)
 
--   A variable with 3 outcomes has 3 branches, and so on
+-   A variable with 3 outcomes has 3 branches, and so on.
 
 > **Why trees beat Venn diagrams for this course:** Venn diagrams get messy with more than two distinctions. Probability trees scale cleanly to 3, 4, or 10 outcomes. Every problem you solve in MS&E 152 will involve a tree.
 >
@@ -120,11 +122,11 @@ Once you have individual events, you can build more complex ones using three ope
 
 **AND (intersection, written A ∩ B):** Both A and B are true. If A = "coffee drinker" and B = "college graduate," then A ∩ B = "coffee drinker who is also a college graduate."
 
-**OR (union, written A ∪ B):** At least one of A or B is true. "Coffee drinker or college graduate (or both)."
+**OR (union, written A ∪ B):** At least one (and possibly both) of A or B is true. "Coffee drinker or college graduate (or both)."
 
 ![Figure 4](media/figure-04.png)
 
-*Figure 2. The three event-algebra operations as Venn diagrams on circles C and G inside Ω. The shaded region is the event: NOT — everything outside G (G′); AND — the overlap (C ∩ G); OR — both circles (C ∪ G).*
+*Figure 2. The three event-algebra operations as Venn diagrams on circles C and G inside Ω. The shaded region is the event $G$: NOT — everything outside $G^c$; AND — the overlap ($C \cap G$); OR — both circles ($C \cup G$).*
 
 **Two important special cases**
 
@@ -143,7 +145,7 @@ Once you have individual events, you can build more complex ones using three ope
 
 **What is a probability measure?**
 
-We've been using the word "probability" informally. Now we pin it down. A
+We've been using the word "probability" informally. Now we pin it down.
 
 **probability measure** is a function that assigns a number to every event in the outcome space. Think of it as giving each region of the Venn diagram a **weight** (or "area"). The rules it must follow are simple:
 
@@ -157,11 +159,12 @@ We've been using the word "probability" informally. Now we pin it down. A
 
 **Axiom 3:** P(A ∪ B) = P(A) + P(B) if A ∩ B = ∅ — **Non-overlapping events add**. If A and B cannot both happen, the probability of one or the other is just the sum. This is called **finite additivity**.
 
+
 ![Figure 5](media/figure-05.png)
 
 *Figure 5. The three axioms visualized. Axiom 1: ∅ has no weight. Axiom 2: Ω has total weight 1. Axiom 3: non-overlapping events simply add.*
 
-> **Why only three?** These three rules are the *minimum* needed to make probability coherent. Every formula you'll use — the complement rule, the Law of Total Probability, Bayes' theorem, the chain rule — is a **theorem** derived from these three alone. You don't need to memorize more rules if you understand these.
+> **Why only three?** These three rules are the *minimum* needed to make probability coherent. Every formula you'll use — the complement rule, the Law of Total Probability, Bayes' theorem, the Chain rule — is a **theorem** derived from these three alone. You don't need to memorize more rules if you understand these.
 
 **What follows immediately from the axioms**
 
@@ -190,7 +193,7 @@ When all point events are equally likely (fair coin, fair die, well-shuffled dec
 
 **Conditional probability — zooming in**
 
-The counting formula works when all outcomes are equally likely. All probabilities, in concept, are conditioned on ε — P(A) means P(A \| ε). But in our Coffee/College example the four outcomes have different probabilities (0.04, 0.16, 0.56, 0.24), because they are made of compound events — each one is a conjunction of two distinctions. We need a definition that works always:
+The counting formula works when all outcomes are equally likely. All probabilities, in concept, are conditioned on ε — P(A) means P(A \| ε). It is assumed that  ε is always present, though for convenience we sometimes leave it out. Note that in our Coffee/College example the four outcomes have different probabilities (0.04, 0.16, 0.56, 0.24), because they are made of compound events — each one is a conjunction of two distinctions. We need a definition that works always:
 
 **Conditional probability** P(A\|B) — read: "the probability of A **given** that B has occurred" — is the most important single idea in this course. Here is the intuition:
 
@@ -204,7 +207,7 @@ The counting formula works when all outcomes are equally likely. All probabiliti
 
 *Figure 6. Left: before conditioning — P(C) = 0.20, using all 4 cells. Right: after learning \"College Graduate\" — we zoom into the G column only, and P(C\|G) = 0.04/0.60 = 0.067. Learning G dramatically changed our belief about C.*
 
-> **Note — all probabilities are conditional:** When we write P(A), we really mean P(A\|&) — the probability of A given your current background knowledge (the '&' in Howard's notation). Probability never exists in a vacuum.
+> **Note — all probabilities are conditional:** When we write P(A), we really mean P(A\| ε ) — the probability of A given your current background knowledge. Probability never exists in a vacuum.
 >
 > **Coffee / College example:** P(C\|G) = P(CG) / P(G) = 0.04 / 0.60 = **0.067** Knowing someone is a college graduate drops your probability they drink coffee from 20% to 6.7%. The two events are **not independent**.
 
@@ -226,10 +229,6 @@ In a probability tree, this is simply: **sum all the leaf probabilities that lea
 
 > **Example:** P(G) = P(G\|C)·P(C) + P(G\|C′)·P(C′) = 0.2×0.2 + 0.7×0.8 = 0.04 + 0.56 = **0.60**
 
-![Figure 7](media/figure-07.png)
-
-*Figure 7. Summary of all probability algebra rules, each with a concrete Coffee/College example.*
-
 
 ## §6. Independence — Does One Thing Tell You About Another?
 
@@ -245,7 +244,7 @@ Now suppose you learn that the next person who walks in is a college graduate. D
 
 **The formal definition**
 
-> **Independence (A ⊥⊥ B):** P(A\|B) = P(A) ⟺ A ⊥⊥ B or equivalently: P(A) · P(B) = P(A∩B) Events A and B are independent if knowing B gives you **no new information** about A — your probability for A is exactly the same whether or not you know B occurred.
+> **Independence $A\perp \! \! \! \perp B$:** P(A\|B) = P(A) ⟺ $A\perp \! \! \! \perp B$or equivalently: P(A) · P(B) = P(A∩B) Events A and B are independent if knowing B gives you **no new information** about A — your probability for A is exactly the same whether or not you know B occurred.
 
 ![Figure 8](media/figure-08.png)
 
@@ -261,7 +260,11 @@ Now suppose you learn that the next person who walks in is a college graduate. D
 
 **Symmetry**
 
-Independence is **symmetric**: if A is independent of B, then B is independent of A. Knowing A gives you no information about B, and knowing B gives you no information about A. You cannot have one-way independence.
+Independence is **symmetric**: if A is independent of B, then B is independent of A.  Knowing A gives you no information about B, and knowing B gives you no information about A. You cannot have one-way independence. Similarly with dependence: If A is dependent on B then B is dependent on A. 
+
+![Figure 7](media/figure-07.png)
+
+*Figure 7. Summary of all probability algebra rules, each with a concrete Coffee/College example.*
 
 
 ## Quick Reference — All the Key Terms
