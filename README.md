@@ -42,6 +42,6 @@ WELCOME TO THE COURSE! PLEASE MAKE SURE TO READ SYLLABUS
 
 Complete these before Jun 22:
 - Watch the [pre-class TED talk](https://www.youtube.com/watch?v=-gqNOmdvwiI) on improving personal decision making
-- Review the [probability refresher](/summer26/syllabus/prob_refresher_md/media/prob_refresher/)
+- Review the [probability refresher](/summer26/syllabus/prob_refresher_md/prob_refresher/)
 
 Questions go to Ed Discussion · Homework submitted via Canvas (links in the top bar).
