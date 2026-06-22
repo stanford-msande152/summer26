@@ -137,7 +137,9 @@ In short
 5. Apply solid reasoning.  Use a rational approach
 6. Commit to implement the results. 
 
+### Buying and selling prices
 
+PISP, PIBP  [See FODA, ch 3 ff]
 ### Review of the class deal 
 
 What in terms of decision analysis did we learn from this? 

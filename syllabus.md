@@ -39,7 +39,7 @@ By virtue of taking this course you should:
 
 | Role | Name | Contacts | Location |
 |:-----|:-----|:---------|:---------|
-| Instructor | [John Mark Agosta, Ph.D.](/summer26/staff/) | [jmagosta@stanford.edu](mailto:jmagosta@stanford.edu)<br>650 465-4707 | Huang 261 |
+| Instructor | [John Mark Agosta, Ph.D.](/summer26/staff/) | [jmagosta@stanford.edu](mailto:jmagosta@stanford.edu)<br>650 465-4707 | Huang 261 | 
 | Teaching Assistant | [Uluk Batyrgaliev](/summer26/staff/) | [ubtrglv@stanford.edu](mailto:ubtrglv@stanford.edu) | Zoom |
 
 ## Class Hours
@@ -48,7 +48,7 @@ The course runs for eight weeks (Jun 22 – Aug 13, 2026), with two lecture sess
 
 - **Lectures:** Mon/Wed, 10:30 AM–12:30 PM · [Y2E2 111](http://campus-map.stanford.edu/?srch=Y2E2+111)
 - **Discussion Section:** Thu, 3:00–4:15 PM · [Y2E2 111](http://campus-map.stanford.edu/?srch=Y2E2+111)
-- **Office Hours:** On days following lectures, after lunchtime.
+- **Office Hours:** Sign up via [Calendly](https://calendly.com/jmagosta-stanford/30min)
 
 Lectures and discussion sections will not be recorded. Lecture notes will be posted on the course website after each session.
 
