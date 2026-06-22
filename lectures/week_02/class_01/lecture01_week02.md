@@ -22,6 +22,7 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 ## I.
 [...]
+Decision Quality
 
 ## Class Activity
 

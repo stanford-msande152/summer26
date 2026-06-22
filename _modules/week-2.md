@@ -3,9 +3,9 @@ title: "Week 2: Structuring Decisions and Probability"
 ---
 
 Jun 29
-: **LECTURE 3**{: .label .label-green } **Variables, distinctions, decision tables and trees**
+: **LECTURE 3**{: .label .label-green } **Intro to probability, decision tables and trees**
 : **HW 1 DUE**{: .label .label-red } 
-: **Required:** Course Notes §1.1 Possibilities and Probabilities (§1.1–1.1.15)
+: **Required:** Course Notes §1.1 Possibilities and Distinctions (§1.1–1.1.15), continued. 
 : **FODA** *(optional):* Ch. 5
 
 Jul 1

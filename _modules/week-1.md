@@ -10,9 +10,9 @@ Jun 22
 : **Additional** *(optional):* R. Howard, "The Evolution of Decision Analysis" (1983), RODA p. 1–16
 
 Jun 24
-: **LECTURE 2**{: .label .label-green } **Deal resolution, decision terminology, "Clarity of Action"**
+: **LECTURE 2**{: .label .label-green } **Decision terminology, Events, Variables, "Clarity of Action", Deal resolution, **
 : **HW 1 OUT**{: .label .label-yellow }
-: **Required:** [Intro to Decision Quality](https://www.youtube.com/watch?v=vL6uiALEdkk)
+: **Required:** [Intro to Decision Quality](https://www.youtube.com/watch?v=vL6uiALEdkk, Course Notes §1.1 Possibilities and Distinctions (§1.1–1.1.15))
 : **FODA** *(optional):* Ch. 2.3, 37, 38
 
 Jun 26

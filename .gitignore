@@ -1,4 +1,5 @@
 *.gem
+figures/
 .bundle/
 .jekyll-cache/
 .jekyll-metadata

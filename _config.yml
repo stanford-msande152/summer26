@@ -7,7 +7,7 @@ description: Course website for MS&E 152 Introduction to Decision Analysis at St
 author: MS&E 152 Course Staff
 baseurl: '/summer26'
 url: 'https://stanford-msande152.github.io'
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "syllabus/"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.12.0
@@ -22,11 +22,11 @@ aux_links:
 footer_content: 'MS&E 152, Stanford University. Site maintained by course staff.'
 nav_external_links:
     - title: Canvas course website
-        url: https://canvas.stanford.edu/courses/228284
+        url: "https://canvas.stanford.edu/courses/228284"
         hide_icon: true
         opens_in_new_tab: true
     - title: Ed Discussion course website
-        url:  https://edstem.org/us/courses/99720/discussion/8132172
+        url:  "https://edstem.org/us/courses/99720/discussion/8132172"
         hide_icon: true
         opens_in_new_tab: true
   
