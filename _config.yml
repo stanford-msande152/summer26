@@ -16,17 +16,9 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   "Canvas": "https://canvas.stanford.edu/courses/228284"
-  "Ed Discussion": "https://edstem.org"
+  "Ed Discussion": "https://edstem.org/us/courses/99720/discussion/8132172"
 footer_content: 'MS&E 152, Stanford University. Site maintained by course staff.'
 nav_external_links:
-    - title: "Canvas course website"
-      url: "https://canvas.stanford.edu/courses/228284"
-      hide_icon: true
-      opens_in_new_tab: true
-    - title: "Ed Discussion course website"
-      url:  "https://edstem.org/us/courses/99720/discussion/8132172"
-      hide_icon: true
-      opens_in_new_tab: true
     - title: "Office hours sign-up"
       url: "https://calendly.com/jmagosta-stanford/30min"
       hide_icon: true
