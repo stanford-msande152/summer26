@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Primary text - Foundations of Decision Analysis
-nav_exclude: true
+nav_exclude: false
 search_exclude: true
 ---
 # Decision Analysis

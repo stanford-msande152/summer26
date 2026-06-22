@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Lecture 1 — Why Decision Analysis"
+nav_exclude: true
+search_exclude: true
+---
 Course: MS&E 152 summer 2026
 Sequence: Week 1, Lecture 1
 Date: Monday, June 22nd 2026

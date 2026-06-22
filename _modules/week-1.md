@@ -3,11 +3,12 @@ title: "Week 1: Foundations — What Makes a Decision?"
 ---
 
 Jun 22
-: **LECTURE 1**{: .label .label-green } **Why Decision Analysis: course intro, what is a decision, the "Thumbtack" deal**
+: **LECTURE 1**{: .label .label-green } **Why Decision Analysis: course intro, what is a decision, the "Thumbtack" deal** · [[Notes]](/summer26/lectures/week_01/class_01/lecture01_week01/)
 : *Pre-class:* [TED talk](https://www.youtube.com/watch?v=-gqNOmdvwiI) · in-class background survey
 : **Required:** [Intro to Decision Making](https://www.youtube.com/watch?v=nhDu4ggO0UE) · [Origins of the name DA](https://www.youtube.com/watch?v=rwSQqzW3Rak)
 : **FODA** *(optional):* Ch. 1, 2.1–2.2
 : **Additional** *(optional):* R. Howard, "The Evolution of Decision Analysis" (1983), RODA p. 1–16
+ 
 
 Jun 24
 : **LECTURE 2**{: .label .label-green } **Decision terminology, Events, Variables, "Clarity of Action", Deal resolution, **
