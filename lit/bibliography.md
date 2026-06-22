@@ -18,7 +18,7 @@ description: Required readings, recommended texts, videos, and bibliography.
 ## II. Optional recommended texts
 
 1. J.K. Blitzstein, J. Hwang (2015)"Introduction to Probability" CRC Press.
-2. D. Heckerman, "Heckerthoughts" [PDF](./lit/heckerthoughts.pdf) https://arxiv.org/abs/2302.05449.  
+2. D. Heckerman, "Heckerthoughts" [Download PDF](/summer26/lit/heckerthoughts.pdf) https://arxiv.org/abs/2302.05449.  
 3. R. Howard, Ali Abbas (2016) "Foundations of Decision Analysis" Pearson
 4. R. Howard, C. Korver (2008) "Ethics for the Real World"  Harvard Business Press. 
 5. R. Howard & J. Matheson (1983) "Readings in Decision Analysis ("The Blue Book" - RODA)  SDG - Vol 1&2 
