@@ -5,6 +5,10 @@ Topic: Introduction to Decision Analysis
 #### Links:
 Course website: https://stanford-msande152.github.io/summer26/
 Canvas: https://canvas.stanford.edu/courses/228284
+Course Survey: [https://PollEv.com/surveys/Y1dcrDL1jNv3KTowA75SF/respond](https://pollev.com/surveys/Y1dcrDL1jNv3KTowA75SF/respond "https://PollEv.com/surveys/Y1dcrDL1jNv3KTowA75SF/respond")
+
+  ![[survey_QR.png|164]]
+
 
 ----
 
@@ -30,29 +34,34 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 - How to act rationally.  
 - A technique to align one's _means_ (what one can control) with ones _ends_ (what one desires). 
-- THE exercise of "Actional Thought." 
+- The exercise of "Actional Thought." 
 
 > Making important decisions often requires treating major uncertainties, long time horizons, and complex value issues. To deal with such problems, the discipline of decision analysis was developed. The discipline comprises the philosophy, theory, methodology, and professional practice necessary to formalize the analysis of important decisions.  (Howard 1983)
 
 #### Principled
 
-we build on a treasury of theory, in probability, preferences, and the psychology of how we actually make choices. In the real world there is no such thing as true certainty.  Hence keeping our beliefs current and updated with what we discover is necessary. 
+We build on a treasury of theory, in probability, preferences, and the psychology of how we actually make choices. In the real world there is no such thing as true certainty.  Hence keeping our beliefs current and updated with what we discover is necessary. 
 
- - A "framework of frameworks":  How a descriptive Economic theory can be put to practical use. Most decision self-help methods are derivatives of it. 
+-  How  Economic theory can be put to practical use.
+ - A "framework of frameworks":   Most decision self-help methods are derivatives of it. 
 
 This is an audacious idea, and still controversial!  
 
 #### Normative
 An application of ideas from economics and how they can be applied **normatively**. This means "Turning economics upside down"
 
+Descriptive
+: What is.
+Normative 
+: What ought to be. 
+
 ![Economics turned upside down](upside_down_econ2.png)
 
 #### Deliberative vs pattern matching 
-Rational reasoning is an ideal to be pursued. Most all of our activity as humans is determined by habit, driven by emotion, in response to our immediate perceptions. 
+Most all of our activity as humans is determined by habit, driven by emotion, in response to our immediate perceptions. Deliberative activity is driven by reason. Rational reasoning is an ideal to be pursued. 
 
-Decision theory has two engines: 
+Decision theory is driven by two engines of theory: 
 - **Means ends analysis**- act in a way that achieves one's goals.  This is individual rationality, of thought leading to action. 
-
 - **Adaptive Belief Updating** Uncertainty and information are two sides of a coin. 
 How we update our beliefs is also the question of how data can be best applied as evidence.  For this we apply the algebra of probability. When combined with decision making this gives us a way to value information.
 
@@ -90,7 +99,7 @@ It will refine how you think about decisions in your life.
 "Clarity of action"  leads to the elimination of regret and worry over choices to be made. 
 
 #### Why is this hard? 
-The contribution of Kahneman's book "Thinking Fast, Thinking Slow" reveals how our brains have two modes to thought. "Thinking fast" keeps us alive and out of danger. "Thinking slow" uses our reasoning facilities when the best thing to do is not obvious.  But "thinking slow" wouldn't be appropriate in threatening situations, when time is of the essence.
+The contribution of Kahneman's book "Thinking Fast and Slow" reveals how our brains have two modes to thought. "Thinking fast" keeps us alive and out of danger. "Thinking slow" uses our reasoning facilities when the best thing to do is not obvious.  But "thinking slow" wouldn't be appropriate in threatening situations, when time is of the essence.
 
 Decision analysis, as deliberation, is the essence of "thinking slow."
 "Deliberative thinking is to humans as swimming is to cats." as Kahnaman says. You only do it under duress.  Deliberative thought involves conjecture about how things might be. As humans we have a unique ability to imagine the future by considering hypotheticals.  To make this plain this class will imagine the hypothetical "clairvoyant" to answer kinds of "what if" questions.  Also necessary is the design of alternatives.  One critical aspect is to expand one's consideration of unanticipated events, and unconsidered alternatives. 

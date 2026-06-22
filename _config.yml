@@ -27,6 +27,11 @@ nav_external_links:
       url:  "https://edstem.org/us/courses/99720/discussion/8132172"
       hide_icon: true
       opens_in_new_tab: true
+    - title: "Office hours sign-up"
+      url: "https://calendly.com/jmagosta-stanford/30min"
+      hide_icon: true
+      opens_in_new_tab: true
+
   
 
 # Collections for website data
