@@ -1,3 +1,10 @@
+---
+layout: page
+title: Week 8, Lecture 2.
+nav_exclude: true
+description: Last lecture, on ethics, irrationality and related topics 
+---
+
 # Ethics
 
 ### The question: Doing the *right* thing.  Is what we are doing *good*? 

@@ -32,7 +32,7 @@ maximum expected utility
 
 the <span style="color:rgb(192, 0, 0)">clarity test</span>
 
-<span style="color:rgb(192, 0, 0)">an event is a distinction</span>
+<span style="color:rgb(192, 0, 0)">an event is defined by a distinction distinction</span>
 events and distinctions
 : a proposition, and a point in time,  whose truth value is determined when it occurs. 
  

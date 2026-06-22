@@ -11,8 +11,8 @@ description: Required readings, recommended texts, videos, and bibliography.
 
 
 1. Ron Howard, "Decision Analysis Manuscript in Progress",   revisions for MZS&E 152. 
-2. Ross Shachter "Evaluating Influence Diagrams", _Operations Research_, Vol. 34, No. 6. (Nov. - Dec., 1986), pp. 871-882.
-3. Ronald A. Howard "On Fates Comparable to Death",  **Management Science** , Apr., 1984, Vol. 30, No. 4, Risk Analysis (Apr., 1984), pp. 407-422 Published by: INFORMS Stable URL: https://www.jstor.org/stable/2631429.  Also in RODA. 
+2. Ross Shachter, "Evaluating Influence Diagrams", _Operations Research_, Vol. 34, No. 6. (Nov. - Dec., 1986), pp. 871-882.
+3. Ronald A. Howardi, "On Fates Comparable to Death",  **Management Science** , Apr., 1984, Vol. 30, No. 4, Risk Analysis (Apr., 1984), pp. 407-422 Published by: INFORMS Stable URL: https://www.jstor.org/stable/2631429.  Also in RODA. 
 
 
 ## II. Optional recommended texts
@@ -49,12 +49,12 @@ Primary sources and fundamental literature for Decision Analysis
 1. A. Abbas (2018)"Foundations of Multiattribute Utility",  Cambridge University Press.
 #. M. H. DeGroot (1970) "Optimal Statistical Decisions", McGraw Hill. 
 2. S. French, (1988). "Decision Theory: An Introduction to the Mathematics of Rationality", Ellis Horwood Limited.
-3. D. V. Lindley, (1985). "Making decisions (2nd ed.)". John Wiley & Sons.
-4. R. L. Keeney, (1992). "Value-Focused Thinking: A Path to Creative Decision making", Harvard University Press.
+3. R. L. Keeney, (1992). "Value-Focused Thinking: A Path to Creative Decision making", Harvard University Press.
+4. D. V. Lindley, (1985). "Making decisions (2nd ed.)". John Wiley & Sons.
+5. S. Raha (2023). "Invaluable: Achieving Clarity on Value", Invaluable Books, LLC. 
+6. S. J. Russell and E. Wefald (1991), "Do the Right Thing", MIT Press. 
 5. J. Q. Smith, (2010). "Bayesian Decision Analysis, Principles and Practice",  Cambridge U. Press. 
-6. Stov.. Rationality
-7. M. Tribus, (1969). "Rational descriptions, decisions, and designs." Elsevier Science & Technology.
-8. S. Raha (2023). "Invaluable: Achieving Clarity on Value", Invaluable Books, LLC. 
+7. M. Tribus, (1969). "Rational descriptions, decisions, and designs." Elsevier Science & Technology. 
 
 ### B. Probability
 
@@ -64,10 +64,12 @@ Primary sources and fundamental literature for Decision Analysis
 ### C. Graphical Models
 
 1. A. Darwiche (2009) "Modeling and Reasoning with Bayesian Networks" Cambridge. 
+2. F. V. Jensen (2001) "Bayesian Networks and Decision Graphs" Springer. 
 
 ### D. Psychology of choice
 
 1. Kahneman, D. (2011). "Thinking, fast and slow." Farrar, Straus and Giroux.
+2. K. E. Stanovich, (2010). "Decision Making and Rationality in the Modern World" Oxford.
 
 ### E. Decision Quality
 
@@ -81,15 +83,14 @@ E. Borgonovoa , Victor Richmond R. Jose, Ross Shachter, Johannes Ulrich Siebert,
 
 ### B. Psychology of Choice 
 
-N. Taleb, "Fooled by Randomness"
+N. N. Taleb, (2001) "Fooled by Randomness" Random House. 
 
 D. Kahneman, O. Sibony, C.R. Sunstein, (2021) "Noise" Little, Brown Spark.
 
-D. Kahneman, () "Thinking Fast, Thinking Slow"
-
 L. Skinns, M. Scott, T. Cox Eds. (2011) "Risk" Cambridge.
 
-D. Spiegelhalter, (2024) "The Art of Uncertainty: How to Navigate Chance, Ignorance, Risk, and Luck" Norton.   Not available in the Stanford Libraries. 
+A. D. Spiegelhalter, (2024) "The Art of Uncertainty: How to Navigate Chance, Ignorance, Risk, and Luck" Norton.   
+Not available in the Stanford Libraries. 
 
 M. Lewis (2017) "The Undoing Project" Norton.
 
