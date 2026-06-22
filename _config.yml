@@ -21,11 +21,11 @@ aux_links:
     - 'https://edstem.org'
 footer_content: 'MS&E 152, Stanford University. Site maintained by course staff.'
 nav_external_links:
-    - title: Canvas course website
+    - title: "Canvas course website"
         url: "https://canvas.stanford.edu/courses/228284"
         hide_icon: true
         opens_in_new_tab: true
-    - title: Ed Discussion course website
+    - title: "Ed Discussion course website"
         url:  "https://edstem.org/us/courses/99720/discussion/8132172"
         hide_icon: true
         opens_in_new_tab: true
