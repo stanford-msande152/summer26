@@ -1,7 +1,7 @@
 ---
 layout: page
 title: References, readings, and other resources
-nav_exclude: true
+nav_exclude: false
 description: Required readings, recommended texts, videos, and bibliography.
 ---
 
