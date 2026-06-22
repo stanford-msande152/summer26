@@ -1,3 +1,9 @@
+---
+layout: default
+title: Probability Refresher
+permalink: /syllabus/prob_refresher_md/
+nav_exclude: true
+---
 # Probability Refresher
 
 **Stanford University · MS&E 152 · Decision Analysis · Summer 2026**
