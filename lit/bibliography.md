@@ -1,9 +1,10 @@
 ---
 layout: page
 title: References, readings, and other resources
-nav_exclude: false
+nav_order: 5
+has_children: true
 description: Required readings, recommended texts, videos, and bibliography.
----
+------
 
 # References, readings, and other resources
 
