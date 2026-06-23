@@ -3,8 +3,8 @@ layout: page
 title: References, readings, and other resources
 nav_order: 5
 has_children: true
-description: Required readings, recommended texts, videos, and bibliography.
-------
+nav_fold: false
+---
 
 # References, readings, and other resources
 
