@@ -14,5 +14,5 @@ Jul 29
 : **Required:** Course Notes §4.1 Wealth Risk Attitude; §4.2 Delta Property; §4.3 Risk Odds
 : **FODA** *(optional):* Ch. 11
 
-Jul 31
+Jul 30
 : **SECTION**{: .label .label-blue } Discussion section · 3:00–4:15 PM · Y2E2 111
