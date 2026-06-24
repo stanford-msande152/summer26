@@ -15,5 +15,5 @@ Jul 15
 : **Required:** Course Notes §3 — The Party Problem, continued
 : **FODA** *(optional):* Ch. 12, 13
 
-Jul 17
+Jul 16
 : **SECTION**{: .label .label-blue } Discussion section · 3:00–4:15 PM · Y2E2 111
