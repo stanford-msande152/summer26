@@ -14,5 +14,5 @@ Aug 12
 : **Required:** [Spetzler on Decision Quality](https://www.youtube.com/watch?v=nhDu4ggO0UE) · Kover book intro *(posted on Canvas)*
 : **FODA** *(optional):* Ch. 1.8, 40
 
-Aug 14
+Aug 13
 : **SECTION**{: .label .label-blue } Final project presentations · 3:00–5:00 PM · Y2E2 111
