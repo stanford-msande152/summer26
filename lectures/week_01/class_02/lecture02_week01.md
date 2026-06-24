@@ -44,7 +44,7 @@ Thought experiment:  An proper distinction is so specific that an hypothetical p
 #### ...and events
 We'll build all components of the model out of "events" as primitives for describing the world. For instance, _events_ are what we apply probabilities to.
 
-A **statement** or a **proposition** is something that is either true or false. A proposition creates a **distinction**: a 'crisp' yes/no question about the world. A proposition at a specific point in time defines an _event_. (Use the proposition $G$ to label the event.) ![[Figure1-02_bis.svg]]
+A **statement** or a **proposition** is something that is either true or false. A proposition creates a **distinction**: a 'crisp' yes/no question about the world. A proposition at a specific point in time defines an _event_. (Use the proposition $G$ to label the event.)![Image Description](https://raw.githubusercontent.com/stanford-msande152/summer26/refs/heads/main/lit/manuscript/Figure1-01_bis.svg)
 
 > _A distinction partitions possibilities into events. The partition is mutually exclusive and collectively exhaustive._  
 

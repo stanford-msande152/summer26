@@ -16,5 +16,5 @@ Jun 24
 : **Required:** [Intro to Decision Quality](https://www.youtube.com/watch?v=vL6uiALEdkk, Course Notes §1.1 Possibilities and Distinctions (§1.1–1.1.15))
 : **FODA** *(optional):* Ch. 2.3, 37, 38
 
-Jun 26
+Jun 25
 : **SECTION**{: .label .label-blue } Discussion section · 3:00–4:15 PM · Y2E2 111

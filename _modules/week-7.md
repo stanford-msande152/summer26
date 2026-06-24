@@ -14,5 +14,5 @@ Aug 5
 : **FODA** *(optional):* Ch. 19
 : **Additional** *(optional):* Selected article *(posted on Canvas)*
 
-Aug 7
+Aug 6
 : **SECTION**{: .label .label-blue } Discussion section · 3:00–4:15 PM · Y2E2 111

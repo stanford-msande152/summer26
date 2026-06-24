@@ -14,5 +14,5 @@ Jul 22
 : **FODA** *(optional):* Ch. 18
 : **Additional** *(optional):* R. Howard, "Information Value Theory" (1966), IEEE Trans. SSC Vol. SSC-2, No. 1, p. 22–26. Also RODA p. 779–783
 
-Jul 24
+Jul 23
 : **SECTION**{: .label .label-blue } Discussion section · 3:00–4:15 PM · Y2E2 111
