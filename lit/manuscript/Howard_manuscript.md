@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Primary text - Foundations of Decision Analysis
+title: "Primary text - Foundations of Decision Analysis"
+parent: References, readings, and other resources
 nav_exclude: false
-search_exclude: true
+nav_order: 1
 ---
+
 # Decision Analysis
 
 **Manuscript In Progress**
