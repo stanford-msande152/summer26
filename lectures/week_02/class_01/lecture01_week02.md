@@ -26,6 +26,10 @@ Decision Quality
 
 ## Class Activity
 
+### Review of the class deal 
+
+What in terms of decision analysis did we learn from this?
+
 ## Key terms
 
 

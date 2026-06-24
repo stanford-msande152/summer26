@@ -12,6 +12,8 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 ### What you will learn
 
+How to structure an event tree for a decision problem
+
 ## Class schedule
 - Quiz - "Decisions" 
 - Lecture I: How do we describe a decision situation?
@@ -24,11 +26,13 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 ## I. How do we describe a decision situation?
 
-We need a language in which to translate the aspects of the situation into the decision model. 
+We need a language in which to translate the aspects of the situation into the decision model. Our decision-maker comes with vague issues that we need to structure into a solvable problem. 
 
 ### Creating Distinctions
 
 #### possibilities 
+
+_How do we represent the future?_
 
 The need for a new, precise language that is consistent with common usage, but makes crisp concepts. Here's the dilemma:  There are an infinite number of possibilities if we think about the future.  Thinking of what has happened and what will or can happen - the quandary of infinities of "Possible worlds". The finest grained "elemental outcomes" can be refined without limit.  
 
@@ -42,27 +46,26 @@ We'll build all components of the model out of "events" as primitives for descri
 
 A **statement** or a **proposition** is something that is either true or false. A proposition creates a **distinction**: a 'crisp' yes/no question about the world. A proposition at a specific point in time defines an _event_. (Use the proposition $G$ to label the event.) ![[Figure1-02_bis.svg]]
 
-> _A distinction partitions possibilities into events._   
+> _A distinction partitions possibilities into events. The partition is mutually exclusive and collectively exhaustive._  
 
 #### Combining "elemental" events
- Propositions can be combined by the _event algebra_: AND, OR, NOT to derive more events. Propositions can be combined to create finer distinctions. Adding distinctions to create finer partitions of events with multiple states. The number of states is the _degree_ of the event.
+ Propositions can be combined by the _event algebra_: AND, OR, NOT to derive more events. Propositions can be combined to create finer partitions out of their distinctions. Adding distinctions to create finer partitions defines events with multiple **states**. The number of states is the _degree_ of the event.
 
 ![/Users/jma/repos/summer26/lit/manuscript/Figure1-10_bis.svg](file:///Users/jma/repos/summer26/lit/manuscript/Figure1-10_bis.svg)
 
 
 #### Variables 
-We capture the notion of an event before it occurs as a _variable_.  A variable comprises all possible states of an event. It is drawn as a node (a circle) in the even tree.  Binary variables are simple (yes, no) distinctions.  Compound distinction with multiple degrees. 
-States can be an ordered (eg. rank or interval ) or unordered scale 
+We capture the notion of an event before it occurs as a _variable_.  A variable comprises all possible states of an event. It is drawn as a node (a circle) in the event tree.  Binary variables are simple (yes, no) distinctions.  Compound distinction can have of higher degree can have multiple states.  States can be an ordered (eg. rank or interval ) or unordered scale 
 
-In models we will identify three kinds of variables: _uncertainties, decisions, and outcomes. _ Think of this as the "three legged stool" for modeling a decision situation. _Each variable is created from one or more distinctions.  The states of a variable are mutually exclusive and exhaustive.
+In models we will identify three kinds of variables: _uncertainties, decisions, and outcomes. Think of this as the "three legged stool" for modeling a decision situation. Each variable is created from one or more distinctions.  The states of a variable are mutually exclusive and exhaustive.
 
 **Decision "events"**
 "A decision anticipates a choice of possible futures" (FODA p. 62)
-The _choices_ of a decision are its states, as defined by a distinction.  Called _alternatives_
+The _choices_ of a decision are its states,  As with all events it is defined by a distinction.  The "events" of decision are  called _alternatives_
 (To ponder - what does it mean for a decision's alternatives to be exhaustive?)
 
 **Outcomes**
-Terminal events. The labels applied to the termination of a sequence of events. A sequence is a conjunction of events:
+An event tree shows the _paths_ through a sequence of events. A sequence is a conjunction of events.  The terminal events at the _leaves_ of the tree are **outcomes**. The labels applied to the termination of a sequence of events. 
 
 **An event tree for events** $B \ \text{AND}\  G$
 ![/Users/jma/repos/summer26/lit/manuscript/Figure1-03_bis.svg](file:///Users/jma/repos/summer26/lit/manuscript/Figure1-03_bis.svg)
@@ -74,7 +77,8 @@ Numbers, generally "measures" can be applied to label outcomes. E.g. the dollar 
 **Uncertainties**
 ![/Users/jma/repos/summer26/lit/manuscript/Figure1-13_bis.svg](file:///Users/jma/repos/summer26/lit/manuscript/Figure1-13_bis.svg)
 We quantify uncertainty  by assigning probabilities to events. 
-If at some future time the event is "observed" then it becomes "certain." So uncertain variables that are not observed (e.g. whose values are not known may be reordered in time (Are partially ordered))
+
+> If at some future time the event is **observed** then it becomes "certain." So uncertain variables that are not observed (e.g. whose values are not known may be reordered in time (Are partially ordered))
 
 The possibilities spanned by variable - its _states_  The temporal sequence of events can be represented in a tree.  The tree shows the evolution of the decision-maker over time. Changing the temporal order of variables changes the node ordering in the tree. The full set of outcomes at the end of the tree preserve the "mutually exclusive and collectivelly exhaustive" property. 
 
@@ -108,7 +112,7 @@ The logical progression of building a model
     Why Modeling process?  The tenets / skills of choosing - (list them) are achieved "for free" if one adheres to the process / method. 
 
 All mathematical modeling processes share similar methods. 
-![[Pasted image 20260624082558.png]]
+![[DA_process.png]]
 
 What's the point? 
     Best choice / Rational action / "Clarity of Action"  If the process is followed the tenets are achieved!  This is not guaranteed with other "analysis" methods in general. 
@@ -126,7 +130,9 @@ What's the point?
 
     _Information sensitivity_ The model can be used for applying available data to the analysis and for evaluating the value of further information gathering. One poses questions such as "If one could collect data to reduce uncertainties, or make adjustments in response to such knowledge, what would be the value?" 
 
-A complete analysis removes all the decision-maker's regrets, by illuminating the best they are likely to achieve by all their possible actions.  We call this **clarity of action**. The decision maker should be satisfied that  given what they face, they have considered everything they could.
+> A complete analysis removes all the decision-maker's regrets, by illuminating the best they are likely to achieve by all their possible actions.  We call this **clarity of action**. 
+
+The decision maker should be satisfied that  given what they face, they have considered everything they could.
 
 
 ### Decision making in an organization
@@ -166,9 +172,7 @@ We apply the six criteria of **Decision Quality:**
 ## IV. Class Activity
 
 Resolution of the deal. 
-### Review of the class deal 
 
-What in terms of decision analysis did we learn from this?
 
 ---
 
@@ -179,7 +183,9 @@ What in terms of decision analysis did we learn from this?
 - The "Clairvoyant"
 - Propositions
 - Events
+- Partitions
 - Variables
+- Observable
 - Outcomes
 - Event Tree
 - States
@@ -187,6 +193,7 @@ What in terms of decision analysis did we learn from this?
 - Buying and Selling Reservation Prices
 - Market price
 - Decision Analysis Process
+- Clarity of Action
 - Decision Quality
 ## Homework 1, due Monday, June 29th
 
