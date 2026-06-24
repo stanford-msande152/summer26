@@ -15,5 +15,5 @@ Jul 8
 : **FODA** *(optional):* Ch. 8
 : **Additional** *(optional):* [Heckerthoughts](https://arxiv.org/abs/2302.05449) §3 — Decision making and causal reasoning
 
-Jul 10
+Jul 9
 : **SECTION**{: .label .label-blue } Discussion section · 3:00–4:15 PM · Y2E2 111

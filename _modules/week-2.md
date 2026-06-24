@@ -15,5 +15,5 @@ Jul 1
 : **FODA** *(optional):* Ch. 6, 15
 : **Additional** *(optional):* [Heckerthoughts](https://arxiv.org/abs/2302.05449) §2.1 — Inevitability of probability
 
-Jul 3
+Jul 2
 : **SECTION**{: .label .label-blue } Discussion section · 3:00–4:15 PM · Y2E2 111
