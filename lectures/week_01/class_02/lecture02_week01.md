@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Lecture 2 — Defining Events"
+nav_exclude: true
+search_exclude: false
+---
 Course: MS&E 152 summer 2026
 Sequence: Week 1, Lecture 2
 Date: Monday, June 24th 2026
@@ -9,6 +15,8 @@ Canvas: https://canvas.stanford.edu/courses/228284
 -----
 
 # Title:  Defining Events
+
+
 
 ### What you will learn
 
@@ -23,6 +31,7 @@ How to structure an event tree for a decision problem
 - Distribute HW1
 - Resolve the Class Deal
 - ----
+
 
 ## I. How do we describe a decision situation?
 
@@ -44,15 +53,18 @@ Thought experiment:  An proper distinction is so specific that an hypothetical p
 #### ...and events
 We'll build all components of the model out of "events" as primitives for describing the world. For instance, _events_ are what we apply probabilities to.
 
-A **statement** or a **proposition** is something that is either true or false. A proposition creates a **distinction**: a 'crisp' yes/no question about the world. A proposition at a specific point in time defines an _event_. (Use the proposition $G$ to label the event.)![Image Description](https://raw.githubusercontent.com/stanford-msande152/summer26/refs/heads/main/lit/manuscript/Figure1-01_bis.svg)
+A **statement** or a **proposition** is something that is either true or false. A proposition creates a **distinction**: a 'crisp' yes/no question about the world. A proposition at a specific point in time defines an _event_. (Use the proposition $G$ to label the event.)
+
+<img src=lit/manuscript/Figure1-01_bis.svg width="600">
+
+
 
 > _A distinction partitions possibilities into events. The partition is mutually exclusive and collectively exhaustive._  
 
 #### Combining "elemental" events
  Propositions can be combined by the _event algebra_: AND, OR, NOT to derive more events. Propositions can be combined to create finer partitions out of their distinctions. Adding distinctions to create finer partitions defines events with multiple **states**. The number of states is the _degree_ of the event.
 
-![/Users/jma/repos/summer26/lit/manuscript/Figure1-10_bis.svg](file:///Users/jma/repos/summer26/lit/manuscript/Figure1-10_bis.svg)
-
+<img src=lit/manuscript/Figure1-10_bis.svg width="600">
 
 #### Variables 
 We capture the notion of an event before it occurs as a _variable_.  A variable comprises all possible states of an event. It is drawn as a node (a circle) in the event tree.  Binary variables are simple (yes, no) distinctions.  Compound distinction can have of higher degree can have multiple states.  States can be an ordered (eg. rank or interval ) or unordered scale 
@@ -68,19 +80,21 @@ The _choices_ of a decision are its states,  As with all events it is defined by
 An event tree shows the _paths_ through a sequence of events. A sequence is a conjunction of events.  The terminal events at the _leaves_ of the tree are **outcomes**. The labels applied to the termination of a sequence of events. 
 
 **An event tree for events** $B \ \text{AND}\  G$
-![/Users/jma/repos/summer26/lit/manuscript/Figure1-03_bis.svg](file:///Users/jma/repos/summer26/lit/manuscript/Figure1-03_bis.svg)
 
+<img src=lit/manuscript/Figure1-03_bis.svg width="600">
 When describing the future, "prospective" outcomes are called "prospects."
 
 Numbers, generally "measures" can be applied to label outcomes. E.g. the dollar value realized by that outcome. 
 
 **Uncertainties**
-![/Users/jma/repos/summer26/lit/manuscript/Figure1-13_bis.svg](file:///Users/jma/repos/summer26/lit/manuscript/Figure1-13_bis.svg)
+
+<img src=lit/manuscript/Figure1-13_bis.svg width="600">
+
 We quantify uncertainty  by assigning probabilities to events. 
 
 > If at some future time the event is **observed** then it becomes "certain." So uncertain variables that are not observed (e.g. whose values are not known may be reordered in time (Are partially ordered))
 
-The possibilities spanned by variable - its _states_  The temporal sequence of events can be represented in a tree.  The tree shows the evolution of the decision-maker over time. Changing the temporal order of variables changes the node ordering in the tree. The full set of outcomes at the end of the tree preserve the "mutually exclusive and collectivelly exhaustive" property. 
+The possibilities spanned by variable - its _states_  The temporal sequence of events can be represented in a tree.  The tree shows the evolution of the decision-maker over time. Changing the temporal order of variables changes the node ordering in the tree. The full set of outcomes at the end of the tree preserve the "mutually exclusive and collectively exhaustive" property. 
 
 Can we diagram the tree for the class deal? 
 
@@ -90,7 +104,9 @@ Can we diagram the tree for the class deal?
 When estimating a price, one reduces an uncertainty to a known value.  Consider the process of making a bid, for example on a used car.  The condition of the car isn't completely known, and the process of making a bid reduces it to a certain quantity. 
 
 ### Indifference
-![[indifference]]
+<img src=indifference.png >
+
+
 
 To value something (an object, a deal, an alternative),  we compare it to something of known value.  A common example is when we set a price for an item, either for buying (acquiring) the item, or selling ( relinquishing) the item.  Consider the thought experiment of adjusting known value (think dollars) until there is parity between the item to be valued and the known value. The ability to make judgments about indifference is key to valuing items and determining preferences. In setting a price a person determines their **certain equivalent** for the item. 
 
