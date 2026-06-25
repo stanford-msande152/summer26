@@ -104,7 +104,7 @@ Can we diagram the tree for the class deal?
 When estimating a price, one reduces an uncertainty to a known value.  Consider the process of making a bid, for example on a used car.  The condition of the car isn't completely known, and the process of making a bid reduces it to a certain quantity. 
 
 ### Indifference
-<img src="indifference.png" width="500">
+<img src="./indifference.png" width="500">
 
 
 
