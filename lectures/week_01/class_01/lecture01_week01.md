@@ -13,7 +13,7 @@ Course website: https://stanford-msande152.github.io/summer26/
 Canvas: https://canvas.stanford.edu/courses/228284
 Course Survey: [https://PollEv.com/surveys/Y1dcrDL1jNv3KTowA75SF/respond](https://pollev.com/surveys/Y1dcrDL1jNv3KTowA75SF/respond "https://PollEv.com/surveys/Y1dcrDL1jNv3KTowA75SF/respond")
 
-  ![[survey_QR.png|164]]
+  ![survey_QR](survey_QR.png | 147)
 
 
 ----
@@ -81,9 +81,10 @@ This leads to a principled way to define the best choice among alternatives when
 #### Use case
 > *Decision analysis is the profession concerned with helping individuals make decisions. (Howard, Op. Res, 1980)*
 
-![DA Use Case](<DA use case.png>)
+![DA Use Case|697](<DA use case.png>)
 
 > *Decision analysis specifies the **alternatives, information, and preferences** of the decision-maker and then finds the logically implied decision. (Howard 1983)*
+
 
 The analyst works with a decision maker to *elicit* their beliefs, and to *encode* their decision situation. 
 
@@ -192,7 +193,7 @@ The design choices by the Decision Analyst to create the model are not considere
 
 ## IV. Activity - the thumbtack deal
 
-![alt text](thumbtack_image.png)
+![Thumbtack positions](thumbtack_image.png)
 
 The two resting positions for a thumbtack.   Head up (left) and Head down ( right)
 
