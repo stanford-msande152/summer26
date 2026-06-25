@@ -2,7 +2,7 @@
 layout: page
 title: "Lecture 1 — Why Decision Analysis"
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 Course: MS&E 152 summer 2026
 Sequence: Week 1, Lecture 1
@@ -13,9 +13,8 @@ Course website: https://stanford-msande152.github.io/summer26/
 Canvas: https://canvas.stanford.edu/courses/228284
 Course Survey: [https://PollEv.com/surveys/Y1dcrDL1jNv3KTowA75SF/respond](https://pollev.com/surveys/Y1dcrDL1jNv3KTowA75SF/respond "https://PollEv.com/surveys/Y1dcrDL1jNv3KTowA75SF/respond")
 
-  ![survey_QR](survey_QR.png | 147)
-
-
+ 
+<img src="./survey_QR.png" width="300">
 ----
 
 # Title: Lecture 1, What is means to decide
@@ -61,7 +60,7 @@ Descriptive
 Normative 
 : What ought to be. 
 
-![Economics turned upside down](upside_down_econ2.png)
+<img src="./upside_down_econ2.png" width="500">
 
 #### Deliberative vs pattern matching 
 Most all of our activity as humans is determined by habit, driven by emotion, in response to our immediate perceptions. Deliberative activity is driven by reason. Rational reasoning is an ideal to be pursued. 
@@ -81,7 +80,7 @@ This leads to a principled way to define the best choice among alternatives when
 #### Use case
 > *Decision analysis is the profession concerned with helping individuals make decisions. (Howard, Op. Res, 1980)*
 
-![DA Use Case|697](<DA use case.png>)
+<img src="./DA use case.png" width="600">
 
 > *Decision analysis specifies the **alternatives, information, and preferences** of the decision-maker and then finds the logically implied decision. (Howard 1983)*
 
@@ -193,7 +192,7 @@ The design choices by the Decision Analyst to create the model are not considere
 
 ## IV. Activity - the thumbtack deal
 
-![Thumbtack positions](thumbtack_image.png)
+<img src="./thumbtack_image.png" width="600">
 
 The two resting positions for a thumbtack.   Head up (left) and Head down ( right)
 
