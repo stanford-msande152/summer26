@@ -103,14 +103,9 @@ Can we diagram the tree for the class deal?
 
 When estimating a price, one reduces an uncertainty to a known value.  Consider the process of making a bid, for example on a used car.  The condition of the car isn't completely known, and the process of making a bid reduces it to a certain quantity. 
 
-### Indifference
-<<<<<<< HEAD
+### Indifference 
+
 <img src=indifference.png >
-=======
-<img src="./indifference.png" width="500">
->>>>>>> 810fc5c792bca8c41d6c9171eff506067624f035
-
-
 
 To value something (an object, a deal, an alternative),  we compare it to something of known value.  A common example is when we set a price for an item, either for buying (acquiring) the item, or selling ( relinquishing) the item.  Consider the thought experiment of adjusting known value (think dollars) until there is parity between the item to be valued and the known value. The ability to make judgments about indifference is key to valuing items and determining preferences. In setting a price a person determines their **certain equivalent** for the item. 
 
