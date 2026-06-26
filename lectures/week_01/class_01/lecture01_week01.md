@@ -18,7 +18,7 @@ Course Survey: [https://PollEv.com/surveys/Y1dcrDL1jNv3KTowA75SF/respond](https:
 
 ----
 
-# Title: Lecture 1, What is means to decide
+# Title: Lecture 1, What it means to decide
 
 ### What you will learn
 - What is Decision Analysis
