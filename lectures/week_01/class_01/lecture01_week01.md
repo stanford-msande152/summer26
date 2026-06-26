@@ -82,7 +82,7 @@ This leads to a principled way to define the best choice among alternatives when
 #### Use case
 > *Decision analysis is the profession concerned with helping individuals make decisions. (Howard, Op. Res, 1980)*
 
-![](DA%20use%20case.png)
+![](DA_use_case.png)
 
 > *Decision analysis specifies the **alternatives, information, and preferences** of the decision-maker and then finds the logically implied decision. (Howard 1983)*
 
