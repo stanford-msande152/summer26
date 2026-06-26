@@ -55,8 +55,7 @@ We'll build all components of the model out of "events" as primitives for descri
 
 A **statement** or a **proposition** is something that is either true or false. A proposition creates a **distinction**: a 'crisp' yes/no question about the world. A proposition at a specific point in time defines an _event_. (Use the proposition $G$ to label the event.)
 
-<img src="lit/manuscript/Figure1-01_bis.svg" width="600">
-
+![](../../../lit/manuscript/Figure1-01_bis.svg)
 
 
 > _A distinction partitions possibilities into events. The partition is mutually exclusive and collectively exhaustive._  
@@ -64,8 +63,7 @@ A **statement** or a **proposition** is something that is either true or false. 
 #### Combining "elemental" events
  Propositions can be combined by the _event algebra_: AND, OR, NOT to derive more events. Propositions can be combined to create finer partitions out of their distinctions. Adding distinctions to create finer partitions defines events with multiple **states**. The number of states is the _degree_ of the event.
 
-<img src="lit/manuscript/Figure1-10_bis.svg" width="600">
-
+![](../../../lit/manuscript/Figure1-10_bis.svg)
 #### Variables 
 We capture the notion of an event before it occurs as a _variable_.  A variable comprises all possible states of an event. It is drawn as a node (a circle) in the event tree.  Binary variables are simple (yes, no) distinctions.  Compound distinction can have of higher degree can have multiple states.  States can be an ordered (eg. rank or interval ) or unordered scale 
 
@@ -81,14 +79,16 @@ An event tree shows the _paths_ through a sequence of events. A sequence is a co
 
 **An event tree for events** $B \ \text{AND}\  G$
 
-<img src="lit/manuscript/Figure1-03_bis.svg" width="600">
-When describing the future, "prospective" outcomes are called "prospects."
 
+
+![](../../../lit/manuscript/Figure1-03_bis.svg)
+
+When describing the future, "prospective" outcomes are called "prospects."
 Numbers, generally "measures" can be applied to label outcomes. E.g. the dollar value realized by that outcome. 
 
 **Uncertainties**
 
-<img src="lit/manuscript/Figure1-13_bis.svg" width="600">
+![](../../../lit/manuscript/Figure1-13_bis.svg)
 
 We quantify uncertainty  by assigning probabilities to events. 
 
@@ -104,8 +104,7 @@ Can we diagram the tree for the class deal?
 When estimating a price, one reduces an uncertainty to a known value.  Consider the process of making a bid, for example on a used car.  The condition of the car isn't completely known, and the process of making a bid reduces it to a certain quantity. 
 
 ### Indifference 
-
-<img src="indifference.png">
+![](indifference.png)
 
 To value something (an object, a deal, an alternative),  we compare it to something of known value.  A common example is when we set a price for an item, either for buying (acquiring) the item, or selling ( relinquishing) the item.  Consider the thought experiment of adjusting known value (think dollars) until there is parity between the item to be valued and the known value. The ability to make judgments about indifference is key to valuing items and determining preferences. In setting a price a person determines their **certain equivalent** for the item. 
 
