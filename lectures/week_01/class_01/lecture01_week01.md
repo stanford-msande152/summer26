@@ -14,7 +14,8 @@ Canvas: https://canvas.stanford.edu/courses/228284
 Course Survey: [https://PollEv.com/surveys/Y1dcrDL1jNv3KTowA75SF/respond](https://pollev.com/surveys/Y1dcrDL1jNv3KTowA75SF/respond "https://PollEv.com/surveys/Y1dcrDL1jNv3KTowA75SF/respond")
 
  
-<img src="./survey_QR.png" width="300">
+![229](survey_QR.png)
+
 ----
 
 # Title: Lecture 1, What is means to decide
@@ -60,7 +61,8 @@ Descriptive
 Normative 
 : What ought to be. 
 
-<img src="./upside_down_econ2.png" width="500">
+![](upside_down_econ2.png)
+
 
 #### Deliberative vs pattern matching 
 Most all of our activity as humans is determined by habit, driven by emotion, in response to our immediate perceptions. Deliberative activity is driven by reason. Rational reasoning is an ideal to be pursued. 
@@ -80,7 +82,7 @@ This leads to a principled way to define the best choice among alternatives when
 #### Use case
 > *Decision analysis is the profession concerned with helping individuals make decisions. (Howard, Op. Res, 1980)*
 
-<img src="./DA use case.png" width="600">
+![](DA%20use%20case.png)
 
 > *Decision analysis specifies the **alternatives, information, and preferences** of the decision-maker and then finds the logically implied decision. (Howard 1983)*
 
@@ -192,7 +194,7 @@ The design choices by the Decision Analyst to create the model are not considere
 
 ## IV. Activity - the thumbtack deal
 
-<img src="./thumbtack_image.png" width="600">
+![](thumbtack_image.png)
 
 The two resting positions for a thumbtack.   Head up (left) and Head down ( right)
 
