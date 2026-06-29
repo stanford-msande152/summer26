@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 # IMAGES
 
 Posting image links in md files so that they render properly in the gihub.io static pages face a few compatibility issues.  The standard wisdom to use html embedings with \<img> tags does not work on the webpage display.  
