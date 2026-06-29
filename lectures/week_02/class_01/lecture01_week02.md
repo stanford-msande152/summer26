@@ -68,7 +68,7 @@ To compute the combination of terminal nodes probabilities **we reason "vertical
 
 The decision table lists terminal events and their elemental probabilities in each column, and decision alternatives in each row.  The cells of the table are the sums of the values along the path to that combination of an alternative and an event outcome.  
 
-This decision table for the Class Deal assumes the bidder believes the probability of a successful bid = 76%.  The bidder offered $65 to play; in the case where he called the outcome correctly he gained $100, so his net gain is $35.  Otherwise the outcome is that he simply loses $65. 
+This decision table for the Class Deal assumes the bidder believes the probability of a successful bid = 76%.  The bidder offered \$65 to play; in the case where he called the outcome correctly he gained \$100, so his net gain is \$35.  Otherwise the outcome is that he simply loses \$65. 
 
 ![](thumbtack_decn_table.png)
 
