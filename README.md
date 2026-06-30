@@ -35,8 +35,8 @@ WELCOME TO THE COURSE! PLEASE MAKE SURE TO READ SYLLABUS
 
 - [Lecture Schedule](/summer26/calendar/) — topics, readings, and homework dates for all 8 weeks
 - [Syllabus](/summer26/syllabus/) — grading, policies, and accommodations
-- [Staff](/summer26/staff/) — instructor and TA office hours
 - [References & Readings](/summer26/lit/bibliography/) — required readings, videos, and bibliography
+- [Staff](/summer26/staff/) — instructor and TA office hours
 
 ## Before the First Class
 
