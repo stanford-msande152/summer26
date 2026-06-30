@@ -11,7 +11,7 @@ nav_fold: false
 ## I. Required Readings
 
 
-1. Ron Howard, "Decision Analysis Manuscript in Progress",   revisions for MZS&E 152. [PDF]((/summer26/lit/manuscript/Howard_manuscript.pdf)) 
+1. Ron Howard, "Decision Analysis Manuscript in Progress",   revisions for MZS&E 152. [Primary Text](/summer26/lit/manuscript/Howard_manuscript.pdf) 
 2. Ross Shachter, "Evaluating Influence Diagrams", _Operations Research_, Vol. 34, No. 6. (Nov. - Dec., 1986), pp. 871-882.
 3. Ronald A. Howard, "On Fates Comparable to Death",  **Management Science** , Apr., 1984, Vol. 30, No. 4, Risk Analysis (Apr., 1984), pp. 407-422 Published by: INFORMS Stable URL: https://www.jstor.org/stable/2631429.  Also in RODA. 
 
