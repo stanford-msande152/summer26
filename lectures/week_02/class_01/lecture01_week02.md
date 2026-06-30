@@ -40,7 +40,7 @@ The exercise of auctioning off a chance to win $100 illustrates several importan
 How we derive $\mathbf{P}(A) = 1 - \mathbf{P}(A^c)$ from the rules of probability. 
 
 1. Since $A \cup A^c = \Omega$, it follows $1 = \mathbf{P}(\Omega)  =  \mathbf{P}(A \cup A^c)$.
-2. Since $A \cup A^c = \emptyset$,  it we can apply "finite additivity" to get $\mathbf{P}(A) + \mathbf{P}(A^c) = 1$.
+2. Since $A \cap A^c = \emptyset$,  it we can apply "finite additivity" to get $\mathbf{P}(A) + \mathbf{P}(A^c) = 1$.
 3. Hence $\mathbf{P}(A) = 1 - \mathbf{P}(A^c)$.
 
 This can be called the *splitting rule.*
