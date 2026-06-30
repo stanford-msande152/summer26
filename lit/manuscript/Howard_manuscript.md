@@ -4,6 +4,7 @@ title: "Primary text - Foundations of Decision Analysis"
 parent: References, readings, and other resources
 nav_exclude: false
 nav_order: 1
+math: mathjax
 ---
 
 # Decision Analysis
