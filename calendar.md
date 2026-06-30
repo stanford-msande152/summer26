@@ -11,7 +11,7 @@ nav_order: 2
 
 **Discussion section**: Thu, 3:00–4:15 PM, Y2E2 111
 
-Readings refer to the [Primary Text](/summer26/lit/manuscript/Howard_manuscript/) 
+Readings refer to the [Primary Text](/summer26/lit/manuscript/Howard_manuscript.pdf) 
 and the [References & Readings](/summer26/lit/bibliography/) page.
 
 
