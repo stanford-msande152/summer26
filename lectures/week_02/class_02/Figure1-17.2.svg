@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: visioncortex VTracer 0.6.12 -->
+
+<svg
+   version="1.1"
+   width="1876"
+   height="1097"
+   id="svg69461"
+   sodipodi:docname="Figure1-17.2.svg"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview95"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.06"
+     inkscape:cx="881.60377"
+     inkscape:cy="33.490566"
+     inkscape:window-width="2197"
+     inkscape:window-height="1271"
+     inkscape:window-x="325"
+     inkscape:window-y="30"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg69461" />
+  <defs
+     id="defs69465">
+    <rect
+       x="1131.1321"
+       y="299.0566"
+       width="120.75472"
+       height="52.830189"
+       id="rect2967" />
+  </defs>
+  <path
+     d="M0,0 L305,0 L305,4 L4,5 L-122,131 L-121,135 L-117,144 L-117,157 L-121,166 L-124,170 L-122,174 L4,300 L305,301 L305,305 L1,306 L-7,299 L-33,273 L-40,265 L-129,176 L-134,177 L-143,180 L-153,180 L-163,177 L-172,170 L-178,161 L-179,155 L-447,156 L-582,426 L-577,431 L-572,437 L-568,447 L-568,456 L-572,467 L-578,474 L-583,477 L-582,482 L-447,752 L-179,753 L-179,746 L-174,736 L-165,728 L-154,724 L-142,724 L-131,728 L-127,730 L-85,688 L-78,680 L0,602 L305,603 L305,607 L4,608 L-122,734 L-120,739 L-117,747 L-117,760 L-122,770 L-124,775 L4,903 L305,904 L305,908 L0,908 L-129,779 L-134,780 L-140,782 L-156,782 L-166,778 L-173,772 L-178,763 L-179,757 L-451,758 L-461,739 L-487,687 L-498,664 L-589,482 L-589,480 L-593,481 L-606,481 L-615,478 L-624,471 L-629,463 L-631,456 L-631,448 L-628,439 L-622,431 L-613,425 L-607,423 L-592,423 L-587,424 L-585,418 L-520,288 L-509,265 L-452,151 L-451,150 L-179,150 L-178,140 L-172,131 L-163,124 L-152,121 L-144,121 L-134,124 L-129,127 L-125,125 Z M-151,125 L-161,128 L-169,134 L-174,142 L-175,145 L-175,156 L-170,166 L-163,172 L-156,175 L-145,176 L-135,173 L-127,167 L-122,159 L-121,156 L-121,145 L-126,135 L-133,129 L-140,126 Z M-606,427 L-615,431 L-622,437 L-626,445 L-627,454 L-624,464 L-618,471 L-609,476 L-605,477 L-594,477 L-584,473 L-577,467 L-573,459 L-572,449 L-575,440 L-582,432 L-590,428 L-593,427 Z M-153,728 L-162,731 L-171,739 L-174,744 L-175,748 L-175,759 L-170,769 L-161,776 L-155,778 L-141,778 L-129,772 L-123,764 L-121,759 L-121,748 L-125,739 L-134,731 L-143,728 Z "
+     fill="#000000"
+     transform="translate(870,109)"
+     id="path69327" />
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="229.24529"
+     y="234.90565"
+     id="text1713"><tspan
+       sodipodi:role="line"
+       id="tspan1711"
+       x="229.24529"
+       y="234.90565">P(G) = 0.6 = 0.56 + 0.04</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="241.50941"
+     y="910.37732"
+     id="text1767"><tspan
+       sodipodi:role="line"
+       id="tspan1765"
+       x="241.50941"
+       y="910.37732">P(G ) = 0.4 =0.16 + 0.24 </tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="298.11322"
+     y="897.16986"
+     id="text1771"><tspan
+       sodipodi:role="line"
+       id="tspan1769"
+       x="298.11322"
+       y="897.16986">c</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Heavy';fill:#333333;stroke:#f6f6ff;stroke-width:3.425;font-weight:900;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     x="1218.8678"
+     y="104.71697"
+     id="text1775"><tspan
+       sodipodi:role="line"
+       id="tspan1773"
+       x="1218.8678"
+       y="104.71697">P(GB) = 0.04</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="1218.8678"
+     y="403.77353"
+     id="text1779"><tspan
+       sodipodi:role="line"
+       id="tspan1777"
+       x="1218.8678"
+       y="403.77353">P(GB ) =0.56</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="1227.3585"
+     y="701.88684"
+     id="text1783"><tspan
+       sodipodi:role="line"
+       id="tspan1781"
+       x="1227.3585"
+       y="701.88684">P(G B) =0.16</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="1227.3585"
+     y="1003.7736"
+     id="text1787"><tspan
+       sodipodi:role="line"
+       id="tspan1785"
+       x="1227.3585"
+       y="1003.7736">P(G B ) =0.24</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="1285.4763"
+     y="991.30792"
+     id="text1771-8"><tspan
+       sodipodi:role="line"
+       id="tspan1769-5"
+       x="1285.4763"
+       y="991.30792">c</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="1320.3821"
+     y="991.30792"
+     id="text1771-9"><tspan
+       sodipodi:role="line"
+       id="tspan1769-6"
+       x="1320.3821"
+       y="991.30792">c</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="1283.5896"
+     y="687.53436"
+     id="text1771-6"><tspan
+       sodipodi:role="line"
+       id="tspan1769-66"
+       x="1283.5896"
+       y="687.53436">c</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="1301.5142"
+     y="389.42114"
+     id="text1771-7"><tspan
+       sodipodi:role="line"
+       id="tspan1769-0"
+       x="1301.5142"
+       y="389.42114">c</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="700.94342"
+     y="86.79245"
+     id="text2794"><tspan
+       sodipodi:role="line"
+       id="tspan2792"
+       x="700.94342"
+       y="86.79245">P(B | G) =0.04/0.06 = 0.067 </tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="690.71332"
+     y="456.39447"
+     id="text2794-8"><tspan
+       sodipodi:role="line"
+       id="tspan2792-5"
+       x="690.71332"
+       y="456.39447">P(B | G) =0.56/0.06 = 0.933 </tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="717.12836"
+     y="684.69635"
+     id="text2794-3"><tspan
+       sodipodi:role="line"
+       id="tspan2792-7"
+       x="717.12836"
+       y="684.69635">P(B | G) =0.16/0.04 = 0.04 </tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="706.75104"
+     y="1055.451"
+     id="text2794-9"><tspan
+       sodipodi:role="line"
+       id="tspan2792-6"
+       x="706.75104"
+       y="1055.451">P(B | G) =0.24/0.04 = 0.06 </tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="745.85376"
+     y="439.42114"
+     id="text1771-7-1"><tspan
+       sodipodi:role="line"
+       id="tspan1769-0-4"
+       x="745.85376"
+       y="439.42114">c</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="771.32544"
+     y="666.7796"
+     id="text1771-7-0"><tspan
+       sodipodi:role="line"
+       id="tspan1769-0-0"
+       x="771.32544"
+       y="666.7796">c</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="760.94812"
+     y="1038.4778"
+     id="text1771-7-8"><tspan
+       sodipodi:role="line"
+       id="tspan1769-0-7"
+       x="760.94812"
+       y="1038.4778">c</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="815.6651"
+     y="1039.4211"
+     id="text1771-7-3"><tspan
+       sodipodi:role="line"
+       id="tspan1769-0-8"
+       x="815.6651"
+       y="1039.4211">c</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="255.66039"
+     y="566.98114"
+     id="text2907"><tspan
+       sodipodi:role="line"
+       id="tspan2905"
+       x="255.66039"
+       y="566.98114">G</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="708.49054"
+     y="268.86792"
+     id="text2911"><tspan
+       sodipodi:role="line"
+       id="tspan2909"
+       x="708.49054"
+       y="268.86792">B</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:32px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;stroke:#f6f6ff;stroke-width:3.425"
+     x="707.54718"
+     y="868.86798"
+     id="text2915"><tspan
+       sodipodi:role="line"
+       id="tspan2913"
+       x="707.54718"
+       y="868.86798">B</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text2965"
+     style="fill:#333333;stroke:#f6f6ff;stroke-width:3.425;-inkscape-font-specification:'Arial Black, Heavy';font-family:'Arial Black';font-size:32px;font-weight:900;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2967)" />
+</svg>

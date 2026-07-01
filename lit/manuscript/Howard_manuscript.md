@@ -237,7 +237,7 @@ Here you have assigned a probability $0.6$ to the event College Graduate; $\text
 
 The main rule of the probability game is that there is one unit of certainty to be divided among all the degrees of distinction. If we had several degrees of distinction for drinking beer, such as the three degrees of Figure 1-7, then the numbers on all branches must add to 1. Figure 1-14 shows the division of certainty you might have among the three distinctions $B_1$, $B_2$, $B_3$.
 
-![Three Degrees(Figure1-14_bis.svg)
+![Three Degrees|342](Figure1-14_bis.svg)
 *Figure 1-14. Division of Certainty Over Three Degrees of Distinction for Drinking Beer*
 
 A probability 0.7 is assigned to $B_1$, 0.2 to $B_2$, and 0.1 to $B_3$. This assignment says that since $\textsf{P}(B_1 \, |\, \mathcal{E})$ = 0.7 and $\textsf{P}(B_3 \, |\, \mathcal{E})$ = 0.1, then the next person entering the room is, in your opinion, seven times as likely to be someone who drinks less than 50 quarts of beer per year as to be a person who drinks more than 150 quarts of beer per year.
