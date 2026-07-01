@@ -5,9 +5,8 @@ title: "Week 4: The Party Problem"
 Jul 13
 : **LECTURE 7**{: .label .label-green } **"The Party Problem" I** 
 : **Lecture notes** [[Web]](/summer26/lectures/week_04/class_01/lecture01_week04/)
-: **Project proposal due**{: .label .label-purple }
 [PDF]({{ site.baseurl }}/lectures/week_04/class_01/lecture01_week04.pdf)
-: **HW 3 DUE**{: .label .label-red }
+: **HW 3 DUE**{: .label .label-red } **Project proposal due**{: .label .label-purple }
 : **Required:** Course Notes §1.2.4.4; §1.2.9 The Relevance Diagram; §3.1–3.1.12 The Party Problem; §6.1.8 Decision Diagrams
 : **FODA** *(optional):* Ch. 9, 10, 14
 : **Additional** *(optional):* [Heckerthoughts](https://arxiv.org/abs/2302.05449) §2.2 — Independence and graphical models
