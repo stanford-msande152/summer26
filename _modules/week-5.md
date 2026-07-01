@@ -3,12 +3,16 @@ title: "Week 5: Evidence, Bayes' Rule, and the Value of Information"
 ---
 
 Jul 20
-: **LECTURE 9**{: .label .label-green } **Evidence and Bayes' rule** · [[Notes]](/summer26/lectures/week_05/class_01/lecture01_week05/)
+: **LECTURE 9**{: .label .label-green } **Evidence and Bayes' rule** · 
+: **Lecture notes** [[Web]](/summer26/lectures/week_05/class_01/lecture01_week05/)
+[PDF]({{ site.baseurl }}/lectures/week_05/class_01/lecture01_week05.pdf)
 : **HW 4 DUE**{: .label .label-red }
 : **Required:** Course Notes §6.1 Basic Information Gathering
 
 Jul 22
-: **LECTURE 10**{: .label .label-green } **Value of information (VOI)** · [[Notes]](/summer26/lectures/week_05/class_02/lecture02_week05/)
+: **LECTURE 10**{: .label .label-green } **Value of information (VOI)** · 
+: **Lecture notes** [[Web]](/summer26/lectures/week_05/class_02/lecture02_week05/)
+[PDF]({{ site.baseurl }}/lectures/week_05/class_02/lecture02_week05.pdf)
 : **HW 5 OUT**{: .label .label-yellow } **Midterm (in class)**{: .label .label-purple }
 : **Required:** Course Notes §3.1.13–3.1.16 Valuing Clairvoyance
 : **FODA** *(optional):* Ch. 18
