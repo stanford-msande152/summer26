@@ -28,6 +28,8 @@ math: mathjax
 5. [The Party Problem: Sensitivity Analysis](#5-sensitivity-analysis)
 6. [The Party Problem: Basic Information Gathering](#6-basic-information-gathering)
 
+_To download the PDF version of this file use [this link.](/summer26/lit/manuscript/Howard_manuscript.pdf)_
+
 ---
 
 ## 1 Possibilities and Probabilities
