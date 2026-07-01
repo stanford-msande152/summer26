@@ -3,8 +3,9 @@ title: "Week 4: The Party Problem"
 ---
 
 Jul 13
-: **LECTURE 7**{: .label .label-green } **"The Party Problem" I** · 
+: **LECTURE 7**{: .label .label-green } **"The Party Problem" I** 
 : **Lecture notes** [[Web]](/summer26/lectures/week_04/class_01/lecture01_week04/)
+: **Project proposal due**{: .label .label-purple }
 [PDF]({{ site.baseurl }}/lectures/week_04/class_01/lecture01_week04.pdf)
 : **HW 3 DUE**{: .label .label-red }
 : **Required:** Course Notes §1.2.4.4; §1.2.9 The Relevance Diagram; §3.1–3.1.12 The Party Problem; §6.1.8 Decision Diagrams
