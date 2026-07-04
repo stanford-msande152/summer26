@@ -6,7 +6,7 @@ Jul 6
 : **LECTURE 5**{: .label .label-green } **Decisions & values — influence diagrams** · 
 : **Lecture notes** [[Web]](/summer26/lectures/week_03/class_01/lecture01_week03/)
 [PDF]({{ site.baseurl }}/lectures/week_03/class_01/lecture01_week03.pdf)
-: **HW 2 DUE**{: .label .label-red } **Project proposal due**{: .label .label-purple }
+: **HW 2 DUE**{: .label .label-red }
 : **Required:** Course Notes §1.2.12 Measures · R. Shachter, "Evaluating Influence Diagrams"
 : **Additional** *(optional):* [Heckerthoughts](https://arxiv.org/abs/2302.05449) §3.2 — Influence Diagrams and fully causal models
 
