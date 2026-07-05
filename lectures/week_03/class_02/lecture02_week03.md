@@ -46,7 +46,8 @@ Implied skills:
 3. **The Equivalence Rule**
 >  Existence of a probability $p$ such that for a certain prospect $R$ one is indifferent between $R$ and a deal made of two prospects that bracket it, $P \succ R \succ Q$ 
 $$ R \sim pP + (1-p)Q $$
- This $p$ is the _utility_ of $R$ expressed as _preference probability._
+  This $p$ is the _utility_ of $R$ expressed as _preference probability._ The range of preferences defined by $P \rightarrow Q$ defines the *scale* used to measure the utility.
+
 Implied skills:
 - To be able to quantify one's preference for $R$ by constructing a hypothetical $0 < p< 1.$ 
 - (Should one be able to do this if one  prospect is expressed in an equivalent numeraire (dollar) value?  Hence a certain equivalent)
@@ -68,7 +69,11 @@ Implied skill:
 - Rules 1-4 are subsumed in building a utility function. So if one can construct a utility function ( by whatever means) then one has an equivalent skill. 
 
 
-
+(Smith Axioms
+1. Probabilistic Determinism
+2. Total Order
+3. Weak Archimedian (equivalence)
+4. Weak substitution)
 
 
 
