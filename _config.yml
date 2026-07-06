@@ -15,12 +15,17 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
+  "Probability Wheel": "sw/wheel/index.html"
   "Canvas": "https://canvas.stanford.edu/courses/228284"
   "Ed Discussion": "https://edstem.org/us/courses/99720/discussion/8132172"
 footer_content: 'MS&E 152, Stanford University. Site maintained by course staff.'
 nav_external_links:
     - title: "Office hours sign-up"
       url: "https://calendly.com/jmagosta-stanford/30min"
+      hide_icon: true
+      opens_in_new_tab: true
+    - title: "Probability Wheel"
+      url:  "sw/wheel/index.html"
       hide_icon: true
       opens_in_new_tab: true
 
