@@ -12,17 +12,17 @@ nav_fold: false
 
 
 1. Ron Howard, "Decision Analysis Manuscript in Progress",   revisions for MZS&E 152. [Primary Text](/summer26/lit/manuscript/Howard_manuscript.pdf) 
-2. Ross Shachter, "Evaluating Influence Diagrams", _Operations Research_, Vol. 34, No. 6. (Nov. - Dec., 1986), pp. 871-882.
-3. Ronald A. Howard, "On Fates Comparable to Death",  **Management Science** , Apr., 1984, Vol. 30, No. 4, Risk Analysis (Apr., 1984), pp. 407-422 Published by: INFORMS Stable URL: https://www.jstor.org/stable/2631429.  Also in RODA. 
+2. Ross Shachter, ["Evaluating Influence Diagrams"](lit/pubs/shachter_evalluating_IDs_1987.pdf), _Operations Research_, Vol. 34, No. 6. (Nov. - Dec., 1986), pp. 871-882.
+3. Ronald A. Howard, ["On Fates Comparable to Death"](lit/pubs/Howard1984_FatesComparableToDeath.pdf),  **Management Science** , Apr., 1984, Vol. 30, No. 4, Risk Analysis (Apr., 1984), pp. 407-422 Published by: INFORMS Stable URL: https://www.jstor.org/stable/2631429.  
 
 
 ## II. Optional recommended texts
 
 1. J.K. Blitzstein, J. Hwang (2015)"Introduction to Probability" CRC Press.
 2. D. Heckerman, "Heckerthoughts" [Download PDF](/summer26/lit/heckerthoughts.pdf)
-3. R. Howard, Ali Abbas (2016) "Foundations of Decision Analysis" Pearson
+3. R. Howard, Ali Abbas (2016) "Foundations of Decision Analysis" Pearson.
 4. R. Howard, C. Korver (2008) "Ethics for the Real World"  Harvard Business Press. 
-5. R. Howard & J. Matheson (1983) "Readings in Decision Analysis ("The Blue Book" - RODA)  SDG - Vol 1&2 
+5. R. Howard & J. Matheson (1983) "Readings in Decision Analysis ("The Blue Book" - RODA)  SDG - [Vol 1.](lit/pubs/1983-howard-readingsondecisionanalysis-v1.pdf)  [Vol 2.](lit/pubs/1983-howard-readingsondecisionanalysis-v2.pdf)
 
 ### III. Videos
 
