@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Probability Wheel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Probability Wheel</h1>
+    <p class="intro">Drag the orange-blue boundary around the circle to set the orange wedge percentage.</p>
+
+    <section id="wheel-app" aria-labelledby="wheel-title">
+      <div id="wheel-container">
+        <svg id="probability-wheel" viewBox="0 0 320 320" role="img" aria-labelledby="wheel-title wheel-desc">
+          <title id="wheel-title">Probability wheel widget</title>
+          <desc id="wheel-desc">A circle divided into an orange wedge and a blue wedge. The boundary can be dragged to change the orange percentage.</desc>
+          <circle cx="160" cy="160" r="140" class="wheel-background" />
+          <path id="orange-wedge" class="orange-wedge" />
+          <path id="blue-wedge" class="blue-wedge" />
+          <circle id="drag-handle" class="drag-handle" cx="0" cy="0" r="10" tabindex="0" aria-label="Drag handle for adjusting orange percentage" />
+        </svg>
+      </div>
+
+      <div class="readout">
+        <div class="percent-label">Orange wedge</div>
+        <div id="percent-value" class="percent-value" aria-live="polite">50%</div>
+      </div>
+
+      <div class="controls">
+        <label for="angle-range">You can adjust the wedge percentage using this slider:</label>
+        <input id="angle-range" type="range" min="1" max="99" value="50">
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
