@@ -83,10 +83,10 @@ Divide and conquer: Derivation from event and complements
 
 A distributive law (there are two) in Boolean algebra, for union and intersection is
 
-$$ X \cap (Y \cup Z) = (X \cap Y) \cup (X \cap Z)$$
+$$X \cap (Y \cup Z) = (X \cap Y) \cup (X \cap Z)$$
 This gives us the expression of how to partition an event $B$ using another event $A:$
 
-$$ B = B\cap \Omega = B \cap (A \cup A^C) = (B \cap A) \cup (B \cap A^c)$$
+$$B = B\cap \Omega = B \cap (A \cup A^C) = (B \cap A) \cup (B \cap A^c)$$
 Since the two right hand side terms are mutually exclusive, by Finite Additivity , 
 
 $$\textsf{P}(B) = \textsf{P}(B \cap A) +  \textsf{P}(B \cap A^c)$$
