@@ -22,8 +22,8 @@ nav_fold: false
 2. D. Heckerman, "Heckerthoughts" [Download PDF](/summer26/lit/heckerthoughts.pdf)
 3. R. Howard, Ali Abbas (2016) "Foundations of Decision Analysis" Pearson.
 4. R. Howard, C. Korver (2008) "Ethics for the Real World"  Harvard Business Press. 
-5. R. Howard & J. Matheson (1983) ["Readings on Decision Analysis Vol 1."](/summer/lit/pubs/1983-howard-readingsondecisionanalysis-v1.pdf). ("The Blue Book")  SDG.
-6. R. Howard & J. Matheson (1983) ["Readings on Decision Analysis Vol 2."](/summer/lit/pubs/1983-howard-readingsondecisionanalysis-v2.pdf) ("The Blue Book")  SDG.
+5. R. Howard & J. Matheson (1983) ["Readings on Decision Analysis Vol 1."](/summer26/lit/pubs/1983-howard-readingsondecisionanalysis-v1.pdf). ("The Blue Book")  SDG.
+6. R. Howard & J. Matheson (1983) ["Readings on Decision Analysis Vol 2."](/summer26/lit/pubs/1983-howard-readingsondecisionanalysis-v2.pdf) ("The Blue Book")  SDG.
 
 ### III. Videos
 
