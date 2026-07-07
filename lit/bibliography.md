@@ -22,7 +22,8 @@ nav_fold: false
 2. D. Heckerman, "Heckerthoughts" [Download PDF](/summer26/lit/heckerthoughts.pdf)
 3. R. Howard, Ali Abbas (2016) "Foundations of Decision Analysis" Pearson.
 4. R. Howard, C. Korver (2008) "Ethics for the Real World"  Harvard Business Press. 
-5. R. Howard & J. Matheson (1983) "Readings in Decision Analysis ("The Blue Book" - RODA)  SDG - [Vol 1.](lit/pubs/1983-howard-readingsondecisionanalysis-v1.pdf)  [Vol 2.](lit/pubs/1983-howard-readingsondecisionanalysis-v2.pdf)
+5. R. Howard & J. Matheson (1983) ["Readings on Decision Analysis Vol 1."](/summer/lit/pubs/1983-howard-readingsondecisionanalysis-v1.pdf). ("The Blue Book")  SDG.
+6. R. Howard & J. Matheson (1983) ["Readings on Decision Analysis Vol 2."](/summer/lit/pubs/1983-howard-readingsondecisionanalysis-v2.pdf) ("The Blue Book")  SDG.
 
 ### III. Videos
 
@@ -47,15 +48,16 @@ Consider these of equal value to the required readings.
 Primary sources and fundamental literature for Decision Analysis
 ### A. Decision Theory
 
-1. A. Abbas (2018)"Foundations of Multiattribute Utility",  Cambridge University Press.
-#. M. H. DeGroot (1970) "Optimal Statistical Decisions", McGraw Hill. 
-2. S. French, (1988). "Decision Theory: An Introduction to the Mathematics of Rationality", Ellis Horwood Limited.
-3. R. L. Keeney, (1992). "Value-Focused Thinking: A Path to Creative Decision making", Harvard University Press.
-4. D. V. Lindley, (1985). "Making decisions (2nd ed.)". John Wiley & Sons.
-5. S. Raha (2023). "Invaluable: Achieving Clarity on Value", Invaluable Books, LLC. 
-6. S. J. Russell and E. Wefald (1991), "Do the Right Thing", MIT Press. 
-5. J. Q. Smith, (2010). "Bayesian Decision Analysis, Principles and Practice",  Cambridge U. Press. 
-7. M. Tribus, (1969). "Rational descriptions, decisions, and designs." Elsevier Science & Technology. 
+1. A. Abbas (2018). "Foundations of Multiattribute Utility",  Cambridge University Press.
+2. M. H. DeGroot (1970). "Optimal Statistical Decisions", McGraw Hill. 
+3. S. French, (1988). "Decision Theory: An Introduction to the Mathematics of Rationality", Ellis Horwood Limited.
+4. R. L. Keeney, (1992). "Value-Focused Thinking: A Path to Creative Decision making", Harvard University Press.
+5. D. V. Lindley, (1985). "Making decisions (2nd ed.)". John Wiley & Sons.
+6. S. Raha (2023). "Invaluable: Achieving Clarity on Value", Invaluable Books, LLC. 
+7. S. J. Russell and E. Wefald (1991). "Do the Right Thing", MIT Press. 
+8. D. Skinner (2009). "Introduction to Decision Analysis", Probabilistic Publishing. 
+9. J. Q. Smith, (2010). "Bayesian Decision Analysis, Principles and Practice",  Cambridge U. Press. 
+10. M. Tribus, (1969). "Rational descriptions, decisions, and designs." Elsevier Science & Technology. 
 
 ### B. Probability
 

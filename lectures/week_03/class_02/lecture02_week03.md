@@ -22,7 +22,7 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 ## I. What is a *rational* choice?
 
-A rational actor - such as a person or organization - follows a set of rules that in combination define exactly what we mean by means that are aligned with (meant to achieve)  one's ends. 
+A rational actor - such as a person or organization - follows a set of rules that in combination define exactly what it meant by saying one's means that are aligned with (meant to achieve)  one's ends. 
 
 Economic rationality is the assumption that the economy can be explained by assuming people act as rational economic agents.  In contrast we look at economic theory normatively, so we treat them as *skills* one needs to acquire, and that by using the methods of decision analysis that incorporate them, one makes good decisions. 
 
