@@ -3,15 +3,15 @@ title: "Week 8: Decision Quality in Practice"
 ---
 
 Aug 10
-: **LECTURE 15**{: .label .label-green } **Decision analysis in practice — possible invited speaker** · 
+: **LECTURE 15**{: .label .label-green } **Decision analysis in practice — Framing the problem.** 
 : **Lecture notes** [[Web]](/summer26/lectures/week_08/class_01/lecture01_week08/)
 [PDF]({{ site.baseurl }}/lectures/week_08/class_01/lecture01_week08.pdf)
 : **HW 7 DUE**{: .label .label-red }
 : **Required:** Selected papers *(posted on Canvas)*
-: **Additional** *(optional):* R. Howard, "An Assessment of Decision Analysis" (1980), Operations Research Vol. 28, No. 1. Also RODA p. 177
+: **Additional** *(optional):* R. Howard, "An Assessment of Decision Analysis" (1980), Operations Research Vol. 28, No. 1. Also RODA p. 177, Possible talk by an invited speaker. 
 
 Aug 12
-: **LECTURE 16**{: .label .label-green } **Decision quality, rationality, ethics** · 
+: **LECTURE 16**{: .label .label-green } **Decision quality, rationality, ethics**
 : **Lecture notes** [[Web]](/summer26/lectures/week_08/class_02/lecture02_week08/)
 [PDF]({{ site.baseurl }}/lectures/week_08/class_02/lecture02_week08.pdf)
 : **Final project due — end of finals period**{: .label .label-purple }

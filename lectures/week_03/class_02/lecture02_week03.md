@@ -22,11 +22,13 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 ## I. What is a *rational* choice?
 
-Economic rationality is the assumption that they economy can be explained by people acting as rational economic agents by following these rules.  In contrast we look at economic theory normatively, so we treat them as *skills* one needs to acquire, and that by using the methods of decision analysis that incorporate them, one makes good decisions. 
+A rational actor - such as a person or organization - follows a set of rules that in combination define exactly what we mean by means that are aligned with (meant to achieve)  one's ends. 
 
-So decision making becomes a thoughtful exercise, where if these methods are followed then the decision maker can (has the courage to) commit to action, knowing it is the best possible based on the current circumstances.  We can call this "actional thought."
+Economic rationality is the assumption that the economy can be explained by assuming people act as rational economic agents.  In contrast we look at economic theory normatively, so we treat them as *skills* one needs to acquire, and that by using the methods of decision analysis that incorporate them, one makes good decisions. 
 
-Each of these rules implies a skill that individually appear common sensical, but in combination give a path forward for complex situations when the sensible actions are not obvious. 
+So decision making becomes a thoughtful exercise, where if these methods are followed then the decision maker can (has the courage to) commit to action, knowing it is the best possible course based on the current circumstances.  We can call this "actional thought."
+
+Instead of thinking of the rules as obligatory, each of these rules implies a skill that individually appear common sensical, but in combination give a path forward for complex situations when the sensible actions are not obvious.  If a decision-maker can acquire the skills associated with each rule, ...
 
 **1. The Probability Rule**
 > Variables - are expressed by probabilities. The full toolkit of computations with event trees is allowed. 
@@ -75,9 +77,23 @@ Implied skill:
 3. Weak Archimedian (equivalence)
 4. Weak substitution)
 
+## Bayes networks for dependence
 
+The problem with trees -- where order is ambiguous about dependence. 
 
+Three uncertain events orderings clarified by three networks. 
 
+Independence - the example of (ir)-relevance. 
+
+Dependence  is directional as shown by conditional probability
+
+1. Common cause  (Exchangeable effects. )
+2. Garbling
+3. Common effect
+
+"Bayes ball"
+
+? Flipping arcs.  
 ## Class Activity
 
 ## Key terms
