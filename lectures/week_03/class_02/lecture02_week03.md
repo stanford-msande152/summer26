@@ -15,22 +15,22 @@ Canvas: https://canvas.stanford.edu/courses/228284
 - Diagramming dependencies using causal decision networks
 
 ## Class schedule
-- Lecture
-- About this class
+- Lecture: Rational Choice
+- Some questions about previous lectures
 - Short break
-- Second lecture
-- Class activity
+- Lecture: Intro to Causal Decision Networks
+- Class activity: Probability Interval Estimation. 
 - ----
 
 ## I. What is a *rational* choice?
 
-A rational actor - such as a person or organization - follows a set of rules that in combination define exactly what it meant by saying one's means that are aligned with (meant to achieve)  one's ends. 
+A rational agent - such as a person or organization - follows a set of rules that in combination define exactly what it meant by aligning one's _means_  (what one can do) with one's ends (what one wants to achieve). 
 
-Economic rationality is the assumption that the economy can be explained by assuming people act as rational economic agents who follow a set of rules or _axioms_ of choice.  In contrast we look at economic theory normatively, so we treat these rules as *skills* one needs to acquire, and that by using the methods of decision analysis that incorporate them, one makes good decisions. 
+Economic rationality is the assumption that the economy can be explained by assuming people act as rational economic agents who follow a set of rules or _axioms_ of choice.  In contrast in Decision Analysis we look at economic theory normatively, so we treat these rules as *skills* one needs to acquire, and that by using the methods of Decision Analysis that incorporate them, one makes good decisions. 
 
 So decision making becomes a thoughtful exercise, where if these methods are followed then the decision maker can (if one has the courage to) commit to action, knowing it is the best possible course based on the current circumstances.  We can call this "actional thought."
 
-So instead of thinking of the rules as obligatory, each of these rules implies a skill needed to construct one's beliefs and utilities. The rules individually appear to be common sense, but in combination give a path forward for complex situations when the sensible actions are not obvious.  For a decision-maker rational choice is the combination of using the skills associated with each rule, to enable the decision analysis process. 
+So instead of thinking of the rules as obligatory, each of these rules implies a skill needed to construct one's beliefs and utilities. The rules individually appear to be common sense, but in combination give a path forward for complex situations when the sensible actions are not obvious.  For a decision-maker, rational choice is the process of using the skills associated with each rule, to enable the decision analysis process. 
 
 ### Implications of the rules of "actional thought"
 1. For the rational decision maker the rules are part of the psychological process of deliberation.
@@ -40,7 +40,7 @@ So instead of thinking of the rules as obligatory, each of these rules implies a
 ### The five rules
 
 **1. The Probability Rule**
-> Uncertain variables are expressed by probabilities. The full toolkit of probability computations with event trees is called for. 
+> Uncertain variables are expressed by probabilities. One relies on the full toolkit of probability computations with event trees. 
  
 Implied skills: 
 - Constructing one's probabilities as calibrated belief. 
@@ -48,35 +48,35 @@ Implied skills:
 - Ability to adopt new beliefs based on probability based updates.
 
 2. **The Order Rule**
-> Preferences over prospects are totally ordered.  Any two  prospects can be compared as either preferred, not preferred or indifferent. 
+> Preferences over prospects are totally ordered.  Any two  prospects can be compared as either preferred, not preferred, or indifferent. 
 
 Implied skills:
 - For any two future prospects , $P, Q$ (Using common attributes, suitable for the clairvoyance test), judge if one is preferred to the other, either $P \succ Q$ or $Q \succ P;$ or if one is indifferent between them $P \sim Q.$   
-- Make a complete set of preference judgments so that all prospects are totally ordered. 
+- Make a complete set of preference judgments so that all prospects are totally ordered. Totally ordered prospects are transitive meaning they are not subject to cycles. 
 
 3. **The Equivalence Rule**
 >  There exists a probability $p$ such that for a certain prospect $R$ one is indifferent between $R$ and a deal made of two prospects that bracket it, $P \succ R \succ Q$ 
 $$ R \sim pP + (1-p)Q $$
-  This $p$ is the _utility_ of $R$ expressed as _preference probability._ The range of preferences defined by the interval $P \rightarrow Q$ defines the *scale* used to measure the utility.  By varying $p$ one can express a continuously variable utility function. 
+  This $p$ is the _utility_ of $R$ expressed as _preference probability._ The range of preferences defined by the interval $P \rightarrow Q$ defines the *scale* used to measure the utility.  By varying $p$ one can express a continuously variable utility mapping from a deal to a certain prospect.
 
 Implied skills:
 - To be able to quantify one's preference for $R$ by constructing  a probability $0 < p< 1$ for such a hypothetical deal. 
-- To make an equivalence between a certain prospect and an uncertain prospect.
+- To determine indifference between a certain prospect and an uncertain prospect.
 
 
 5.  **Substitution Rule**
-> If given a choice between two prospects one is indifferent between receiving any prospects with the same utility.  The prospects may be certain, or may be (uncertain) deals.  For instance, given indifference between prospects $P \sim Q$ and probability $p$, one would also be indifferent between $pP \sim pQ.$ This works because one considers utilities as preference probabilities, the same as the probabilities of actual events.
+> If given a choice between two prospects, one is indifferent between receiving any two prospects with the same utility.  The prospects may be certain, or may be (uncertain) deals.  For instance, given indifference between prospects $P \sim Q$ and probability $p$, one would also be indifferent between $pP \sim pQ.$ This works because one considers utilities as preference probabilities, the same as the probabilities of actual events.
 
 Implied skill:
-- The substitution asks the question "do you really mean" using the preference probability as a "real probability."  One agrees that the substitution does not change one's preferences. 
+- The Substitution Rule asks the question "do you really mean" using the preference probability as a "real probability?"  One agrees that the substitution itself does not change one's preferences. 
 - Also the rule includes substituting a multi-stage deal (think of a multi-node tree) with the same outcome (elemental) probabilities. 
-- Another consequence of the substitution rule is that utilities are a function of preference probabilities only, but not of "actual" probabilities.  So there is no utility contribution from event uncertainty.  Utility applies to certain prospects, and uncertainty is entirely represented by the probability ascribed to events. This, for example means that the act of taking a risk, either the entertainment from gambling, or the thrill from the risk of extreme sports are not part of the utility, nor is the fear from taking substantial risks or in the act of deciding itself.  This is the same principle that keeps a risk attribute out of the utility function.
+- Another consequence of the substitution rule is that utilities are a function of preference probabilities only, but not of "actual" probabilities.  So there is utility is not a function of any event uncertainty.  Utility applies to certain prospects, and uncertainty is entirely represented by the probability ascribed to events. This, for example means that the act of taking a risk, either the entertainment from gambling, or the thrill from the risk of extreme sports or the fear from taking substantial risks clearly distinguish the preference aspect from the sources of uncertainty.  Neither is there a utility component in the act of deciding itself.  This is the principle that keeps a risk attribute out of the utility function.
 
 6.  **Choice Rule**
 > GIven a choice of the identical prospects with different probabilities, one takes the one with the higher probability.  Utility is always increasing in probability.  Essentially this reduces to requiring that you act on your preferences.  
 
 Implied skill:
-- One has the "courage" to take the higher probability deal.  Once the expected utility of alternatives are worked out every concern that enters in to the decision has been considered. There are no additional factors, or stipulations to bring to bear.  Of course this is limited from a complete ethical viewpoint, by the applicability of the rules just to *individual* rationality
+- One has the "courage" to take the higher probability deal.  Once the expected utility of alternatives based on their outcomes are worked out every concern that enters into the decision has been considered. There are no additional factors, or stipulations to bring to bear.  Of course this is limited from a complete ethical viewpoint, by the applicability of the rules just to *individual* rationality.  One should consider also if one's action is a good thing. 
 
 **Irrelevant Alternatives**
 Another important consequence of the five rules is that when comparing two alternatives, one's choice is determined solely by the expected utility of the alternatives, and not by the presence or absence of other less preferred alternatives.  One can also show that adding some probability of a third alternative to a pair of alternatives will not change the preference over the pair.  
@@ -107,22 +107,30 @@ Independence implies irrelevance among nodes, and it is a symmetric relationship
 
 #### The kinds of dependencies in causal networks
 
-Arcs "belong"  to the nodes they are incident to.  The incoming arcs to a node have different meanings for each of the three kinds of node:  A probability node's arcs indicate the conditioning of it's probability distribution.  A decision node's arcs indicate the variables that will be observed -- called the "information" -- at the time the decision will be made. A utility node's arcs indicate what variables the utility is a function of. Unlike probability and decision nodes, there is typically just one utility node in an influence diagram and it can not have outgoing arcs. Just as utility nodes in a tree appear only at the leaves, the utility node is the "sink" in an influence diagram.  
+Arcs "belong"  to the nodes they are incident to.  The incoming arcs to a node have different meanings for each of the three kinds of node:  A probability node's arcs indicate the conditioning of it's probability distribution.  A decision node's arcs indicate the variables that will be observed -- called the "information" -- at the time the decision will be made. A utility node's arcs indicate what variables the utility is a function of. Unlike probability and decision nodes, there is often just one utility node in an influence diagram.  If the utility function is a sum of multiple "sub-utility" terms,  then all outgoing arcs from sub-utility nodes go to other utility nodes. Just as utility nodes in a tree appear only at the leaves, the utility node is the "sink" in an influence diagram.  
 
 ![](kinds_of_arcs.png)
 **Kinds of arcs for different kinds of nodes**
 
+#### Converting a Decision Table into a causal decision network
 
-
+Recall that a decision table consists one decision and one uncertain variable. The utilities in the table are a function of the decision alternative and the uncertain outcome.  The outcome probabilities are independent of the choices made.  Its influence diagram is simply this three node network:
+![](DT_influenceDiagram.png)
+#### The "Used Car Buyer causal decision network"
+![](UsedCarBuyer_ID.png)
 ## Class Activity
 
-P10 - P90 interval estimation calibration.  
+P10 - P90 probability interval estimation exercise.  
 
 ## Key terms
 
-prospect, outcome
+rational economic agent
+
+_axioms_ of choice
 
 Actional Thought
+
+mapping, function
 
 utility function
 
@@ -133,7 +141,7 @@ a-cyclic
 nodes, arcs 
 
 
-## Homework, due __ 
+## Homework 3, due 13 July
 
 ## Files, references
 
