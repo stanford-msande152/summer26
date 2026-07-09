@@ -1,6 +1,6 @@
 Course: MS&E 152 summer 2026
 Sequence: Week 3, Lecture 2
-Date: Monday, July 8 2026
+Date: Wednesday, July 8 2026
 Topic: Introduction to Decision Analysis
 #### Links:
 Course website: https://stanford-msande152.github.io/summer26/
@@ -70,10 +70,10 @@ Implied skills:
 Implied skill:
 - The Substitution Rule asks the question "do you really mean" using the preference probability as a "real probability?"  One agrees that the substitution itself does not change one's preferences. 
 - Also the rule includes substituting a multi-stage deal (think of a multi-node tree) with the same outcome (elemental) probabilities. 
-- Another consequence of the substitution rule is that utilities are a function of preference probabilities only, but not of "actual" probabilities.  So there is utility is not a function of any event uncertainty.  Utility applies to certain prospects, and uncertainty is entirely represented by the probability ascribed to events. This, for example means that the act of taking a risk, either the entertainment from gambling, or the thrill from the risk of extreme sports or the fear from taking substantial risks clearly distinguish the preference aspect from the sources of uncertainty.  Neither is there a utility component in the act of deciding itself.  This is the principle that keeps a risk attribute out of the utility function.
+- Another consequence of the substitution rule is that utilities are a function of preference probabilities only, but not of "actual" probabilities.  So there is utility is not a function of any event uncertainty.  Utility applies to certain prospects, and uncertainty is entirely represented by the probability ascribed to events. This, for example means that the act of taking a risk, either the entertainment from gambling, or the thrill from the risk of extreme sports or the fear from taking substantial risks need to clearly distinguish the preference aspect from the sources of uncertainty.  Similarly there is not a utility component in the act of deciding itself, since utility resides entirely in the eventual prospects.  This is the principle that keeps a risk attribute out of the utility function.
 
 6.  **Choice Rule**
-> GIven a choice of the identical prospects with different probabilities, one takes the one with the higher probability.  Utility is always increasing in probability.  Essentially this reduces to requiring that you act on your preferences.  
+> GIven a choice of the identical prospects with different probabilities, one takes the one with the higher probability.  Expected utility is always increasing in probability.  Essentially this rule  requires that you act based on your preferences.  
 
 Implied skill:
 - One has the "courage" to take the higher probability deal.  Once the expected utility of alternatives based on their outcomes are worked out every concern that enters into the decision has been considered. There are no additional factors, or stipulations to bring to bear.  Of course this is limited from a complete ethical viewpoint, by the applicability of the rules just to *individual* rationality.  One should consider also if one's action is a good thing. 
@@ -85,17 +85,17 @@ Another important consequence of the five rules is that when comparing two alter
 
 By virtue of one's assessment skills one can construct a utility function by means of the five Rules.  This is convenient because there's no need to refer back to check for adherence to the rules when making a decision  -- applying the utility function says it all.  Alternatively if one can construct a utility function directly one has the benefit of consistency with the Rules without having to go through the assessment task. 
 
-Here's an example of a curved "convex up" utility function to convert dollar value into utility. The diagram shows the computation of an expected utility for a deal with equal probability of an outcome of \$0 or \$100 dollars.  The expected  dollar value is \$50 utility as shown. Mapping this to utility  equals 0.5.  But that has a dollar *certain equivalent* of \$34, less than the expected dollar value.  A certain equivalent utility less than the expected value is a property of any convex up utility function. The difference in value is the _risk premium_ for that deal, determined by the utility function. 
+Here's an example of a curved "convex up" utility function to convert dollar value into utility. The diagram shows the computation of an expected utility for a deal with equal probability of an outcome of \$0 or \$100 dollars.  The expected  dollar value is \$50 utility as shown. Mapping this to utility  equals 0.5.  But that has a dollar *certain equivalent* of \$34, less than the expected dollar value.  A utility certain equivalent  less than the expected value is a property of any convex up utility function. The difference in value is the _risk premium_ for that deal, determined by the utility function. 
 ![](utility_function.png)
 
 
 ## II. Dependence in Causal networks
 
-By causal networks I'm referring to networks of probability variables, called _Bayes Networks_, and their extension to include both decision and utility variables, called _Influence Diagrams_, or more descriptively _Causal Decision Networks_. Variables in the networks are drawn as nodes, using our convention of circles, squares, or diamonds for probabilities, decisions or utilities, respectively. Directed arcs between nodes show dependencies.  The networks are _a-cyclic_, meaning by following the direction of the arcs one cannot get back to one's starting point. Neither can they have "self dependencies." Influence Diagrams are an equivalent way to diagram Decision-probability trees. 
+By causal networks I'm referring to networks of probability variables, called _Bayes Networks_, and their extension to include both decision and utility variables, called _Influence Diagrams_, or more descriptively _Causal Decision Networks_. Variables in the networks are drawn as nodes, using our convention of circles, squares, or diamonds for probabilities, decisions or utilities, respectively. Directed arcs between nodes show dependencies.  The networks are _a-cyclic_, meaning by following the direction of the arcs one cannot get back to one's starting point. Neither can nodes have "self dependencies." Influence Diagrams are an equivalent way to diagram Decision-Probability trees. 
 
 #### The problem with trees
 
-Consider a tree containing a sequence of three nodes. We'll label them probability 1 , $P_1$, decision 1, $D_1$ and probability 2, $P_2.$ Drawn as a tree  $D_1$ is downstream of $P_1$, so the tree suggests that it is possible that a different choice can be made depending on the outcome of $P_1.$ Similarly $P_2.$ is downstream of both $D_1$ and $P_1$, so it is possible that it's probability is conditioned on both:  $\textsf{P}( P_2 \ |\ P_1 D_1).$  But it is also possible that our decision model does not include the dependency on $P_1$, e.g. $\textsf{P}( P_2 \ |\ P_1 D_1) = \textsf{P}( P_2\ |\ D_1 ).$   We need a way to visualize these different cases that are not evident on the tree diagram. 
+Consider a tree containing a sequence of three nodes. We'll label them probability 1 , $P_1$, decision 1, $D_1$ and probability 2, $P_2.$ Drawn as a tree  $D_1$ is downstream of $P_1$, so the tree suggests that it is possible that a different choice can be made depending on the outcome of $P_1.$ Similarly $P_2.$ is downstream of both $D_1$ and $P_1$, so it is possible that its probability is conditioned on both:  $\textsf{P}( P_2 \ |\ P_1 D_1).$  But it is also possible that our decision model does not include the dependency on $P_1$, e.g. $\textsf{P}( P_2 \ |\ P_1 D_1) = \textsf{P}( P_2\ |\ D_1 ).$   We need a way to visualize these different cases that are not evident on the tree diagram. 
 
 We diagram dependencies by drawing arcs where they exist, and, importantly leaving them out where they do not.  So the conditional independence mentioned above is displayed in this graph. This makes it clear that $P_1$ and $P_2$ are independent. The tree diagram is ambiguous whether the dependence exists or not. 
 ![](3node_net.png)
@@ -103,20 +103,22 @@ We diagram dependencies by drawing arcs where they exist, and, importantly leavi
 
 Compared to the six possible linear orderings, for three nodes there are many possible causal orderings including the completely un-ordered case. The only two not possible are where the arcs form a closed cycle. 
 
-Independence implies irrelevance among nodes, and it is a symmetric relationship.  Dependence, shown by an arc drawn as an arrow, is directional. Dependence among probabilities is represented by conditional probability. As Bayes rule demonstrates dependencies among probabilities can be reversed. After reversal the direction of the probabilistic dependency naturally reverses, but the causal interpretation is lost.   Inspecting the network diagram shows what conditional probabilities are in the model.   Identifying cases where nodes are independent simplify the model, so are important to identify.
+Independence implies irrelevance among nodes, and it is a symmetric relationship.  Dependence, shown by an arc drawn as an arrow, is directional. Dependence among probabilities is represented by conditional probability. As Bayes rule demonstrates, dependencies among probabilities can be reversed. After reversal the direction of the probabilistic dependency naturally reverses, but the causal interpretation is lost.   Just by inspecting the network diagram one can tell what conditional probabilities are in the model.   Identifying cases where nodes are independent simplifies the model, so are important to identify.
 
-#### The kinds of dependencies in causal networks
+#### Three kinds of dependencies in causal networks
 
-Arcs "belong"  to the nodes they are incident to.  The incoming arcs to a node have different meanings for each of the three kinds of node:  A probability node's arcs indicate the conditioning of it's probability distribution.  A decision node's arcs indicate the variables that will be observed -- called the "information" -- at the time the decision will be made. A utility node's arcs indicate what variables the utility is a function of. Unlike probability and decision nodes, there is often just one utility node in an influence diagram.  If the utility function is a sum of multiple "sub-utility" terms,  then all outgoing arcs from sub-utility nodes go to other utility nodes. Just as utility nodes in a tree appear only at the leaves, the utility node is the "sink" in an influence diagram.  
+Arcs "belong"  to the nodes they are incident to.  The incoming arcs to a node have different meanings for each of the three kinds of node:  A probability node's arcs indicate the conditioning of it's probability distribution.  A decision node's arcs indicate the variables that will be observed -- called the "information" -- at the time the decision will be made. A utility node's arcs indicate what variables the utility is a function of. Unlike probability and decision nodes, there is often just one utility node at the "end' of an influence diagram.  If the utility function is a sum of multiple "sub-utility" terms,  then all outgoing arcs from sub-utility nodes go to other utility nodes. Just as utility nodes in a tree appear only at the leaves, the final utility node is the "sink" in an influence diagram.  
 
 ![](kinds_of_arcs.png)
 **Kinds of arcs for different kinds of nodes**
 
 #### Converting a Decision Table into a causal decision network
 
-Recall that a decision table consists one decision and one uncertain variable. The utilities in the table are a function of the decision alternative and the uncertain outcome.  The outcome probabilities are independent of the choices made.  Its influence diagram is simply this three node network:
+Recall that a Decision Table consists of one decision and one uncertain variable. The utilities in the table are a function of the decision alternatives and the uncertain outcomes.  The outcome probabilities are independent of the choices made.  Its influence diagram is simply this three node network:
 ![](DT_influenceDiagram.png)
 #### The "Used Car Buyer causal decision network"
+
+An example of a Decision Table equivalent model is the Used Car Buyer influence diagram. The decision maker must decide to accept the dealer's offer for sale of the car or refuse it. She doesn't know the quality of the car -- whether it is a "lemon" or a "peach", but only can assess a probability over quality.  Quality affects possible repair costs, that together with the value of the car not including it's quality affect the final net value of the car, on which the decision is made. 
 ![](UsedCarBuyer_ID.png)
 ## Class Activity
 
