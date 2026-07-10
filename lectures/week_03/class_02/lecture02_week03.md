@@ -64,7 +64,7 @@ Implied skills:
 - To determine indifference between a certain prospect and an uncertain prospect.
 
 
-5.  **Substitution Rule**
+4.  **Substitution Rule**
 > If given a choice between two prospects, one is indifferent between receiving any two prospects with the same utility.  The prospects may be certain, or may be (uncertain) deals.  For instance, given indifference between prospects $P \sim Q$ and probability $p$, one would also be indifferent between $pP \sim pQ.$ This works because one considers utilities as preference probabilities, the same as the probabilities of actual events.
 
 Implied skill:
@@ -72,7 +72,7 @@ Implied skill:
 - Also the rule includes substituting a multi-stage deal (think of a multi-node tree) with the same outcome (elemental) probabilities. 
 - Another consequence of the substitution rule is that utilities are a function of preference probabilities only, but not of "actual" probabilities.  So there is utility is not a function of any event uncertainty.  Utility applies to certain prospects, and uncertainty is entirely represented by the probability ascribed to events. This, for example means that the act of taking a risk, either the entertainment from gambling, or the thrill from the risk of extreme sports or the fear from taking substantial risks need to clearly distinguish the preference aspect from the sources of uncertainty.  Similarly there is not a utility component in the act of deciding itself, since utility resides entirely in the eventual prospects.  This is the principle that keeps a risk attribute out of the utility function.
 
-6.  **Choice Rule**
+5.  **Choice Rule**
 > GIven a choice of the identical prospects with different probabilities, one takes the one with the higher probability.  Expected utility is always increasing in probability.  Essentially this rule  requires that you act based on your preferences.  
 
 Implied skill:

@@ -1,7 +1,9 @@
 # clinerules file for this repository
 #    JMA 7 July 2026
-1. Prefer creating a python file to implement the process for each task, unless specifcally requested otherwise, for instance when creating web pages.
-2. Implement probability and decision algorithms for large models using tensorflow
+0. use the venv environment in /Users/jma/repos/venv by executing /Users/jma/repos/venv/bin/activate
+1. Prefer creating a python file to implement the process for each task, instead of using python -c option.
+2. if requested otherwise use another language for instance when creating web pages.
 3. Place a comment at the top of code files with the creation date and the AI model use to create it.
 4. Check the zsh path contains /bin and /usr/bin before running shell commands, and warn if it does not. 
 5. For python scripts use the venv environment by first initting "/Users/jma/repos/venv/bin/activate'
+6. Implement probability and decision algorithms for large models using tensorflow
