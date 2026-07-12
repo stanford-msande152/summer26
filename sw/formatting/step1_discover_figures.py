@@ -13,7 +13,7 @@ import os
 from pathlib import Path
 
 PDF_PATH = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "manuscript", "MSnE152_coursenotes.pdf")
+    os.path.join(os.path.dirname(__file__), "..", "..", "lit", "manuscript", "MSnE152_coursenotes.pdf")
 )
 PAGE_W = 612.0  # US Letter width in points
 MIN_FIGURE_HEIGHT = 80  # minimum figure height in points

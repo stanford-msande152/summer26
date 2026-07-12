@@ -3,6 +3,11 @@
 step2_extract_figures.py
 Extract Figures 1-1 through 1-18 from the Howard manuscript PDF.
 Renders each figure region as a high-res PNG (excludes the caption).
+
+Also extracts a small set of Section 3 figures at FULL PAGE WIDTH
+(saving to <name>ex.png) per the request to re-extract 3-04, 3-05,
+3-06, 3-07, 3-08, 3-12, 3-14, 3-15, 3-18, 3-21, 3-22, 3-23, 3-25
+with surrounding layout.
 """
 
 import fitz
@@ -10,11 +15,15 @@ import os
 from pathlib import Path
 
 PDF_PATH = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "manuscript", "MSnE152_coursenotes.pdf")
+    os.path.join(os.path.dirname(__file__), "..", "..", "lit", "manuscript", "MSnE152_coursenotes.pdf")
 )
 OUTPUT_DIR = Path(os.path.join(os.path.dirname(__file__), "..", "..", "figures")).resolve()
 DPI = 300
 SCALE = DPI / 72.0
+
+# Full page-content horizontal bounds (US Letter, ~1-inch margins).
+# 60 pt left, 552 pt right -> 492 pt wide -> ~2050 px at 300 DPI.
+FULL_WIDTH_X = (60, 552)
 
 # (filename, page_1indexed, y_top, y_bottom, x_left, x_right)
 # y_top = top of figure region, y_bottom = where caption starts
@@ -120,6 +129,26 @@ FIGURES = [
 ]
 
 
+# Section 3 figures re-extracted at full page width (saves as <name>ex.png).
+# y_top/y_bottom are reused from FIGURES (figure region above the caption);
+# x_left/x_right are overridden with FULL_WIDTH_X.
+FIGURES_FULLWIDTH = [
+    ("Figure3-04", 63, 298, 499),
+    ("Figure3-05", 64, 71, 387),
+    ("Figure3-06", 65, 71, 279),
+    ("Figure3-07", 66, 91, 294),
+    ("Figure3-08", 68, 76, 307),
+    ("Figure3-12", 71, 76, 385),
+    ("Figure3-14", 73, 112, 299),
+    ("Figure3-15", 75, 95, 699),
+    ("Figure3-18", 80, 66, 332),
+    ("Figure3-21", 82, 146, 243),
+    ("Figure3-22", 83, 109, 317),
+    ("Figure3-23", 85, 96, 691),
+    ("Figure3-25", 88, 99, 694),
+]
+
+
 
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -128,6 +157,7 @@ def main():
     print(f"Output: {OUTPUT_DIR}\n")
 
     success = 0
+    print("== Standard (tight-crop) extractions ==")
     for fig_name, page_num, y_top, y_bottom, x_left, x_right in FIGURES:
         page = doc[page_num - 1]
         height = max(y_bottom - y_top, 1)
@@ -142,8 +172,29 @@ def main():
         print(f"  {fig_name}.png  {pix.width}x{pix.height} px  (page {page_num}, {height:.0f}pt tall)")
         success += 1
 
+    # Full-width re-extractions: appended "ex" suffix.
+    fw_success = 0
+    print("\n== Full-width re-extractions (*ex.png) ==")
+    x_left, x_right = FULL_WIDTH_X
+    for fig_name, page_num, y_top, y_bottom in FIGURES_FULLWIDTH:
+        page = doc[page_num - 1]
+        height = max(y_bottom - y_top, 1)
+        if height < 20:
+            print(f"  SKIP {fig_name}ex: height too small ({height:.0f}pt)")
+            continue
+        clip = fitz.Rect(x_left, y_top, x_right, y_bottom)
+        mat = fitz.Matrix(SCALE, SCALE)
+        pix = page.get_pixmap(matrix=mat, clip=clip)
+        out_path = OUTPUT_DIR / f"{fig_name}ex.png"
+        pix.save(str(out_path))
+        print(f"  {fig_name}ex.png  {pix.width}x{pix.height} px  (page {page_num}, {height:.0f}pt tall)")
+        fw_success += 1
+
     doc.close()
-    print(f"\nDone. {success}/{len(FIGURES)} PNGs saved to {OUTPUT_DIR}")
+    print(
+        f"\nDone. {success}/{len(FIGURES)} standard PNGs and "
+        f"{fw_success}/{len(FIGURES_FULLWIDTH)} full-width PNGs saved to {OUTPUT_DIR}"
+    )
 
 
 

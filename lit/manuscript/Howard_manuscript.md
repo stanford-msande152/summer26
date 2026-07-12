@@ -132,7 +132,7 @@ If we draw Figure 1-4 from right to left, then we can put it in the form of Figu
 ### 1.1.12 Many Kinds of Distinction
 
 We can introduce as many kinds of distinction as we like. For example, in a discussion about whether the next person entering the room drinks beer or has a college education, we might also want to introduce the sex of the person using the distinction Male or Female. Happily this distinction does not require an extensive clarity test discussion. We shall use M to designate Male and F to designate Female.
-
+![](Figure1-06_bis.svg)
 The possibility tree for these three distinctions appears as Figure 1-6.
 
 ![](Figure1-06_bis.svg)
@@ -803,7 +803,7 @@ Suppose that my daughter Kim has invited her teen-age friends to a party. Howeve
 ### 3.1.2 The Decision Tree
 
 At this point I say, "Let us diagram your decision," and I sketch Figure 3-1.
-
+![284](Figure3-01.svg)
 *Figure 3-1. The Decision Tree*
 
 I draw a square decision node and label the three alternatives emanating from it as O, P, and I, corresponding to the party locations being outdoors, on the porch, or indoors. Then for each alternative I show two possibilities for the weather, sunshine, S, and rain, R. She says, "I'm not sure I follow exactly what you are doing." So, for the sake of efficiency, I give her the notes that you have been reading to review and then resume the discussion a few hours later.
@@ -821,7 +821,7 @@ I then say, "By the way, do you agree to subscribe to the rules of thought that 
 I now point out to her that the decision tree she has constructed has created six prospects, combinations of her actions and the possibilities that may arise from them. These six prospects are: having an outdoor party in the sunshine, O-S, having an outdoor party in the rain, O-R, having a party on the porch in the sunshine, P-S, etc. I then ask her which is the best of all prospects. She replies, "Having an outdoor party in the sunshine, O-S." "And which is the worst?" I ask. She replies, "An outdoor party in the rain, O-R. We would be sodden, but we could still go to a movie or something."
 
 I then ask her to make a list of the six prospects with the best prospect, outdoors in the sunshine, at the top and the worst prospect, outdoors in the rain, at the bottom. She constructs the ranking shown in Figure 3-2.
-
+![255](Figure3-02.svg)
 *Figure 3-2. The Preferentially Ordered List of Prospects*
 
 At the top is O-S, labeled $B$ as the best prospect; at the bottom is O-R, labeled W for the worst prospect. The other four prospects in order of preference are P-S, I-R, I-S, and P-R. In reviewing the list we note that she has ranked an indoor party in the rain, I-R, higher than an indoor party in the sunshine, I-S, and we ask her if this really reflects her preference. She says, "Yes, for an indoor party in the rain could still be quite nice, but an indoor party in the sunshine might well make people wish they were outdoors." Just to be sure, I ask her if there are any two prospects on this list to which she is, in fact, indifferent. She replies, "No, I like each one better than any below it." I mention that she has now satisfied the Order Rule.
@@ -831,7 +831,7 @@ At the top is O-S, labeled $B$ as the best prospect; at the bottom is O-R, label
 Now I remind her of the Equivalence Rule. I say, "You have said that outdoors-in-the-sunshine is the best prospect, that outdoors-in-the-rain is the worst prospect, and that, for example, that porch-in-the-sunshine lies between these two in your preference. Correct?" She says, "Yes that's right." Then I say, "In accordance with the Equivalence Rule, we should be able to offer you some chance of the best prospect versus the worst prospect that will make you just indifferent to having a party on the porch in the sunshine for sure." While I am saying this I set up the probability wheel, and tell her that if one color appears the wizard will magically give her an outdoor party in the sunshine, but that if the other color appears he will will magically give her a outdoor party in the rain. I ask her if she would be just indifferent between spinning the wheel on the one hand or receiving a party on the porch in the sunshine, also provided by the wizard, for sure. She says that in fact a porch party in the sunshine could be a very nice party so she would have to have a probability much closer to one than to zero of winning the the best party before she would be indifferent. After adjusting the colors she establishes that if she had a 95 percent chance of an outdoor party in the sunshine and a 5 percent chance of an outdoor party in the rain, she would be just indifferent between this deal and a sure party on the porch with sunshine. I remind her that this 0.95 is her preference probability between best and worst corresponding to the prospect P-S; and that P-S is her certain equivalent for a 95 percent chance of the best as opposed to the worst prospect.
 
 I then ask her to repeat this process for all prospects and she produces Figure 3-3.
-
+![550](Figure3-03_bis.png)
 *Figure 3-3. Creation of Best and Worst Deals Equivalent to Each Prospect*
 
 For completeness we have shown that the outdoor-in-the-sunshine party is equivalent to probability 1 of the best prospect and the outdoor-in-the-rain party is equivalent to probability 1 of the worst prospect. As we go down her preference list on prospects, the preference probability on best versus worst falls. It is 0.95 for P-S, 0.67 for I-R, 0.57 for R-S and 0.32 for P-R. Note that these preference probabilities give us some idea of the strength of her preference for the various prospects.
@@ -841,7 +841,7 @@ For completeness we have shown that the outdoor-in-the-sunshine party is equival
 At this point I might say that we will leave the issue of her preferences for the moment and return to the issue of information. I observe that although we have completed the structure of the decision tree in Figure 3-1, we have not yet supplied her probability assignment on the event Sunshine. We then begin a discussion on probability assignment, and I ask her to review all the information she knows or can readily obtain about tomorrow's weather. She listens to the television, reads the newspaper, looks at the sky, and finally sits down to have her probability encoded by the processes we have discussed. She assigns a probability of 0.4 to sunshine and consequently a probability 0.6 to rain.
 
 The decision tree with these probabilities appears as Figure 3-4.
-
+![470](Figure3-04.svg)
 *Figure 3-4. Decision Tree with Probabilities*
 
 We now proceed to combine the alternatives and information for this figure with the preference information of Figure 3-3 to demonstrate the right decision for her. I can assure her that as long as she follows the rules of thought, from this point on the best alternative for her is just a matter of logic.
@@ -849,13 +849,13 @@ We now proceed to combine the alternatives and information for this figure with 
 ### 3.1.6 The Substitution Rule
 
 I remind her of the substitution rule that allows me to substitute for any prospect a deal involving the best and worst prospects for which it is the certain equivalent. I perform this operation in Figure 3-5.
-
+![](../../figures/Figure3-05ex.svg)
 *Figure 3-5. Substitution of Equivalent Deals for Each Prospect*
 
 Here for each prospect of the decision tree I have substituted the equivalent deal from Figure 3-3. Thus, for example, if she picks the porch alternative and the weather is sunny, she will be in a situation that she regards as equivalent to one with a 95 percent chance of the best prospect, O-S, and a 5 percent chance of the worst prospect O-R.
 
 When we examine Figure 3-5 we note that for each alternative O, P, and I, there are only two possible prospects, the best prospect, B, and the worst prospect, W. Since we have agreed in the substitution rule that there is no difference between probabilities and preference probabilities, we can compute the preference probability of achieving the best prospect for each alternative by multiplying together the conditional probabilities on the branches of each path that leads to the best prospect and then adding over all paths. Thus, in Figure 3-5, if the Outdoor alternative is selected, there is a 0.4 chance of Sunshine and a 1 chance of best prospect given Sunshine; there is a 0.6 chance of Rain and a 0 chance of best prospect given Rain. The chance of best prospect given the Outdoor alternative is therefore 0.4x1+0.6x0=0.4. For the Porch alternative, the chance of obtaining the best prospect is 0.4x0.95+0.6x0.32 or 0.57. For the Indoor alternative the chance of obtaining the best prospect is 0.4x0.57+0.6x0.67 or 0.63. These results are recorded in the simplified tree of Figure 3-6.
-
+![](../../figures/Figure3-06ex.svg)
 *Figure 3-6. Alternatives Represented as Probabilities of Best Prospect*
 
 Note that the Outdoor, Porch, and Indoor alternatives produce preference probabilities 0.4, 0.57, and 0.63 of the best prospect as opposed to the worst.
@@ -869,7 +869,7 @@ In interpreting this result for her, we point out that although her best alterna
 ### 3.1.8 Expected Value
 
 By defining a new operation, we can save ourselves one step in deriving the best alternative. Suppose we constructed the decision tree in the form of Figure 3-7, where we have shown as a measure the preference probability to be associated with each prospect as given by Figure 3-3.
-
+![](Figure3-07ex.svg)
 *Figure 3-7. Preference Probability for Each Prospect as a Measure*
 
 We note that if for each alternative we multiplied for each elemental possibility its elemental probability and the value of the measure and then summed over all elemental possibilities, we would obtain the preference probability for the alternative as given by Figure 3-6. These preference probabilities are shown underlined in the decision tree of Figure 3-7.
@@ -903,7 +903,7 @@ Next I ask how much she would pay to have the wizard transform her outdoor party
 #### 3.1.10.2 Prospect Dollar Values
 
 These valuations are recorded in Figure 3-8.
-
+![](Figure3-08ex.svg)
 *Figure 3-8. Dollar Value of Each Prospect as a Measure*
 
 The amounts Kim will pay to change any prospect into any other prospect is the difference in the values of the prospects. We note that the higher the value of a prospect, the higher its position in the list in the Figure 3-2. Figure 3-9 shows the preferentially ordered list of prospects with columns of preference probabilities and dollar values.
@@ -920,7 +920,7 @@ The amounts Kim will pay to change any prospect into any other prospect is the d
 | Outdoors, Rain | 0 | \$0 |
 
 The higher the preference probability, the higher the dollar value. For these six prospects we can plot preference probability versus dollar value as shown in Figure 3-10.
-
+![](../../lectures/week_04/class_01/PP_points.png)
 *Figure 3-10. Plot of Preference Probabilities versus Dollar Values*
 
 We can think of this plot as a scaling from dollars to preference probability. If we had had this plot for Kim for the dollar values she assigned for the prospects, then we could have used it to obtain the preference probabilities for Figures 3-5 or 3-7 and thereby found the preference probability for each alternative.
@@ -932,7 +932,7 @@ The form of Figure 3-10 suggests that there is a relationship between Kim's pref
 ##### 3.1.10.3.1 Kim's Utility function
 
 Kim's preference probability plot of Figure 3-10 has been smoothed and replotted as Figure 3-11.
-
+![](fig3-11.png)
 *Figure 3-11. Smoothed Plot of Preference Probabilities versus Dollar Values: Kim's U-Curve*
 
 Notice that the plot extends beyond the value 1 and below the value 0; we have forgone the interpretation as preference probability outside the range from \$0 to \$100. We call a curve like Figure 3-11 a utility function and the value it produces at any point the utility .
@@ -952,7 +952,7 @@ Kim's utility function may be used to help her make other decisions having nothi
 For example, suppose she is offered a deal which she assesses as a 50-50 chance of winning \$100 as opposed to nothing. What should her certain equivalent in dollars for this deal be? We could answer this question without consulting her once we have her utility function from Figure 3-11.
 
 We know that her certain equivalent will be the amount of money she would have to receive for sure to be indifferent between that prospect and the deal with a 50 percent chance of winning \$100 and a 50 percent chance of winning nothing. We know that if she is to be indifferent, the certain equivalent and the deal must have the same preference probability or utility . The utility of the deal is the expected value of the utilities  of its prizes. The calculation is shown in Figure 3-12.
-
+![](Figure3-12ex.svg)
 *Figure 3-12. Kim's Certain Equivalent for a 50-50 Chance of \$100*
 
 According to Figure 3-11, the prize of \$100 has a utility of 1; the prize of \$0 has a utility of 0. The expected value of these utilities  is $0.5 \times 1 + 0.5 \times 0 = 0.5$, the utility of the deal. If she is to be indifferent to the certain equivalent, it must also have a utility of 0.5. By referring to the utility function of Figure 3-11, we find that a utility of 0.5 corresponds to a dollar value of about \$34. Consequently, the sum of \$34 and the deal both have the same utility of 0.5. This means that \$34 is Kim's certain equivalent for the 50-50 chance at \$100.
@@ -962,7 +962,7 @@ According to Figure 3-11, the prize of \$100 has a utility of 1; the prize of \$
 When a deal has only two possible monetary payoffs, we can find its certain equivalent from the utility function by a simple construction that implements this set of calculations. First we draw a straight line between the two points on the utility function corresponding to the utilities  of the payoffs. Then we find the point on this line such that the distance from the lower utility to this point divided by the total length of the line is equal to the probability of the larger payoff. Finally, we move horizontally to the left from this point until we meet the utility function and drop down to read the certain equivalent.
 
 Figure 3-13 illustrates the procedure for the 50-50 chance at \$100.
-
+![](Figure3-13.svg)
 *Figure 3-13. Graphical Construction to Find Certain Equivalent*
 
 The dashed straight line connects the points on the utility function corresponding to 0 and 100 dollars. Since the probability of winning the higher amount, \$100, is 1/2, starting from the lower point, we proceed 1/2 the way along the line and locate the point shown as a large dot. The height of this point is the utility of the deal. Then we move left from this point until we encounter the utility function and read off the corresponding certain equivalent, \$34, on the dollar scale.
@@ -972,7 +972,7 @@ The dashed straight line connects the points on the utility function correspondi
 We can also use Kim's utility function to obtain her dollar certain equivalent for the three party locations. We know from Figures 3-6 or 3-7 that the Outdoor, Porch and Indoor alternatives correspond to preference probabilities or utilities  of 0.40, 0.57, and 0.63. By referring to the utility function of Figure 3-11, we find that the dollar certain equivalents corresponding to these utilities  are \$26, \$40, and \$46. You may also wish to obtain these certain equivalents by the graphical construction we just discussed.
 
 The certain equivalents are recorded in boxes adjacent to each alternative in the tree of Figure 3-14.
-
+![](Figure3-14ex.svg)
 *Figure 3-14. Kim's Certain Equivalents for Party Problem Alternatives*
 
 Kim would be just indifferent between following the Outdoor alternative and receiving \$26; to following the Porch alternative and receiving \$40; and to following the Indoor alternative and receiving \$46. These certain equivalents give us a feeling for her strength of preference among the three alternatives.
@@ -990,7 +990,7 @@ The good news is that the clairvoyant has arrived; the bad news is that he wants
 The question is whether she would be better off by doing the best she can without him or by hiring him for \$15 and then deciding on the party location with the knowledge of whether S will occur.
 
 We represent Kim's decision on buying clairvoyance at a price of \$15 by the decision tree of Figure 3-15.
-
+![](Figure3-15ex.svg)
 *Figure 3-15. Determining the Value of Clairvoyance on S/R at a Cost of \$15*
 
 The upper part of the tree represents the situation where she does not buy clairvoyance. She then faces the same choices for party location and the same consequences shown in Figure 3-14. As we have shown, her best alternative in this case is to have the party indoors with a utility of 0.63 and a certain equivalent of \$46.
@@ -1016,7 +1016,7 @@ We observe that the increase in price from \$15 to \$20 required to find the val
 #### 3.1.14.1 Graphical Procedures
 
 We can pursue the issue of valuing clairvoyance graphically as shown in Figure 3-16.
-
+![](Figure3-16.svg)
 *Figure 3-16. Finding the Value of Clairvoyance Graphically*
 
 If Kim pays \$15 for the clairvoyance, then as we have shown she will face a deal with a 40 percent chance of an \$85 payoff and a 60 percent chance of a \$35 payoff. To compute the certain equivalent of this deal, we connect the points on the utility function corresponding to \$35 and \$85 by the dashed straight line. Then we locate a point that is 40 percent of the way up this line and move left to the point C. This is the point that represents the utility of clairvoyance at this price on the u scale, namely 0.674, and the certain equivalent of clairvoyance at this price on the dollar scale, namely \$51. Since the point marked I for indoor alternative is otherwise her best choice and this point has a utility of 0.63 and a certain equivalent of \$46, the clairvoyant's deal is clearly superior. This merely confirms what we found in Figure 3-15.
@@ -1031,21 +1031,32 @@ The value of clairvoyance can be computed by methods that range from graphical c
 
 To illustrate how another person might deal with a decision problem about the party, let us consider it from the point of view of Kim's friend Jane. We shall assume that Jane is similar to Kim in many ways. She faces the same party problem, and has the same information about the weather, leading her to assign a probability of 0.4 to the event S. However, Jane's preferences with respect to party prospects may be different from Kim's.
 
-Since Jane has also agreed to follow our five rules of thought, we begin to check her preferences by asking her to order the six prospects for the party. She produces the same ordering as Kim did with an outdoor party in the sunshine O–S being the best prospect and an outdoor party in the rain O–R being the worst. Then, using her agreement to the equivalence rule, we ask her to assign to each of the four intermediate prospects the preference probability for the best prospect versus the worst to which she is indifferent, just as we did for Kim in Figure 3-2. The result is shown in Figure 3-17.
+Since Jane has also agreed to follow our five rules of thought, we begin to check her preferences by asking her to order the six prospects for the party. She produces the same ordering as Kim did with an outdoor party in the sunshine O–S being the best prospect and an outdoor party in the rain O–R being the worst. Then, using her agreement to the equivalence rule, we ask her to assign to each of the four intermediate prospects the preference probability for the best prospect versus the worst to which she is indifferent, just as we did for Kim in Figure 3-2. The result is shown in Figure 3-17a
+
+
+| Prospect           | Jane's Preference <br>Probability |
+| ------------------ | --------------------------------- |
+| Outdoors, Sunshine |                                   |
+| Porch, Sunshine    | 0.90                                       |
+| Indoors, Rain      | 0.50                                       |
+| Indoors, Sunshine  | 0.40                                       |
+| Porch, Rain        | 0.20                                       |
+| Outdoors, Rain     | 0                                          |
+
 
 *Figure 3-17. Jane's Preference Probabilities*
 
 We observe that Jane's preference probabilities are different from Kim's. For example, while Kim said that a porch party in the sunshine was equivalent to a 95 percent preference probability for the best party, Jane says that it is only equivalent to a 90 percent preference probability for the best party. By comparing the two figures we find that Jane's preference probabilities are always less than Kim's for the same prospect, except, of course, for the best and the worst.
 
 We can determine the effect of these different preference probabilities on the choice that Jane would make for party location. We do this by constructing the decision tree of Figure 3-18 and by recording at the endpoint representing each prospect, Jane's preference probability for that prospect as a measure.
-
+![](Figure3-18ex.svg)
 *Figure 3-18. Jane's Decision Tree*
 
 Then, following our usual procedure, we find the preference probability for each of the location alternatives by computing the expected value of this measure for each alternative. For the Outdoor alternative we record $0.4 \times 1 + 0.6 \times 0 = 0.40$; and for the Porch and Indoor alternatives 0.48 and 0.46. Note that the highest preference probability is the 0.48 for the Porch alternative and therefore, by the choice rule, Jane will choose to have her party on the porch. Recall that Kim's best decision was to have the party indoors. Thus the effect of the difference between Jane's and Kim's preference probabilities for prospects is to cause Jane to follow a different alternative for the party location.
 
 Jane, just like Kim, would like to have the advantages of using a monetary measure. Therefore we summon the wizard and investigate Jane's willingness to pay for changes in party prospects. We find that Jane's willingness to pay in every case is exactly equal to Kim's, so that the dollar measure she assigns to each prospect is exactly the same. We can record Jane's preference probabilities and corresponding dollar values of each prospect in the table shown in Figure 3-19, just as we did for Kim in Figure 3-9.
 
-*Figure 3-19. Jane's Preference Probabilities and Dollar Values*
+
 
 | Prospect | Jane's Preference Probability | Jane's Dollar Value |
 |---|---|---|
@@ -1056,14 +1067,16 @@ Jane, just like Kim, would like to have the advantages of using a monetary measu
 | Porch, Rain | 0.20 | \$20 |
 | Outdoors, Rain | 0 | \$0 |
 
-We note that Jane's dollar values are directly proportional to her preference probabilities; in fact, they are just the preference probabilities multiplied by 100. This means that if we make a plot of preference probability versus dollar value for Jane, all the points will lie on a straight line. Thus, if we assume that this relationship will apply for any point, then we can plot the utility function for Jane as the straight line shown in Figure 3-20.
+*Figure 3-19. Jane's Preference Probabilities and Dollar Values*
 
+We note that Jane's dollar values are directly proportional to her preference probabilities; in fact, they are just the preference probabilities multiplied by 100. This means that if we make a plot of preference probability versus dollar value for Jane, all the points will lie on a straight line. Thus, if we assume that this relationship will apply for any point, then we can plot the utility function for Jane as the straight line shown in Figure 3-20.
+![](Figure3-20.svg)
 *Figure 3-20. Kim's and Jane's utility functions*
 
 Kim's utility function is also shown for convenience and comparison.
 
 We can use this utility function for Jane to answer the same type of questions we explored using Kim's utility function. For example, to find Jane's certain equivalent for a 50-50 chance at \$100 versus nothing we would proceed as shown in Figure 3-21.
-
+![](Figure3-21ex.svg)
 *Figure 3-21. Jane's Certain Equivalent for a 50-50 Chance of \$100*
 
 We know that for Jane to be indifferent between the deal and the certain equivalent, they must both have the same utility . In the right part of the figure we compute the utility of the deal by first finding the utility of its prospects \$100 and 0 as 1 and 0 by consulting Jane's utility function. Then we find the utility of the deal by finding the expected value of these utilities $0.5 \times 1 + 0.5 \times 0 = 0.5$. The certain equivalent therefore must also have a utility of 0.5. By examining Jane's utility function we find that \$50 has a utility of 0.5. Therefore \$50 is her certain equivalent of a 50-50 chance at \$100.
@@ -1071,7 +1084,7 @@ We know that for Jane to be indifferent between the deal and the certain equival
 We observe that Jane's certain equivalent for the deal is in fact equal to the expected value of its monetary value, $0.5 \times 100 + 0.5 \times 0$. We shall see that this is a general property for people with straight-line utility functions: the certain equivalent of any deal is the expected value of its monetary measure.
 
 To illustrate in the party problem, we solve it using monetary values and the utility function just as we did for Kim in Figure 3-14. The solution appears as Figure 3-22.
-
+![](Figure3-22ex.svg)
 *Figure 3-22. Jane's Certain Equivalents for Party Problem Alternatives*
 
 We have recorded both the dollar value and its associated utility for each prospect of the party problem. The utilities  for each alternative are, of course, exactly those computed in Figure 3-18. When we compute the certain equivalents of each alternative by finding the dollar amounts corresponding to each utility , we find that they are \$40, \$48, and \$46, for O, P, and I. We observe that these certain equivalents are exactly the expected values of the dollar measures for each alternative. Thus the \$48 certain equivalent for the porch alternative equals $0.4 \times 90 + 0.6 \times 20$. We could have found these certain equivalents directly from the monetary measure without ever introducing the particular utility function values.
@@ -1087,7 +1100,7 @@ If a person had a utility function that was always concave upward, then that per
 A person who is risk-neutral for the deal under consideration in monetary terms has a considerable practical advantage in being able to compute certain equivalents as expected value of money. As you remember, if we add or subtract a constant from all these measures of a deal, the expected value of the deal changes in exactly the same way. This property is especially useful when we wish to compute the value of clairvoyance for a risk-neutral person. Recall that to compute the value of clairvoyance in general, we had to subtract larger and larger costs of clairvoyance from all the prospect measures until the person was indifferent between buying the clairvoyance at that price and not buying it. In the case of a risk-neutral person, we know that the certain equivalent for any deal will be its expected value of the monetary measure, and therefore that any subtraction from the measure will cause the same subtraction from the certain equivalent. The practical importance of this is that we can find the value of clairvoyance for risk-neutral persons by computing the expected value of the deal with free clairvoyance and then subtracting the expected value of the best deal without clairvoyance.
 
 Figure 3-23 illustrates this procedure for risk-neutral Jane in the party problem.
-
+![](Figure3-23ex.svg)
 *Figure 3-23. Determining Jane's Value of Free Clairvoyance on S/R*
 
 The upper part of the figure shows Jane's situation without clairvoyance as determined in Figure 3-22. Without clairvoyance she will choose to have the party on the porch and will have a certain equivalent of \$48. If she has free clairvoyance, the structure of the tree is exactly like the one for Kim in Figure 3-15. The probabilities and the values are identical; however, there is no subtraction of the \$15 cost as there was in the earlier case. We see that if Jane receives the "S" report from the clairvoyant, she will choose to have the party Outdoors and achieve a certain equivalent of \$100. If the clairvoyant reports "R", then she will choose to have the party Indoors and will have a certain equivalent of \$50. Since the clairvoyant will say "S" with probability 0.4 and "R" with probability 0.6, her certain equivalent with free clairvoyance is $0.4 \times 100 + 0.6 \times 50$ or \$70. We know that if she had to pay \$70 – \$48 or \$22 for clairvoyance, then her certain equivalent would be \$48 regardless of whether she bought clairvoyance. Therefore Jane's value of clairvoyance on the distinction S/R in the party problem is \$22.
@@ -1114,7 +1127,7 @@ Mary's preference probabilities and dollar values appear in Figure 3-24.
 Note that Mary will pay the wizard \$67 to move the party from Outdoors to Indoors when rain R occurs, whereas the other girls will pay only \$50. All three of them agree that a O–S party is worth \$100 more than a O–R party. Although Mary's risk attitude toward money is different from Kim's, she makes exactly the same decision in this situation as does Kim because she has the same preference probabilities. In fact the operations performed for Kim in Figures 3-5 and 3-6 are indistinguishable from those for Mary: both will choose to have the party Indoors. As we can see from these figures, Kim and Mary will make the same decision on party location for any probability of S as long as they agree on that probability. We thus see that we cannot tell whether a person is risk-neutral or risk averse by observing the decision made in any situation that does not have only money as the value measure of each prospect.
 
 When will Mary's actions differ from Kim's? When the clairvoyant arrives. We compute Mary's value of clairvoyance on S using the tree in Figure 3-25 just as we did for Jane in Figure 3-23.
-
+![](Figure3-25ex.svg)
 *Figure 3-25. Determining Mary's Value of Free Clairvoyance on S/R*
 
 In the upper part of the tree we review her decision without clairvoyance. Since she is risk-neutral like Jane, she enters her dollar values for each prospect and computes the expected value of each alternative as its certain equivalent. The Indoor alternative has the highest certain equivalent of \$63 ; she will take the action we predicted.
