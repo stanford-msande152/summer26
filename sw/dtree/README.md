@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Decision Tables"
+nav_exclude: true
+---
+
 # README.md
 
 # Decision Tables
