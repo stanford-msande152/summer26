@@ -1,6 +1,6 @@
 Quinn's Electricity Generation  Problem,,,
 ,Base,Peak,Expected Utility
-Wind,10,0,
-Solar,9,2,
-Battery,4,5,
+Wind,100,0,
+Solar,90,20,
+Battery,40,50,
 Probabilities,0.4,0.6,
