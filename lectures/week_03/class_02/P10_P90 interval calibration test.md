@@ -1,3 +1,8 @@
+---
+layout: default
+title: "P10/P90 calibration test "
+nav_exclude: true
+---
 # P10 - P90 interval calibration test
 
 This calibration exercise measures your overconfidence, by asking you to assess an interval for the value of an unknown quantity.  You need to estimate an interval wide enough to contain 80% of the probability density.   
