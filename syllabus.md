@@ -157,3 +157,5 @@ Quizzes and exams will be written and turned in on paper. They will be closed bo
 We will make available various software options for creating decision models, however use of software is not mandatory:  It is possible to complete a decision analysis entirely on pencil and paper. 
 
 - **In class participation** will be determined by a combination of attendance, voluntary participation in class and session discussions, and other contributions made to the course.
+
+© John Mark Agosta and Stanford University, with selections from "Ron Howard (1996) Decision Analysis: Manuscript in Progress."

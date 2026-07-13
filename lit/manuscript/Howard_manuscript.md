@@ -910,14 +910,14 @@ The amounts Kim will pay to change any prospect into any other prospect is the d
 
 *Figure 3-9. Preference Probability and Dollar Value Measures for Each Prospect*
 
-| Prospect | Preference Probability | Dollar Value |
-|---|---|---|
-| Outdoors, Sunshine | 1 | \$100 |
-| Porch, Sunshine | 0.95 | \$90 |
-| Indoors, Rain | 0.67 | \$50 |
-| Indoors, Sunshine | 0.57 | \$40 |
-| Porch, Rain | 0.32 | \$20 |
-| Outdoors, Rain | 0 | \$0 |
+| Prospect           | Preference Probability | Dollar Value |
+| ------------------ | ---------------------- | ------------ |
+| Outdoors, Sunshine | 1                      | \$100        |
+| Porch, Sunshine    | 0.95                   | \$90         |
+| Indoors, Rain      | 0.67                   | \$50         |
+| Indoors, Sunshine  | 0.57                   | \$40         |
+| Porch, Rain        | 0.32                   | \$20         |
+| Outdoors, Rain     | 0                      | \$0          |
 
 The higher the preference probability, the higher the dollar value. For these six prospects we can plot preference probability versus dollar value as shown in Figure 3-10.
 ![](../../lectures/week_04/class_01/PP_points.png)

@@ -1,0 +1,6 @@
+Quinn's Electricity Generation  Problem,,,
+,Base,Peak,Expected Utility
+Wind,10,0,
+Solar,9,2,
+Battery,4,5,
+Probabilities,0.4,0.6,
