@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network2" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Node1">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<decision id="Copy_6_of_Node1">
+			<state id="State0" />
+			<state id="State1" />
+		</decision>
+		<cpt id="Copy_of_Node1">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Node1 Copy_6_of_Node1</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<decision id="Copy_5_of_Node1">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Copy_of_Node1 Copy_6_of_Node1</parents>
+		</decision>
+		<utility id="Copy_3_of_Node1">
+			<parents>Node1</parents>
+			<utilities>0.5 0.5</utilities>
+		</utility>
+		<utility id="Copy_4_of_Node1">
+			<parents>Copy_6_of_Node1</parents>
+			<utilities>0.5 0.5</utilities>
+		</utility>
+		<mau id="Copy_2_of_Node1">
+			<parents>Copy_5_of_Node1 Copy_3_of_Node1 Copy_4_of_Node1</parents>
+			<weights>1 1</weights>
+		</mau>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.4830.0 ACADEMIC" name="Network2">
+			<node id="Node1">
+				<name>uncertainty</name>
+				<interior color="ccffff" />
+				<outline color="008080" width="2" />
+				<font color="000000" name="Arial Black" size="12" />
+				<position>223 153 416 183</position>
+			</node>
+			<node id="Copy_of_Node1">
+				<name>observable</name>
+				<interior color="ccffff" />
+				<outline color="008080" width="2" />
+				<font color="000000" name="Arial Black" size="12" />
+				<position>171 229 364 259</position>
+			</node>
+			<node id="Copy_2_of_Node1">
+				<name>Utility</name>
+				<interior color="ccffcc" />
+				<outline color="008000" width="2" />
+				<font color="000000" name="Arial Black" size="12" />
+				<position>634 301 751 331</position>
+			</node>
+			<node id="Copy_3_of_Node1">
+				<name>Benefits</name>
+				<interior color="ccffcc" />
+				<outline color="008000" width="2" />
+				<font color="000000" name="Arial Black" size="12" />
+				<position>472 198 618 228</position>
+			</node>
+			<node id="Copy_4_of_Node1">
+				<name>Costs</name>
+				<interior color="ccffcc" />
+				<outline color="008000" width="2" />
+				<font color="000000" name="Arial Black" size="12" />
+				<position>499 391 608 421</position>
+			</node>
+			<node id="Copy_5_of_Node1">
+				<name>Prime Decision</name>
+				<interior color="ff99cc" />
+				<outline color="800000" width="2" />
+				<font color="000000" name="Arial Black" size="12" />
+				<position>366 302 517 332</position>
+			</node>
+			<node id="Copy_6_of_Node1">
+				<name>Run test</name>
+				<interior color="ff99cc" />
+				<outline color="800000" width="2" />
+				<font color="000000" name="Arial Black" size="12" />
+				<position>145 302 260 332</position>
+			</node>
+			<textbox>
+				<caption>The general form of a &quot;test then act&quot; Causal Decision Diagram </caption>
+				<font color="000000" name="Arial Black" size="11" />
+				<position>461 133 766 177</position>
+			</textbox>
+			<arcformat parent="Node1" child="Copy_of_Node1" width="3" color="a0a0a0" />
+			<arcformat parent="Copy_6_of_Node1" child="Copy_of_Node1" width="3" color="a0a0a0" />
+			<arcformat parent="Copy_5_of_Node1" child="Copy_2_of_Node1" width="3" color="a0a0a0" />
+			<arcformat parent="Copy_6_of_Node1" child="Copy_4_of_Node1" width="3" color="a0a0a0" />
+			<arcformat parent="Copy_3_of_Node1" child="Copy_2_of_Node1" width="3" color="000080" />
+			<arcformat parent="Copy_4_of_Node1" child="Copy_2_of_Node1" width="3" color="000080" />
+		</genie>
+	</extensions>
+</smile>

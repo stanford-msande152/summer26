@@ -8,6 +8,7 @@ Gemfile.lock
 _site/
 node_modules/
 vendor/
+*.pyc
 .DS_Store
 .obsidian/
 Homework*

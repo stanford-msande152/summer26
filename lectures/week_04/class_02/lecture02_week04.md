@@ -1,6 +1,6 @@
 Course: MS&E 152 summer 2026
-Sequence: Week 1, Lecture 1
-Date: Monday, June 22nd 2026
+Sequence: Week 4, Lecture 2
+Date: Wednesday, July 15 2026
 Topic: Introduction to Decision Analysis
 #### Links:
 Course website: https://stanford-msande152.github.io/summer26/
@@ -8,7 +8,7 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 -----
 
-# Title:  Party Problem -- risk 
+# Title:  Party Problem -- value of information 
 
 ### What you will learn
 
@@ -20,9 +20,13 @@ Canvas: https://canvas.stanford.edu/courses/228284
 - Class activity
 - ----
 
-## I. Structuring information with Bayes networks
+## I. Structuring information with Causal Decision Networks
 
-How to do inference with a network of probabilties
+The general form of the kinds of models 
+![](annotated_CDN.png)
+
+The parts of a CDN
+![](submodels_CDN.png)
 
 ## II.  The posterior distribution 
 
@@ -30,7 +34,7 @@ A generalization of Bayes Rule.
 
 ## III.  When information has value
 
-When would the clarivoyant have a selling price for information.  
+When would the clairvoyant have a selling price for information.  
 
 Why the VOI is never negative in a deciison problem. 
 
