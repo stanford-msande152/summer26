@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="patient1">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="patient2">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>patient1</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="test">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>patient1</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="doc_sees">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>patient2 patient1</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.4830.0 ACADEMIC" name="Network1">
+			<node id="patient1">
+				<name>patient1</name>
+				<interior color="00ffff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="14" />
+				<position>209 113 340 181</position>
+			</node>
+			<node id="patient2">
+				<name>patient2</name>
+				<interior color="00ffff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="14" />
+				<position>299 273 420 332</position>
+			</node>
+			<node id="test">
+				<name>test</name>
+				<interior color="ffff99" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="14" />
+				<position>173 416 310 473</position>
+			</node>
+			<node id="doc_sees">
+				<name>doc_sees</name>
+				<interior color="ffcc99" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="14" />
+				<position>506 200 646 266</position>
+			</node>
+			<textbox>
+				<caption>The confused Doctor</caption>
+				<font color="000000" name="Arial" size="14" italic="true" />
+				<position>351 62 431 131</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="PartyProblem" numsamples="10000" discsamples="10000">
+	<nodes>
+		<decision id="Party_location">
+			<state id="Outdoors" />
+			<state id="Porch" />
+			<state id="Indoors" />
+		</decision>
+		<cpt id="Weather">
+			<state id="Sunshine" />
+			<state id="Rain" />
+			<probabilities>0.4 0.6</probabilities>
+		</cpt>
+		<utility id="values">
+			<parents>Weather Party_location</parents>
+			<utilities>100 90 40 0 20 50</utilities>
+		</utility>
+		<cpt id="Detector">
+			<state id="SaySun" />
+			<state id="SayRain" />
+			<parents>Weather</parents>
+			<probabilities>0.8 0.2 0.2 0.8</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.4830.0 ACADEMIC" name="Network2">
+			<textbox>
+				<caption>The &quot;party problem&quot; illustrates a decision under uncertainty that includes the interaction of value of information and a risk averse utility function. It is built around a story about Kim deciding where to locate a party she is planning with the prospect that it might rain. \n\nSee Abbas &amp; Howard &quot;Foundations of Decision Analysis&quot; (2015) Chapter 9.</caption>
+				<font color="000000" name="Arial" size="14" />
+				<position>524 16 1175 148</position>
+			</textbox>
+			<node id="Party_location">
+				<name>Party location</name>
+				<interior color="ffd5ea" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="14" />
+				<position>243 275 322 331</position>
+			</node>
+			<node id="Weather">
+				<name>Weather</name>
+				<interior color="ffff99" />
+				<outline color="000080" width="3" />
+				<font color="000000" name="Arial" size="14" bold="true" />
+				<position>298 119 408 174</position>
+			</node>
+			<node id="values">
+				<name>values</name>
+				<interior color="ccffcc" />
+				<outline color="000080" width="4" />
+				<font color="000000" name="Arial" size="14" />
+				<position>435 281 573 329</position>
+				<defcomment row="0" col="0">Values found on p.201, Howard &amp; Abbas</defcomment>
+			</node>
+			<node id="Detector">
+				<name>Detector</name>
+				<interior color="ffff99" />
+				<outline color="000080" width="3" />
+				<font color="000000" name="Arial" size="14" bold="true" />
+				<position>106 175 224 230</position>
+			</node>
+			<arcformat parent="Weather" child="values" width="4" color="339966" />
+			<arcformat parent="Party_location" child="values" width="4" color="339966" />
+		</genie>
+	</extensions>
+</smile>

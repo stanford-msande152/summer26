@@ -19,8 +19,29 @@ Canvas: https://canvas.stanford.edu/courses/228284
 - Second lecture
 - Class activity
 - ----
+## I. Solving for the "rain detector" value
 
-## I. Structuring information with Causal Decision Networks
+The rain detector is a predictor that has a probability of 0.8 predicting rain or sun correctly, and a 0.2 probability of a "false negative" or "false positive" error. 
+
+We can extend the analysis of VOI to consider the case where the predictor's accuracy is known, short of having complete information in the weather, our variable of interest. 
+
+This analysis is best carried out directly on the CDN:
+![](PP_detectorVOI_values.png)
+Knowing the accuracy of the predictor draw the dependency from weather to detector. However there is no way to draw a decision tree that respects the direction of the network arrows.   To solve the network we need to infer 'weather' from the observed value of "Detector", by use of Bayes Rule.  This is shown in the diagram by reversing the direction of the conditioning arrow between the two nodes.  The updated probability on "Detector" and the expected values for each detector observation are snow in this diagram:
+
+![](Solved_PP_detectorVOI.png)
+
+Weighting the expected values for the two solutions by the detector "marginal" probabilities obtains the expected value with information:
+
+$$ E[v] = 0.44* 72.72 + 0.56 * 48.57 = 59.2 $$
+
+Therefore the VOI with the detector is 
+
+$$ 59.2 - 48 = 11.2 $$
+
+
+
+## II. Structuring information with Causal Decision Networks
 
 The general form of the kinds of models 
 ![](annotated_CDN.png)
