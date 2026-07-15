@@ -12,22 +12,27 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 ### What you will learn
 
+- How probability updates work in a Bayes network
+- 
+
 ## Class schedule
-- Lecture
-- About this class
+- Demonstration: The Confused Doctor
+- Lecture: 
+	- Value of Information from a imperfect predictor
+	- General structure of Causal Decision Networks
 - Short break
-- Second lecture
-- Class activity
+- Class activity: Review of current class projects
 - ----
 ## I. Solving for the "rain detector" value
 
 The rain detector is a predictor that has a probability of 0.8 predicting rain or sun correctly, and a 0.2 probability of a "false negative" or "false positive" error. 
 
-We can extend the analysis of VOI to consider the case where the predictor's accuracy is known, short of having complete information in the weather, our variable of interest. 
+We can extend the analysis of VOI to consider the case where given the predictor's accuracy, we can calculate the value of the information provided by observing the detector.  We obtain *partial information* --
+short of having complete information in the weather, our variable of interest. 
 
 This analysis is best carried out directly on the CDN:
 ![](PP_detectorVOI_values.png)
-Knowing the accuracy of the predictor draw the dependency from weather to detector. However there is no way to draw a decision tree that respects the direction of the network arrows.   To solve the network we need to infer 'weather' from the observed value of "Detector", by use of Bayes Rule.  This is shown in the diagram by reversing the direction of the conditioning arrow between the two nodes.  The updated probability on "Detector" and the expected values for each detector observation are snow in this diagram:
+Knowing the accuracy of the predictor, the dependency goes from "weather" to "detector." *However there is no way to draw a decision tree that respects the direction of the network arrows.*   To solve the network we need to infer 'weather' from the observed value of "Detector", by use of Bayes Rule.  This is shown in the diagram by reversing the direction of the conditioning arrow between the two nodes.  The updated probability on "Detector" and the expected values for each detector observation are shown in this diagram:
 
 ![](Solved_PP_detectorVOI.png)
 
@@ -49,46 +54,37 @@ The general form of the kinds of models
 The parts of a CDN
 ![](submodels_CDN.png)
 
-## II.  The posterior distribution 
+### Posterior distributions 
 
-A generalization of Bayes Rule. 
+Once we observe uncertain variables in a network, we call them "evidence." We  compute the effect of evidence to update our probability distributions on other variables in the network.  This *inference* conditions the unobserved variables on the observed evidence.  Think of this as a generalization of Bayes Rule. Just as Bayes Rule updates the distribution of one node on the observation of another, the probability update on a Bayes Network updates the distribution of a set of variables on the evidence in another set.  The updated probabilities are called the *posterior* distribution given the evidence. 
 
-## III.  When information has value
+### When information has value
 
-When would the clairvoyant have a selling price for information.  
+The computation of posterior distributions is necessary to compute the distribution of variables of interest given the variables observed at the time a decision is made. If there are cases where the observation changes a decision's choice it can only increase the expected value of the analysis.  This increase is what the clairvoyant would offer as the selling price for information.  
+Hence the VOI is never negative in a decision problem. 
 
-Why the VOI is never negative in a deciison problem. 
-
-? Certainty equivalent of VOI. 
-
-
-| Prospect              | Preference Probability | Dollar Value |
-| --------------------- | ---------------------- | ------------ |
-| Wind generation, base | 1                      | \$100        |
-| Solar plant, base     | 0.95                   | \$90         |
-| Battery storage, peak | 0.67                   | \$50         |
-| Battery storage, base | 0.57                   | \$40         |
-| Solar plan, peak      | 0.32                   | \$20         |
-| Wind generation, peak | 0                      | \$0          |
-
-### IV. Attitudes toward Risk
-
-(See Primary Text Fig 3-23 ff)
-(Why is Kim and Jane's utility different - do we need to convert to money to take this into account? Is it possible to assign risk preference to them.  Howard (3-28) : "We thus see that we cannot tell whether a person is risk-neutral or risk averse by observing the decision made in any situation that does not have only money as the value measure of each prospect"."'"
-
-#### Simplifying the utility function - Delta property
-
-The effect of wealth, and the functional form of utility functions with this wealth-independent property. 
 
 ## Class Activity
 
+Review of submitted project proposals
+
 ## Key terms
 
-
-## Homework, due __ 
+Utility sub-model
+Probability sub-model
+Decision backbone
+Incomplete, partial information.
+Predictions.
+Observations, Evidence
+Probability updates
+Inference
+Posterior Distributions
+## Homework, Practice Midterm 
 
 ## Files, references
 
 ## Curious?  Things to explore 
+
+Try out the Brier fair scoring web application to understand how your midterm will be scored. 
 
 © John Mark Agosta & Stanford University

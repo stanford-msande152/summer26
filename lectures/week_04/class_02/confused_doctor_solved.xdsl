@@ -3,27 +3,27 @@
 <smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
 	<nodes>
 		<cpt id="patient1">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="viral" />
+			<state id="bacterial" />
 			<probabilities>0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="patient2">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="viral" />
+			<state id="bacterial" />
 			<parents>patient1</parents>
-			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.7 0.3 0.3 0.7</probabilities>
 		</cpt>
 		<cpt id="test">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="positive" />
+			<state id="negative" />
 			<parents>patient1</parents>
-			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.75 0.25 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="doc_sees">
-			<state id="State0" />
-			<state id="State1" />
+			<state id="sees_viral" />
+			<state id="sees_bactereial" />
 			<parents>patient2 patient1</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>1 0 0.5 0.5 0.5 0.5 0 1</probabilities>
 		</cpt>
 	</nodes>
 	<extensions>
@@ -33,38 +33,38 @@
 				<interior color="00ffff" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="14" />
-				<position>200 54 331 122</position>
+				<position>181 50 312 118</position>
 			</node>
 			<node id="patient2">
 				<name>patient2</name>
 				<interior color="00ffff" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="14" />
-				<position>290 214 411 273</position>
+				<position>272 211 393 270</position>
 			</node>
 			<node id="test">
 				<name>test</name>
 				<interior color="ffff99" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="14" />
-				<position>164 357 301 414</position>
+				<position>141 362 278 419</position>
 			</node>
 			<node id="doc_sees">
 				<name>doc_sees</name>
-				<interior color="ffcc99" />
+				<interior color="ff99cc" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="14" />
-				<position>497 141 637 207</position>
+				<position>478 137 618 203</position>
 			</node>
 			<textbox>
 				<caption>The confused Doctor</caption>
 				<font color="000000" name="Arial" size="14" italic="true" />
-				<position>82 67 162 136</position>
+				<position>113 133 193 202</position>
 			</textbox>
 			<textbox>
 				<caption>A patient with a fever visits their doctor. In the doctor’s estimation before examining the patient, the doctor believes the patient has an even chance of having a viral or a bacterial infection. The doctor has the choice to administer a simple test that has a ¼ chance of ruling out a viral infection if the patient does indeed have a viral infection, but otherwise uninformative. \n\nIf the test result == “rule out” what is the updated probability that the patient has a viral infection?\nUnintentionally the doctor stepped out of the room and accidentally returned to either the same room or to another room where there was another patient with the same symptoms. If the chance that the doctor returned to a different room with a different patent is p, what is the probability that the patient in the room the doctor returned to had a viral infection? \nIn b) we assume the incidence in viral infections among patients does not depend on one patient infecting another.  How would the answer change if one assumes that virial  infections are contagious: that one patient infects the other with certainty? \nHow would the answer change if the probability of one affecting the other was equal to q - e.g. P(the other patient being infected | one patient is already infected) \n</caption>
 				<font color="000000" name="Arial" size="8" />
-				<position>442 230 809 510</position>
+				<position>507 215 874 495</position>
 			</textbox>
 		</genie>
 	</extensions>

@@ -22,6 +22,26 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 ## I.
 [...]
+? Certainty equivalent of VOI. 
+
+
+| Prospect              | Preference Probability | Dollar Value |
+| --------------------- | ---------------------- | ------------ |
+| Wind generation, base | 1                      | \$100        |
+| Solar plant, base     | 0.95                   | \$90         |
+| Battery storage, peak | 0.67                   | \$50         |
+| Battery storage, base | 0.57                   | \$40         |
+| Solar plan, peak      | 0.32                   | \$20         |
+| Wind generation, peak | 0                      | \$0          |
+
+### IV. Attitudes toward Risk
+
+(See Primary Text Fig 3-23 ff)
+(Why is Kim and Jane's utility different - do we need to convert to money to take this into account? Is it possible to assign risk preference to them.  Howard (3-28) : "We thus see that we cannot tell whether a person is risk-neutral or risk averse by observing the decision made in any situation that does not have only money as the value measure of each prospect"."'"
+
+#### Simplifying the utility function - Delta property
+
+The effect of wealth, and the functional form of utility functions with this wealth-independent property. 
 
 ## Class Activity
 
