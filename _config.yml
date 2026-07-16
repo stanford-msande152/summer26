@@ -15,6 +15,7 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
+  "Midterm Scoring": "sw/brier/index.html"
   "Probability Wheel": "sw/wheel/index.html"
   "Canvas": "https://canvas.stanford.edu/courses/228284"
   "Ed Discussion": "https://edstem.org/us/courses/99720/discussion/8132172"

@@ -13,10 +13,11 @@ Canvas: https://canvas.stanford.edu/courses/228284
 ### What you will learn
 
 - How probability updates work in a Bayes network
-- 
+- How VOI is calculated for predictors that provide partial information about variables of interest.
+- How CDNs are formatted, conventionally. 
 
 ## Class schedule
-- Demonstration: The Confused Doctor
+- Demonstration: Bayes network, The Confused Doctor
 - Lecture: 
 	- Value of Information from a imperfect predictor
 	- General structure of Causal Decision Networks
@@ -85,6 +86,8 @@ Posterior Distributions
 
 ## Curious?  Things to explore 
 
-Try out the Brier fair scoring web application to understand how your midterm will be scored. 
+Try out the Brier fair scoring web application to understand how your midterm will be scored.  You can find the link on the class website as the "Midterm scoring tool."
+https://stanford-msande152.github.io/summer26/sw/brier/
+
 
 © John Mark Agosta & Stanford University
