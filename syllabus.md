@@ -14,6 +14,7 @@ nav_order: 3
 * [Canvas](https://canvas.stanford.edu/courses/228284) 
 * [Ed Discussion](https://edstem.org) 
 * [Course Website](https://stanford-msande152.github.io/summer26/)
+* [Downloads](downloads.md)
 
 ## Course Description
 Decision Analysis is an application of Decision Theory to making good decisions when outcomes are uncertain.  It applies to practical problems in engineering, organizations, and even one's personal life.  It is a principled, quantitative approach that draws upon theory in Economics, Applied Probability, and Psychology.  These principles of rational choice extend to  applications that combine individual judgment with quantitative, data-driven modeling techniques.
