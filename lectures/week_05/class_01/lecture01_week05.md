@@ -14,11 +14,12 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 ## Class schedule
 - Lecture: Time and RIsk Preference
-- About this class
 - Short break
-- Second lecture
+- Update on projects
 - Class activity
 - ----
+# Facing risks and delayed gratitude 
+
 Think of cases where you've had to face delay in gratification or risk of loss.  When these become substantial they weaken our preferences.  Both risk and time preference are intangibles, characteristic of a decision maker's preferences, and not determined directly from monetary analysis.  Since they both have dis-utility these two attributes are sometimes conflated and treated as one. In Decision Analysis our goal is to quantify these intangibles and incorporate them into a single consistent measure of utility used to compare alternatives.  This is a principled method to express intuitive judgments about risk. 
 
 
@@ -27,7 +28,7 @@ Think of cases where you've had to face delay in gratification or risk of loss. 
 Both risk and delay decrease the value of a certain prospect. In market economics the same discounting formula can be used for both, however the origins in personal preference are distinct and not to be confused. 
 #### TIme preference
 
-If we compare having a prospect of value $V_0$ now at time = 0 compared to receiving it, at time  = 1, say a year from now, and we assume that there would be value to having the prospect during the current year, that incremental value $i$ as a fraction of $V_1$ implies we would prefer to have the prospect now rather than later. As a deterministic indifference relation:
+If we compare having a prospect of value $V_0$ now at time = 0 compared to receiving it, at time  = 1, say a year from now, and we assume that there would be value to having the prospect during the current year, that incremental value $i$ as a fraction of $V_1$ implies we would prefer to have the prospect now rather than later. Note that uncertainty is not considered. As a deterministic indifference relation:
 
 $$ V_0 \sim V_1 + iV_1 = V_1(1+i) $$
 In monetary terms, the decrease  in value over time with $i$ as the time preference rate is:
@@ -59,51 +60,65 @@ When using market rates, one needs to distinguish between nominal rates, that ar
 ### II. Attitudes toward Risk
 
 Risk
-> An ambiguous term, used at times to mean uncertainty or just"probability of loss", or "expected value of loss", etc.  For clarity we speak of risk attitude that is a consequence of making distinctions between the probability distribution of a prospect, the utility measure applied to it, and the resulting risk premium.
+> An ambiguous term, used at times to indicate uncertainty or just"probability of loss", or "expected value of loss", etc.  For clarity we speak of risk attitude that is a consequence of making distinctions between the probability distribution of a prospect, the utility measure applied to it, and the resulting risk premium.
+
+To clarify what we mean when we speak of risk, we are referring to a decision-maker's risk-attitude. For a risk averse decision-maker their valuation of a deal grows less that proportionally as the size of deals grow large. In Decision Analysis, this diminishing marginal value attributed to a deal is how we understand risk.  Conversely when consequences are small, decision-makers valuation of deals approach the deal's expected monetary value, and we don't see the phenomenon. 
+
+A decision-maker's risk attitude is described entirely by the shape of his utility function for money.  Referring back to the previous example, here are Quinn's utilities elicited for the prospects he faced as decision-maker.
+
+
+| Prospect              | Preference Probability | Dollar Value, millions |
+| --------------------- | ---------------------- | ---------------------- |
+| Wind generation, base | 1                      | \$100                  |
+| Solar plant, base     | 0.95                   | \$90                   |
+| Battery storage, peak | 0.67                   | \$50                   |
+| Battery storage, base | 0.57                   | \$40                   |
+| Solar plan, peak      | 0.32                   | \$20                   |
+| Wind generation, peak | 0                      | \$0                    |
+As usual utilities are on a zero-to-one scale.  If we plot utility versus value, we see a characteristic downward sloping "convex up" curve. A "convex - upward" (typically called "concave") utility function expresses risk aversion. 
+
+![480](utility_function.svg)
 
 #### Certainty equivalents
 
-Roughly the certainty equivalent captures the is a person's perceived value for an uncertain prospect as compared to the prospect's expected value. Unlike utility, whose units are relative, certain equivalent is in the same units as expected value.   To express risk aversion the certain equivalent of an uncertain prospect are typically lower than the expected value, the difference known as the *risk premium.*
+Roughly the certainty-equivalent captures a person's perceived monetary value for an uncertain prospect as compared to the prospect's expected value. Both are in monetary units,  e.g. dollars.  Unlike utility, whose units are relative, certain equivalent is in the same units as expected value.   In the case of risk aversion the certain equivalent of an uncertain prospect is typically lower than the expected value, the difference known as the *risk premium.*
 
 $$\text{Expected Value} - \text{Risk Premium} = \text{Certain Equivalent}$$
 
-A person whose risk premium is zero is *risk neutral.*  It is possible to be risk preferring.  Our theory of rationality does not dictate one's risk attitude. 
+ A person whose risk premium for an uncertain prospect is zero is *risk neutral.* Risk neutral decision makers have linear utility functions, so that their expected value and certain equivalents are equal and their risk premiums are zero.  It is possible to be risk preferring.  Our theory of rationality does not dictate one's risk attitude either way.  
 
 #### Computing the certain equivalent
-Fortunately since the utility function is a continuous increasing function, the certain equivalent is found by taking the inverse of the expected utility.  
 
-.. computaton
+The certain equivalent is a monetary value equivalent to a utility value, used to convert an expected utility into units of comparable monetary value. Fortunately since the utility function is a continuous increasing function, the certain equivalent can be found by applying the inverse of the utility function to the expected utility.   
 
-
-
-> Inversion of a utility value into an indifferent dollar amount.  Differs from a dollar expected value because of the way that 1) probability distribution of outcomes and 2) Utility function curvature interact. 
-
-Graphical example. 
-
-A "convex - upward" (typically called "concave") utility function expresses risk aversion.  Risk neutral decision makers have linear utility functions, so that their expected value and certain equivalents are equal and their risk premiums are zero.
-
-(See Primary Text Fig 3-23 ff)
-(Why is Kim and Jane's utility different - do we need to convert to money to take this into account? Is it possible to assign risk preference to them.  Howard (3-28) : "We thus see that we cannot tell whether a person is risk-neutral or risk averse by observing the decision made in any situation that does not have only money as the value measure of each prospect"."'"
+To see this graphically, in this case for a "½ - ½" probability deal between utilities of 0  and 1. As shown in this plot, the expected utility falls half-way along the dotted line, at a point where  $E[u]= 0.5.$ Moving horizontally to where this value intersects the utility curve finds the value of utility for that quantity $\$34 = u^{-1}(0.5).$  This differs in this case from the dollar expected value of $\$50$ for a risk premium of $50 - 34 = \$16.$  For a convex-upward function the utility this difference will always be non-negative.  (This follows from the relation known as Jensen's inequality.) The difference is a consequence of the combination of uncertain deal and the curved utility function.
 
 
-| Prospect              | Preference Probability | Dollar Value |
-| --------------------- | ---------------------- | ------------ |
-| Wind generation, base | 1                      | \$100        |
-| Solar plant, base     | 0.95                   | \$90         |
-| Battery storage, peak | 0.67                   | \$50         |
-| Battery storage, base | 0.57                   | \$40         |
-| Solar plan, peak      | 0.32                   | \$20         |
-| Wind generation, peak | 0                      | \$0          |
+![risk premium](risk_premium_annot.svg)
 
+If we assume a person's utility function is convex-upward everywhere then for uncertain prospects their certain dollar equivalent will be always be less than its expected dollar value. This is true for both probable losses and gains. This explains why insurance companies can price insurance so it is valuable to customers, but less than their expected losses.  The insurance company values insurance at it's expected value because they consolidate a large number of customer contracts together, but even more so because as a business they are risk neutral toward the expected losses over the set of contracts.  In comparison customers' risk aversion lead them to value the possible loss below than it's expected value, by the amount of their risk premium.  Thus an insurance company can price an insurance contract between the customer's certain equivalent for their possible loss, and its expected value for the company, and make money.   The plot that explains this looks similar to the previous example of the certain equivalent. 
 
+![Insurance risk](insurance_premium2.svg)
 #### Effect of wealth on the utility function 
 
-Should risk aversion increase or decrease with wealth? 
-#### Simplifying the utility function - Delta property
+Presumably a decision-maker's wealth should affect their risk attitude.    So their utility function should include their wealth added to any gains or losses of the deals they face. For example "Outside" for either rain or shine for Kim, whose wealth is say \$1 million would be \$0 + 1 million for rain and \$100 + 1 million for sun.  Depending how the curvature of the utility function changes for large values, the person's risk attitude can change. 
 
-The effect of wealth, and the functional form of utility functions with this wealth-independent property. 
+Should risk aversion increase or decrease with wealth?  Presumably a wealthy person feels free to take larger risks, and would be less risk averse. Or one could argue otherwise that they'd be more concerned about keeping their wealth, so they should be more risk averse.   In general to put this question aside, we can assume a functional form for the utility function where wealth does not affect risk attitude.  
+
+#### Simplifying the utility function - The "Delta property"
+
+To build a utility function with this wealth-independent property, we elicit a person's *risk odds.*
+We pick a convenient dollar amount, adequate to raise concerns about risk, and using the Probability Wheel elicit their value of $p$ in this deal: 
+![](risk_odds.png)
+For someone risk averse, $p > ½$ and their risk odds is $r_m = p/(1-p).$  Of course if the person is risk neutral this is unnecessary and we just declare their risk odds equal to one. 
+
+$$u(x) = a - b\left(r_m\right)^{-x/m}$$
+Where the range of the function can be set for convenience by appropriate values of $a,b$. 
+Using this function one can show algebraically that any delta change $\Delta$ to a person's wealth leaves their risk premium unchanged.  To abbreviate, we say a utility function with this property has the "delta property."
 
 ### What order to apply discounting, risk preference, and expectation? 
+
+There are markets for risk, just as for futures, and in a word, risky investments typically see a higher discount rate than non-risky assets.  A individual's utility function determines how the individual should address risk separate from their determination of time preference discounting. 
 
 In a conventional cost-benefit analysis, one's result is a single monetary value. We need to take into consideration time discounting, risk preference and uncertainty, and possibly also the cost of information.  What is the correct order to apply these?
 
@@ -112,9 +127,9 @@ In a conventional cost-benefit analysis, one's result is a single monetary value
 - The certain discounted monetary amount is the input to the utility function, to express risk preference.
 - Uncertainty is applied last, to the certain utility quantities, by taking expectation, assuring that utilities are not a function of the probabilities. 
 
-
-
 ## Class Activity
+
+Do you pay for insurance?  Estimate the difference between the expected value of the "downside" expected loss you fa
 
 ## Key terms
 
@@ -123,8 +138,9 @@ compound rates
 rate of return, discount rate
 net present value
 
-risk premium, risk aversion, risk tolerance, risk preference
+risk premium, risk aversion, risk tolerance, risk preference, risk odds 
 certain equivalent
+delta property
 
 ## Files, references
 
@@ -133,5 +149,7 @@ C. Spetzler, (1968) "The Development of a Corporate Risk Policy for Capital Inve
 in  1. R. Howard & J. Matheson (1983) [“Readings on Decision Analysis Vol 2.”](https://stanford-msande152.github.io/summer26/lit/pubs/1983-howard-readingsondecisionanalysis-v2.pdf) (“The Blue Book”) SDG.
 
 ## Curious?  Things to explore 
+
+See the downloads page on the class website. 
 
 © John Mark Agosta & Stanford University
