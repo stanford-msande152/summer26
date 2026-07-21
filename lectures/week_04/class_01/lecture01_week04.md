@@ -92,7 +92,7 @@ The computation that applied the law of total probability is a specific case of 
 
 A complete description of Kim's problem can be expressed in this Decision Table;
 
-![338](../../../Pasted%20image%2020260712161125.png)
+![338](../../../Kims_DecisionTable.png)
 
 It turns out the analysis leads to choosing the same alternative as Kim's original intuition - to hold the party indoors. However this is not the end of the story. 
 #### Rolling back the tree by expected utility 

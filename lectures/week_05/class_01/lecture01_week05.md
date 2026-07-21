@@ -11,6 +11,7 @@ Canvas: https://canvas.stanford.edu/courses/228284
 # Title: Time and risk preference
 
 ### What you will learn
+How the economics of time and risk apply in Decision Analysis
 
 ## Class schedule
 - Lecture: Time and RIsk Preference
@@ -20,7 +21,7 @@ Canvas: https://canvas.stanford.edu/courses/228284
 - ----
 # Facing risks and delayed gratitude 
 
-Think of cases where you've had to face delay in gratification or risk of loss.  When these become substantial they weaken our preferences.  Both risk and time preference are intangibles, characteristic of a decision maker's preferences, and not determined directly from monetary analysis.  Since they both have dis-utility these two attributes are sometimes conflated and treated as one. In Decision Analysis our goal is to quantify these intangibles and incorporate them into a single consistent measure of utility used to compare alternatives.  This is a principled method to express intuitive judgments about risk. 
+Think of cases where you've had to face delay in gratification or risk of loss.  When these become substantial they can affect our preferences.  Both risk and time preference are intangibles, characteristic of a decision maker's preferences, and not determined directly from monetary analysis.  Since they both have dis-utility these two attributes are sometimes conflated and treated as one. In Decision Analysis our goal is to distinguish their sources, quantify these intangibles, and incorporate them into a single consistent measure of utility used to compare alternatives.  This is a principled method to express intuitive judgments about risk. 
 
 
 ## I.  The confusion of time and risk preference
@@ -34,9 +35,9 @@ $$ V_0 \sim V_1 + iV_1 = V_1(1+i) $$
 In monetary terms, the decrease  in value over time with $i$ as the time preference rate is:
 
 $$ \frac{V_0}{1+i} = V_1 $$
-For instance, if someone has urgent needs they may be be willing to take on debt -- valuing the larger sum in the future equivalent to the immediate amount in the present.  If extreme this need can be exploited by unscrupulous lenders. 
+For instance, if someone has urgent needs they may be willing to take on debt -- valuing the larger sum in the future equivalent to the immediate amount in the present.  If extreme this need can be exploited by unscrupulous lenders. 
 
-An investor has the opposite incentive when faced with an investment opportunity They will forego consumption of current resources, if the return on setting the amount aside more than offsets their time preference. 
+An investor has the opposite incentive when faced with an investment opportunity. They will forego consumption of current resources, if the return on setting the amount aside more than offsets their time preference. 
 
 Conversely, someone may prefer to defer consumption of a perishable item, to receive a *smaller* quantity in the future. For example if a shipment of ripe strawberries can't be enjoyed and would go to waste if received now, one may prefer a smaller shipment in the future, when they can be consumed. 
 
@@ -53,7 +54,7 @@ In comparison when considering an investment one is looking at a time in the fut
 Decreasing the interval used for compounding proportionally with the rate, increases the total return, but only to a point.  For instance, a  10% per year return compounded monthly is equivalent to a $(1 + 0.1/12)^{12} \approx 10.5\%...$ return.  The returns for finer and finer intervals quickly reach a limit, as shown by this standard equivalence from calculus $(1+x/n)^n = e^x$
 #### Interest rate markets
 
-Buying and selling investments in financial markets reveal market interest rates that are not necessarily the same as a decision maker's. There are markets where money and goods can be bought and sold at designated future times,  in addition to immediate ("spot") trades. An example are government bonds that promise to return a fixed amount in the future in exchange for an current investment. As opposed to one's personal discount rate, these bond markets provide a *market rate* for "risk-free"  investment returns.  Similarly within a company the rates the company pays for raising investment funds (the "cost of capital") comes from what investors will pay for them.  When a decision involves either buying or selling investments, these market rates are appropriate to use as the time discounting rate. 
+Buying and selling investments in financial markets reveal market interest rates that are not necessarily the same as a decision maker's. There are markets where money and goods can be bought and sold at designated future times,  in addition to immediate ("spot") trades. An example are government bonds that promise to return a fixed amount in the future in exchange for an current investment. As opposed to one's personal discount rate, these bond markets provide a *market rate* for "risk-free"  investment returns.  Similarly within a company the rates the company pays for raising investment funds (the "cost of capital") comes from what investors will pay for them.  When a decision involves either buying or selling investments,in personal or corporate situations, these market rates are appropriate to use as the time discounting rate. 
 
 When using market rates, one needs to distinguish between nominal rates, that are affected by inflation that decreases the value of the dollar. A *rate of return*  in constant value dollars is the nominal rate minus the rate of inflation. 
 
@@ -91,7 +92,7 @@ $$\text{Expected Value} - \text{Risk Premium} = \text{Certain Equivalent}$$
 
 The certain equivalent is a monetary value equivalent to a utility value, used to convert an expected utility into units of comparable monetary value. Fortunately since the utility function is a continuous increasing function, the certain equivalent can be found by applying the inverse of the utility function to the expected utility.   
 
-To see this graphically, in this case for a "½ - ½" probability deal between utilities of 0  and 1. As shown in this plot, the expected utility falls half-way along the dotted line, at a point where  $E[u]= 0.5.$ Moving horizontally to where this value intersects the utility curve finds the value of utility for that quantity $\$34 = u^{-1}(0.5).$  This differs in this case from the dollar expected value of $\$50$ for a risk premium of $50 - 34 = \$16.$  For a convex-upward function the utility this difference will always be non-negative.  (This follows from the relation known as Jensen's inequality.) The difference is a consequence of the combination of uncertain deal and the curved utility function.
+To see this graphically, consider in this case of a "½ - ½" probability deal between 0 and 100 dollars with utilities of 0  and 1. As shown in this plot, the expected utility falls half-way along the dotted line, at a point where  $E[u]= 0.5.$ Moving horizontally to where this value intersects the utility curve finds the value of utility for that quantity $\$34 = u^{-1}(0.5).$  This differs in this case from the dollar expected value of $\$50$ for a risk premium of $50 - 34 = \$16.$  For a convex-upward function the utility of this difference will always be non-negative.  (This follows from the relation known as Jensen's inequality.) The difference is a consequence of the combination of uncertain deal and the curved utility function.
 
 
 ![risk premium](risk_premium_annot.svg)
@@ -107,10 +108,10 @@ Should risk aversion increase or decrease with wealth?  Presumably a wealthy per
 
 #### Simplifying the utility function - The "Delta property"
 
-To build a utility function with this wealth-independent property, we elicit a person's *risk odds.*
+To build a utility function with this wealth-independent property, we elicit a person's *risk odds,* a measure of their risk attitude. 
 We pick a convenient dollar amount, adequate to raise concerns about risk, and using the Probability Wheel elicit their value of $p$ in this deal: 
 ![](risk_odds.png)
-For someone risk averse, $p > ½$ and their risk odds is $r_m = p/(1-p).$  Of course if the person is risk neutral this is unnecessary and we just declare their risk odds equal to one. 
+For someone risk averse, $p > ½$ and their risk odds is $r_m = p/(1-p)$ which will be greater than 1.  Of course if the person is risk neutral this is unnecessary and we just declare their risk odds equal to one. 
 
 $$u(x) = a - b\left(r_m\right)^{-x/m}$$
 Where the range of the function can be set for convenience by appropriate values of $a,b$. 
@@ -118,7 +119,7 @@ Using this function one can show algebraically that any delta change $\Delta$ to
 
 ### What order to apply discounting, risk preference, and expectation? 
 
-There are markets for risk, just as for futures, and in a word, risky investments typically see a higher discount rate than non-risky assets.  A individual's utility function determines how the individual should address risk separate from their determination of time preference discounting. 
+There are markets for risk, just as for futures, and in a word, risky investments typically see a higher discount rate than non-risky assets.  Keep in mind however that an individual's utility function determines how the individual should address risk separate from their determination of time preference discounting. 
 
 In a conventional cost-benefit analysis, one's result is a single monetary value. We need to take into consideration time discounting, risk preference and uncertainty, and possibly also the cost of information.  What is the correct order to apply these?
 
@@ -136,7 +137,7 @@ Do you pay for insurance?  Estimate the difference between the expected value of
 time preference, time value of money
 compound rates
 rate of return, discount rate
-net present value
+net present value (NPV)
 
 risk premium, risk aversion, risk tolerance, risk preference, risk odds 
 certain equivalent
