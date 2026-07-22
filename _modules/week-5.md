@@ -13,7 +13,7 @@ Jul 22
 : **LECTURE 10**{: .label .label-green } **Value of information (VOI)** · 
 : **Lecture notes** [[Web]](/summer26/lectures/week_05/class_02/lecture02_week05/)
 [PDF]({{ site.baseurl }}/lectures/week_05/class_02/lecture02_week05.pdf)
-: **HW 5 OUT**{: .label .label-yellow } **Midterm (in class)**{: .label .label-purple }
+: **HW 5 OUT**{: .label .label-yellow } [[Project Draft Assignment]](/summer26/project_draft_assignment.pdf)**Midterm (in class)**{: .label .label-purple }
 : **Required:** Course Notes §3.1.13–3.1.16 Valuing Clairvoyance
 : **FODA** *(optional):* Ch. 18
 : **Additional** *(optional):* R. Howard, "Information Value Theory" (1966), IEEE Trans. SSC Vol. SSC-2, No. 1, p. 22–26. Also RODA p. 779–783
