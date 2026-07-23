@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="A">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.4 0.6</probabilities>
+		</cpt>
+		<cpt id="B">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>A</parents>
+			<probabilities>0.8 0.2 0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="C">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>B</parents>
+			<probabilities>0.7 0.3 0.2 0.8</probabilities>
+		</cpt>
+		<decision id="D">
+			<state id="Choice0" />
+			<state id="Choice1" />
+			<parents>C</parents>
+		</decision>
+		<utility id="V">
+			<parents>A D</parents>
+			<utilities>4 -1 3 7</utilities>
+		</utility>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.4830.0 ACADEMIC" name="Network1">
+			<node id="C">
+				<name>C</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>117 146 151 167</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="B">
+				<name>B</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>257 146 291 167</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="A">
+				<name>A</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>426 146 460 167</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="V">
+				<name>V</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>463 271 515 303</position>
+			</node>
+			<node id="D">
+				<name>D</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>168 267 188 293</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
