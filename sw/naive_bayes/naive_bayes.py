@@ -27,25 +27,27 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 # Options and parameters (mirror the values set in the notebook)
 # ---------------------------------------------------------------------------
-DATA_PATH = os.path.join(os.path.dirname(__file__), "test_data.csv")
-TARGET_COLUMN = "target"
+TEST_DATA= "test_data.csv"
+DATA_PATH = os.path.join(os.path.dirname(__file__), TEST_DATA)
+TARGET_COLUMN = "win"
 DEFAULT_COUNT = 5
 NORMALIZE_COUNTS = True
+
 OUTPUT_MODULE = os.path.join(os.path.dirname(__file__), "cpts.py")
 
 
 # ---------------------------------------------------------------------------
 # Data loading
 # ---------------------------------------------------------------------------
-def load_data(path):
+def load_data(path, target_column):
     """Read the CSV file and return the dataframe and the list of feature
     columns (every column except the target)."""
     df = pd.read_csv(path)
-    if TARGET_COLUMN not in df.columns:
+    if target_column not in df.columns:
         raise ValueError(
-            f"Target column '{TARGET_COLUMN}' not found in {list(df.columns)}"
+            f"Target column '{target_column}' not found in {list(df.columns)}"
         )
-    feature_cols = [c for c in df.columns if c != TARGET_COLUMN]
+    feature_cols = [c for c in df.columns if c != target_column]
     return df, feature_cols
 
 
@@ -88,6 +90,8 @@ def entropy(probs):
     for p in probs:
         if p > 0.0:
             h -= p * math.log(p)
+        else:
+            h = 0.0
     return h
 
 
@@ -243,7 +247,7 @@ def report_cpts(cpts, target_prior):
 # ---------------------------------------------------------------------------
 # Module writer
 # ---------------------------------------------------------------------------
-def write_cpt_module(cpts, target_prior, out_path):
+def write_cpt_module(cpts, target_prior, out_path, target_column):
     """Write a python file containing the CPTs as plain python literals so it
     can be `import`-ed by another script."""
     target_states, prior_matrix = target_prior
@@ -251,7 +255,7 @@ def write_cpt_module(cpts, target_prior, out_path):
     lines.append("# Auto-generated CPT module -- do not edit by hand.")
     lines.append("# Created by naive_bayes.py on 2026-07-22.")
     lines.append("")
-    lines.append("TARGET_COLUMN = " + repr(TARGET_COLUMN))
+    lines.append("TARGET_COLUMN = " + repr(target_column))
     lines.append("TARGET_STATES = " + repr(target_states))
     lines.append("TARGET_PRIOR = " + repr(prior_matrix))
     lines.append("")
@@ -302,28 +306,28 @@ def predict(cpts, target_prior, evidence):
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
-def main():
+def main(target_column, default_count, normalize_counts, test_data):
     print(f"Loading data from {DATA_PATH}")
-    df, feature_cols = load_data(DATA_PATH)
+    df, feature_cols = load_data(DATA_PATH, target_column)
     print(f"Read {len(df)} rows, {len(feature_cols)} features: {feature_cols}")
     print(f"Columns: {list(df.columns)}")
     print()
 
     # build the target prior
-    target_prior = build_target_prior(df, TARGET_COLUMN, DEFAULT_COUNT, NORMALIZE_COUNTS)
+    target_prior = build_target_prior(df, target_column, default_count, normalize_counts)
 
     # build a CPT for every feature
     cpts = {}
     for feature in feature_cols:
         cpts[feature] = build_cpt(
-            df, feature, TARGET_COLUMN, DEFAULT_COUNT, NORMALIZE_COUNTS
+            df, feature, target_column, default_count, normalize_counts
         )
 
     # visual report
     report_cpts(cpts, target_prior)
 
     # write the importable module
-    write_cpt_module(cpts, target_prior, OUTPUT_MODULE)
+    write_cpt_module(cpts, target_prior, OUTPUT_MODULE, target_column)
 
     # simple demo prediction
     print()
@@ -341,4 +345,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # Test using defaults from this file. 
+    main(TARGET_COLUMN, DEFAULT_COUNT, NORMALIZE_COUNTS, TEST_DATA)

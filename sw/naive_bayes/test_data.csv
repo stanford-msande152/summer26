@@ -1,4 +1,4 @@
-outlook,temp,humidity,wind,target
+outlook,temp,humidity,wind,win
 sunny,hot,high,weak,no
 sunny,hot,high,strong,no
 overcast,hot,high,weak,yes

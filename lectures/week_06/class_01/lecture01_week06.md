@@ -28,11 +28,28 @@ The _Bayesian Promise_ is that both probabilities as belief, or those derived fr
 
 ## The Naive Bayes classifier
 
+You can download this code from the couse website: 
+
+[Code download: ](https://github.com/stanford-msande152/summer26/blob/72b3383afe505a291957ddb1bc238bb988f50b7b/sw/naive_bayes.tar.gz)
+
 Strictly a statistical classifier is a function that returns a conditional probability distribution of an outcome (the "target") from a list of known variables. The outcome can be viewed as a prediction from the variables. 
 
+#### An example
+
+We show how this code works with this test data file, to predict a tennis player's probability of winning from the conditions of the match:
+
+![](tennis_data.png)
+
+
+The Bayes network structure of a naïve Bayes classifier (from "Heckerthoughts p.22)
+![](naiveBayesNet.png)
 ### Excel Tools for Decision Analysis
 
 You can download this Excel Workbook from the course website. 
+
+[Workbook download: ](https://github.com/stanford-msande152/summer26/tree/72b3383afe505a291957ddb1bc238bb988f50b7b/sw/excel)
+
+
 
 This workbook has three worksheets, shown by the tabs below. They automate  basic calculations for building components for a decision model with binary variables. They are computational tools that you can use instead of hand-calculating the steps needed to analyze nodes in a decision-probability tree, or causal decision network.  You can copy your probability and utilities into spreadsheet, then copy the results into parts of your model, in other diagrams or software for the entire model.
 
@@ -62,10 +79,14 @@ There are no additional inputs.  The output Expected value of test information 
 ## Key terms
 
 classifier
+Value of complete information
+Value of partial information, value of test information
 
-## Homework, due __ 
+
 
 ## Files, references
+
+See "Heckerthoughts", Chapter 4 for advanced ways to learn models from data, and the mention of the original email spam filter in Chapter 5.  
 
 ## Curious?  Things to explore 
 
