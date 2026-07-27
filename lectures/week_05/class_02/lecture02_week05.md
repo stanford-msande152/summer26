@@ -24,7 +24,7 @@ Mathematical definition of the different nodes in a CDN.
 
 ## I. Influence Diagrams to Causal Decision Networks
 
-*Influence Diagrams* were developed in the late 1970s as a more concise alternatives to decision-probability trees. Subsequent developments in probabilistic AI extended the networks to include additional aspects such as comprehensive inferential and diagnostic models, and computational approaches to probabilistic reasoning, including causal models derived from data.
+*Influence Diagrams* were developed in the late 1970s as a more concise alternatives to decision-probability trees. Subsequent developments in probabilistic AI extended the networks to include additional aspects such as comprehensive inferential and diagnostic models, and computational approaches to probabilistic reasoning, including causal models derived from data. Since both refer to indentical structures, we will use the modern term "Causal Decision Networks" instead of "Influence Diagram."
 
 ### Some early influence diagram examples. 
 
@@ -33,7 +33,7 @@ Mathematical definition of the different nodes in a CDN.
 ![](cooper_1988.png)
 *An Example of a simple CDN from Cooper, 1988*
 
-**A model with an extensive value network.**
+**A model with an extensive value sub-network.**
 
 This model makes a clear distinction betweenm the decision backbone, the one-node value model and the inferential model of three nodes. 
 ![](MCNamee_annot_2008.png)
@@ -46,10 +46,13 @@ This example of an actual business decision flows from bottom to top rather than
 - Upgrade current product technology
 - Develop a completely new design
 
-Studying this diagram, we see the problem was framed as single strategy decision, with consequences for uncertainties that affect the final value of NPV.  Key uncertainties that are not indirect consequences of the decision are outlined in blue. This model does not consider any observables that will inform the decision, however one could compute a complete information VOI on any of the nodes in the blue region.   All other nodes could be considered part of the value function (typically shown in green), however the diagram doesn't break out the functional from the uncertain aspects of these nodes, except for the three direct successors of the decision that have double outlines. .
+Studying this diagram, we see the problem was framed as single strategy decision, with consequences for uncertainties that affect the final value of NPV.  Key uncertainties that are not indirect consequences of the decision are outlined in blue. This model does not consider any observables that will inform the decision, however one could compute a complete information VOI on any of the nodes in the blue region.   All other nodes could be considered part of the value function (typically shown in green), however the diagram doesn't break out the functional aspects from the uncertain aspects of these nodes, except for the three direct successors of the decision that have double outlines. .
 ## Key terms
 
 Influence Diagram
+value sub-network, value model
+NPV
+successor nodes
 ## Homework, due __ 
 
 ## Files, references
