@@ -1,4 +1,4 @@
-Course: MS&E 152 summer 2026
+ Course: MS&E 152 summer 2026
 Sequence: Week 6, Lecture 1
 Date: Monday, July 27 2026
 Topic: Introduction to Decision Analysis
