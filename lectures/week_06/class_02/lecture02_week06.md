@@ -98,6 +98,7 @@ Variable distinctions and elicitation work should be completed this week.
 ## Files, references
 
 More detail about dominance and active trails can be found in FODA and in R. Shachter's paper on Active Trails. 
+"Tornado Diagram"
 
 ## Curious?  Things to explore 
 
