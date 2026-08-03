@@ -8,7 +8,7 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 -----
 
-# Title: 
+# Title:  Multiple attributes of utilities and Probabilities of death
 
 ### What you will learn
 

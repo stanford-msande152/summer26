@@ -12,6 +12,8 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 ### What you will learn
 
+How organizational and psychological aspects of bias affect decision making. 
+
 ## Class schedule
 - Lecture: 
 - About this class
@@ -54,12 +56,27 @@ These roles are fluid, and one person, possibly with the assistance of AI "agent
 
 Solving the right problem.  Often the scope of the problem must be re-examined. A narrow scope limits the efficacy of the analysis, and at worst has a pre-conceived conclusion baked into the formulation.  What is the point of analysis if it only serves to enforce one's presumption about what should be done? 
 
-### Developing creative alternatives 
+## Why bias affects Decision making, and how to ameliorate this. 
 
+Perception of probabilities (K & T)
+
+A. Psychological sources of bias  (all three are different aspects of the same thing. )
+
+- Representation  ( probability is not similarity)
+- Availability.  What comes to mind
+- Anchoring.  What is the estimate relative to (how is it framed)
+
+B. The difference between the answer given by an AI language model and rational analysis
+
+Why language models don't substitute for Decision Analysis
+
+## Limits of rationality.  
+
+What kinds of problems are not appropriate for Decision Analysis -- the really important choices in one's life. 
 
 
 ## Homework, due __ 
 
-
+(  Critique of an AI analysis of decision support?  Why does an AI not follow actional thought? ) 
 
 © John Mark Agosta & Stanford University

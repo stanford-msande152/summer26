@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Figure5_6" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Purchase">
+			<state id="Purchase" />
+			<state id="DontPurchase" />
+			<pointvalues>400 0</pointvalues>
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Operating_Costs">
+			<state id="S_253" />
+			<state id="S_237" />
+			<state id="S_0" />
+			<pointvalues>-299 -190 0</pointvalues>
+			<parents>Purchase</parents>
+			<probabilities>0.5 0.5 0 0.005 0.005 0.99</probabilities>
+		</cpt>
+		<cpt id="Capacity">
+			<state id="P_45" />
+			<state id="P_55" />
+			<pointvalues>100 -90</pointvalues>
+			<probabilities>0.32 0.6799999999999999</probabilities>
+		</cpt>
+		<cpt id="Hours">
+			<state id="H_650" />
+			<state id="H_900" />
+			<pointvalues>650 900</pointvalues>
+			<parents>Capacity</parents>
+			<probabilities>0.45 0.55 0.36 0.64</probabilities>
+		</cpt>
+		<equation id="Value">
+			<parents>Purchase Operating_Costs Capacity Hours</parents>
+			<definition>Value=Purchase+Operating_Costs+Capacity+Hours</definition>
+		</equation>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0.4830.0 ACADEMIC" name="Clemen Figure 5.6">
+			<comment>Figure 5.6: Decision tree for Eagle Airlines with uncertainty for three variables. Profit is calculated with all other variables held at their base values (the same tree with p=0.5 is in Figure 5.7; this is an influence diagram for the decision tree in the figure; p=0.5, q=0.52, r=0.45, s=0.8r=0.36; an extended influence diagram is pictured in Figures 5.1 and 5.5).\nReference:\nRobert T. Clemen, Making Hard Decisions: An Introduction to Decision Analysis, Second Edition. Duxbury Press, 1996.</comment>
+			<node id="Purchase">
+				<name>Purchase Piper Seneca</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>44 103 123 157</position>
+				<comment>Not purchasing Seneca will allow to invest the money ($52,500) in the bank at 8% interest and yield $4,200.</comment>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Operating_Costs">
+				<name>Operating Costs</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>135 22 227 72</position>
+				<barchart active="true" width="128" height="80" />
+			</node>
+			<node id="Capacity">
+				<name>Capacity of Scheduled Flights</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>312 16 429 85</position>
+				<barchart active="true" />
+			</node>
+			<node id="Hours">
+				<name>Hours Flown</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>503 127 579 173</position>
+				<barchart active="true" />
+			</node>
+			<node id="Value">
+				<name>Value</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>287 238 363 274</position>
+				<barchart active="true" width="221" height="120" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

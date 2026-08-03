@@ -145,7 +145,7 @@ discrete distributions
 conditional probability
 
 random variable
-:  A random variable is a *function* (mapping) from the space of "possible worlds" to events to which probabilities can be ascribed.
+:  A random variable is a *function* (mapping) from the space of "possible worlds" to events to which probabilities can be ascribed. The term "random event" can be  used as a synonym, by assigning the variable a point in time with its occurrence. 
 
 
 <span style="color:rgb(146, 208, 80)">Information</span> 

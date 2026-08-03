@@ -3,7 +3,7 @@ title: "Week 7: Value Tradeoffs and Real Options"
 ---
 
 Aug 3
-: **LECTURE 13**{: .label .label-green } **Small probabilities, micromorts, value tradeoffs** · 
+: **LECTURE 13**{: .label .label-green } **Real options, flexibility** · 
 : **Lecture notes** [[Web]](/summer26/lectures/week_07/class_01/lecture01_week07/)
 [PDF]({{ site.baseurl }}/lectures/week_07/class_01/lecture01_week07.pdf)
 : **HW 6 DUE**{: .label .label-red }
@@ -11,7 +11,7 @@ Aug 3
 : **FODA** *(optional):* Ch. 26–28, 34
 
 Aug 5
-: **LECTURE 14**{: .label .label-green } **Real options, flexibility** · 
+: **LECTURE 14**{: .label .label-green } **Small probabilities, micromorts, value tradeoffs** · 
 : **Lecture notes** [[Web]](/summer26/lectures/week_07/class_02/lecture02_week07/)
 [PDF]({{ site.baseurl }}/lectures/week_07/class_02/lecture02_week07.pdf)
 : **HW 7 OUT**{: .label .label-yellow }
