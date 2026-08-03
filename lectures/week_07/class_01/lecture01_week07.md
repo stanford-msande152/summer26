@@ -8,28 +8,27 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 -----
 
-# Title: VOI, information, options and flexibility
+# Title: VOI, information,  flexibility, and options
 
 ### What you will learn
 
 ## Class schedule
-- Lecture
-- About this class
-- Short break
-- Second lecture
-- Class activity
+- Lecture EVPI
+- In class - draft cleanup. 
+- Lecture: Flexibility and options
+- Class activity  review of project CDNs
 - ----
-## Information
+## What is Information
 
 Information means a message or observation of something unknown.  In *Information Theory* attributed to Claude Shannon, information is described just by the probabilities of the observed *messages* or outcomes. For any uncertainty, the number of distinctions and their  probability is all that matters; whether it is about the weather, word counts, or marbles doesn't matter. 
 ### Expected Utility and Value of Information plots
 
-We can solve some decision problems and find VOI of a variable by plotting each alternative's expected value as a function of the outcome probability. A plot of the outcome probability versus the expected utility for each alternative shows how the choice of alternative changes as beliefs change. We consider one binary outcome variable for all decisions, in this example, the weather and the three alternatives, "outdoor", "porch", and "indoor" from the Party Problem. Here is her CDN and its decision-probability tree. 
+We can solve some decision problems and find VOI of a variable by plotting each alternative's expected value as a function of the outcome probability. A "utility of choices" plot of the outcome probability versus the expected utility for each alternative shows how the choice of alternative changes as beliefs change. For convenience we consider one binary outcome variable for all decisions, in this example, the weather and the three alternatives, "outdoor", "porch", and "indoor" from the Party Problem. Here is her CDN and its decision-probability tree. 
 
 ![](Kim_EV.png)
 
 The expression of the expected utility of each alternative is shown for each branch. 
-Note that the expected utility is linear in probability, so that if we plot the utility of each alternative for the range of probability of "sun"  each alternative appears as a straight line. At any probability the top-most line is the alternative with the highest expected value and hence the preferred choice. 
+Note that the *expected utility is linear in probability,* so that if we plot the utility of each alternative for the probability of "sun",  each alternative appears as a straight line. At any probability the top-most line is the alternative with the highest expected value and hence the preferred choice. 
 
 
 
@@ -46,7 +45,7 @@ For risk neutral decision-makers, VOI decomposes into the difference between the
 
 The "decision surface" of the preferred choice is constructed from the maximum expected value at any belief over the set of alternatives, which is provably a convex downward surface. Obviously if the surface consists of just one straight line, then the VOI line and the best choice lines coincide and that choice is preferred for all beliefs.  
 
-This shows why when receiving information does not change the best choice, then its value is zero.  
+This shows that when receiving information does not change the best choice, its value is zero.  
 ### Value of Information = Value of Flexibility 
 
 As shown by this plot, VOI depends on the convexity of the decision surface, and the current belief. The more the current belief sits at the "pit" of the decision surface, the greater the VOI.  
@@ -65,6 +64,8 @@ The study of options has it's own vocabulary.  The expense that initial decision
 Complementary to the purchase of an option, an owner of an asset -- typically a financial asset -- may *sell an option* to fix a future price or term for the sale of the option.  The purchaser of an option owns a *futures contract* that itself may be re-sellable in an options market. 
 
 The purchasers and sellers of an option are effectively buying and selling risk. 
+![](o_EVPI2.png)
+*Purchasing the option, shown in red increases the EVPI and thus the expected value if the option will be exercised*
 
 Examples of options are: 
 - An insurance contract.  The insurance premium is the option cost, and the condition is the risk which is being insured against. The exercise of the option is making a claim against the insurance contract, for which there may be an added expense, in the form of a deductible, which may also be an uncertain quantity.
@@ -81,8 +82,11 @@ A CDN model can be expanded to analyze custom option configurations, such as seq
 
 Information
 Value of Information
+"Utility of Choices Plot"
+EVPI "Expected Value of Perfect Information"
 Value of Flexibility
 Real Options. 
+Option Price, Option Exercise
 
 
 ## Homework, due __ 

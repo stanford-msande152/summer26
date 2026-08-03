@@ -25,3 +25,12 @@ Three spreadsheets that for binary variables. They calculate Bayes rule, Value o
 4. **Naive Bayes classifier Python notebook**
 A "jupyter" notebook that creates a classifier from a dataset. The tables it creates can be used as evidence nodes in a CDN probability model
 [Jupyter notebook zip file]({{ site.baseurl }}/sw/naive_bayes.tar.gz)
+
+5. **Wine emulator to run Windows SW on the Mac**
+The Genie software is PC-native, so to run it on the Mac you first need to install the `WINE` emulator. This is done at the command line in the terminal.  First you install Homebrew then you use Homebrew to install WINE. Get Homebrew by following the instructions here https://brew.sh.Then all you have to do is type this into a Terminal window: 
+
+> brew install --cask wine-stable
+
+6. **Genie Bayes network and influence diagram solving software**
+The Genie software is a sophisticated influence diagram (CDN) solver that can handle networks with up to hundreds of nodes. An academic version is downloadable from [BayesFusion.com](https://download.bayesfusion.com/files.html?category=Academia)
+You will need to install a PC emulator such as WINE if you want to run it on the Mac. 

@@ -1,3 +1,8 @@
+---
+layout: home
+title: MS&E 152
+nav_exclude: true
+---
 ### III.  Entropy - a measure of information
 
 Information means a message or observation of something unknown.   Here we derive a measure of information quantity is solely a function of the probability distribution of its contents. 
