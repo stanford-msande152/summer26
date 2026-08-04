@@ -1,0 +1,11 @@
+# Prompt for generating an excel spreadsheet to run VOI for sample information
+
+How to Calculate EVSI in Your Own Excel Sheet
+
+The Expected Value of Sample Information (EVSI) is calculated by finding the difference between the expected payoff with the new information and the expected payoff without it, minus the cost of the information.
+
+You can set up a calculator matrix using these steps:Base EMV: Calculate your baseline expected monetary value without information. Multiply decision payoffs by their corresponding state of nature probabilities using the =SUMPRODUCT() formula. Select the highest resulting value as your maximum EMV.
+
+With Information EMV: Create a new table factoring in the reliability of the test or sample. Determine the best action for each test outcome and multiply these by the probability of the test outcome itself.
+
+Calculate EVSI: Subtract the baseline EMV from the new "With Information" EMV. If the EVSI is higher than what the data costs, it is a financially sound decision.
