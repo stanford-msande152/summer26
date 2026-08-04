@@ -5,7 +5,15 @@ description: Miscellaneous code and other files.
 nav_order: 6
 ---
 
+
 # Software and related downloads
+
+## Link to Google Drive folder
+
+[The folder](https://drive.google.com/drive/folders/1bDfH8M8n68QsmhXeHoXwhE8ft7qWMl2j?usp=drive_link) contains both class project submissions and compressed files of class software
+
+
+## Software links on Github
 
 1. **Decision Table visualizer**
 
@@ -37,3 +45,9 @@ The Genie software is PC-native, so to run it on the Mac you first need to insta
 
 The Genie software is a sophisticated influence diagram (CDN) solver that can handle networks with up to hundreds of nodes. An academic version is downloadable from [BayesFusion.com](https://download.bayesfusion.com/files.html?category=Academia)
 You will need to install a PC emulator such as WINE if you want to run it on the Mac. 
+
+7. **Tornado Diagram Generator**
+
+[A python script](sw/tornado.zip) that converts a csv spreadsheet file into a tornado diagram.  The spreadsheet input looks like this:
+![alt text](tornado_es.png) 
+

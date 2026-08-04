@@ -162,6 +162,7 @@ def plot_tornado(table):
         text=f'Base utility = {u_base:.0f}',
         text_color='firebrick', text_font_size='9pt', x_offset=4,
     ))
+    
 
     # End-of-bar value labels (P10 on the left, P90 on the right).
     p.text(x=u_p10, y=y_vars, text=labels_p10, x_offset=-10,
