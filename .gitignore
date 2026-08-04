@@ -18,5 +18,6 @@ IGNORE/
 proposals/
 draft_projects/
 HW5/
-*.zip
+*.html
+
 

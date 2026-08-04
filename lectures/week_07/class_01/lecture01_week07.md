@@ -30,9 +30,9 @@ We can solve some decision problems and find VOI of a variable by plotting each 
 The expression of the expected utility of each alternative is shown for each branch. 
 Note that the *expected utility is linear in probability,* so that if we plot the utility of each alternative for the probability of "sun",  each alternative appears as a straight line. At any probability the top-most line is the alternative with the highest expected value and hence the preferred choice. 
 
+![](kims_clairvoyance.png)
 
 
-![684](../../../Pasted%20image%2020260730105433.png)
 (An expected utility of choices plot.  From Howard Figure 5-2.)
 
 We can also tell from the plot, what is the value of complete information -- what clairvoyance is worth for us if free.   Upon receiving information our belief will be at one or the other extremes of the x axis; at 0 for "rain", and 1 for "sun." Thus, since our expected value in that case will be a linear combination of the two extremes, it will line along the line between them. Our expected VOI is just the value along that line at our current belief.  

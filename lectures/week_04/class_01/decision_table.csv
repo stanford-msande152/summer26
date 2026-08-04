@@ -1,0 +1,6 @@
+Thumbtack decision,,,
+,heads_up,heads_down,Expected Utility
+do_nothing,0,0,
+bet_up,35,-65,
+bet_down,-65,35,
+Probabilities,0.76,0.24,

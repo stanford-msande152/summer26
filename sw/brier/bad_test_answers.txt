@@ -1,0 +1,1 @@
+T, F, True, False, 0, F, T, F, T, F, T, F, T, F, T, F, T, F, T, F, T, F, T, F, T, F, T, F, T, F, T, F, T, F, T, F, 

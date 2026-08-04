@@ -33,7 +33,7 @@ Three spreadsheets that for binary variables. They calculate Bayes rule, Value o
 4. **Naive Bayes classifier Python notebook**
 
 A "jupyter" notebook that creates a classifier from a dataset. The tables it creates can be used as evidence nodes in a CDN probability model
-[Jupyter notebook zip file]({{ site.baseurl }}/sw/naive_bayes.tar.gz)
+[Jupyter notebook zip file]({{ site.baseurl }}/sw/naive_bayes.zip)
 
 5. **Wine emulator to run Windows SW on the Mac**
 
