@@ -25,8 +25,8 @@ A review of how we got here, how organizational and psychological aspects of bia
 ## Review of our approach to  rationality
 
 The origins of what we mean by rational, as it is put in the terms of "actional thought" have a history that goes back to early ideas in European thought. 
-#### I. The origins of probability
 
+#### I. The origins of probability
 In European thinking the idea of mathematical probability arises relatively late. A "probable" opinion in classical literature connoted a "popular" or "mainstream" idea
 As the Medieval philosopher Thomas Aquinas argued, 
 > The primary sense of the word *probabilitas* is not evidential support but support from respected people (I. Hacking, (1975) "The Emergence of Probability" Cambridge, p.23)
@@ -43,8 +43,8 @@ The current techniques to quantify belief using probability were not developed u
 The idea of knowledge as "justified true belief", that is belief supported by evidence, has been argued for a long time, but making a precise quantified science is relatively recent.  This is the source of our first rule of actional thought: 
 
 > "Probability Rule:"  Implies the skill to quantify reasoning to update belief.   
+> 
 #### II. Invention of the "Economic person"
-
 At the turn of the last century, economists such at Pareto, developed utility to explain individual's behavior.  This is the origin of the ordinal rankings of preferences: 
 
 > "Order Rule"  The skill to rank prospects by preference 
@@ -67,13 +67,12 @@ Thus we have a means to define of a Good Decision, when outcomes are uncertain a
 
 ### IV. Understanding of heuristics and biases
 
-The skills required to exercise the five rules must overcome psychological limitations about how a person't beliefs are constructed.  Elicitation of a person's judgment is inhibited by built-in limitations of psychological tendencies. Knowing how these work reveals strategies to limit them. Rational decision making is like how cats swim: They can do it if necessary, but don't take to it naturally. 
+The skills required to exercise the five rules must overcome psychological limitations about how a person't beliefs are constructed.  Elicitation of a person's judgment is inhibited by built-in limitations of psychological tendencies, as brought to light by the work of Kahneman and Tversky. Knowing how these ideas work reveals strategies to limit them. Rational decision making is like how cats swim: They can do it if necessary, but don't take to it naturally. 
 
 
 - ----
 ## The practice: Working with Decision-Makers and Stakeholders
 
-(A final point about why AI LLMs cannot duplicate a decision analysis  Why it is not advisable to rely on an AI system to make decisions for you).  
 ### I. Structuring and scoping to frame a decision problem
 
 The initial structuring phase of decision analysis is called "framing," as mentioned in our first lecture on "what is Decision Analysis."  Ron Howard wrote that framing is uniquely human. (D. Skinner, Ch.6) It captures what is unique to the problem at hand and cannot be duplicated by a software tool, or a generative AI model.  _The goal of the framing phase is to make the problem clear and understood for all participants._ This involves 
@@ -94,13 +93,10 @@ A key value of the methods used in Decision Analysis is the transparency in the 
 
 ### Who participates. Different roles in the analysis
 
-Decision maker
-
-Decision facilitator / analyst
-
-Subject experts 
-
-Implementors, Execution
+- Decision maker
+- Decision facilitator / analyst
+- Subject matter experts 
+- Implementors, Execution
 
 These roles are fluid, and one person, possibly with the assistance of AI "agents" may participate in more than one. 
 
@@ -110,9 +106,9 @@ Solving the right problem.  Often the scope of the problem must be re-examined. 
 
 ## Why bias affects Decision making, and how to ameliorate this. 
 
-Perception of probabilities (K & T)
 
-A. Psychological sources of bias  (all three are different aspects of the same thing. )
+
+Perception of probabilities: Psychological sources of bias  (all three are different aspects of the same thing. )
 
 - Representation  ( probability is not similarity)
 - Availability.  What comes to mind
@@ -166,7 +162,11 @@ Perhaps most importantly individual rationality offers  no solution for collecti
 
 ## Another view of utility - value of life
 
-Many personal decisions take on physical or health risks.  In everyday life these are minuscule,  but not immaterial.   To assess these, a useful concept is the concept of an infinitesimal probability of death, called a "micromort."  The term has no entered into general use in medical and public health and environment discussions. 
+Many personal decisions take on physical or health risks.  In everyday life these are minuscule,  but not immaterial.   We must distinguish
+- The value you place on your life for purposes of your decisions not to be confused with what others, such as what insurers, policy makers, and legal settlements value.
+- That just like with utility, we cannot extrapolate from small to large risks -- the relationship is not linear. 
+
+To assess these, a useful concept is the concept of an infinitesimal probability of death, called a "micromort."  The term has now entered into general use in medical and public health and environment discussions. For p
 
 A micromort is measure of a hazard as the value of a one-in-a-million chance of death.  Statistical actuarial analysis can be used for purposes of comparison with some common activities in one's life.  
 
@@ -185,7 +185,7 @@ What is the "background level" of risk in one's life expressed in micromorts?  D
 
 #### Assessing micromorts
 
-We can use micromorts as an assessment of value in a decision analysis, in place of a monetary unit.   Or, in a more involved analysis one could assess a dollar equivalent for accepting or avoiding a micromort. 
+We can use micromorts as an assessment of value in a decision analysis, in place of a monetary unit.   Or, in a more involved analysis one could assess a dollar equivalent for accepting or avoiding a micromort.  For purposes of assessment, consider the offer of a "black pill" - how much would you need to receive to avoid one micromort of risk, and a white pill - how much would would  you pay to avoid that ris k.
 
 
 ---
