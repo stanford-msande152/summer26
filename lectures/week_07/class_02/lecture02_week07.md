@@ -60,18 +60,21 @@ A distribution of utilities over ( certain ) prospects has an expectation we cal
 
 $$ E[u] = \sum_i \textbf{P}(v_i)u(v_i) $$
 
-This sum has to be distinguished from just summing the utilities of attributes, since the sum in expectation is over instances of the same distinction.  Summing utilities of attributes makes a strong assumption that the utility of the attributes is separable. An obvious exception is the combined utility of remaining lifetime and wealth.  To see this if either's utility goes to zero, then the total utility is zero.  One needs instead a non-linear function to express the combination. 
+This sum has to be distinguished from just summing the utilities of attributes if we were to assign multiple *attributes* to form the utility of each prospect.  , This is a different kind of summation than the sum over instances of the same distinction.  Summing utilities of attributes makes a strong assumption that the utility of the attributes is separable. An obvious exception is the combined utility of remaining lifetime and wealth.  To see this if either's utility goes to zero, then the total utility is zero.  One needs instead a non-linear function to express the combination. 
 
 #### Utility and certain equivalents
 
 Since the units of utility are arbitrary, and the utility function is assumed monotonic, we can translate the expected utility back into value-units  to recover the *certain equivalent value*, $v_C.$ 
 
 $$ u(v_C) = E[u] \ \text{or} \  v_C = u^{-1}(E[u])$$
-This applies when computing expected utility by rolling back a decision-probability tree. One can assign utilities to each prospect at the leaves of the tree, equivalently one can compute a utility as the value of the terminal value node in a CDN.  Rolling back the tree, or solving the CDN gives us the *expected utility* of each decision alternative.  Then, the expected utilities can be "inverted" as shown above to put the expected values in certain equivalent value terms. 
+This applies when computing expected utility by rolling back a decision-probability tree. One can assign utilities to each prospect at the leaves of the tree, equivalently one can compute a utility as the value of the terminal value node in a CDN.  Rolling back the tree, or solving the CDN gives us the *expected utility* of each decision alternative.  Then, the expected utility can be "inverted" as shown above to put the expected values in certain equivalent value terms. 
 
-If the entire tree is computed in using values at the terminals, then the ability to analyze the effect of risk preference is lost, since rolling back the tree gives us a number is expected value terms. 
+If the entire tree is computed in using values at the terminals, then the ability to analyze the effect of risk preference is lost, since rolling back the tree gives us a number in expected value terms. 
 
-Conjecture:  Since computing expected *utility* VOI by difference of value "with and without" VOI does not hold in the risk averse case --   It is valid to  just compute the difference in expected utility, then invert it to get the certain equivalent selling price for the information. 
+#### VOI and utility 
+In each case, for a decision with or without clairvoyance, the computation is the same, to assign a certain equivalent value to the tree.  When working with a utility function, first values at terminals are converted to utilities, then the tree is rolled back to determine an expected utility which can then be "inverted" to get the certain equivalent value.  In the case of working with terminal values, then the expected value for the tree is a certain equivalent.  
+
+In the case with or without clairvoyance to determine VOI, the comparison is between two certain equivalent values. Don't think of VOI as a choice between two alternatives (if that were the case one would always choose  "with clairvoyance") but of a comparison of two different models. 
 ## Key terms
 
 partial VOI

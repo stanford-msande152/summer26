@@ -9,11 +9,11 @@ Canvas: https://canvas.stanford.edu/courses/228284
 -----
 
 ## Class schedule
-- Lecture: 
-- About this class
+- Lecture: Review of rationality
+- Lecture: Working with Decision-Makers - the limits of rationality
 - Short break
-- Second lecture
-- Class activity
+- A note on valuing micromorts
+- Final projects are due this week 
 # Title: Viewpoints on Decision Analysis
 
 
