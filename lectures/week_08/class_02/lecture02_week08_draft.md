@@ -5,7 +5,8 @@ nav_exclude: true
 description: Last lecture, on ethics, irrationality and related topics 
 ---
 
-# Ethics
+# What is Ethics?
+![268](DoTheRightThing.png)
 
 ### The question: Doing the *right* thing.  Is what we are doing *good*? 
 
@@ -23,11 +24,11 @@ To further paraphrase Murdoch, echoing themes from classical virtue ethics, -- o
 
 ***What we will cover in this class***
 
-Our goal, as practicing engineers (Decision Analysts) is how do we devise a method that we can apply in our professional practice?  One should think about it, so that you have the ethical skills so that when situations arise you have your framework to fall back on. 
+Our goal, as practicing engineers (Decision Analysts) is how do we devise a method that we can apply in our professional practice?  One should think about it, so that you have the ethical skills so that when situations arise you have your framework to fall back on. We treat the terms "moral" and "ethical" as synonyms 
 
-In this lecture we can only define the question -- what is ethics.  There's a full course on "The Ethical Analyst" that follows this course. 
+**In this lecture we can only define the question -- what is ethics.  There's a full course on "The Ethical Analyst" that follows this course.** 
 
-Since there a several different approaches to actually what is ethics it is worth our while to review them. We treat the terms "moral" and "ethical" as synonyms 
+
 
 #### What ethics is  and is not - a comprehensive view 
 
