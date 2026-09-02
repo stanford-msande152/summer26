@@ -87,7 +87,7 @@ This leads to a principled way to define the best choice among alternatives when
 > *Decision analysis specifies the **alternatives, information, and preferences** of the decision-maker and then finds the logically implied decision. (Howard 1983)*
 
 
-The analyst works with a decision maker to *elicit* their beliefs, and to *encode* their decision situation. 
+The analyst works with a decision maker to *elicit* their beliefs, and to *encode* their decision situation, while identifying biases that have crept into the analysis. 
 
 ### C. What makes DA possible?  (What will you gain by taking this course)
 
@@ -161,23 +161,29 @@ We speak of a decision's alternatives before the decision is made, and the *choi
 
 > A decision is an *irrevocable allocation of resources,* irrevocable in the sense that it is impossible or extremely costly to change back to the situation that existed before making the decision. (Howard 1966)
 
-Why this definition?  So to best model the connection between alternatives, uncertainties and outcomes. 
+Why this definition?  So to best model the connection between alternatives, uncertainties and outcomes.  There may be a sequence of decisions to be made, but we designate one as the *primary decision* thin the model is relevant or not. 
 
 **Examples**
 So buying, selling, moving, or modifying physical or financial resources constitute decisions. 
 
 In this sense, a mental commitment, intention or a state of mind - to make a resolution - is not (yet) a decision. 
 
-A policy or plan is not a decision, but when implemented may result in decisions. 
+A policy or plan is not a yet decision, until it is implemented and may result in decisions. 
 
-We can build machines we engineer (think software) that make decisions.
-
-Observation
-: A decision that reveals, acquires, or collects information 
-
-Does the act of finding new information - a new fact - count as a decision? Implicitly, *yes*. Because once something is known it cannot conveniently be unknown, so it is irrevocable, and because it can be traded and valued it is a resource.  
+We can build machines we engineer (think software) that make decisions for us. 
 
 The *decision maker* is one with the agency, who can commit to making the decision.  Things one cannot control are not considered as decisions. One has to recognize when a decision is possible. It might come from seeing an opportunity that exposes possible choices. Or it might be forced upon one. 
+##### Secondary, ancillary decisions
+
+Some decisions, though irrevocable, are not final, since as events unfold the decision-maker may have *options* to adjust their position. 
+
+Similarly there may be decisions preceding the primary decision to inform the decision-maker better. 
+
+Observation 
+: A decision that reveals, acquires, or collects information 
+
+So does the act of finding new information - a new fact - count as a decision? Implicitly, *yes*. Because once something is known it cannot conveniently be unknown, so it is irrevocable, and because information so acquired can be traded and valued as a resource.  
+
 
 **Modelling a decision**
 We identify a decision as the jumping off point for creating the "basis" to frame the analysis. The analysis may start by asking the decision maker *"What is your decision? "*  The model thus only contains things that are relevant or _material_ to the decision. This is used to simplify the model. 
@@ -185,7 +191,7 @@ We identify a decision as the jumping off point for creating the "basis" to fram
 Developing a comprehensive, realistic set of alternatives is a creative effort in the design of a decision model.
 
 The design choices by the Decision Analyst to create the model are not considered to be "decisions" in the sense used here.
-#### Evaluating what is a Good decision
+#### Evaluating what is a Good Decision
 
 - The distinction between a good decision and a good outcome. 
 
@@ -212,8 +218,14 @@ decision, alternative, choice, act
 
 model, normative
 
-good outcome
+primary decision
+
+observation, option
+
+good decision, good outcome
 
 ## Curious?  Things to explore 
+
+For an in-depth discussion about a different definition of "decision"  see [Warren Powell's writings on the topic. ](https://warrenpowell.org/)
 
 © John Mark Agosta & Stanford University

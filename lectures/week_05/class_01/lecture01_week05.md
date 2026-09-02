@@ -65,7 +65,7 @@ Risk
 
 To clarify what we mean when we speak of risk, we are referring to a decision-maker's risk-attitude. For a risk averse decision-maker their valuation of a deal grows less that proportionally as the size of deals grow large. In Decision Analysis, this diminishing marginal value attributed to a deal is how we understand risk.  Conversely when consequences are small, decision-makers valuation of deals approach the deal's expected monetary value, and we don't see the phenomenon. 
 
-A decision-maker's risk attitude is described entirely by the shape of his utility function for money.  Referring back to the previous example, here are Quinn's utilities elicited for the prospects he faced as decision-maker.
+A decision-maker's risk attitude is described entirely by the shape of his utility function for money.  Referring back to the previous example, here are Quinn's utilities elicited for the prospects he faced as decision-maker alongside the dollar value assigned to each.
 
 
 | Prospect              | Preference Probability | Dollar Value, millions |
@@ -90,6 +90,9 @@ $$\text{Expected Value} - \text{Risk Premium} = \text{Certain Equivalent}$$
 
 #### Computing the certain equivalent
 
+
+~={blue}*Define certainty equivalent as u(ce) = E[u).  The certain value whose utility is equivalent to the utility of a deal. The graph below is exactly this computation*=~
+
 The certain equivalent is a monetary value equivalent to a utility value, used to convert an expected utility into units of comparable monetary value. Fortunately since the utility function is a continuous increasing function, the certain equivalent can be found by applying the inverse of the utility function to the expected utility.   
 
 To see this graphically, consider in this case of a "½ - ½" probability deal between 0 and 100 dollars with utilities of 0  and 1. As shown in this plot, the expected utility falls half-way along the dotted line, at a point where  $E[u]= 0.5.$ Moving horizontally to where this value intersects the utility curve finds the value of utility for that quantity $\$34 = u^{-1}(0.5).$  This differs in this case from the dollar expected value of $\$50$ for a risk premium of $50 - 34 = \$16.$  For a convex-upward function the utility of this difference will always be non-negative.  (This follows from the relation known as Jensen's inequality.) The difference is a consequence of the combination of uncertain deal and the curved utility function.
@@ -102,9 +105,11 @@ If we assume a person's utility function is convex-upward everywhere then for un
 ![Insurance risk](insurance_premium2.svg)
 #### Effect of wealth on the utility function 
 
-Presumably a decision-maker's wealth should affect their risk attitude.    So their utility function should include their wealth added to any gains or losses of the deals they face. For example "Outside" for either rain or shine for Kim, whose wealth is say \$1 million would be \$0 + 1 million for rain and \$100 + 1 million for sun.  Depending how the curvature of the utility function changes for large values, the person's risk attitude can change. 
+*~={blue}The curvature of the utility function implies that the utility of additional wealth declines. Even though a dollar is still worth a dollar to both rich and poor.   Lets use the curvature of U() to manage risk aversion, solely.=~* 
 
-Should risk aversion increase or decrease with wealth?  Presumably a wealthy person feels free to take larger risks, and would be less risk averse. Or one could argue otherwise that they'd be more concerned about keeping their wealth, so they should be more risk averse.   In general to put this question aside, we can assume a functional form for the utility function where wealth does not affect risk attitude.  
+Presumably a decision-maker's wealth should affect their risk attitude.    So their utility function could include their wealth added to any gains or losses of the deals they face. For example "Outside" for either rain or shine for Kim, whose wealth is say \$1 million would be \$0 + 1 million for rain and \$100 + 1 million for sun.  Depending how the curvature of the utility function changes for large values, the person's risk attitude can change. 
+
+Should risk aversion increase or decrease with wealth?  Presumably a wealthy person feels free to take larger risks, and would be less risk averse. Or one could argue otherwise that they'd be more concerned about keeping their wealth, so they should be more risk averse.   In general to put this question aside, we will assume a functional form for the utility function where wealth does not affect risk attitude.  
 
 #### Simplifying the utility function - The "Delta property"
 
@@ -117,16 +122,24 @@ $$u(x) = a - b\left(r_m\right)^{-x/m}$$
 Where the range of the function can be set for convenience by appropriate values of $a,b$. 
 Using this function one can show algebraically that any delta change $\Delta$ to a person's wealth leaves their risk premium unchanged.  To abbreviate, we say a utility function with this property has the "delta property."
 
+~={blue}*Does the delta property also imply that the same risk premium versus an expected value (the difference in certain equivalent between expected utility and expected value) does not change if a constant amount is added to each prospect?  Conjecture: this is equivalent to the wealth effect.*=~
+
+~={blue}In short the delta property says that adding a constant amount to all prospects of an outcome lottery adds an equal amount to the lottery certain equivalent. Risk premiums are the difference between the ev and eu, which both change by the same delta.=~
+
+
+
 ### What order to apply discounting, risk preference, and expectation? 
 
-There are markets for risk, just as for futures, and in a word, risky investments typically see a higher discount rate than non-risky assets.  Keep in mind however that an individual's utility function determines how the individual should address risk separate from their determination of time preference discounting. 
+There are markets for risk, just as for futures, and in markets, risky investments typically see a higher discount rate than non-risky assets.  Keep in mind however that an individual's utility function determines how the individual should address risk separately from their determination of time preference discounting. 
 
-In a conventional cost-benefit analysis, one's result is a single monetary value. We need to take into consideration time discounting, risk preference and uncertainty, and possibly also the cost of information.  What is the correct order to apply these?
+In a conventional cost-benefit analysis, one's result is a single monetary value. We need to take into consideration time discounting, risk preference and uncertainty, and possibly also the cost of information.  When prospects are expressed in monetary units, what is the correct order to apply these?
 
 - Any adjustments to value such as the cost of information apply directly to the value of the terminal prospect.  Dollars to dollars. 
-- Time preference via discounting applies to certain future prospects, so we apply a risk free discount rate to monetary values when they will occur, and make a risk adjustment using the utility function. 
-- The certain discounted monetary amount is the input to the utility function, to express risk preference.
-- Uncertainty is applied last, to the certain utility quantities, by taking expectation, assuring that utilities are not a function of the probabilities. 
+- Time preference via discounting applies to certain future prospects, so we apply a risk free discount rate to monetary values when they will occur.
+- The certain discounted monetary amount is the input to the utility function of the prospect. This is where risk preference applies. 
+- Uncertainty is applied last, to the certain utility quantities, by taking expectation. This occurs when "rolling back" the tree: probability nodes are reduced by taking expectation, and decision nodes by maximization. Thus probabilities enter only as part of expectation.  Utilities are not a function of the probabilities. 
+- The result of rolling back the tree is the expected utility (a single number) equivalent to the tree. To make this useful apply the inverse of the utility function (the horizontal line in the graph) to find its certain equivalent. 
+- VOI is a difference between the certain equivalent of two trees (models with different information structure), put in units of value, not utility. 
 
 ## Class Activity
 

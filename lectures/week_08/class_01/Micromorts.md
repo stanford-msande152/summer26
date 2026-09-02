@@ -1,6 +1,6 @@
 The value of a one-in-a-million chance of death
 
-![522](transportation_MM.png)
+![522](../transportation_MM.png)
 
 Activities
 ![](micromort1.png)

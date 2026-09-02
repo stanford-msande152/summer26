@@ -33,7 +33,9 @@ As the Medieval philosopher Thomas Aquinas argued,
 
 A mathematical approach had to wait for better computational tools. 
 - 1200s - Fibonacci: Introduced Hindu/Arabic numerals to the West, to replace Roman numerals, making arithmetic practical.  
-- 1500s - Cardano:  in "games of chance" counted desirable events as a fraction of outcomes  using what Laplace later labeled the "principle of indifference." This is the first numeric expression using fractions of occurrences to estimate outcomes. 
+- 1500s - Cardano:  in "games of chance" counted desirable events as a fraction of outcomes  using what Laplace later labeled the "principle of indifference." This is the first numeric expression using fractions of occurrences to estimate outcomes. (see [Cardano, the gambling scholar.: With a translation from the Latin of Cardano's Book on games of chance](https://openlibrary.org/books/OL18712347M/Cardano_the_gambling_scholar.))
+
+1953, Princeton University Press)
 - 1700s - Pascal, Galileo and Fermat laid the foundation for current theory
 - 1713 - But it was Bernoulli's *Ars Conjectandi* that made the first use of the term _probability_ to as a numeric quantity
 (In D. Speigelhalter, (2011) "The Art of Uncertainty")
@@ -170,7 +172,7 @@ To assess these, a useful concept is the concept of an infinitesimal probability
 
 A micromort is measure of a hazard as the value of a one-in-a-million chance of death.  Statistical actuarial analysis can be used for purposes of comparison with some common activities in one's life.  
 
-![522](transportation_MM.png)
+![522](../transportation_MM.png)
 
 Micromort equivalents for some typical recreational activities, per session: 
 ![](micromort1.png)

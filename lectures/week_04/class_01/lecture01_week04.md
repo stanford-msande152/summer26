@@ -70,9 +70,9 @@ Kim then interjects that there will be better information to predict the weather
 Her decision tree now looks like this:
 ![349](Figure3-04.svg)
 
-#### 3. Equivalence for finding utilities
+#### 3. The equivalence rule for finding utilities
 
-Having elicited Kim's beliefs we need next to quantify her judgment about her preferences over each terminal prospect, to completely personalize the model.  For this we need her to be comfortable with making comparisons between each of the six certain prospects and a deal between the best prospect (Sunny outdoors) and the worst ( Rainy outdoors).   This depends on her skillful use of the "Equivalence Rule" - to express a probability that makes her indifferent between the prospect in question and a  probability of receiving the best versus the worst deal.  These are her *preference probabilities* or in other terms her *utilities.* This is a hypothetical of an imagined "Wizard" who can change the one prospect in question to one of the two extreme prospects with her selected probability.  As a consistency check the numeric values must rank identically to the ordering constructed previously. Of course we get for free the 1 and 0 probabilities for the best and worst prospects, so we only need the remaining four. 
+Having elicited Kim's beliefs we need next to quantify her judgment about her preferences over each terminal prospect, to completely personalize the model.  For this we need her to be comfortable with making comparisons between each of the six certain prospects and a deal between the best prospect (Sunny outdoors) and the worst ( Rainy outdoors).   This depends on her skillful use of the "Equivalence Rule" - to express a probability that makes her indifferent between the prospect in question and a  probability of receiving the best versus the worst deal.  These are her *preference probabilities* or in other terms her *utilities.* This is a hypothetical by an imagined "Wizard" who can "magically" change the one prospect in question to one of the two extreme prospects with her selected probability.  As a consistency check the numeric values must rank identically to the ordering constructed previously. Of course we get for free the 1 and 0 probabilities for the best and worst prospects, so we only need the remaining four. 
 
 ![](prospect_indifference.png)
 *Figure: An Equivalence Rule comparison to elicit preference probabilities, p,  for prospects.*
@@ -82,13 +82,13 @@ Having elicited Kim's beliefs we need next to quantify her judgment about her pr
 If Kim is comfortable treating the preference probabilities she's expressed as probabilities none the less, we can invoke the Substitution rule, and by indifference, replace each of the prospects at the leaves of the tree with its equivalent "equivalence" deal.  SInce preference probabilties express *utilities* we have effectively converted the entire tree into a probability tree.  It looks like this:
 
 ![](Figure3-05ex.svg)
-
+~={blue}*Is this just an application of the law of total probability, if the Substitution Rule is interpreted as equating prevalence probabilities with probabilities about beliefs in the world?*=~
 
 #### 5. Making a choice
 
-GIven the substitutions we can apply the law of total probability to find the equivalent probability as the utility of each alternative branch of the root decision node.  The Substitution rule lets us treat utilities of each alternative as the probability of a hypothetical deal between the best and worst prospect.  Kim should have no reluctance to choose the alternative that has assigned the highest preference probability. 
+GIven the substitutions, we can apply the law of total probability to find the equivalent probability as the utility of each alternative branch of the root decision node.  The Substitution rule lets us treat utilities of each alternative as the probability of a hypothetical deal between the best and worst prospect.  Kim should have no reluctance to choose the alternative that has assigned the highest preference probability -- this is what it means to apply the Choice Rule.
 
-The computation that applied the law of total probability is a specific case of computing an *expected value,* (also "taking expectation") in this case an expected value of utilities, or just an *expected utility.*  Expected value is a general property of probability to find a equivalent number by computing the probability -weighted sum of the distribution of any value. 
+The computation that applied the law of total probability is a specific case of computing an *expected value,* (also called "taking expectation") in this case an expected value of utilities, or just an *expected utility.*  Expected value is a general property of probability -- to find an equivalent single number by computing the probability-weighted sum of the distribution of any value. 
 
 A complete description of Kim's problem can be expressed in this Decision Table;
 
@@ -97,7 +97,7 @@ A complete description of Kim's problem can be expressed in this Decision Table;
 It turns out the analysis leads to choosing the same alternative as Kim's original intuition - to hold the party indoors. However this is not the end of the story. 
 #### Rolling back the tree by expected utility 
 
-Computing expected value is equivalent graphically to "rolling back" the tree.  Starting from the leaves, one replaces each probability node with  it's expected value, and each decision node with the maximum value over each of its branches.  The resulting number at the root of the tree is an equivalent expected value for the set of prospects that the tree comprises. 
+Computing expected value is equivalent graphically to "rolling back" the tree.  Starting from the leaves, one replaces each probability node with  it's expected value, and each decision node with the maximum value over each of its branches.  The resulting number at the root of the tree is an equivalent expected value over the set of prospects that the tree comprises. 
 
 
 ## II. A decision with dollar-valued outcomes
@@ -107,7 +107,7 @@ To illustrate how exactly to treat risk in weighty decision problems, let's cons
 #### Where to invest in alternate energy production
 ![](energy_plant_photo.png)
 
-Imagine you are working for Quinn the decision-maker on the plan for investing in alternate facilities for providing power to the electricity grid, where the technical options are a wind power farm, a solar array, or a static battery storage facility.  The upfront investment for each facility is the same  -- the major uncertainty is how much revenue they can generate during periods of "peak" or "base" electricity demand. Revenue is measured in millions of dollars per month, as follows:  Wind power generation is more efficient, since it generates the most base power, but it can be sporadic, so it is not dependable.  Solar is a bit less efficient, but its production can depended upon every day.   Battery power is available at all times, but suffers from transmission and storage losses, so its revenue is less, but almost constant as demand periods vary.  This table shows how revenue is assigned for each outcome.
+Imagine you are working for Quinn the decision-maker on the plan for investing in alternate facilities for providing power to the electricity grid, where the technical options are 1) a wind power farm, 2) a solar array, or 3) a static battery storage facility.  The upfront investment for each facility is the same  -- the major uncertainty is how much revenue they can generate during periods of "peak" or "base" electricity demand. Revenue is measured in millions of dollars per month, as follows:  Wind power generation is more efficient, since it generates the most base power, but it can be sporadic, so it is not dependable.  Solar is a bit less efficient, but its production can depended upon every day.   Battery power is available at all times, but suffers from transmission and storage losses, so its revenue is less, but almost constant as demand periods vary.  This table shows how revenue is assigned for each outcome.
 
 To assist the investment team in this analysis we brought in a team from the Finance Department who using their own models estimated the expected value of each prospect, as shown in this table.  Note for purposes of argument that the ordering of the prospects is the same as in the original Party Problem. 
 
@@ -121,12 +121,16 @@ To assist the investment team in this analysis we brought in a team from the Fin
 | Battery storage | Base load   | 40                            |
 | Battery storage | Peak load   | 50                            |
 
-The Decision Table in millions of dollars per month reveals that the expected values for these prospects suggests a different best alternative  ( recall "Solar Plant" corresponds to "Patio"). There is no reason why changes in the numeric values, even if they respect the same preference ordering, should give the same result:
+The Decision Table in millions of dollars per month reveals that the expected values using dollar values for these prospects suggests a different best alternative  ( recall "Solar Plant" corresponds to "Patio"). It is not surprising that changes in the numeric values, even if they respect the same preference ordering, should give a different result:
 
 ![360](quinns_DT.png)
 
-#### Considering an alternative to resolve uncertainty
+#### ~={blue}Value by "willingness to pay"=~
 
+~={blue}Similar to how one assesses one's utility for a prospect, one can assess its value by equating the prospect to a dollar amount.  The idea of value brings with it *exchange value*; that different individuals can agree on the unit of value. Simply stated a dollar is worth a dollar regardless of the individual in question, unlike with utility, which is specific and not exchangeable among individuals. =~
+
+~={blue}We can ask a decision-maker to assign a value to a prospect by assessing their *willingness to pay* to acquire the item. Similarly we invoke the wizard to illustrate the hypothetical of exchanging money for the item, the price at which the person would purchase the item. Unlike with assessing a utility for a prospect, there is no probability deal invoked. We are comparing a certain prospect in exchange for a certain amount. =~
+#### Considering an alternative to resolve uncertainty
 In this example, Quinn's team proposes further study to forecast the probability that his facility will face either base and peak electric loads. The team generates numerous study proposals each varying in expense, with the most expensive proposals claiming to essentially eliminate all uncertainty about load. 
 
 Quinn presumes this information to be valuable, and applying his understanding of Decision Analysis he proposes a modified analysis to set a maximum that he would be willing to pay for such a study. This way he can dismiss any study that costs more than he could possibly gain. He uses this causal decision network for his analysis, where the load uncertainty is observed before he has to make his investment decision:

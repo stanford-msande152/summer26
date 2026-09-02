@@ -28,8 +28,7 @@ Canvas: https://canvas.stanford.edu/courses/228284
 
 The rain detector is a predictor that has a probability of 0.8 predicting rain or sun correctly, and a 0.2 probability of a "false negative" or "false positive" error. 
 
-We can extend the analysis of VOI to consider the case where given the predictor's accuracy, we can calculate the value of the information provided by observing the detector.  We obtain *partial information* --
-short of having complete information in the weather, our variable of interest. 
+We can extend the analysis of VOI to consider the case where given the predictor's accuracy, we can calculate the value of the information provided by observing the detector.  We obtain *partial information* -- short of having complete information in the weather, our variable of interest. 
 
 This analysis is best carried out directly on the CDN:
 ![](PP_detectorVOI_values.png)
@@ -61,7 +60,7 @@ Once we observe uncertain variables in a network, we call them "evidence." We  c
 
 ### When information has value
 
-The computation of posterior distributions is necessary to compute the distribution of variables of interest given the variables observed at the time a decision is made. If there are cases where the observation changes a decision's choice it can only increase the expected value of the analysis.  This increase is what the clairvoyant would offer as the selling price for information.  
+The computation of posterior distributions is necessary to compute the distribution of variables of interest given the variables observed at the time a decision is made. In the above diagram the condition of the node marked "uncertainty" is the variable of interest. If there are cases where the observation changes a decision's choice it can only increase the expected value of the analysis.  This increase is what the clairvoyant would offer as the selling price for information.  
 Hence the VOI is never negative in a decision problem. 
 
 

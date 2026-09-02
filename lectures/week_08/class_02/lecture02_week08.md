@@ -68,6 +68,7 @@ Presenters - send me your slides ( powerpoint or pdf) so we can show them from m
 
 Want to keep in touch?  [Connect to me on LinkedIn.](https://www.linkedin.com/in/john-mark-agosta/)
 
+*FInal Projects are due today!*
 ## Key terms
 
 Good

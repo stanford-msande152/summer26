@@ -39,7 +39,7 @@ The partial VOI's relation to complete VOI can be shown on the plot of the expec
 
 Belief in the condition, here the distinction of "sun or rain", is changed when the test result is observed, and moves either to the left or right of the prior, forming an interval that spans part of the range of belief. 
 
-In other respects, the analysis of partial VOI resembles the complete VOI case.  VOI is the difference between the decision expected value with information minus that without information, in the risk neutral case. This difference depends on the available alternatives, for the *flexibility* the alternatives provide for the information available
+In other respects, the analysis of partial VOI resembles the complete VOI case.  VOI is the difference between the decision expected value with information minus that without information, in the risk neutral ~={blue}(and delta utility function) =~case. This difference depends on the available alternatives, for the *flexibility* the alternatives provide for the information available
 
 #### Partial VOI in the "inflexible case"
 
@@ -50,17 +50,24 @@ It is possible that partial VOI goes to zero as the message posterior is more ga
 
 ## II. Value and Utility functions. 
 
-The value and utility functions play similar roles in making the best choice in expected value terms. 
+~={blue}( compare this section to lecture week 5 lecture 1. Move some of this material earlier? )=~
 
-The difference between the value function and the utility function is that the value function works like money, in the sense that the value of two items is the sum of their values. We assume that the items do not combine to form something more valuable than they are individually, much like the items on your grocery bag are worth the sum of their costs. So value is linear, meaning values add. 
+The value and utility functions play complementary roles in determining the best choice in expected value terms. 
 
-Utility is a non-linear transformation of value, to express risk preference. The utility function is a function of value. 
+The difference between the value function and the utility function is that the value function is expressed in money terms, with the property that the value of two items is the sum of their values. We assume that the items do not combine to form something more valuable than they are individually, much like the items on your grocery bag are worth the sum of their costs. (Perhaps until you get home and transform them into a meal). So value is linear, meaning values add. 
+
+A value function that comprises several attributes $v_i, i=1 \cdots n$ can be converted to dollar units by defining substitution rates $c_i$ that transform the attribute units into dollars. 
+
+$$ V = \sum_i^n c_iV_i$$
+#### Utility
+Utility is a non-linear transformation of value, used to express risk preference. The utility function is a function of value. 
 
 A distribution of utilities over ( certain ) prospects has an expectation we call an *expected utility*. If prospects $v_i$ with utility $u(v_i)$ are distributed as $\textbf{P}(v_i)$, then their expected utility is
 
 $$ E[u] = \sum_i \textbf{P}(v_i)u(v_i) $$
+~={blue}(What do we call this?  The prospect probability distribution?  outcome lottery?)=~
 
-This sum has to be distinguished from just summing the utilities of attributes if we were to assign multiple *attributes* to form the utility of each prospect.  , This is a different kind of summation than the sum over instances of the same distinction.  Summing utilities of attributes makes a strong assumption that the utility of the attributes is separable. An obvious exception is the combined utility of remaining lifetime and wealth.  To see this if either's utility goes to zero, then the total utility is zero.  One needs instead a non-linear function to express the combination. 
+Expectation as a weighted sum has to be distinguished from just summing the utilities of attributes if we were to assign multiple *attributes* to form the utility of each prospect.  This is a different kind of summation than the sum over instances of the same outcome variable.  As mentioned above, summing utilities of attributes makes a strong assumption that the utility of the attributes is separable. An obvious counter example is the combined utility of remaining lifetime and wealth.  To see this if either's utility goes to zero, then the total utility is zero.  One needs instead a non-linear function to express the combination. 
 
 #### Utility and certain equivalents
 
@@ -69,11 +76,10 @@ Since the units of utility are arbitrary, and the utility function is assumed mo
 $$ u(v_C) = E[u] \ \text{or} \  v_C = u^{-1}(E[u])$$
 This applies when computing expected utility by rolling back a decision-probability tree. One can assign utilities to each prospect at the leaves of the tree, equivalently one can compute a utility as the value of the terminal value node in a CDN.  Rolling back the tree, or solving the CDN gives us the *expected utility* of each decision alternative.  Then, the expected utility can be "inverted" as shown above to put the expected values in certain equivalent value terms. 
 
-If the entire tree is computed in using values at the terminals, then the ability to analyze the effect of risk preference is lost, since rolling back the tree gives us a number in expected value terms. 
+If the entire tree is computed instead using values at the terminals, then the ability to analyze the effect of risk preference is lost, since rolling back the tree gives us a number in expected value terms. 
 
 #### VOI and utility 
-In each case, for a decision with or without clairvoyance, the computation is the same, to assign a certain equivalent value to the tree.  When working with a utility function, first values at terminals are converted to utilities, then the tree is rolled back to determine an expected utility which can then be "inverted" to get the certain equivalent value.  In the case of working with terminal values, then the expected value for the tree is a certain equivalent.  
-
+In each case, for a decision with or without clairvoyance, the computation is the same, to assign a certain equivalent value to the tree.  When working with a utility function, first values at terminals are converted to utilities, then the tree is rolled back to determine an expected utility which can then be "inverted" to get the certain equivalent value.  Conversely when not applying a utility function to terminal values,  the expected value for the tree is just the certain equivalent.  
 In the case with or without clairvoyance to determine VOI, the comparison is between two certain equivalent values. Don't think of VOI as a choice between two alternatives (if that were the case one would always choose  "with clairvoyance") but of a comparison of two different models. 
 ## Key terms
 
@@ -81,6 +87,8 @@ partial VOI
 conditional likelihood
 test posterior
 Inflexible decision alternatives
+
+multiple value attributes 
 ## Homework - completion of Class projects. 
 
 ## Files, references
