@@ -25,11 +25,11 @@ Take-aways from teaching MS&E 152 Decision Analysis, summer quarter 2026
 * *Introduction to probability* occupied the first 2 weeks of the course, background most students lacked.  In general student math and language skills were uniformly adequate for the demands of the material.  
 * Subject enrichment included introduction to Influence Diagrams and Bayes Networks as appropriate for students of different levels, and mention of current topics in causal reasoning, machine learning, and real options. 
 * Inexperienced high school students struggled with the sequence of final project team assignments, not building on previous drafts, but attempting each as a separate assignment. 
-* As for the use of AI, reliance solely on "pencil and paper" graded quizzes and midterm avoided students' temptation to go online to look up answers. Otherwise AI was used by both faculty and students for creating presentations and visualizations.
+* As for the use of AI, reliance solely on "pencil and paper" graded quizzes and midterm avoided students' temptation to go online to look up answers. Otherwise, AI was used by both faculty and students for creating presentations and visualizations.
 
 In short, I found it an exhilarating experience as a Lecturer in MS&E, assembling and teaching the class.
 
-The full report covers 1) the course material presented, 2) the class, 3)grades, and 4) recommendations for future curricula on Decision Analysis. 
+The full report covers 1) the course material presented, 2) the class, 3) grades, and 4) recommendations for future curricula on Decision Analysis. 
 
 
 
@@ -45,7 +45,7 @@ for the 2026 summer session.
 The primary sources for the course are the published papers and class notes of Ron Howard as  a member of the Department.  The papers appear in the compilation published by *Strategic Decisions Group (1983).*  Howard's recent *Foundations of Decision Analysis (2015)* co-authored with Ali Abbas was used as an optional text and was supplemented by sources and texts in elementary probability.  I tried to adopt a conventional use of economic terms compared to the texts, e.g. "rational" vs "actional", "expectation" vs "e-value", "variable" vs "distinction," believing this serves students better to be able to recognize these concepts when coming across them in the future. 
 ### Curriculum Material covered
 
-The [posted syllabus](https://stanford-msande152.github.io/summer26/syllabus/) was followed, starting with an intensive review of elementary axiomatic probability, followed by lectures on the axioms of choice, as illustrated by the celebrated "Party Problem" to illustrate how subjective utility, risk aversion, and value of information can be quantified. To instill practical skills most sessions concluded with a class exercise, on e.g. elicitation skills. 
+The [posted syllabus](https://stanford-msande152.github.io/summer26/syllabus/) was followed, starting with an intensive review of elementary axiomatic probability, followed by lectures on the axioms of choice, as illustrated by the celebrated "Party Problem" to illustrate how subjective utility, risk aversion, and value of information can be quantified. To instill practical skills most sessions concluded with a class exercise, e.g. on elicitation skills. 
 
 Models were presented preferably as Influence Diagrams or Bayes Networks, and mention was made of current topics in causal reasoning, machine learning, and real options. 
 
@@ -69,7 +69,7 @@ Here is the experimental AI summary Stanford's course evaluation tool generated:
 
 #### Class organization
 
-The entire course content was made available as a [class website](https://stanford-msande152.github.io/summer26/), including written lecture notes for each class, and downloadable articles plus required readings. Consequently students were not required to purchase texts, although optional texts were put on library reserve. Today one doubts how widespread students' use of written sources are: In the most extreme example one student complained that by just depending on AI search it was difficult to find answers  about the course subjects, oblivious to the extensive on-line written course content specifically made available for that  purpose. 
+The entire course content was made available as a [class website](https://stanford-msande152.github.io/summer26/), including written lecture notes for each class, and downloadable articles plus required readings. Consequently students were not required to purchase texts, although optional texts were put on library reserve. Today one doubts how widespread is students' use of the course-provided written sources: In the most extreme example one student complained that by just depending on AI search it was difficult to find answers  about the course subjects, oblivious to the extensive on-line written course content specifically made available for that  purpose. 
 
 ##### Lectures
 
@@ -112,7 +112,7 @@ Here is a list of the project decision topics:
 1. Emergency medical response
 2. Career choice options
 3. Organ transplant
-4. Microsoft - copilot integration
+4. Microsoft - copilot product integration
 5. Fashion Choice
 6. Off track betting policy
 7. Biotech startup VC investment
@@ -133,13 +133,13 @@ As mentioned, all graded quizzes and midterm were on paper without access to ele
 
 Students were encouraged to use AI tools to generate slide decks from their written presentations for their optional talks.  The presentation  quality of student presentations showcased clear improvement by use of AI.  
 
-In their assignments students were required to cite use of AI tools, but their overall citation and credit acknowledgments were sloppy. 
+In their assignments students were required to cite their use of AI tools, but their overall citation and credit acknowledgments were sloppy. 
 
 #### Software
 
 Limitation of available software tools constrained some student modeling efforts, notably for final projects.  Consequently some projects took unnecessary computational shortcuts. 
 - About a quarter of the students were capable of using the academic version of the provided Bayes network software application's influence diagram solving features.  These students used the application to build and solve models of impressive scale. 
-- Disappointingly I did not locate any up-to-date open-source decision tree spreadsheet software. Fortunately for some projects students were able to solve decision trees by hand. 
+- Disappointingly, I did not locate any up-to-date open-source decision tree spreadsheet software. Fortunately for some projects students were able to solve decision trees by hand. 
 - AI code generation tools made it quick and easy to generate some customize scripts and web visualizations (e.g.  an online probability wheel) as examples for the class, but only two projects did custom coding for their projects. 
 
 
@@ -151,7 +151,7 @@ An outstanding challenge of the course was to teach to a mix of never-been-to-co
 
 The grade distribution shows a bi-modal distribution for high school student midterm performance, for which I have no clear explanation. The median university student grade was incrementally greater than the overall high school grade, but less than the upper mode of the high school grade distribution. Similar variation was seen in quiz scores. 
 
-Final course grades were distributed from A+ to C+ with a median grade of B+. 17 of 43 students earned As. 
+Final course grades were distributed from A+ to C+ with a median grade of B+. 17 of 43 students earned A-s. 
 
 ## IV. Reflections on the future evolution of the field
 
@@ -192,8 +192,7 @@ The course covers:
 #### C. Advanced applied Decision Theory
 Direct successor to the current MS&E 252 Decision Analysis, 
 * Professional level technical background to qualify as a Decision Analyst, including a rigorous curriculum with full coverage of Decision Analysis
-- Emphasis on Decision Analysis practice - organizational 
-- aspects, innovation, portfolio management, ethics. 
+- Emphasis on Decision Analysis practice - organizational aspects, innovation, portfolio management, ethics. 
 - Project requirement with 'external' client
 
 
