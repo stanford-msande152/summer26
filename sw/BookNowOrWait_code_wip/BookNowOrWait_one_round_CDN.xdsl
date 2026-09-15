@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<smile version="1.0" id="BookNowOrWait_round" numsamples="10000">
+	<nodes>
+		<cpt id="Trip_worth">
+					<state id="Low_6943" />
+					<state id="Base_11327" />
+					<state id="High_15711" />
+					<probabilities>0.25 0.5 0.25</probabilities>
+				</cpt>
+		<cpt id="Reaches_4">
+					<state id="Yes" />
+					<state id="No" />
+					<probabilities>0.4982 0.5018</probabilities>
+				</cpt>
+		<cpt id="Venue_5">
+					<state id="Dallas" />
+					<state id="Atlanta" />
+					<probabilities>0.5 0.5</probabilities>
+				</cpt>
+		<cpt id="Price_5">
+					<state id="Low" />
+					<state id="Base" />
+					<state id="High" />
+					<parents>Venue_5</parents>
+					<probabilities>0.25 0.5 0.25 0.25 0.5 0.25</probabilities>
+				</cpt>
+		<cpt id="LateAvail_5">
+					<state id="Available" />
+					<state id="Sold_out" />
+					<parents>Venue_5</parents>
+					<probabilities>0.8 0.2 0.7 0.3</probabilities>
+				</cpt>
+		<cpt id="Reaches_5">
+					<state id="Yes" />
+					<state id="No" />
+					<parents>Reaches_4</parents>
+					<probabilities>0.725211 0.274789 0 1</probabilities>
+				</cpt>
+		<cpt id="Forecast_5">
+					<state id="Says_advance" />
+					<state id="Says_out" />
+					<parents>Reaches_5</parents>
+					<probabilities>0.819444 0.180556 0.339286 0.660714</probabilities>
+				</cpt>
+		<decision id="Ticket_5">
+					<state id="Nonrefundable" />
+					<state id="Refundable" />
+					<state id="Wait" />
+					<state id="No_ticket" />
+					<parents>Reaches_4 Venue_5 Price_5 Trip_worth Forecast_5</parents>
+				</decision>
+		<decision id="Attend_5">
+					<state id="Go" />
+					<state id="Stay" />
+					<parents>Reaches_4 Venue_5 Price_5 Trip_worth Forecast_5 Ticket_5 Reaches_5 LateAvail_5</parents>
+				</decision>
+		<utility id="Benefit_5">
+					<parents>Reaches_4 Ticket_5 Attend_5 Reaches_5 Trip_worth LateAvail_5</parents>
+					<utilities>6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 0 11327 0 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+				</utility>
+		<utility id="Cost_5">
+					<parents>Reaches_4 Venue_5 Price_5 Ticket_5 Attend_5 Reaches_5 LateAvail_5</parents>
+					<utilities>-603.697505 -603.697505 -603.697505 -603.697505 -157.486306 -157.486306 -157.486306 -157.486306 -603.697505 -603.697505 -603.697505 -603.697505 -157.486306 -157.486306 -157.486306 -157.486306 -1509.243761 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -793.5 -793.5 -793.5 -793.5 -207 -207 -207 -207 -793.5 -793.5 -793.5 -793.5 -207 -207 -207 -207 -1983.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1042.9764 -1042.9764 -1042.9764 -1042.9764 -272.0808 -272.0808 -272.0808 -272.0808 -1042.9764 -1042.9764 -1042.9764 -1042.9764 -272.0808 -272.0808 -272.0808 -272.0808 -2607.441 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1434.144857 -1434.144857 -1434.144857 -1434.144857 -791.646379 -791.646379 -791.646379 -791.646379 -1591.426506 -1591.426506 -1591.426506 -1591.426506 -157.486306 -157.486306 -157.486306 -157.486306 -2339.691114 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1885.04 -1885.04 -1885.04 -1885.04 -1040.54 -1040.54 -1040.54 -1040.54 -2091.771 -2091.771 -2091.771 -2091.771 -207 -207 -207 -207 -3075.29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2477.696576 -2477.696576 -2477.696576 -2477.696576 -1367.685776 -1367.685776 -1367.685776 -1367.685776 -2749.423802 -2749.423802 -2749.423802 -2749.423802 -272.0808 -272.0808 -272.0808 -272.0808 -4042.161176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+				</utility>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.0" name="Book Now or Wait? one generic round" faultnameformat="nodestate">
+			<node id="Trip_worth"><name>Trip_worth</name><interior color="ffff99" /><outline color="808000" /><font color="000000" name="Arial" size="9" /><position>700 40 850 100</position></node>
+			<node id="Reaches_4"><name>Reaches_4</name><interior color="ffff99" /><outline color="808000" /><font color="000000" name="Arial" size="9" /><position>40 40 190 100</position></node>
+			<node id="Venue_5"><name>Venue_5</name><interior color="ffff99" /><outline color="808000" /><font color="000000" name="Arial" size="9" /><position>260 40 410 100</position></node>
+			<node id="Price_5"><name>Price_5</name><interior color="ffff99" /><outline color="808000" /><font color="000000" name="Arial" size="9" /><position>460 40 610 100</position></node>
+			<node id="LateAvail_5"><name>LateAvail_5</name><interior color="ffff99" /><outline color="808000" /><font color="000000" name="Arial" size="9" /><position>880 180 1030 240</position></node>
+			<node id="Reaches_5"><name>Reaches_5</name><interior color="ffff99" /><outline color="808000" /><font color="000000" name="Arial" size="9" /><position>40 180 190 240</position></node>
+			<node id="Forecast_5"><name>Forecast_5</name><interior color="ffff99" /><outline color="808000" /><font color="000000" name="Arial" size="9" /><position>40 320 190 380</position></node>
+			<node id="Ticket_5"><name>Ticket_5</name><interior color="fbb4d9" /><outline color="808000" /><font color="000000" name="Arial" size="9" /><position>420 300 570 360</position></node>
+			<node id="Attend_5"><name>Attend_5</name><interior color="fbb4d9" /><outline color="808000" /><font color="000000" name="Arial" size="9" /><position>420 460 570 520</position></node>
+			<node id="Benefit_5"><name>Benefit_5</name><interior color="c6e2b5" /><outline color="808000" /><font color="000000" name="Arial" size="9" /><position>240 620 390 680</position></node>
+			<node id="Cost_5"><name>Cost_5</name><interior color="c6e2b5" /><outline color="808000" /><font color="000000" name="Arial" size="9" /><position>640 620 790 680</position></node>
+		</genie>
+	</extensions>
+</smile>

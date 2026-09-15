@@ -1,0 +1,109 @@
+stage,team,fifa_rank,rank_band,p_advance_conditional,signal,advanced
+Group_to_R32,Algeria,28,R26_50,0.6809,Says_advance,yes
+Group_to_R32,Argentina,1,Top10,0.9595,Says_advance,yes
+Group_to_R32,Australia,27,R26_50,0.5999,Says_advance,yes
+Group_to_R32,Austria,24,R11_25,0.8123,Says_advance,yes
+Group_to_R32,Belgium,9,Top10,0.9531,Says_advance,yes
+Group_to_R32,Bosnia and Herzegovina,64,R51_plus,0.6317,Says_advance,yes
+Group_to_R32,Brazil,6,Top10,0.9255,Says_advance,yes
+Group_to_R32,Canada,30,R26_50,0.8536,Says_advance,yes
+Group_to_R32,Cape Verde,67,R51_plus,0.4062,Says_out,yes
+Group_to_R32,Colombia,13,R11_25,0.8501,Says_advance,yes
+Group_to_R32,Croatia,11,R11_25,0.8572,Says_advance,yes
+Group_to_R32,Curacao,82,R51_plus,0.289,Says_out,no
+Group_to_R32,Czech Republic,40,R26_50,0.7253,Says_advance,no
+Group_to_R32,DR Congo,46,R26_50,0.4738,Says_out,yes
+Group_to_R32,Ecuador,23,R11_25,0.7349,Says_advance,yes
+Group_to_R32,Egypt,29,R26_50,0.6687,Says_advance,yes
+Group_to_R32,England,4,Top10,0.9648,Says_advance,yes
+Group_to_R32,France,3,Top10,0.9466,Says_advance,yes
+Group_to_R32,Germany,10,Top10,0.9539,Says_advance,yes
+Group_to_R32,Ghana,73,R51_plus,0.4568,Says_out,yes
+Group_to_R32,Haiti,83,R51_plus,0.3469,Says_out,no
+Group_to_R32,Iran,20,R11_25,0.5507,Says_advance,no
+Group_to_R32,Iraq,57,R51_plus,0.1888,Says_out,no
+Group_to_R32,Ivory Coast,33,R26_50,0.6799,Says_advance,yes
+Group_to_R32,Japan,18,R11_25,0.7611,Says_advance,yes
+Group_to_R32,Jordan,63,R51_plus,0.2161,Says_out,no
+Group_to_R32,Mexico,14,R11_25,0.8396,Says_advance,yes
+Group_to_R32,Morocco,7,Top10,0.7654,Says_advance,yes
+Group_to_R32,Netherlands,8,Top10,0.8941,Says_advance,yes
+Group_to_R32,New Zealand,85,R51_plus,0.4698,Says_out,no
+Group_to_R32,Norway,31,R26_50,0.8063,Says_advance,yes
+Group_to_R32,Panama,34,R26_50,0.3299,Says_out,no
+Group_to_R32,Paraguay,41,R26_50,0.5805,Says_advance,yes
+Group_to_R32,Portugal,5,Top10,0.9389,Says_advance,yes
+Group_to_R32,Qatar,56,R51_plus,0.2501,Says_out,no
+Group_to_R32,Saudi Arabia,61,R51_plus,0.3803,Says_out,no
+Group_to_R32,Scotland,42,R26_50,0.634,Says_advance,no
+Group_to_R32,Senegal,15,R11_25,0.7675,Says_advance,yes
+Group_to_R32,South Africa,60,R51_plus,0.3173,Says_out,yes
+Group_to_R32,South Korea,25,R11_25,0.8367,Says_advance,no
+Group_to_R32,Spain,2,Top10,0.9683,Says_advance,yes
+Group_to_R32,Sweden,38,R26_50,0.6966,Says_advance,yes
+Group_to_R32,Switzerland,19,R11_25,0.936,Says_advance,yes
+Group_to_R32,Tunisia,45,R26_50,0.3422,Says_out,no
+Group_to_R32,Turkey,22,R11_25,0.7574,Says_advance,no
+Group_to_R32,United States,17,R11_25,0.7801,Says_advance,yes
+Group_to_R32,Uruguay,16,R11_25,0.8446,Says_advance,no
+Group_to_R32,Uzbekistan,50,R26_50,0.3771,Says_out,no
+R32_to_R16,South Africa,60,R51_plus,0.27955,Says_out,no
+R32_to_R16,Canada,30,R26_50,0.55612,Says_advance,yes
+R32_to_R16,Brazil,6,Top10,0.6067,Says_advance,yes
+R32_to_R16,Japan,18,R11_25,0.46971,Says_out,no
+R32_to_R16,Germany,10,Top10,0.73865,Says_advance,no
+R32_to_R16,Paraguay,41,R26_50,0.43704,Says_out,yes
+R32_to_R16,Netherlands,8,Top10,0.62946,Says_advance,no
+R32_to_R16,Morocco,7,Top10,0.44709,Says_out,yes
+R32_to_R16,Ivory Coast,33,R26_50,0.42418,Says_out,no
+R32_to_R16,Norway,31,R26_50,0.59097,Says_advance,yes
+R32_to_R16,France,3,Top10,0.72554,Says_advance,yes
+R32_to_R16,Sweden,38,R26_50,0.44287,Says_out,no
+R32_to_R16,Mexico,14,R11_25,0.5081,Says_advance,yes
+R32_to_R16,Ecuador,23,R11_25,0.47571,Says_out,no
+R32_to_R16,England,4,Top10,0.72989,Says_advance,yes
+R32_to_R16,DR Congo,46,R26_50,0.29401,Says_out,no
+R32_to_R16,Belgium,9,Top10,0.68618,Says_advance,yes
+R32_to_R16,Senegal,15,R11_25,0.49993,Says_out,no
+R32_to_R16,United States,17,R11_25,0.56582,Says_advance,yes
+R32_to_R16,Bosnia and Herzegovina,64,R51_plus,0.39655,Says_out,no
+R32_to_R16,Spain,2,Top10,0.72849,Says_advance,yes
+R32_to_R16,Austria,24,R11_25,0.42521,Says_out,no
+R32_to_R16,Portugal,5,Top10,0.69571,Says_advance,yes
+R32_to_R16,Croatia,11,R11_25,0.51983,Says_advance,no
+R32_to_R16,Switzerland,19,R11_25,0.66047,Says_advance,yes
+R32_to_R16,Algeria,28,R26_50,0.36599,Says_out,no
+R32_to_R16,Australia,27,R26_50,0.45441,Says_out,no
+R32_to_R16,Egypt,29,R26_50,0.37625,Says_out,yes
+R32_to_R16,Argentina,1,Top10,0.65472,Says_advance,yes
+R32_to_R16,Cape Verde,67,R51_plus,0.27056,Says_out,no
+R32_to_R16,Colombia,13,R11_25,0.51747,Says_advance,yes
+R32_to_R16,Ghana,73,R51_plus,0.3102,Says_out,no
+R16_to_QF,Canada,30,R26_50,0.38972,Says_out,no
+R16_to_QF,Morocco,7,Top10,0.50146,Says_advance,yes
+R16_to_QF,Paraguay,41,R26_50,0.33386,Says_out,no
+R16_to_QF,France,3,Top10,0.66118,Says_advance,yes
+R16_to_QF,Brazil,6,Top10,0.60374,Says_advance,no
+R16_to_QF,Norway,31,R26_50,0.53935,Says_advance,yes
+R16_to_QF,Mexico,14,R11_25,0.38139,Says_out,no
+R16_to_QF,England,4,Top10,0.70719,Says_advance,yes
+R16_to_QF,Portugal,5,Top10,0.67575,Says_advance,no
+R16_to_QF,Spain,2,Top10,0.70627,Says_advance,yes
+R16_to_QF,United States,17,R11_25,0.44767,Says_out,no
+R16_to_QF,Belgium,9,Top10,0.59098,Says_advance,yes
+R16_to_QF,Argentina,1,Top10,0.71028,Says_advance,yes
+R16_to_QF,Egypt,29,R26_50,0.30048,Says_out,no
+R16_to_QF,Switzerland,19,R11_25,0.46991,Says_out,yes
+R16_to_QF,Colombia,13,R11_25,0.46556,Says_out,no
+QF_to_SF,Morocco,7,Top10,0.39977,Says_out,no
+QF_to_SF,France,3,Top10,0.67915,Says_advance,yes
+QF_to_SF,Norway,31,R26_50,0.51284,Says_advance,no
+QF_to_SF,England,4,Top10,0.66506,Says_advance,yes
+QF_to_SF,Spain,2,Top10,0.72521,Says_advance,yes
+QF_to_SF,Belgium,9,Top10,0.42975,Says_out,no
+QF_to_SF,Argentina,1,Top10,0.64254,Says_advance,yes
+QF_to_SF,Switzerland,19,R11_25,0.45095,Says_out,no
+SF_to_Final,France,3,Top10,0.64105,Says_advance,no
+SF_to_Final,Spain,2,Top10,0.63022,Says_advance,yes
+SF_to_Final,England,4,Top10,0.63647,Says_advance,no
+SF_to_Final,Argentina,1,Top10,0.54482,Says_advance,yes

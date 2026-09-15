@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smile version="1.0" id="BookNowOrWait_CDN" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Trip_worth">
+			<state id="Low_6943" />
+			<state id="Base_11327" />
+			<state id="High_15711" />
+			<probabilities>0.25 0.5 0.25</probabilities>
+		</cpt>
+		<cpt id="Venue_1">
+			<state id="Atlanta" />
+			<state id="Boston" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Price_1">
+			<state id="Low" />
+			<state id="Base" />
+			<state id="High" />
+			<parents>Venue_1</parents>
+			<probabilities>0.25 0.5 0.25 0.25 0.5 0.25</probabilities>
+		</cpt>
+		<cpt id="LateAvail_1">
+			<state id="Available" />
+			<state id="Sold_out" />
+			<parents>Venue_1</parents>
+			<probabilities>0.95 0.05 0.95 0.05</probabilities>
+		</cpt>
+		<cpt id="Reaches_1">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>1 0</probabilities>
+		</cpt>
+		<cpt id="Forecast_1">
+			<state id="Says_advance" />
+			<state id="Says_out" />
+			<parents>Reaches_1</parents>
+			<probabilities>0.819444 0.180556 0.339286 0.660714</probabilities>
+		</cpt>
+		<decision id="Ticket_1">
+			<state id="Nonrefundable" />
+			<state id="Refundable" />
+			<state id="Wait" />
+			<state id="No_ticket" />
+			<parents>Venue_1 Price_1 Trip_worth Forecast_1</parents>
+		</decision>
+		<decision id="Attend_1">
+			<state id="Go" />
+			<state id="Stay" />
+			<parents>Venue_1 Price_1 Trip_worth Forecast_1 Ticket_1 Reaches_1 LateAvail_1</parents>
+		</decision>
+		<utility id="Benefit_1">
+			<parents>Ticket_1 Attend_1 Reaches_1 Trip_worth LateAvail_1</parents>
+			<utilities>6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 0 11327 0 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+		</utility>
+		<utility id="Cost_1">
+			<parents>Venue_1 Price_1 Ticket_1 Attend_1 Reaches_1 LateAvail_1</parents>
+			<utilities>-808.098752 -808.098752 -808.098752 -808.098752 -503.492088 -503.492088 -503.492088 -503.492088 -940.045648 -940.045648 -940.045648 -940.045648 -38.230371 -38.230371 -38.230371 -38.230371 -866.718655 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1062.165 -1062.165 -1062.165 -1062.165 -661.79 -661.79 -661.79 -661.79 -1235.596 -1235.596 -1235.596 -1235.596 -50.25 -50.25 -50.25 -50.25 -1139.215 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1396.109676 -1396.109676 -1396.109676 -1396.109676 -869.856776 -869.856776 -869.856776 -869.856776 -1624.067382 -1624.067382 -1624.067382 -1624.067382 -66.0486 -66.0486 -66.0486 -66.0486 -1497.384196 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1403.57958 -1403.57958 -1403.57958 -1403.57958 -1098.972915 -1098.972915 -1098.972915 -1098.972915 -1624.8486 -1624.8486 -1624.8486 -1624.8486 -38.230371 -38.230371 -38.230371 -38.230371 -1462.199483 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1844.865 -1844.865 -1844.865 -1844.865 -1444.49 -1444.49 -1444.49 -1444.49 -2135.701 -2135.701 -2135.701 -2135.701 -50.25 -50.25 -50.25 -50.25 -1921.915 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2424.890556 -2424.890556 -2424.890556 -2424.890556 -1898.637656 -1898.637656 -1898.637656 -1898.637656 -2807.165394 -2807.165394 -2807.165394 -2807.165394 -66.0486 -66.0486 -66.0486 -66.0486 -2526.165076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+		</utility>
+		<cpt id="Venue_2">
+			<state id="Los_Angeles" />
+			<state id="Dallas" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Price_2">
+			<state id="Low" />
+			<state id="Base" />
+			<state id="High" />
+			<parents>Venue_2</parents>
+			<probabilities>0.25 0.5 0.25 0.25 0.5 0.25</probabilities>
+		</cpt>
+		<cpt id="LateAvail_2">
+			<state id="Available" />
+			<state id="Sold_out" />
+			<parents>Venue_2</parents>
+			<probabilities>0.88 0.12 0.92 0.08</probabilities>
+		</cpt>
+		<cpt id="Reaches_2">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Reaches_1</parents>
+			<probabilities>0.9683 0.0317 0 1</probabilities>
+		</cpt>
+		<cpt id="Forecast_2">
+			<state id="Says_advance" />
+			<state id="Says_out" />
+			<parents>Reaches_2</parents>
+			<probabilities>0.819444 0.180556 0.339286 0.660714</probabilities>
+		</cpt>
+		<decision id="Ticket_2">
+			<state id="Nonrefundable" />
+			<state id="Refundable" />
+			<state id="Wait" />
+			<state id="No_ticket" />
+			<parents>Reaches_1 Venue_2 Price_2 Trip_worth Forecast_2</parents>
+		</decision>
+		<decision id="Attend_2">
+			<state id="Go" />
+			<state id="Stay" />
+			<parents>Reaches_1 Venue_2 Price_2 Trip_worth Forecast_2 Ticket_2 Reaches_2 LateAvail_2</parents>
+		</decision>
+		<utility id="Benefit_2">
+			<parents>Reaches_1 Ticket_2 Attend_2 Reaches_2 Trip_worth LateAvail_2</parents>
+			<utilities>6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 0 11327 0 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+		</utility>
+		<utility id="Cost_2">
+			<parents>Reaches_1 Venue_2 Price_2 Ticket_2 Attend_2 Reaches_2 LateAvail_2</parents>
+			<utilities>-1075.262477 -1075.262477 -1075.262477 -1075.262477 -757.722155 -757.722155 -757.722155 -757.722155 -1244.65916 -1244.65916 -1244.65916 -1244.65916 -42.795192 -42.795192 -42.795192 -42.795192 -1157.286595 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1413.325 -1413.325 -1413.325 -1413.325 -995.95 -995.95 -995.95 -995.95 -1635.98 -1635.98 -1635.98 -1635.98 -56.25 -56.25 -56.25 -56.25 -1521.1375 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1857.67438 -1857.67438 -1857.67438 -1857.67438 -1309.07668 -1309.07668 -1309.07668 -1309.07668 -2150.332112 -2150.332112 -2150.332112 -2150.332112 -73.935 -73.935 -73.935 -73.935 -1999.38313 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -164.048235 -164.048235 -164.048235 -164.048235 -42.795192 -42.795192 -42.795192 -42.795192 -164.048235 -164.048235 -164.048235 -164.048235 -42.795192 -42.795192 -42.795192 -42.795192 -246.072352 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215.625 -215.625 -215.625 -215.625 -56.25 -56.25 -56.25 -56.25 -215.625 -215.625 -215.625 -215.625 -56.25 -56.25 -56.25 -56.25 -323.4375 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -283.4175 -283.4175 -283.4175 -283.4175 -73.935 -73.935 -73.935 -73.935 -283.4175 -283.4175 -283.4175 -283.4175 -73.935 -73.935 -73.935 -73.935 -425.12625 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+		</utility>
+		<cpt id="Venue_3">
+			<state id="Dallas" />
+			<state id="New_York_NJ" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Price_3">
+			<state id="Low" />
+			<state id="Base" />
+			<state id="High" />
+			<parents>Venue_3</parents>
+			<probabilities>0.25 0.5 0.25 0.25 0.5 0.25</probabilities>
+		</cpt>
+		<cpt id="LateAvail_3">
+			<state id="Available" />
+			<state id="Sold_out" />
+			<parents>Venue_3</parents>
+			<probabilities>0.9 0.1 0.8 0.2</probabilities>
+		</cpt>
+		<cpt id="Reaches_3">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Reaches_2</parents>
+			<probabilities>0.728493 0.271507 0 1</probabilities>
+		</cpt>
+		<cpt id="Forecast_3">
+			<state id="Says_advance" />
+			<state id="Says_out" />
+			<parents>Reaches_3</parents>
+			<probabilities>0.819444 0.180556 0.339286 0.660714</probabilities>
+		</cpt>
+		<decision id="Ticket_3">
+			<state id="Nonrefundable" />
+			<state id="Refundable" />
+			<state id="Wait" />
+			<state id="No_ticket" />
+			<parents>Reaches_2 Venue_3 Price_3 Trip_worth Forecast_3</parents>
+		</decision>
+		<decision id="Attend_3">
+			<state id="Go" />
+			<state id="Stay" />
+			<parents>Reaches_2 Venue_3 Price_3 Trip_worth Forecast_3 Ticket_3 Reaches_3 LateAvail_3</parents>
+		</decision>
+		<utility id="Benefit_3">
+			<parents>Reaches_2 Ticket_3 Attend_3 Reaches_3 Trip_worth LateAvail_3</parents>
+			<utilities>6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 0 11327 0 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+		</utility>
+		<utility id="Cost_3">
+			<parents>Reaches_2 Venue_3 Price_3 Ticket_3 Attend_3 Reaches_3 LateAvail_3</parents>
+			<utilities>-240.604078 -240.604078 -240.604078 -240.604078 -62.766281 -62.766281 -62.766281 -62.766281 -240.604078 -240.604078 -240.604078 -240.604078 -62.766281 -62.766281 -62.766281 -62.766281 -409.026932 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -316.25 -316.25 -316.25 -316.25 -82.5 -82.5 -82.5 -82.5 -316.25 -316.25 -316.25 -316.25 -82.5 -82.5 -82.5 -82.5 -537.625 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -415.679 -415.679 -415.679 -415.679 -108.438 -108.438 -108.438 -108.438 -415.679 -415.679 -415.679 -415.679 -108.438 -108.438 -108.438 -108.438 -706.6543 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1517.49087 -1517.49087 -1517.49087 -1517.49087 -1143.365794 -1143.365794 -1143.365794 -1143.365794 -1741.738436 -1741.738436 -1741.738436 -1741.738436 -62.766281 -62.766281 -62.766281 -62.766281 -1685.913725 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1994.59 -1994.59 -1994.59 -1994.59 -1502.84 -1502.84 -1502.84 -1502.84 -2289.341 -2289.341 -2289.341 -2289.341 -82.5 -82.5 -82.5 -82.5 -2215.965 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2621.689096 -2621.689096 -2621.689096 -2621.689096 -1975.332896 -1975.332896 -1975.332896 -1975.332896 -3009.10981 -3009.10981 -3009.10981 -3009.10981 -108.438 -108.438 -108.438 -108.438 -2912.664396 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+		</utility>
+		<cpt id="Venue_4">
+			<state id="Los_Angeles" />
+			<state id="Miami" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Price_4">
+			<state id="Low" />
+			<state id="Base" />
+			<state id="High" />
+			<parents>Venue_4</parents>
+			<probabilities>0.25 0.5 0.25 0.25 0.5 0.25</probabilities>
+		</cpt>
+		<cpt id="LateAvail_4">
+			<state id="Available" />
+			<state id="Sold_out" />
+			<parents>Venue_4</parents>
+			<probabilities>0.78 0.22 0.75 0.25</probabilities>
+		</cpt>
+		<cpt id="Reaches_4">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Reaches_3</parents>
+			<probabilities>0.706266 0.293734 0 1</probabilities>
+		</cpt>
+		<cpt id="Forecast_4">
+			<state id="Says_advance" />
+			<state id="Says_out" />
+			<parents>Reaches_4</parents>
+			<probabilities>0.819444 0.180556 0.339286 0.660714</probabilities>
+		</cpt>
+		<decision id="Ticket_4">
+			<state id="Nonrefundable" />
+			<state id="Refundable" />
+			<state id="Wait" />
+			<state id="No_ticket" />
+			<parents>Reaches_3 Venue_4 Price_4 Trip_worth Forecast_4</parents>
+		</decision>
+		<decision id="Attend_4">
+			<state id="Go" />
+			<state id="Stay" />
+			<parents>Reaches_3 Venue_4 Price_4 Trip_worth Forecast_4 Ticket_4 Reaches_4 LateAvail_4</parents>
+		</decision>
+		<utility id="Benefit_4">
+			<parents>Reaches_3 Ticket_4 Attend_4 Reaches_4 Trip_worth LateAvail_4</parents>
+			<utilities>6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 0 11327 0 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+		</utility>
+		<utility id="Cost_4">
+			<parents>Reaches_3 Venue_4 Price_4 Ticket_4 Attend_4 Reaches_4 LateAvail_4</parents>
+			<utilities>-1440.543214 -1440.543214 -1440.543214 -1440.543214 -853.012782 -853.012782 -853.012782 -853.012782 -1609.939897 -1609.939897 -1609.939897 -1609.939897 -138.085819 -138.085819 -138.085819 -138.085819 -1969.872185 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1893.45 -1893.45 -1893.45 -1893.45 -1121.2 -1121.2 -1121.2 -1121.2 -2116.105 -2116.105 -2116.105 -2116.105 -181.5 -181.5 -181.5 -181.5 -2589.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2488.75068 -2488.75068 -2488.75068 -2488.75068 -1473.70528 -1473.70528 -1473.70528 -1473.70528 -2781.408412 -2781.408412 -2781.408412 -2781.408412 -238.5636 -238.5636 -238.5636 -238.5636 -3403.24448 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1431.687462 -1431.687462 -1431.687462 -1431.687462 -844.15703 -844.15703 -844.15703 -844.15703 -1599.755782 -1599.755782 -1599.755782 -1599.755782 -138.085819 -138.085819 -138.085819 -138.085819 -1961.016433 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1881.81 -1881.81 -1881.81 -1881.81 -1109.56 -1109.56 -1109.56 -1109.56 -2102.719 -2102.719 -2102.719 -2102.719 -181.5 -181.5 -181.5 -181.5 -2577.56 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2473.451064 -2473.451064 -2473.451064 -2473.451064 -1458.405664 -1458.405664 -1458.405664 -1458.405664 -2763.813854 -2763.813854 -2763.813854 -2763.813854 -238.5636 -238.5636 -238.5636 -238.5636 -3387.944864 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+		</utility>
+		<cpt id="Venue_5">
+			<state id="Dallas" />
+			<state id="Atlanta" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Price_5">
+			<state id="Low" />
+			<state id="Base" />
+			<state id="High" />
+			<parents>Venue_5</parents>
+			<probabilities>0.25 0.5 0.25 0.25 0.5 0.25</probabilities>
+		</cpt>
+		<cpt id="LateAvail_5">
+			<state id="Available" />
+			<state id="Sold_out" />
+			<parents>Venue_5</parents>
+			<probabilities>0.8 0.2 0.7 0.3</probabilities>
+		</cpt>
+		<cpt id="Reaches_5">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Reaches_4</parents>
+			<probabilities>0.725211 0.274789 0 1</probabilities>
+		</cpt>
+		<cpt id="Forecast_5">
+			<state id="Says_advance" />
+			<state id="Says_out" />
+			<parents>Reaches_5</parents>
+			<probabilities>0.819444 0.180556 0.339286 0.660714</probabilities>
+		</cpt>
+		<decision id="Ticket_5">
+			<state id="Nonrefundable" />
+			<state id="Refundable" />
+			<state id="Wait" />
+			<state id="No_ticket" />
+			<parents>Reaches_4 Venue_5 Price_5 Trip_worth Forecast_5</parents>
+		</decision>
+		<decision id="Attend_5">
+			<state id="Go" />
+			<state id="Stay" />
+			<parents>Reaches_4 Venue_5 Price_5 Trip_worth Forecast_5 Ticket_5 Reaches_5 LateAvail_5</parents>
+		</decision>
+		<utility id="Benefit_5">
+			<parents>Reaches_4 Ticket_5 Attend_5 Reaches_5 Trip_worth LateAvail_5</parents>
+			<utilities>6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 0 11327 0 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+		</utility>
+		<utility id="Cost_5">
+			<parents>Reaches_4 Venue_5 Price_5 Ticket_5 Attend_5 Reaches_5 LateAvail_5</parents>
+			<utilities>-603.697505 -603.697505 -603.697505 -603.697505 -157.486306 -157.486306 -157.486306 -157.486306 -603.697505 -603.697505 -603.697505 -603.697505 -157.486306 -157.486306 -157.486306 -157.486306 -1509.243761 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -793.5 -793.5 -793.5 -793.5 -207 -207 -207 -207 -793.5 -793.5 -793.5 -793.5 -207 -207 -207 -207 -1983.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1042.9764 -1042.9764 -1042.9764 -1042.9764 -272.0808 -272.0808 -272.0808 -272.0808 -1042.9764 -1042.9764 -1042.9764 -1042.9764 -272.0808 -272.0808 -272.0808 -272.0808 -2607.441 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1434.144857 -1434.144857 -1434.144857 -1434.144857 -791.646379 -791.646379 -791.646379 -791.646379 -1591.426506 -1591.426506 -1591.426506 -1591.426506 -157.486306 -157.486306 -157.486306 -157.486306 -2339.691114 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1885.04 -1885.04 -1885.04 -1885.04 -1040.54 -1040.54 -1040.54 -1040.54 -2091.771 -2091.771 -2091.771 -2091.771 -207 -207 -207 -207 -3075.29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2477.696576 -2477.696576 -2477.696576 -2477.696576 -1367.685776 -1367.685776 -1367.685776 -1367.685776 -2749.423802 -2749.423802 -2749.423802 -2749.423802 -272.0808 -272.0808 -272.0808 -272.0808 -4042.161176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+		</utility>
+		<cpt id="Price_6">
+			<state id="Low" />
+			<state id="Base" />
+			<state id="High" />
+			<probabilities>0.25 0.5 0.25</probabilities>
+		</cpt>
+		<cpt id="LateAvail_6">
+			<state id="Available" />
+			<state id="Sold_out" />
+			<probabilities>0.55 0.45</probabilities>
+		</cpt>
+		<cpt id="Reaches_6">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Reaches_5</parents>
+			<probabilities>0.630224 0.369776 0 1</probabilities>
+		</cpt>
+		<cpt id="Forecast_6">
+			<state id="Says_advance" />
+			<state id="Says_out" />
+			<parents>Reaches_6</parents>
+			<probabilities>0.819444 0.180556 0.339286 0.660714</probabilities>
+		</cpt>
+		<decision id="Ticket_6">
+			<state id="Nonrefundable" />
+			<state id="Refundable" />
+			<state id="Wait" />
+			<state id="No_ticket" />
+			<parents>Reaches_5 Price_6 Trip_worth Forecast_6</parents>
+		</decision>
+		<decision id="Attend_6">
+			<state id="Go" />
+			<state id="Stay" />
+			<parents>Reaches_5 Price_6 Trip_worth Forecast_6 Ticket_6 Reaches_6 LateAvail_6</parents>
+		</decision>
+		<utility id="Benefit_6">
+			<parents>Reaches_5 Ticket_6 Attend_6 Reaches_6 Trip_worth LateAvail_6</parents>
+			<utilities>6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 6943 11327 11327 15711 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6943 0 11327 0 15711 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+		</utility>
+		<utility id="Cost_6">
+			<parents>Reaches_5 Price_6 Ticket_6 Attend_6 Reaches_6 LateAvail_6</parents>
+			<utilities>-4192.795192 -4192.795192 -4192.795192 -4192.795192 -2192.262629 -2192.262629 -2192.262629 -2192.262629 -4488.273357 -4488.273357 -4488.273357 -4488.273357 -636.792453 -636.792453 -636.792453 -636.792453 -10490.67255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5511.01 -5511.01 -5511.01 -5511.01 -2881.51 -2881.51 -2881.51 -2881.51 -5899.3865 -5899.3865 -5899.3865 -5899.3865 -837 -837 -837 -837 -13788.94 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7243.671544 -7243.671544 -7243.671544 -7243.671544 -3787.456744 -3787.456744 -3787.456744 -3787.456744 -7754.153616 -7754.153616 -7754.153616 -7754.153616 -1100.1528 -1100.1528 -1100.1528 -1100.1528 -18124.182736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</utilities>
+		</utility>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 5.0" name="Book Now or Wait - causal decision network (Spain)">
+			<node id="Trip_worth">
+				<name>What the trip is worth</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>620 760 785 810</position>
+			</node>
+			<node id="Venue_1">
+				<name>Game location  (R1 Group stage)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>40 15 205 65</position>
+			</node>
+			<node id="Price_1">
+				<name>Price band  (R1 Group stage)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>40 95 205 145</position>
+			</node>
+			<node id="Reaches_1">
+				<name>Will they qualify  (R1 Group stage)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>40 175 205 225</position>
+			</node>
+			<node id="Forecast_1">
+				<name>Forecast (imperfect)  (R1 Group stage)</name>
+				<interior color="ccffff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>40 255 205 305</position>
+			</node>
+			<node id="Ticket_1">
+				<name>Ticket choice  (R1 Group stage)</name>
+				<interior color="ffccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>40 340 205 390</position>
+			</node>
+			<node id="LateAvail_1">
+				<name>Late availability  (R1 Group stage)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>40 425 205 475</position>
+			</node>
+			<node id="Attend_1">
+				<name>Attend  (R1 Group stage)</name>
+				<interior color="ffccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>40 510 205 560</position>
+			</node>
+			<node id="Benefit_1">
+				<name>Benefit  (R1 Group stage)</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>40 595 205 645</position>
+			</node>
+			<node id="Cost_1">
+				<name>Cost  (R1 Group stage)</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>40 665 205 715</position>
+			</node>
+			<node id="Venue_2">
+				<name>Game location  (R2 Round of 32)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>270 15 435 65</position>
+			</node>
+			<node id="Price_2">
+				<name>Price band  (R2 Round of 32)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>270 95 435 145</position>
+			</node>
+			<node id="Reaches_2">
+				<name>Will they qualify  (R2 Round of 32)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>270 175 435 225</position>
+			</node>
+			<node id="Forecast_2">
+				<name>Forecast (imperfect)  (R2 Round of 32)</name>
+				<interior color="ccffff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>270 255 435 305</position>
+			</node>
+			<node id="Ticket_2">
+				<name>Ticket choice  (R2 Round of 32)</name>
+				<interior color="ffccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>270 340 435 390</position>
+			</node>
+			<node id="LateAvail_2">
+				<name>Late availability  (R2 Round of 32)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>270 425 435 475</position>
+			</node>
+			<node id="Attend_2">
+				<name>Attend  (R2 Round of 32)</name>
+				<interior color="ffccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>270 510 435 560</position>
+			</node>
+			<node id="Benefit_2">
+				<name>Benefit  (R2 Round of 32)</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>270 595 435 645</position>
+			</node>
+			<node id="Cost_2">
+				<name>Cost  (R2 Round of 32)</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>270 665 435 715</position>
+			</node>
+			<node id="Venue_3">
+				<name>Game location  (R3 Round of 16)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>500 15 665 65</position>
+			</node>
+			<node id="Price_3">
+				<name>Price band  (R3 Round of 16)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>500 95 665 145</position>
+			</node>
+			<node id="Reaches_3">
+				<name>Will they qualify  (R3 Round of 16)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>500 175 665 225</position>
+			</node>
+			<node id="Forecast_3">
+				<name>Forecast (imperfect)  (R3 Round of 16)</name>
+				<interior color="ccffff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>500 255 665 305</position>
+			</node>
+			<node id="Ticket_3">
+				<name>Ticket choice  (R3 Round of 16)</name>
+				<interior color="ffccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>500 340 665 390</position>
+			</node>
+			<node id="LateAvail_3">
+				<name>Late availability  (R3 Round of 16)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>500 425 665 475</position>
+			</node>
+			<node id="Attend_3">
+				<name>Attend  (R3 Round of 16)</name>
+				<interior color="ffccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>500 510 665 560</position>
+			</node>
+			<node id="Benefit_3">
+				<name>Benefit  (R3 Round of 16)</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>500 595 665 645</position>
+			</node>
+			<node id="Cost_3">
+				<name>Cost  (R3 Round of 16)</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>500 665 665 715</position>
+			</node>
+			<node id="Venue_4">
+				<name>Game location  (R4 Quarter-final)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>730 15 895 65</position>
+			</node>
+			<node id="Price_4">
+				<name>Price band  (R4 Quarter-final)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>730 95 895 145</position>
+			</node>
+			<node id="Reaches_4">
+				<name>Will they qualify  (R4 Quarter-final)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>730 175 895 225</position>
+			</node>
+			<node id="Forecast_4">
+				<name>Forecast (imperfect)  (R4 Quarter-final)</name>
+				<interior color="ccffff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>730 255 895 305</position>
+			</node>
+			<node id="Ticket_4">
+				<name>Ticket choice  (R4 Quarter-final)</name>
+				<interior color="ffccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>730 340 895 390</position>
+			</node>
+			<node id="LateAvail_4">
+				<name>Late availability  (R4 Quarter-final)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>730 425 895 475</position>
+			</node>
+			<node id="Attend_4">
+				<name>Attend  (R4 Quarter-final)</name>
+				<interior color="ffccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>730 510 895 560</position>
+			</node>
+			<node id="Benefit_4">
+				<name>Benefit  (R4 Quarter-final)</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>730 595 895 645</position>
+			</node>
+			<node id="Cost_4">
+				<name>Cost  (R4 Quarter-final)</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>730 665 895 715</position>
+			</node>
+			<node id="Venue_5">
+				<name>Game location  (R5 Semi-final)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>960 15 1125 65</position>
+			</node>
+			<node id="Price_5">
+				<name>Price band  (R5 Semi-final)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>960 95 1125 145</position>
+			</node>
+			<node id="Reaches_5">
+				<name>Will they qualify  (R5 Semi-final)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>960 175 1125 225</position>
+			</node>
+			<node id="Forecast_5">
+				<name>Forecast (imperfect)  (R5 Semi-final)</name>
+				<interior color="ccffff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>960 255 1125 305</position>
+			</node>
+			<node id="Ticket_5">
+				<name>Ticket choice  (R5 Semi-final)</name>
+				<interior color="ffccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>960 340 1125 390</position>
+			</node>
+			<node id="LateAvail_5">
+				<name>Late availability  (R5 Semi-final)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>960 425 1125 475</position>
+			</node>
+			<node id="Attend_5">
+				<name>Attend  (R5 Semi-final)</name>
+				<interior color="ffccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>960 510 1125 560</position>
+			</node>
+			<node id="Benefit_5">
+				<name>Benefit  (R5 Semi-final)</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>960 595 1125 645</position>
+			</node>
+			<node id="Cost_5">
+				<name>Cost  (R5 Semi-final)</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>960 665 1125 715</position>
+			</node>
+			<node id="Price_6">
+				<name>Price band  (R6 Final)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1190 95 1355 145</position>
+			</node>
+			<node id="Reaches_6">
+				<name>Will they qualify  (R6 Final)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1190 175 1355 225</position>
+			</node>
+			<node id="Forecast_6">
+				<name>Forecast (imperfect)  (R6 Final)</name>
+				<interior color="ccffff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1190 255 1355 305</position>
+			</node>
+			<node id="Ticket_6">
+				<name>Ticket choice  (R6 Final)</name>
+				<interior color="ffccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1190 340 1355 390</position>
+			</node>
+			<node id="LateAvail_6">
+				<name>Late availability  (R6 Final)</name>
+				<interior color="ffffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1190 425 1355 475</position>
+			</node>
+			<node id="Attend_6">
+				<name>Attend  (R6 Final)</name>
+				<interior color="ffccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1190 510 1355 560</position>
+			</node>
+			<node id="Benefit_6">
+				<name>Benefit  (R6 Final)</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1190 595 1355 645</position>
+			</node>
+			<node id="Cost_6">
+				<name>Cost  (R6 Final)</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1190 665 1355 715</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
