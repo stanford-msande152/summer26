@@ -28,6 +28,13 @@ from bokeh.io import output_file, save
 import fifa_utility as F
 from tornado import build_utility_table, plot_tornado
 
+<<<<<<< HEAD
+=======
+from pathlib import Path
+
+_HERE = Path(__file__).resolve().parent
+
+>>>>>>> 0859c02 (book now or wait wip)
 CSV = "fifa_tornado_inputs.csv"
 
 # The report's palette, so the figure sits beside the others without clashing.
@@ -45,8 +52,13 @@ LABEL = {
 }
 
 
+<<<<<<< HEAD
 def load():
     df = pd.read_csv(CSV)
+=======
+def load(the_path):
+    df = pd.read_csv(the_path /  CSV)
+>>>>>>> 0859c02 (book now or wait wip)
     df.set_index(df.columns[0], inplace=True)
     return df
 
