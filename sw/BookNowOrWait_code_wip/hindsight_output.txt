@@ -1,0 +1,80 @@
+==========================================================================
+1. WAS THE FORECAST ANY GOOD?
+==========================================================================
+
+   (a) the two bracket paths in the report, round by round
+   team    k   stage                 p   happened   sq error
+   Spain   2   Round of 32      0.9683        yes     0.0010
+   Spain   3   Round of 16      0.7285        yes     0.0737
+   Spain   4   Quarter-final    0.7063        yes     0.0863
+   Spain   5   Semi-final       0.7252        yes     0.0755
+   Spain   6   Final            0.6302        yes     0.1367
+   Spain                                      Brier = 0.0746 over 5 live rounds
+
+   Norway  2   Round of 32      0.8063        yes     0.0375
+   Norway  3   Round of 16      0.5910        yes     0.1673
+   Norway  4   Quarter-final    0.5393        yes     0.2122
+   Norway  5   Semi-final       0.5128         no     0.2630
+   Norway                                     Brier = 0.1700 over 4 live rounds
+
+   both paths together: Brier = 0.1170 over 9 rounds
+
+   (b) every knockout transition in the tournament, all 48 teams
+       forecast                                          Brier
+       Groll/Zeileis conditional probability            0.1722
+       base rate alone (0.5741 every time)              0.2445
+       a coin (0.5000 every time)                       0.2500
+       skill score against the base rate  = 0.2957
+       skill score against a coin         = 0.3112
+       n = 108 transitions, 62 of which the team survived
+
+==========================================================================
+2. WAS THE RECOMMENDED POLICY ANY GOOD?
+==========================================================================
+
+   Money is what the fan actually pays or receives, at the base value of
+   the trip, v = $11,327, and the scheduled city for each round.
+   The wait arm is shown at its expected value, because whether a late
+   ticket was still on sale is not recoverable after the fact.
+
+   SPAIN
+   k   stage          city          forecast      model recommends        realised $
+   1   Group stage    Atlanta       advance       Book non-refundable       10264.83
+   2   Round of 32    Los Angeles   advance       Book non-refundable        9913.67
+   3   Round of 16    Dallas        advance       Book non-refundable       11010.75
+   4   Quarter-final  Los Angeles   advance       Book non-refundable        9433.55
+   5   Semi-final     Dallas        advance       Book non-refundable       10533.50
+   6   Final          New York NJ   advance       Book refundable            5427.61
+                                                  ---------------------- -----------
+                                                  model policy (whole run)    56583.92
+                                                  Book non-refundable (whole run)    56972.30
+                                                  Book refundable (whole run)    55965.18
+                                                  Wait (whole run)          42308.08
+                                                  Stay home (whole run)         0.00
+
+   NORWAY
+   k   stage          city          forecast      model recommends        realised $
+   1   Group stage    Boston        advance       Book non-refundable        9482.14
+   2   Round of 32    Dallas        advance       Book non-refundable       11111.38
+   3   Round of 16    New York NJ   advance       Book refundable            9037.66
+   4   Quarter-final  Miami         advance       Book refundable            9224.28
+   5   Semi-final     Atlanta       advance       Book refundable            -207.00
+   6   Final          New York NJ   -             already eliminated            0.00
+                                                  ---------------------- -----------
+                                                  model policy (whole run)    38648.45
+                                                  Book non-refundable (whole run)    38330.57
+                                                  Book refundable (whole run)    38357.61
+                                                  Wait (whole run)          32909.02
+                                                  Stay home (whole run)         0.00
+
+==========================================================================
+3. SUMMARY
+==========================================================================
+   strategy                     Spain path    Norway path
+   model policy                   56583.92       38648.45
+   Book non-refundable            56972.30       38330.57
+   Book refundable                55965.18       38357.61
+   Wait                           42308.08       32909.02
+   Stay home                          0.00           0.00
+
+wrote /tmp/agosta_test/BookNowOrWait_code/hindsight_results.json

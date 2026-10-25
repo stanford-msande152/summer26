@@ -1,0 +1,102 @@
+SENSITIVITY OF THE RECOMMENDATION TO A ROUND-VARYING VALUE OF ATTENDING
+
+Base value of attending, v = $11,327, applied flat at every round in the
+submitted model. Each scheme below replaces that with a v_k that grows
+with the round, then re-solves all twelve team-rounds.
+
+--- flat --------------------------------------------------------------
+  team    k  stage                  v_k  recommended               margin   change
+  Spain   1  Group stage      11,327.00  Book non-refundable       173.43   
+  Spain   2  Round of 32      11,327.00  Book non-refundable       185.81   
+  Spain   3  Round of 16      11,327.00  Book non-refundable       924.87   
+  Spain   4  Quarter-final    11,327.00  Book refundable           118.77   
+  Spain   5  Semi-final       11,327.00  Book non-refundable      2161.47   
+  Spain   6  Final            11,327.00  Book refundable           511.25   
+  Norway  1  Group stage      11,327.00  Book non-refundable       290.84   
+  Norway  2  Round of 32      11,327.00  Book non-refundable       785.81   
+  Norway  3  Round of 16      11,327.00  Book refundable           406.77   
+  Norway  4  Quarter-final    11,327.00  Book refundable           308.36   
+  Norway  5  Semi-final       11,327.00  Book refundable           300.05   
+  Norway  6  Final            11,327.00  Book refundable           901.90   
+  baseline
+
+--- price -------------------------------------------------------------
+  team    k  stage                  v_k  recommended               margin   change
+  Spain   1  Group stage       2,183.11  Book non-refundable       129.24   
+  Spain   2  Round of 32       2,904.86  Book non-refundable       185.81   
+  Spain   3  Round of 16         650.00  Book non-refundable       147.06   
+  Spain   4  Quarter-final     3,891.68  Book refundable           118.77   
+  Spain   5  Semi-final        1,630.91  Book non-refundable       550.42   
+  Spain   6  Final            11,327.00  Book refundable           511.25   
+  Norway  1  Group stage       3,791.83  Book non-refundable       170.55   
+  Norway  2  Round of 32         443.18  Book non-refundable        83.76   
+  Norway  3  Round of 16       4,099.56  Book refundable           145.52   
+  Norway  4  Quarter-final     3,867.76  Book refundable           308.36   
+  Norway  5  Semi-final        3,874.40  Book refundable           300.05   
+  Norway  6  Final            11,327.00  Book refundable           901.90   
+  0 of 12 rounds change recommendation; 0 of those become Stay home
+
+--- linear ------------------------------------------------------------
+  team    k  stage                  v_k  recommended               margin   change
+  Spain   1  Group stage       1,887.83  Book non-refundable       114.48   
+  Spain   2  Round of 32       3,775.67  Book non-refundable       185.81   
+  Spain   3  Round of 16       5,663.50  Book non-refundable       512.29   
+  Spain   4  Quarter-final     7,551.33  Book refundable           118.77   
+  Spain   5  Semi-final        9,439.17  Book non-refundable      1887.65   
+  Spain   6  Final            11,327.00  Book refundable           511.25   
+  Norway  1  Group stage       1,887.83  Book non-refundable        42.97   
+  Norway  2  Round of 32       3,775.67  Book non-refundable       298.72   
+  Norway  3  Round of 16       5,663.50  Book refundable           330.37   
+  Norway  4  Quarter-final     7,551.33  Book refundable           308.36   
+  Norway  5  Semi-final        9,439.17  Book refundable           300.05   
+  Norway  6  Final            11,327.00  Book refundable           901.90   
+  0 of 12 rounds change recommendation; 0 of those become Stay home
+
+--- squared -----------------------------------------------------------
+  team    k  stage                  v_k  recommended               margin   change
+  Spain   1  Group stage         314.64  Stay home                 747.53   CHANGED
+  Spain   2  Round of 32       1,258.56  Stay home                 181.43   CHANGED
+  Spain   3  Round of 16       2,831.75  Book non-refundable       306.00   
+  Spain   4  Quarter-final     5,034.22  Book refundable           118.77   
+  Spain   5  Semi-final        7,865.97  Book non-refundable      1659.47   
+  Spain   6  Final            11,327.00  Book refundable           511.25   
+  Norway  1  Group stage         314.64  Stay home                1526.91   CHANGED
+  Norway  2  Round of 32       1,258.56  Book non-refundable       136.35   
+  Norway  3  Round of 16       2,831.75  Wait                        4.33   CHANGED
+  Norway  4  Quarter-final     5,034.22  Book refundable           308.36   
+  Norway  5  Semi-final        7,865.97  Book refundable           300.05   
+  Norway  6  Final            11,327.00  Book refundable           901.90   
+  4 of 12 rounds change recommendation; 3 of those become Stay home
+
+--- cubed -------------------------------------------------------------
+  team    k  stage                  v_k  recommended               margin   change
+  Spain   1  Group stage          52.44  Stay home                1009.73   CHANGED
+  Spain   2  Round of 32         419.52  Stay home                 938.69   CHANGED
+  Spain   3  Round of 16       1,415.88  Book non-refundable       202.85   
+  Spain   4  Quarter-final     3,356.15  Book refundable           118.77   
+  Spain   5  Semi-final        6,554.98  Book non-refundable      1469.32   
+  Spain   6  Final            11,327.00  Book refundable           511.25   
+  Norway  1  Group stage          52.44  Stay home                1776.00   CHANGED
+  Norway  2  Round of 32         419.52  Book non-refundable        82.23   
+  Norway  3  Round of 16       1,415.88  Stay home                 378.26   CHANGED
+  Norway  4  Quarter-final     3,356.15  Book refundable           277.48   
+  Norway  5  Semi-final        6,554.98  Book refundable           300.05   
+  Norway  6  Final            11,327.00  Book refundable           901.90   
+  4 of 12 rounds change recommendation; 4 of those become Stay home
+
+==========================================================================
+READING
+
+Scaling v in proportion to the round's own bundle price changes nothing:
+all twelve rounds keep the recommendation the flat model gives. Linear
+scaling is also harmless. The recommendation only starts to move when the
+early rounds are discounted very steeply. At (k/6)^2, which values a
+group-stage match at $315, three rounds become Stay home; at (k/6)^3, four
+do. One further round changes at (k/6)^2, Norway's Round of 16, and it
+changes to Wait by $4.33, which is a tie rather than a finding.
+
+So the flat v is safe unless the fan values an early-round trip at a small
+fraction of a Final, and if he does, the consequence is that he should not
+travel to those rounds at all rather than that he should book them
+differently. No scheme moves the Final, which is the round the report's
+headline figures are drawn from.

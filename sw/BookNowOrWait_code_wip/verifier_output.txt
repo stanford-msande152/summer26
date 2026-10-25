@@ -1,0 +1,57 @@
+1. STRUCTURE
+   54 nodes: 30 chance, 12 decision, 12 value
+   2976 value cells in total
+   parents resolve, graph is acyclic, columns sum to 1, palette follows
+   the lecture's convention: yes
+
+2. PER-ROUND AGREEMENT WITH analyse.py  (benefit + cost)
+   venue held at the workbook's scheduled city, price Base, v = $11,327
+   R   stage          city             nr file   nr model      rf file   rf model    wait file wait model
+   1   Group stage    Atlanta         10264.83   10264.83 ok   10091.40   10091.40 ok    9678.40    9678.40 ok
+   2   Round of 32    Los Angeles      9567.84    9567.84 ok    9382.03    9382.03 ok    8355.61    8355.61 ok
+   3   Round of 16    Dallas           7998.86    7998.86 ok    7998.86    7998.86 ok    7073.99    7073.99 ok
+   4   Quarter-final  Los Angeles      6333.26    6333.26 ok    6452.03    6452.03 ok    4813.54    4813.54 ok
+   5   Semi-final     Dallas           7582.13    7582.13 ok    7582.13    7582.13 ok    5420.66    5420.66 ok
+   6   Final          New York NJ      2599.86    2599.86 ok    3111.11    3111.11 ok       0.00    -853.37 ok
+   the wait column is expected to differ from the model: the model treats
+   waiting as a commitment to buy late, the diagram lets the fan decline.
+
+3. THE THREE INFORMATION REGIMES
+   book on the prior, no forecast                $36209.41
+   book on the imperfect forecast                $36272.35
+   book knowing the result, the clairvoyant      $36759.78
+   value of the imperfect forecast   $36272.35 - $36209.41 = $62.94
+   value of clairvoyance (EVPI)      $36759.78 - $36209.41 = $550.37
+   no-forecast value against the recorded baseline $36209.41: matches
+
+   where the forecast earns its keep (v = base)
+   R   stage          no forecast    forecast clairvoyant       gain
+   1   Group stage        9846.16     9846.16     9846.16      -0.00
+   2   Round of 32       10147.46    10147.46    10164.45      -0.00
+   3   Round of 16        7261.90     7284.88     7394.10      22.98
+   4   Quarter-final      6427.74     6463.69     6641.64      35.95
+   5   Semi-final         7090.63     7113.62     7224.95      23.00
+   6   Final              3035.39     3035.39     3600.08       0.00
+
+   what the forecast changes, v = base, price Base
+   R   venue          says advance   says out      
+   1   Atlanta        book nr        book nr       
+   1   Boston         book nr        book nr       
+   2   Los_Angeles    book nr        book nr       
+   2   Dallas         book nr        book nr       
+   3   Dallas         book nr        book nr       
+   3   New_York_NJ    book nr        book rf          <- differs
+   4   Los_Angeles    book nr        book rf          <- differs
+   4   Miami          book nr        book rf          <- differs
+   5   Dallas         book nr        book nr       
+   5   Atlanta        book nr        book rf          <- differs
+   6   fixed          book rf        book rf       
+
+4. INDEPENDENT RECOMPUTATION OF THE FORECAST-REGIME VALUE
+   (a) exact joint enumeration of rounds 4-6, v = base
+       enumerated $13042.5061   rolled back $13042.5061   agree
+   (b) 400000 simulated tournaments through the extracted policy
+       mean $36251.63, standard error $30.21, rolled-back $36272.35, 0.69 standard errors apart
+
+RESULT
+  all checks passed

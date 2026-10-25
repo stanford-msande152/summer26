@@ -1,0 +1,25 @@
+{
+  "brier_all": 0.17220146094259262,
+  "brier_base": 0.2445130315500685,
+  "brier_coin": 0.25,
+  "base_rate": 0.5740740740740741,
+  "n": 108,
+  "brier_spain": 0.0746487565336054,
+  "brier_norway": 0.17000715691436213,
+  "realised": {
+    "Spain": {
+      "Book non-refundable": 56972.299999999996,
+      "Book refundable": 55965.1825,
+      "Wait": 42308.07625,
+      "Stay home": 0.0,
+      "model policy": 56583.9235
+    },
+    "Norway": {
+      "Book non-refundable": 38330.569999953135,
+      "Book refundable": 38357.614,
+      "Wait": 32909.01625,
+      "Stay home": 0.0,
+      "model policy": 38648.45
+    }
+  }
+}
