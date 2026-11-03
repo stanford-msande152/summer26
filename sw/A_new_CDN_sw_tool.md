@@ -1,3 +1,7 @@
+---
+layout: default
+nav_exclude: true
+---
 
 # Adaptation of the Genie UX
 

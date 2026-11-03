@@ -15,6 +15,8 @@ nav_order: 6
 
 ## Software links on Github
 
+Here is [the class github repository.](https://github.com/stanford-msande152/summer26)
+
 1. **Decision Table visualizer**
 
 Python code to create a static html display of a Decision Table from a csv file.
